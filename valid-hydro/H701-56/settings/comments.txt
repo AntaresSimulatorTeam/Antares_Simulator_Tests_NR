@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph alignment="1">
+      <text>"This case-study introduces a set of seven  "</text>
+      <text fontstyle="93" fontweight="92">"Pumped-storage power plants  "</text>
+      <text>"modelled in area "</text>
+      <symbol>34</symbol>
+      <text>PSPS</text>
+      <symbol>34</symbol>
+      <text>" with the simplified option "</text>
+      <symbol>34</symbol>
+      <text>use heuristic without leeway</text>
+      <symbol>34</symbol>
+      <text>,</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text>within which pumping is made available as of version 7.0.1</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text>" pumping efficiency is 72%."</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text>There are no inflows in cases 1 to 6, and there si a constant hourly inflow of 10 MW/hour in cases number 7 and 8</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text></text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text fontweight="92">Case 5 :</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text>reservoir size : 2000 000</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text>starting level :50 % =1000 000</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text>optimisation span  : weeky</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text>inflow : 0  &gt;&gt; heuristic daily and weekly target = 0 &gt;&gt;    final reservoir level identical to initial reservoir</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text>" pumping power credit    = 1200 at all times"</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text>generating power credit = 50000 at all times</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text>intra-daily modulation: 1</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text></text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text></text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text fontweight="92">Expected results :</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text>0% &lt;= LEVEL &lt;=100 %   LEVEL (%168) =50 %</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text>"H.PUMP           &lt;= 1200 "</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text>"HYDRO-STOR &lt;=  Min (50 000, 1*1200=1200, 1000 000/168) "</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text>"Annual (HYDRO-STOR) = 0.72  Annual (H.PUMP) "</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text></text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

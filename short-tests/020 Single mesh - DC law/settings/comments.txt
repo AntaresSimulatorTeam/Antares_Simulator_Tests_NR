@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10">
+    <paragraph>
+      <text>Three interconnected nodes. Flows are ruled by a DC approximation ,through an hourly  binding constraint.</text>
+    </paragraph>
+    <paragraph>
+      <text>Since :</text>
+    </paragraph>
+    <paragraph>
+      <text>length AB =  1.5</text>
+    </paragraph>
+    <paragraph>
+      <text>length BC =  1</text>
+    </paragraph>
+    <paragraph>
+      <text>length AC =  1</text>
+    </paragraph>
+    <paragraph>
+      <text>The binding constraint is :</text>
+    </paragraph>
+    <paragraph>
+      <text>1.5 * flow(AB) + 1* flow(BC) - 1 * flow (AC) = 0</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Note that using an upper and lower  bounded constraint instead of an equality constraint  would model the operation of a phase-shifter "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

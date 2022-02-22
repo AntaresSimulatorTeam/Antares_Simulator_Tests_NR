@@ -1,0 +1,260 @@
+[Thu Dec 23 11:01:47 2021][solver][check] Antares Solver v8.2.0 (RTE France)
+[Thu Dec 23 11:01:47 2021][solver][infos]   :: built for 64-bit architectures, GNU/Linux, 8 cpu(s)
+[Thu Dec 23 11:01:47 2021][solver][infos]   :: hostname = florian-XPS-13-9360
+[Thu Dec 23 11:01:47 2021][solver][infos] 
+[Thu Dec 23 11:01:47 2021][solver][infos]   :: from /home/florian/Antares_Simulator/build/solver
+[Thu Dec 23 11:01:47 2021][solver][infos]   :: log filename: /home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/logs/solver-20211223-110147.log
+[Thu Dec 23 11:01:47 2021][solver][infos] 
+[Thu Dec 23 11:01:47 2021][solver][notic] Preparing Simple renewable...
+[Thu Dec 23 11:01:47 2021][solver][infos]   detected version: 810
+[Thu Dec 23 11:01:47 2021][solver][infos]   from `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1`
+[Thu Dec 23 11:01:47 2021][solver][infos] 
+[Thu Dec 23 11:01:47 2021][solver][infos]   simulation mode: Economy
+[Thu Dec 23 11:01:47 2021][solver][infos]   simplex optimization range: week
+[Thu Dec 23 11:01:47 2021][solver][infos] Cluster renewables were chosen. Output will be disabled for aggregated modes.
+[Thu Dec 23 11:01:47 2021][solver][infos]   :: enabling the 'year-by-year' mode
+[Thu Dec 23 11:01:47 2021][solver][infos]   :: ignoring export mps
+[Thu Dec 23 11:01:47 2021][solver][infos]   :: ignoring export structure
+[Thu Dec 23 11:01:47 2021][solver][infos]   Output folder : /home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/about-the-study/study.ini`
+[Thu Dec 23 11:01:47 2021][solver][infos] Loading the list of areas...
+[Thu Dec 23 11:01:47 2021][solver][infos]   Loading the area list from `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/input/areas/list.txt`
+[Thu Dec 23 11:01:47 2021][solver][infos]   1 area found
+[Thu Dec 23 11:01:47 2021][solver][infos] Loading global hydro data...
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: loading `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/input/hydro/common/capacity/maxpower_area.txt'
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: loading `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/input/hydro/common/capacity/creditmodulations_area.txt'
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: loading `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/input/hydro/common/capacity/reservoir_area.txt'
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: loading `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/input/hydro/common/capacity/inflowPattern_area.txt'
+[Thu Dec 23 11:01:47 2021][solver][infos] Loading thermal clusters...
+[Thu Dec 23 11:01:47 2021][solver][infos] Loading thermal configuration for the area Area
+[Thu Dec 23 11:01:47 2021][solver][infos] Loading renewable configuration for the area Area
+[Thu Dec 23 11:01:47 2021][solver][infos] Loading the area 1/1: Area
+[Thu Dec 23 11:01:47 2021][solver][debug] Checking : Misc Gen: `area`
+[Thu Dec 23 11:01:47 2021][solver][infos] Loading the area 1/1: Area  16%
+[Thu Dec 23 11:01:47 2021][solver][infos] Loading the area 1/1: Area  33%
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: loading `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/input/load/series/load_area.txt'
+[Thu Dec 23 11:01:47 2021][solver][infos] Loading the area 1/1: Area  50%
+[Thu Dec 23 11:01:47 2021][solver][infos] Loading the area 1/1: Area  66%
+[Thu Dec 23 11:01:47 2021][solver][infos] Loading the area 1/1: Area  83%
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: loading `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/input/renewables/series/area/oleron/series.txt'
+[Thu Dec 23 11:01:47 2021][solver][infos] Loading correlation matrices...
+[Thu Dec 23 11:01:47 2021][solver][infos] 
+[Thu Dec 23 11:01:47 2021][solver][infos] Loading constraints...
+[Thu Dec 23 11:01:47 2021][solver][infos] No binding constraint found
+[Thu Dec 23 11:01:47 2021][solver][infos] 
+[Thu Dec 23 11:01:47 2021][solver][infos] Loading sets of areas...
+[Thu Dec 23 11:01:47 2021][solver][debug]   > set :: All areas: applying 1 rules, got 1 items
+[Thu Dec 23 11:01:47 2021][solver][infos]    found `all areas` (1 item, no output)
+[Thu Dec 23 11:01:47 2021][solver][debug]   reset calendar, month : January, january 1rst : Monday, first weekday : Monday
+[Thu Dec 23 11:01:47 2021][solver][debug]   reset calendar, month : January, january 1rst : Monday, first weekday : Monday
+[Thu Dec 23 11:01:47 2021][solver][infos]  Elapsed time: Study loading: 21ms
+[Thu Dec 23 11:01:47 2021][solver][infos] [statistics] disk: read: 96 ko, written: 0 ko
+[Thu Dec 23 11:01:47 2021][solver][infos] [statistics] network: read: 0 ko, written: 0 ko
+[Thu Dec 23 11:01:47 2021][solver][infos] The study is loaded.
+[Thu Dec 23 11:01:47 2021][solver][infos] [UI] Display messages: Off
+[Thu Dec 23 11:01:47 2021][solver][infos] 
+[Thu Dec 23 11:01:47 2021][solver][infos] Generating calendar informations
+[Thu Dec 23 11:01:47 2021][solver][debug]   reset calendar, month : January, january 1rst : Monday, first weekday : Monday
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: generating calendar dedicated to the output
+[Thu Dec 23 11:01:47 2021][solver][debug]   reset calendar, month : January, january 1rst : Monday, first weekday : Monday
+[Thu Dec 23 11:01:47 2021][solver][infos]     Partial week detected. Not allowed in Economy
+[Thu Dec 23 11:01:47 2021][solver][infos]     Time interval that has been requested: 1..8760
+[Thu Dec 23 11:01:47 2021][solver][infos] Calendar: hours:1..8736, days:1..364, weeks:1..52, months:1..12, years:1..1
+[Thu Dec 23 11:01:47 2021][solver][infos] Simulation days per month : 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 30
+[Thu Dec 23 11:01:47 2021][solver][infos] 
+[Thu Dec 23 11:01:47 2021][solver][infos] Removing disabled thermal clusters in from solver computations...
+[Thu Dec 23 11:01:47 2021][solver][infos] No disabled thermal cluster removed before solver computations
+[Thu Dec 23 11:01:47 2021][solver][infos] 
+[Thu Dec 23 11:01:47 2021][solver][infos] Removing disabled renewable clusters in from solver computations...
+[Thu Dec 23 11:01:47 2021][solver][infos] No disabled renewable cluster removed before solver computations
+[Thu Dec 23 11:01:47 2021][solver][infos] 
+[Thu Dec 23 11:01:47 2021][solver][infos] Optimizing the thermal clusters in 'must-run' mode...
+[Thu Dec 23 11:01:47 2021][solver][infos] No thermal cluster in 'must-run' mode
+[Thu Dec 23 11:01:47 2021][solver][infos] 
+[Thu Dec 23 11:01:47 2021][solver][infos]   No binding constraint to consider
+[Thu Dec 23 11:01:47 2021][solver][infos] 
+[Thu Dec 23 11:01:47 2021][solver][infos] Summary
+[Thu Dec 23 11:01:47 2021][solver][infos]      areas: 1
+[Thu Dec 23 11:01:47 2021][solver][infos]      links: 0
+[Thu Dec 23 11:01:47 2021][solver][infos]      thermal clusters: 0
+[Thu Dec 23 11:01:47 2021][solver][infos]      thermal clusters (must-run): 0
+[Thu Dec 23 11:01:47 2021][solver][infos]      binding constraints: 0
+[Thu Dec 23 11:01:47 2021][solver][infos]      geographic trimming:false
+[Thu Dec 23 11:01:47 2021][solver][infos]      memory : 1Mo
+[Thu Dec 23 11:01:47 2021][solver][infos] 
+[Thu Dec 23 11:01:47 2021][solver][debug] 
+[Thu Dec 23 11:01:47 2021][solver][debug] applying transformations required by the simulation...
+[Thu Dec 23 11:01:47 2021][solver][debug]   > adding DSM values
+[Thu Dec 23 11:01:47 2021][solver][infos] Initializing random number generators...
+[Thu Dec 23 11:01:47 2021][solver][debug]   random number generator: Wind time-series generation, seed: 5489
+[Thu Dec 23 11:01:47 2021][solver][debug]   random number generator: Load time-series generation, seed: 1005489
+[Thu Dec 23 11:01:47 2021][solver][debug]   random number generator: Hydro time-series generation, seed: 2005489
+[Thu Dec 23 11:01:47 2021][solver][debug]   random number generator: Thermal time-series generation, seed: 3005489
+[Thu Dec 23 11:01:47 2021][solver][debug]   random number generator: Solar time-series generation, seed: 4005489
+[Thu Dec 23 11:01:47 2021][solver][debug]   random number generator: Time-series draws (MC scenario builder), seed: 5005488
+[Thu Dec 23 11:01:47 2021][solver][debug]   random number generator: Noise on Unsupplied energy costs, seed: 6005489
+[Thu Dec 23 11:01:47 2021][solver][debug]   random number generator: Noise on Spilled energy costs, seed: 7005489
+[Thu Dec 23 11:01:47 2021][solver][debug]   random number generator: Noise on Thermal plants costs, seed: 8005489
+[Thu Dec 23 11:01:47 2021][solver][debug]   random number generator: Noise on virtual Hydro costs, seed: 9005489
+[Thu Dec 23 11:01:47 2021][solver][debug]   random number generator: Initial reservoir levels, seed: 10005489
+[Thu Dec 23 11:01:47 2021][solver][debug] tsGenThermal = false
+[Thu Dec 23 11:01:47 2021][solver][infos]   The progression is disabled
+[Thu Dec 23 11:01:47 2021][solver][infos]   system memory report: 4739 Mib / 7451 Mib,  63.602201% free
+[Thu Dec 23 11:01:47 2021][solver][infos] 
+[Thu Dec 23 11:01:47 2021][solver][infos] [UI] Display messages: On
+[Thu Dec 23 11:01:47 2021][solver][check] Running the simulation (economy)
+[Thu Dec 23 11:01:47 2021][solver][infos] Allocating resources...
+[Thu Dec 23 11:01:47 2021][solver][infos] Allocating resources...
+[Thu Dec 23 11:01:47 2021][solver][infos]  Variables:  (15Mo)
+[Thu Dec 23 11:01:47 2021][solver][infos]  + Areas                             
+[Thu Dec 23 11:01:47 2021][solver][infos]        OV. COST              Euro    Overall Cost throughout all MC years
+[Thu Dec 23 11:01:47 2021][solver][infos]        OP. COST              Euro    Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Dec 23 11:01:47 2021][solver][infos]        MRG. PRICE            Euro    Marginal Price, throughout all MC years
+[Thu Dec 23 11:01:47 2021][solver][infos]        CO2 EMIS.             Tons    Overall CO2 emissions expected from all the thermal dispatchable clusters
+[Thu Dec 23 11:01:47 2021][solver][infos]        DTG by plant          MWh     Energy generated by all the clusters
+[Thu Dec 23 11:01:47 2021][solver][infos]        RES generation by planMWh     Energy generated by all the RES clusters
+[Thu Dec 23 11:01:47 2021][solver][infos]        BALANCE               MWh     Nodal energy balance, throughout all MC years
+[Thu Dec 23 11:01:47 2021][solver][infos]        ROW BAL.              MWh     Row Balance
+[Thu Dec 23 11:01:47 2021][solver][infos]        PSP                   MWh     PSP
+[Thu Dec 23 11:01:47 2021][solver][infos]        MISC. NDG             MWh     Non-dispatchable generation (not including wind and run-of-the-river)
+[Thu Dec 23 11:01:47 2021][solver][infos]        LOAD                  MWh     Load generation, thoughout all MC years
+[Thu Dec 23 11:01:47 2021][solver][infos]        H. ROR                MWh     Hydro generation, thoughout all MC years
+[Thu Dec 23 11:01:47 2021][solver][infos]        WIND                  MWh     Wind generation, thoughout all MC years
+[Thu Dec 23 11:01:47 2021][solver][infos]        SOLAR                 MWh     Solar generation, thoughout all MC years
+[Thu Dec 23 11:01:47 2021][solver][infos]        Dispatch. Gen.        MWh     Value of all the dispatchable generation throughout all MC years
+[Thu Dec 23 11:01:47 2021][solver][infos]        Renewable Gen.        MWh     Value of all the renewable generation throughout all MC years
+[Thu Dec 23 11:01:47 2021][solver][infos]        H. STOR               MWh     Hydro Storage Generation
+[Thu Dec 23 11:01:47 2021][solver][infos]        H. PUMP               MWh     Hydraulic pumping
+[Thu Dec 23 11:01:47 2021][solver][infos]        H. LEV                %       Hydro Level
+[Thu Dec 23 11:01:47 2021][solver][infos]        H. INFL               MWh     Hydraulic inflows
+[Thu Dec 23 11:01:47 2021][solver][infos]        H. OVFL               %       Hydro overflow
+[Thu Dec 23 11:01:47 2021][solver][infos]        H. VAL                Euro/MWhWater value
+[Thu Dec 23 11:01:47 2021][solver][infos]        H. COST               Euro    Hydro Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Dec 23 11:01:47 2021][solver][infos]        UNSP. ENRG            MWh     Unsuplied Energy (demand that cannot be satisfied)
+[Thu Dec 23 11:01:47 2021][solver][infos]        SPIL. ENRG            MWh     Spilled Energy (generation that cannot be satisfied)
+[Thu Dec 23 11:01:47 2021][solver][infos]        LOLD                  Hours   LOLD
+[Thu Dec 23 11:01:47 2021][solver][infos]        LOLP                  %       LOLP
+[Thu Dec 23 11:01:47 2021][solver][infos]        AVL DTG               MWh     Available dispatchable generation
+[Thu Dec 23 11:01:47 2021][solver][infos]        DTG MRG               MWh     Dispatchable Generation Margin
+[Thu Dec 23 11:01:47 2021][solver][infos]        MAX MRG               MWh     Maximum margin throughout all MC years
+[Thu Dec 23 11:01:47 2021][solver][infos]        NP COST               Euro    Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Dec 23 11:01:47 2021][solver][infos]        NP Cost by plant      NP Cost Non proportional costs by all the clusters
+[Thu Dec 23 11:01:47 2021][solver][infos]        NODU                          Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[Thu Dec 23 11:01:47 2021][solver][infos]        NODU by plant         NODU    Number of Dispatchable Units by plant
+[Thu Dec 23 11:01:47 2021][solver][infos]      + Links                         
+[Thu Dec 23 11:01:47 2021][solver][infos]            FLOW LIN.         MWh     Flow assessed, over all MC years, through linear optimization
+[Thu Dec 23 11:01:47 2021][solver][infos]            UCAP LIN.         MWh     Used capacity assessed, over all MC years, through linear optimization
+[Thu Dec 23 11:01:47 2021][solver][infos]            LOOP FLOW         MWh     Loop flow
+[Thu Dec 23 11:01:47 2021][solver][infos]            FLOW QUAD.        MWh     Flow (quad.)
+[Thu Dec 23 11:01:47 2021][solver][infos]            CONG. FEE (ALG.)  Euro    Congestion fee collected throughout all MC years (Alg.)
+[Thu Dec 23 11:01:47 2021][solver][infos]            CONG. FEE (ABS.)  Euro    Congestion fee collected throughout all MC years (Absolute value)
+[Thu Dec 23 11:01:47 2021][solver][infos]            MARG. COST        Euro/MW Decrease of the overall operating cost expected by a 1MW capacity reinforcement
+[Thu Dec 23 11:01:47 2021][solver][infos]            CONG. PROB. (+/-) %       Probability for the line to be congested in the upstream-downstream way
+[Thu Dec 23 11:01:47 2021][solver][infos]            HURDLE COST       Euro    Hurdle costs, over all MC years
+[Thu Dec 23 11:01:47 2021][solver][infos]  + Sets of Areas                     
+[Thu Dec 23 11:01:47 2021][solver][infos]        OV. COST              Euro    Overall Cost throughout all MC years
+[Thu Dec 23 11:01:47 2021][solver][infos]        OP. COST              Euro    Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Dec 23 11:01:47 2021][solver][infos]        MRG. PRICE            Euro    Marginal Price, throughout all MC years
+[Thu Dec 23 11:01:47 2021][solver][infos]        CO2 EMIS.             Tons    Overall CO2 emissions expected from all the thermal dispatchable clusters
+[Thu Dec 23 11:01:47 2021][solver][infos]        BALANCE               MWh     Nodal energy balance, throughout all MC years
+[Thu Dec 23 11:01:47 2021][solver][infos]        ROW BAL.              MWh     Row Balance
+[Thu Dec 23 11:01:47 2021][solver][infos]        PSP                   MWh     PSP
+[Thu Dec 23 11:01:47 2021][solver][infos]        MISC. NDG             MWh     Non-dispatchable generation (not including wind and run-of-the-river)
+[Thu Dec 23 11:01:47 2021][solver][infos]        LOAD                  MWh     Load generation, thoughout all MC years
+[Thu Dec 23 11:01:47 2021][solver][infos]        H. ROR                MWh     Hydro generation, thoughout all MC years
+[Thu Dec 23 11:01:47 2021][solver][infos]        WIND                  MWh     Wind generation, thoughout all MC years
+[Thu Dec 23 11:01:47 2021][solver][infos]        SOLAR                 MWh     Solar generation, thoughout all MC years
+[Thu Dec 23 11:01:47 2021][solver][infos]        Dispatch. Gen.        MWh     Value of all the dispatchable generation throughout all MC years
+[Thu Dec 23 11:01:47 2021][solver][infos]        H. STOR               MWh     Hydro Storage Generation
+[Thu Dec 23 11:01:47 2021][solver][infos]        H. PUMP               MWh     Hydraulic pumping
+[Thu Dec 23 11:01:47 2021][solver][infos]        H. LEV                %       Hydro Level
+[Thu Dec 23 11:01:47 2021][solver][infos]        H. INFL               MWh     Hydraulic inflows
+[Thu Dec 23 11:01:47 2021][solver][infos]        H. OVFL               %       Hydro overflow
+[Thu Dec 23 11:01:47 2021][solver][infos]        H. VAL                Euro/MWhWater value
+[Thu Dec 23 11:01:47 2021][solver][infos]        H. COST               Euro    Hydro Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Dec 23 11:01:47 2021][solver][infos]        UNSP. ENRG            MWh     Unsuplied Energy (demand that cannot be satisfied)
+[Thu Dec 23 11:01:47 2021][solver][infos]        SPIL. ENRG            MWh     Spilled Energy (generation that cannot be satisfied)
+[Thu Dec 23 11:01:47 2021][solver][infos]        LOLD                  Hours   LOLD
+[Thu Dec 23 11:01:47 2021][solver][infos]        LOLP                  %       LOLP
+[Thu Dec 23 11:01:47 2021][solver][infos]        AVL DTG               MWh     Available dispatchable generation
+[Thu Dec 23 11:01:47 2021][solver][infos]        DTG MRG               MWh     Dispatchable Generation Margin
+[Thu Dec 23 11:01:47 2021][solver][infos]        MAX MRG               MWh     Maximum margin throughout all MC years
+[Thu Dec 23 11:01:47 2021][solver][infos]        NP COST               Euro    Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[Thu Dec 23 11:01:47 2021][solver][infos]        NODU                          Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[Thu Dec 23 11:01:47 2021][solver][infos] 
+[Thu Dec 23 11:01:47 2021][solver][debug]   resizing timeseries numbers
+[Thu Dec 23 11:01:47 2021][solver][infos] Preparing time-series numbers...
+[Thu Dec 23 11:01:47 2021][solver][infos] Checking inter-modal correlation... (load, hydro, thermal)
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/ts-numbers/load/area.txt' (1x1)
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: [end] writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/ts-numbers/load/area.txt' (1x1)
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/ts-numbers/solar/area.txt' (1x1)
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: [end] writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/ts-numbers/solar/area.txt' (1x1)
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/ts-numbers/hydro/area.txt' (1x1)
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: [end] writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/ts-numbers/hydro/area.txt' (1x1)
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/ts-numbers/wind/area.txt' (1x1)
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: [end] writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/ts-numbers/wind/area.txt' (1x1)
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/ts-numbers/renewables/area/oleron.txt' (1x1)
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: [end] writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/ts-numbers/renewables/area/oleron.txt' (1x1)
+[Thu Dec 23 11:01:47 2021][solver][infos] MC-Years : [1 .. 1], total: 1
+[Thu Dec 23 11:01:47 2021][solver][infos]  Starting the simulation
+[Thu Dec 23 11:01:47 2021][solver][infos] parallel batch size : 1
+[Thu Dec 23 11:01:47 2021][solver][infos] Year 1
+[Thu Dec 23 11:01:47 2021][solver][infos] 
+[Thu Dec 23 11:01:47 2021][solver][infos]  Starting Memory Allocation for a Weekly Optimization problem in Canonical form 
+[Thu Dec 23 11:01:47 2021][solver][infos]  ( Problem Size :336 Variables 336 Constraints) 
+[Thu Dec 23 11:01:47 2021][solver][infos]  Expected Number of Non-zero terms in Problem Matrix : 4134
+[Thu Dec 23 11:01:47 2021][solver][infos] 
+[Thu Dec 23 11:01:47 2021][solver][infos] 
+[Thu Dec 23 11:01:47 2021][solver][infos]  Status of Preliminary Allocations for Generic Problem Resolution : Successful
+[Thu Dec 23 11:01:47 2021][solver][infos] 
+[Thu Dec 23 11:01:47 2021][solver][infos] Average solve time: 0 ms, average update time: 0 ms
+[Thu Dec 23 11:01:47 2021][solver][infos] Exporting the annual results
+[Thu Dec 23 11:01:47 2021][solver][debug]   (for 162 columns)
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: initializing survey results (max: 162 variables)
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: results: output : `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-ind/00001`
+[Thu Dec 23 11:01:47 2021][solver][infos] Exporting results : Area
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-ind/00001/areas/area/values-hourly.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-ind/00001/areas/area/values-daily.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-ind/00001/areas/area/values-weekly.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-ind/00001/areas/area/values-monthly.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-ind/00001/areas/area/values-annual.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-ind/00001/areas/area/details-res-hourly.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-ind/00001/areas/area/details-res-daily.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-ind/00001/areas/area/details-res-weekly.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-ind/00001/areas/area/details-res-monthly.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-ind/00001/areas/area/details-res-annual.txt`
+[Thu Dec 23 11:01:47 2021][solver][infos]  Elapsed time: Survey report: 39ms
+[Thu Dec 23 11:01:47 2021][solver][infos]  Elapsed time: MC Years: 112ms
+[Thu Dec 23 11:01:47 2021][solver][infos] 
+[Thu Dec 23 11:01:47 2021][solver][check] Exporting the survey results...
+[Thu Dec 23 11:01:47 2021][solver][debug]   (for 162 columns)
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: initializing survey results (max: 162 variables)
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: results: output : `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-all`
+[Thu Dec 23 11:01:47 2021][solver][infos] Exporting results : Area
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-all/areas/area/values-hourly.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-all/areas/area/values-daily.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-all/areas/area/values-weekly.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-all/areas/area/values-monthly.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-all/areas/area/values-annual.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-all/areas/area/id-hourly.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-all/areas/area/id-daily.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-all/areas/area/id-weekly.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-all/areas/area/id-monthly.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-all/areas/area/id-annual.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-all/areas/area/details-res-hourly.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-all/areas/area/details-res-daily.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-all/areas/area/details-res-weekly.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-all/areas/area/details-res-monthly.txt`
+[Thu Dec 23 11:01:47 2021][solver][debug]  :: survey writing `/home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/economy/mc-all/areas/area/details-res-annual.txt`
+[Thu Dec 23 11:01:47 2021][solver][infos] Exporting digest...
+[Thu Dec 23 11:01:47 2021][solver][debug]  . Digest, truncating file
+[Thu Dec 23 11:01:47 2021][solver][debug]  . Digest, annual
+[Thu Dec 23 11:01:47 2021][solver][debug]  . Digest, flow linear
+[Thu Dec 23 11:01:47 2021][solver][debug]  . Digest, flow quad
+[Thu Dec 23 11:01:47 2021][solver][infos]  Elapsed time: Survey report: 224ms
+[Thu Dec 23 11:01:47 2021][solver][infos] [UI] Quitting the solver gracefully
+[Thu Dec 23 11:01:47 2021][solver][infos]  Writing log file: /home/florian/Antares_Simulator/src/tests/resources/Antares_Simulator_Tests/short-tests/renewables-1/output/20211223-1101eco/simulation.log
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: clear study
+[Thu Dec 23 11:01:47 2021][solver][debug] Releasing runtime data
+[Thu Dec 23 11:01:47 2021][solver][debug]   :: destroying area Area
+[Thu Dec 23 11:01:47 2021][solver][infos] Done.

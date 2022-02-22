@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>"Etude origine principale pour les tests de non-r&#233;gression "</text>
+    </paragraph>
+    <paragraph>
+      <text>de la branche int&#233;gration V7</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Sert de mod&#232;le et de r&#233;servoir pour les tests de validation des nouvelles fonctions</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Variante avec :</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"simplexe : week "</text>
+    </paragraph>
+    <paragraph>
+      <text>mdulations hydrauliques : free mod</text>
+    </paragraph>
+    <paragraph>
+      <text>"mps : yes "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>TS hydro &amp; therm : generees + stock&#233;es (5)</text>
+    </paragraph>
+    <paragraph>
+      <text>calendrier simu  &#224; cheval sur janvier mars, calendrier ann&#233;e d&#233;but juillet</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

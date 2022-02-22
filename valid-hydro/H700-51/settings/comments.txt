@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>A set of six areas with different settings for reservoir management</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>In each area; there are:</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>A 10 GWh reservoir,</text>
+    </paragraph>
+    <paragraph>
+      <text>A 100 GW thermal unit ,</text>
+    </paragraph>
+    <paragraph>
+      <text>A permanent   10 GW pumping power</text>
+    </paragraph>
+    <paragraph>
+      <text>A permament  10 GW hydro generating power</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>These characteristics make all 6 reservoirs able to accommodate  any shape of upper and lower rule curves , whatever the settings for managment and the inflow amount and structure.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>In this case , all areas have stochastic sizeable inflows, which should lead to episodic overflows</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Th six areas combine the following settings : "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>UHT = No  + HB =  Yes</text>
+    </paragraph>
+    <paragraph>
+      <text>UHT = No  + HB =  No</text>
+    </paragraph>
+    <paragraph>
+      <text>"UHT = Yes + HB= Yes + LW= No "</text>
+    </paragraph>
+    <paragraph>
+      <text>UHT = Yes + HB= Yes + LW = Yes</text>
+    </paragraph>
+    <paragraph>
+      <text>"UHT = Yes + HB= No + LW= No "</text>
+    </paragraph>
+    <paragraph>
+      <text>UHT = Yes + HB= No  + LW = Yes</text>
+    </paragraph>
+    <paragraph>
+      <text>"                       "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

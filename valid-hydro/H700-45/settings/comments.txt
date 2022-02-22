@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>One zone with  ready made inflow time series : 200 MWh on Monday (except 31 dec) , 300 MWh on Tuesday, 0 MWh other days</text>
+    </paragraph>
+    <paragraph>
+      <text>Follow load modulation = YES</text>
+    </paragraph>
+    <paragraph>
+      <text>Reservoir management = YES</text>
+    </paragraph>
+    <paragraph>
+      <text>Use heuristic target = YES</text>
+    </paragraph>
+    <paragraph>
+      <text>Use water Value = YES    value = 1000 &#8364;/MWh- for three consecutive weeks,  1 &#8364;/MWh for three consecutive weeks</text>
+    </paragraph>
+    <paragraph>
+      <text>"Use leeway = YES   0.0 : 10000  "</text>
+    </paragraph>
+    <paragraph>
+      <text>"Reservoir capacity = 200 GWh  "</text>
+    </paragraph>
+    <paragraph>
+      <text>Initial level = betwwen 30% and 70 %</text>
+    </paragraph>
+    <paragraph>
+      <text>unsupplied energy cost = 10000</text>
+    </paragraph>
+    <paragraph>
+      <text>spilled energy cost = 0</text>
+    </paragraph>
+    <paragraph>
+      <text>simplexe  :168</text>
+    </paragraph>
+    <paragraph>
+      <text>hard bounds on rule curves : yes (upper bound : 70 % , lower bound 30%)</text>
+    </paragraph>
+    <paragraph>
+      <text>power to level modulations : yes   generating: below 50% : 0.7  above 50% : 10000   pumping: below 50% : 1 above 50%: 0.6</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Max generating credit = 2000 MW * 24 h from Tuesday to Sunday, 800 * 6 h on Monday</text>
+    </paragraph>
+    <paragraph>
+      <text>"Max pumping credit = 450MW * 24h from Monday to Saturday , 440*10h on Sunday "</text>
+    </paragraph>
+    <paragraph>
+      <text>"Pumping efficiency : 0.995  "</text>
+    </paragraph>
+    <paragraph>
+      <text>Constant load 500 MW every day except sunday (0) and 31 dec</text>
+    </paragraph>
+    <paragraph>
+      <text>thermal generation : 1 cluster 10000 MW, always available, cost = 50 &#8364;/MWh</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Power fluctuations : free modulations</text>
+    </paragraph>
+    <paragraph>
+      <text>"Shedding policy : shave peaks "</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">"expected results: "</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text>level oscillates from one bound to the other, depending on hydro values</text>
+    </paragraph>
+    <paragraph>
+      <text>"level should never be above  70% or below 30% "</text>
+    </paragraph>
+    <paragraph>
+      <text>"below 50 %, max daily generation should be 0.7 * 2000*24 = 14000 MWh , "</text>
+      <symbol>9</symbol>
+      <text>above  50 % max daily generation should be Min (2000*24*10000=480 000 0000MWh, reservoir remaining volume)</text>
+    </paragraph>
+    <paragraph>
+      <text>below 50% , max daily pumping  should  be  450*24</text>
+      <symbol>9</symbol>
+      <text>"=10800 MWh, "</text>
+      <symbol>9</symbol>
+      <text>"above  50% max daly pumping should be 0.6*450*24= 6480 MWh  "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

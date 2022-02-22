@@ -1,0 +1,4 @@
+NE
+NW
+SE
+SW

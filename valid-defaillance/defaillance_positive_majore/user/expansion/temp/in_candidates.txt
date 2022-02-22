@@ -1,0 +1,5 @@
+battery 60000 1 1000 true
+semibase1 126000 200 5 false
+semibase2 126000 200 5 false
+peak1 60000 100 10 false
+peak2 60000 100 10 false

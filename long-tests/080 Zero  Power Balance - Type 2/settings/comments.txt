@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>This example is the</text>
+      <text fontweight="92">" 2nd "</text>
+      <text>"of a set of "</text>
+      <text fontweight="92">seven</text>
+      <text>", meant to illustrate the concept of "</text>
+      <symbol>34</symbol>
+      <text>zero exchange configuration</text>
+      <symbol>34</symbol>
+      <text>" on a power system, which may be given very different definitions"</text>
+    </paragraph>
+    <paragraph>
+      <text>"All seven  examples describe exactly the same power system, which includes three interconnected  "</text>
+      <symbol>34</symbol>
+      <text>countries</text>
+      <symbol>34</symbol>
+      <text>, each one being  divided up into a dozen of regions</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>C1 : A-M   C2: Z1-Z11 C3: 1-13</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Nine  AC interconnectors bind together the three countries (in red on the main map)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="90">"Example # 1 "</text>
+      <text>" is a "</text>
+      <symbol>34</symbol>
+      <text>zero-power balance</text>
+      <symbol>34</symbol>
+      <text>" configuration in which all interconnectors are unavailable all year round (no cross-border flow is possible, whatever the way the system is operated)"</text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="90">"Example # 2 "</text>
+      <text>" is a "</text>
+      <symbol>34</symbol>
+      <text>zero-power balance</text>
+      <symbol>34</symbol>
+      <text>" configuration in which  interconnectors are available, but the system is operated in a way that ensures that there is no flow on any of them  "</text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="90">"Example # 3 "</text>
+      <text>" is a "</text>
+      <symbol>34</symbol>
+      <text>zero-power balance</text>
+      <symbol>34</symbol>
+      <text>" configuration in which  the system is operated in a way that ensures that  the sum of  the flows that cross each border is equal to zero"</text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="90">"Example # 4 "</text>
+      <text>" is a "</text>
+      <symbol>34</symbol>
+      <text>zero-power balance</text>
+      <symbol>34</symbol>
+      <text>" configuration in which  the system is operated in a way that ensures that  the sum of  the net export/import power balance of each country is equal to zero"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="90">"Example # 5 "</text>
+      <text>" is a "</text>
+      <symbol>34</symbol>
+      <text>zero-energy balance</text>
+      <symbol>34</symbol>
+      <text>" configuration in which  the system is operated in a way that ensures that  the daily    energy balance of each country is equal to zero"</text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="90">"Example # 6 "</text>
+      <text>" is a "</text>
+      <symbol>34</symbol>
+      <text>zero-energy balance</text>
+      <symbol>34</symbol>
+      <text>" configuration in which  the system is operated in a way that ensures that  the weekly energy balance of each country is equal to zero"</text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="90">"Example # 7 "</text>
+      <text>" is a "</text>
+      <symbol>34</symbol>
+      <text>zero-energy balance</text>
+      <symbol>34</symbol>
+      <text>" configuration in which  the system is operated in a way that ensures that  the annual  energy balance of each country is equal to zero"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Note: In the last example, a few  auxiliary objects are required to implement the "</text>
+      <symbol>34</symbol>
+      <text>zero annual balance</text>
+      <symbol>34</symbol>
+      <text>" condition (see map AUXILIARY) "</text>
+    </paragraph>
+    <paragraph>
+      <text>To facilitate the comparisons of the results obtained in the seven cases, these auxiliary devices are also present in the other examples (even though they are not used)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

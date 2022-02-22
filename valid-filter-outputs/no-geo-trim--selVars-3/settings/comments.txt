@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>This study is meant to test the ability of filtering the edition of area-, link- and cluster- related variables in the ouput produced by Antares</text>
+    </paragraph>
+    <paragraph>
+      <text>"This filter on variables can be added to a "</text>
+      <symbol>34</symbol>
+      <text>calssical</text>
+      <symbol>34</symbol>
+      <text>"  filterron elements defined by the inspector"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"In this case the basic filter on objectsto which filters on variable should be added is : "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>hydro-2 node : no results at all</text>
+    </paragraph>
+    <paragraph>
+      <text>west-2 node  : no results at all</text>
+    </paragraph>
+    <paragraph>
+      <text>east-2 node : only  weekly results are printed</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>link hydro-2 - west-2 : no results at all</text>
+    </paragraph>
+    <paragraph>
+      <text>link hydro-2 - east-2 : no results at all</text>
+    </paragraph>
+    <paragraph>
+      <text>link west-2-east-2   : only monthly results are printed</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"all other areas and links : all resultsare printed "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text>"Four districts are defined,some of them  mix elements with different "</text>
+      <symbol>34</symbol>
+      <text>object-related</text>
+      <symbol>34</symbol>
+      <text>" filters"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

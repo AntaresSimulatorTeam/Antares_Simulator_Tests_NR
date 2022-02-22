@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10">
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="2" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92">"In the previous examples, simulations were "</text>
+      <text fontweight="92" fontunderlined="1">deterministic</text>
+      <text fontweight="92">", based only on "</text>
+      <text fontweight="92" fontunderlined="1">one</text>
+      <text fontweight="92">" possible future realization of the load, wind power generation, thermal power availability, ..."</text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="3" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="4" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="90">"The following examples explain how "</text>
+      <text fontweight="92">s</text>
+      <text fontweight="92" fontunderlined="0">everal time-series</text>
+      <text fontweight="90">" of the stochastic phenomena affecting the system can be sampled so as to perfrom "</text>
+      <text fontweight="92">Monte-Carlo simulations</text>
+      <text fontweight="90">, covering different possible future situations.</text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="5" bulletname="standard/circle" liststyle="Bullet List">
+      <text></text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="6" bulletname="standard/circle" liststyle="Bullet List">
+      <text>The number of time-series to generate for each stochastic phenoma can be set in the Simulation sheet (via the quick access bar on the left).</text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="2" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="3" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92">------</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>In this example, the thermal generation fleet is made of :</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"4  "</text>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>BASE LOAD</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>units of 1000 MW, average  cost  40 euros/MWh,   forced outage rate 5%  (year), planned outage rate 10% (june to september)</text>
+    </paragraph>
+    <paragraph>
+      <text>"10 "</text>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>SEMI BASELOAD</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <text>units of   600 MW, average cost   60 euros/MWh, forced outage rate 5%  (year), planned outage rate 10% (june to september)</text>
+    </paragraph>
+    <paragraph>
+      <text>"5 "</text>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>PEAKING LOAD</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <text>units of   300 MW  average  cost  80 euros/Mwh ,  forced outage rate 5%  (year), planned outage rate 10% (june to september)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The times-series generator is parametrized so as to build  a sample of 200 time-series for each cluster.</text>
+    </paragraph>
+    <paragraph>
+      <text>Outage rates and durations are parametrized in Thermal/TS Generator.</text>
+    </paragraph>
+    <paragraph>
+      <text>The following vocabulary is used:</text>
+    </paragraph>
+    <paragraph>
+      <text>-&gt; FO : Forced Outage</text>
+    </paragraph>
+    <paragraph>
+      <text>-&gt; PO : Planned Outage</text>
+    </paragraph>
+    <paragraph>
+      <text>-&gt; NPO : Number of Planned Outages (NPO Min and NPO Max defines bound on the number of units stopped for maintenance)</text>
+    </paragraph>
+    <paragraph>
+      <text>-&gt; MTBF : Mean Time Between Failure</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>After a simulation, time-series of available thermal power are stored in the inputs of the simulation and can be analyzed in Input/Thermal/Time-Series.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">"In this example, we can see that the distance between the mean of these times-series and the exact analytical derated curve given by : "</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="92">available power = installed power*(1-FOR)*(1-POR)/(1-POR*FOR)</text>
+    </paragraph>
+    <paragraph>
+      <text>"remains within the expected confidence interval. "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"  "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph alignment="1">
+      <text>"This case-study is the "</text>
+      <text fontweight="92">"first "</text>
+      <text>"of a set of two examples  that are meant to illustrate  the influence of the day-ahead reserve on the economic behaviour of the system "</text>
+      <text fontstyle="93">(the secure management of  hazards regarding  load and/or generation at the D-1 stage increases the number of plants  called on day D, hence the overall operation cost (through the activation of minimal dispatched power constraints)</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontstyle="93" fontweight="92" fontunderlined="1">" In this  first  example,  no day-ahead reserve is taken into account in the unit commitment"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The annual overall system cost assessed on 500 MC years is close to 1910 M euros</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

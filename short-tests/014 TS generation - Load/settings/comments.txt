@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10">
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="1" bulletname="standard/circle" liststyle="Bullet List">
+      <text textcolor="#000000" fontsize="8" fontstyle="90" fontweight="92" fontunderlined="0" fontface="MS Shell Dlg 2">"A system made of one active node, to illustrate the use of the load   time-series generator  "</text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="2" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"The load (400 TWh/year as an average) is modelled by a curve in "</text>
+      <symbol>34</symbol>
+      <text>mean climatic conditions</text>
+      <symbol>34</symbol>
+      <text>" to which is added"</text>
+    </paragraph>
+    <paragraph>
+      <text>a climatic deviation process simply modelled by a  normal process whose standard deviation ranges from :</text>
+    </paragraph>
+    <paragraph>
+      <text>0*3GW = 0 GW in June to 1.5*3GW = 4.5 GW in January</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"The autocorrelation function of this process is such that the climatic deviation at any given time is 50% correlated with that obtained "</text>
+    </paragraph>
+    <paragraph>
+      <text>"a week before "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

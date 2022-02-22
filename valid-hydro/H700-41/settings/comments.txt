@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text fontweight="92">load  january-jun : 5000 exept wednesday :          7500</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="92">load july-december : 10000 except wednesday: 15000</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>Inflows :  4000 GWh Jan,Mar,May,jul,Sep,Nov     ROR 25 %  daily pattern = 1 all  days</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>"reservoir management : YES , capacity 500 000 MWh "</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>no available hydro gen power</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>"expected results : "</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>Storage time series : daily energy 96774 MWh  : jan, mar, may, jul ; daily energy 100000 sep, nov</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>ror time series : 1344 hourly power :  jan, mar, may, jul ; 1389 hourly power : sep nov</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>output : level increases until 100% is reached, then inflows are requalified as overflows (H.OVFL</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>"This study is the "</text>
+      <text fontweight="92">first</text>
+      <text>" of a set of "</text>
+      <text fontweight="92">"four "</text>
+      <text>training datasets provided to illustrate general GUI's features regarding the edition of system maps.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"It is an exact replica of the "</text>
+      <symbol>34</symbol>
+      <text>origin</text>
+      <symbol>34</symbol>
+      <text>" study described in the "</text>
+      <symbol>34</symbol>
+      <text>Map Editor Reference Guide</text>
+      <symbol>34</symbol>
+      <text>", Section 3 "</text>
+    </paragraph>
+    <paragraph>
+      <text>"In this particular  version of the study, data graphic representation involves only one single map   "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Though it can be used for any kind of training on map design, it is suggested to use this study to get familiar with the "</text>
+      <symbol>34</symbol>
+      <text>copy to clipboard</text>
+      <symbol>34</symbol>
+      <text>" feature  by reproducing the sequences described in the examples given in the Map Editor Reference Guide, Section 3 "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"  "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

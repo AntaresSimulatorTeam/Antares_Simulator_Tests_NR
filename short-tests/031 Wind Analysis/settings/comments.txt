@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10">
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Three accessible large off-shore wind fields are thought to be of interest for the development of a wind fleet</text>
+    </paragraph>
+    <paragraph>
+      <text>"connected to land through DC interconnections. "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Antares  time-series analyzer is put to work on a set of  historical 8760- time series of wind speed ( measured in 0.1 m/s) "</text>
+    </paragraph>
+    <paragraph>
+      <text>"stored in the "</text>
+      <symbol>34</symbol>
+      <text>user</text>
+      <symbol>34</symbol>
+      <text>" folder.  To proceed to the analysis :"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"1) Execute  the command "</text>
+      <symbol>34</symbol>
+      <text>run / run the time-series analyzer</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <text>"2) Indicate  where the historical time-series are located, i.e. browse : "</text>
+      <symbol>34</symbol>
+      <text>" study folder name /user"</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <text>"3) Choose "</text>
+      <symbol>34</symbol>
+      <text>" Wind"</text>
+      <symbol>34</symbol>
+      <text>" as type of time-series"</text>
+    </paragraph>
+    <paragraph>
+      <text>"4) Check that the  type of law to fit is "</text>
+      <symbol>34</symbol>
+      <text>Weibull</text>
+      <symbol>34</symbol>
+      <text>" (other possible values are "</text>
+      <symbol>34</symbol>
+      <text>Beta</text>
+      <symbol>34</symbol>
+      <text>", "</text>
+      <symbol>34</symbol>
+      <text>Uniform</text>
+      <symbol>34</symbol>
+      <text>,</text>
+      <symbol>34</symbol>
+      <text>Normal</text>
+      <symbol>34</symbol>
+      <text>,</text>
+      <symbol>34</symbol>
+      <text>Gamma</text>
+      <symbol>34</symbol>
+      <text>") (To change the Distribution : get back to main menu and choose  Wind/local data) "</text>
+    </paragraph>
+    <paragraph>
+      <text>"5) Set the  analysis mode on "</text>
+      <symbol>34</symbol>
+      <text>raw</text>
+      <symbol>34</symbol>
+      <text>" (the other possible value is "</text>
+      <symbol>34</symbol>
+      <text>detrended</text>
+      <symbol>34</symbol>
+      <text>", in which case the mean of all time-series would be stored in the "</text>
+      <symbol>34</symbol>
+      <text>translation</text>
+      <symbol>34</symbol>
+      <text>" array and subtracted from each time-series prior to the analysis )"</text>
+    </paragraph>
+    <paragraph>
+      <text>6) Launch the analyzer</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The analysis show that :</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="3" bulletname="standard/circle" liststyle="Bullet List">
+      <text>The Weibull parameters are roughly in agreement with the values commonly found in wind speed analysis</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="1" bulletname="standard/circle" liststyle="Bullet List">
+      <text>The  spatial correlations are significantly different in winter and summer. Hence,  time-series generation based on these data should make use of the monthly correlation matrices identified by the analyzer.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

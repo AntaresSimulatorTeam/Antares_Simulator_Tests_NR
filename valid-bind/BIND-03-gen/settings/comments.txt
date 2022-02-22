@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>40 areas , 189 links (AC), no pst, no loop flow, no impedances changes</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"expected results from the binding constraint generator : "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"189+1-40 = "</text>
+      <text fontweight="92">150</text>
+      <text>" equality constraints, RHS=0"</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

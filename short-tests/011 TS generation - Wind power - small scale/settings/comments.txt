@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph textcolor="#000000" fontpointsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="2" bulletname="standard/circle" liststyle="Bullet List">
+      <text textcolor="#000000" fontpointsize="8" fontstyle="90" fontweight="92" fontunderlined="0" fontface="MS Shell Dlg 2">A system made of three  active nodes, to illustrate the use of the wind power  time-series generator, using explicit</text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontpointsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="1" bulletname="standard/circle" liststyle="Bullet List">
+      <text textcolor="#000000" fontpointsize="8" fontstyle="90" fontweight="92" fontunderlined="0" fontface="MS Shell Dlg 2">"wind speed modelling  "</text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontpointsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="2" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph>
+      <text>In each node:</text>
+    </paragraph>
+    <paragraph>
+      <text>The wind speed (expressed in 0.1 m/s)  is modelled  by :</text>
+    </paragraph>
+    <paragraph>
+      <text>"12 monthly Weibull variables, a 12*24  hourly average profile, and  12*2 autocorrelation parameters. "</text>
+    </paragraph>
+    <paragraph>
+      <text>(same wind  speed modelling  as in example 003)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The times-series generator is parametrized so as to build  a sample of 200 wind speed time-series.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>These speed time-series are  converted  in wind power time-series by the turbine model</text>
+    </paragraph>
+    <paragraph>
+      <text>"defined in the "</text>
+      <symbol>34</symbol>
+      <text>conversion</text>
+      <symbol>34</symbol>
+      <text>" tab (generation begins at 4m/s  and ends at 27 m/s)"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">wind</text>
+      <text>" "</text>
+      <text fontweight="92">"speed time-series  "</text>
+      <text>"are correlated by the same correalation matrix as in example 003 "</text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">wind power time-series</text>
+      <text>"  have a correlation structure modifed by the conversion through the turbines  "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

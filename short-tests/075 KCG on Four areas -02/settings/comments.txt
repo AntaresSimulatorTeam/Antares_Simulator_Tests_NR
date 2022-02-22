@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>This example is the</text>
+      <text fontweight="92">" second"</text>
+      <text>" of a set of "</text>
+      <text fontweight="92">two</text>
+      <text>, meant to introduce the Kirchhoff's Contrainst Generator module of Antares_Simulator on a very simple case</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Both examples describe exactly the same power system, which includes four identical systems (load 400 Twh) interconnected through corridors</text>
+    </paragraph>
+    <paragraph>
+      <text>forming two cycles in the graph of the grid. Impedances of the five assets are set to 1,2,3,4,5</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"In this first example, Kirchhoff's second law in the DC approximation has been enforced by using the KCG, which has generated two binding constraints  whose names begin ny @UTO- "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"This automatic model is optimal  because both cycles involve only three areas, which yields the sparsest possible constraint matrix in the optimization problems "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Simulation results are  identical to those obtained with the second example, but the modelling used here is more efficient from a computation standpoint "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>To replay the auomatic generation of constraints:</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>a) delete theexisting binding constraints</text>
+    </paragraph>
+    <paragraph>
+      <text>"b) In Run Menu, choose "</text>
+      <symbol>34</symbol>
+      <text>Kirchhoff's contraints generator</text>
+    </paragraph>
+    <paragraph>
+      <text>"c) On the KCG dashboard, use "</text>
+      <symbol>34</symbol>
+      <text>" Run"</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <text>"d) Save the study to actually include the constraints in the dataset "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

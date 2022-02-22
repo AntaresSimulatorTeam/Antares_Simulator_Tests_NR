@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10">
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="1" bulletname="standard/circle" liststyle="Bullet List">
+      <text textcolor="#000000" fontsize="8" fontstyle="90" fontweight="92" fontunderlined="0" fontface="MS Shell Dlg 2">"A system made of one active node, to illustrate the use of solar generation  time-series generator  "</text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="2" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Modelling of the generation of a 120 MW solar farm : "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"The maximum theoretical generation fator are stored in the solar/local data /daily profile tab "</text>
+    </paragraph>
+    <paragraph>
+      <text>(an output higher than 95% of the installed power can be expected only around noon, from May to July)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Nebulosity  is  modelled by monthly Beta processes whose parameters are set in the solar/local data / coefficients tab</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

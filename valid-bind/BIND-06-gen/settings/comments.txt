@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text fontweight="92">Case Topology:</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text>8 areas forming two independent cycles diplayed on two maps:</text>
+    </paragraph>
+    <paragraph>
+      <text>"map  "</text>
+      <symbol>34</symbol>
+      <text>square</text>
+      <symbol>34</symbol>
+      <text>" : A,B,C,D"</text>
+    </paragraph>
+    <paragraph>
+      <text>"map "</text>
+      <symbol>34</symbol>
+      <text>triangle</text>
+      <symbol>34</symbol>
+      <text>:  E,F,G      H is connected   to F and G  by components not defined as AC links , no line tied to H should appear during constraint generation</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">Loop flows:</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>passive constant clockwise loop flows circulate in both cycles:</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>ABCD : + 150 MW</text>
+    </paragraph>
+    <paragraph>
+      <text>EFG :    +400 MW</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">Phase-shifters:</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>in ABCD, no PST installed</text>
+    </paragraph>
+    <paragraph>
+      <text>on EF : from -1 000 0000 to +1 0000 000 all year round</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">Hurdle costs:</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>on AB : (+10, +20)</text>
+    </paragraph>
+    <paragraph>
+      <text>on EF  (+200, 0)</text>
+    </paragraph>
+    <paragraph>
+      <text>"on EG  (+50,  0) "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">Load and generation:</text>
+    </paragraph>
+    <paragraph>
+      <text>zero for all areas at all times , except on Wednesdays for A,C,E,F:</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Area A  : +1000 (misc gen : other)</text>
+    </paragraph>
+    <paragraph>
+      <text>Area C :  -1000 (load)</text>
+    </paragraph>
+    <paragraph>
+      <text>Area E:  +1000 (misc gen: other)</text>
+    </paragraph>
+    <paragraph>
+      <text>Area F : -1000 (load)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">Expected results for constraint generation followed by simulation:</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"a) generation of constraints for map "</text>
+      <symbol>34</symbol>
+      <text>'square</text>
+      <symbol>34</symbol>
+      <text>", followed by constraint generation on map "</text>
+      <symbol>34</symbol>
+      <text>triangle</text>
+      <symbol>34</symbol>
+      <text>", lead to the same two constraints "</text>
+    </paragraph>
+    <paragraph>
+      <text>"as generation  on map "</text>
+      <symbol>34</symbol>
+      <text>All</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"b) in output, on Wednesdays: "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Total flow on EF is   "</text>
+      <text fontweight="92">"666 "</text>
+      <text>with constraints including loop flows and PST</text>
+    </paragraph>
+    <paragraph>
+      <text>"hurdle cost on EG is 1000*50 = "</text>
+      <text fontweight="92">50000</text>
+      <text>" with constraints including PST"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"(explanation of expected behaviour : PST on EF is expected to counter active flow through EF so as to redirect it on the less expensive  EGF path) "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

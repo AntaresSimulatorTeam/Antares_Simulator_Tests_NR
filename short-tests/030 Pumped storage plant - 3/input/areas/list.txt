@@ -1,0 +1,8 @@
+& PSP X1
+& PSP X2
+& PSP Y
+& PSP-HUB
+& PSP-IN
+& PSP-OUT
+east
+west

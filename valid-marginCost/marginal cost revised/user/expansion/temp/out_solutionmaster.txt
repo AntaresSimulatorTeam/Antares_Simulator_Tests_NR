@@ -1,0 +1,6 @@
+semibase1;600.000000
+semibase2;0.000000
+peak1;300.000000
+peak2;1000.000000
+renforcement_a1_a2_1;250.000000
+renforcement_a1_a2_2;750.000000

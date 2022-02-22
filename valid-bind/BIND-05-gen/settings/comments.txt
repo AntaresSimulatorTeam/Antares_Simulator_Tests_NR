@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>9 nodes , 10 links,  2 cycles</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Loop flows are constant troughout the year "</text>
+    </paragraph>
+    <paragraph>
+      <text>"PTS are installed on1-2  and 2-3 , with one setting for hour 0  and another one forall  other hours "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>There are impedances changes  for1 link</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Area2-Area3 : impedance = 30 for all hours, except for hour  0   ( 27.27)  and hour  7   (33.33)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The expected  minimal basis (taking into account impedances changes) is :</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>1-2-9</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>:SHORT</text>
+    </paragraph>
+    <paragraph>
+      <text>2-3-4-5-6-7-8-9</text>
+      <symbol>9</symbol>
+      <text>:LONG</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">Generated constraints expected with options : no loop flow , no PST, calendar = year :</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>1  equality     constraints  on SHORT , RHS=0</text>
+    </paragraph>
+    <paragraph>
+      <text>3 inequality  constraints  on  LONG , with :</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>LONG01:</text>
+      <symbol>9</symbol>
+      <text>"RHS min = X1  for hour 0, - infinite for all other hours   ; RHS max:  Y1   for hour 0 ,   - infinite forall other hours   "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>LONG02:</text>
+      <symbol>9</symbol>
+      <text>"RHS min = X2  for hour 7, - infinite for all other hours    ; RHS max: Y2  for hour 7 ,   - infinite forall other hours   "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>LONG03:</text>
+      <symbol>9</symbol>
+      <text>"RHS min =- infinite for hours 0 and 7, finite values for all other hours  ; RHS max: + infinite for hours 0 and 7, finite values for all other hours "</text>
+    </paragraph>
+    <paragraph>
+      <text>"  "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>assessment of X1,Y1 , X2, Y2 in this case (see input data):</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>X1=0</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>Y1=0</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>X2=0</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>Y2=0</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">Generated constraints expected with options : with  loop  flow , no PST, calendar = year :</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>1 equality     constraints  on SHORT , RHS= variable , value for hour 0 : 400 x10 + (-100)x40 + 400X110 = 44000</text>
+    </paragraph>
+    <paragraph>
+      <text>3 inequality  constraints  on  LONG , with :</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>LONG01:</text>
+      <symbol>9</symbol>
+      <text>"RHS min = X1  for hour 0, - infinite for all other hours   ; RHS max:  Y1   for hour 0 ,    infinite for all other hours   "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>LONG02:</text>
+      <symbol>9</symbol>
+      <text>"RHS min = X2  for hour 7, - infinite for all other hours    ; RHS max: Y2  for hour 7 ,    infinite for all other hours   "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>LONG03:</text>
+      <symbol>9</symbol>
+      <text>"RHS min =- infinite for hours 0 and 7, finite values for all other hours  ; RHS max: + infinite for hours 0 and 7, finite values for all other hours "</text>
+    </paragraph>
+    <paragraph>
+      <text>"  "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>assessment of X1,Y1 , X2, Y2 in this case (see input data):</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"X1= "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"500 x(27.27 +50+60+70+80+90+100 )   +100 x 40 =  "</text>
+      <text fontweight="92">242635</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"Y1=  X1  "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"X2= "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"500 x(33.33 +50+60+70+80+90+100 )   +100 x 40 = "</text>
+      <text fontweight="92">245665</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"Y2= X2   "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">Generated constraints expected with options : no loop  flow , with PST, calendar = year :</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"1 inequality     constraints  on SHORT , RHS= variable ,  min  value for hour 0 : "</text>
+      <text fontweight="92">"157   "</text>
+      <text fontweight="90">", max value for hour 0 : "</text>
+      <text fontweight="92">"  264 "</text>
+    </paragraph>
+    <paragraph>
+      <text>3 inequality  constraints  on  LONG , with :</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>LONG01:</text>
+      <symbol>9</symbol>
+      <text>"RHS min = X1  for hour 0, - infinite for all other hours   ; RHS max:  Y1   for hour 0 ,   infinite for all other hours   "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>LONG02:</text>
+      <symbol>9</symbol>
+      <text>"RHS min = X2  for hour 7, - infinite for all other hours    ; RHS max: Y2  for hour 7 ,    infinite  for all other hours   "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>LONG03:</text>
+      <symbol>9</symbol>
+      <text>"RHS min =- infinite for hours 0 and 7, finite values for all other hours  ; RHS max: + infinite for hours 0 and 7, finite values for all other hours "</text>
+    </paragraph>
+    <paragraph>
+      <text>"  "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>assessment of X1,Y1 , X2, Y2 in this case (see input data):</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>X1= -400  =</text>
+      <text fontweight="92">-400</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"Y1=  +150  =  "</text>
+      <text fontweight="92">150</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"X2=  -400 = "</text>
+      <text fontweight="92">-400</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"Y2=  +700=   "</text>
+      <text fontweight="92">"700  "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">Generated constraints expected with options : with loop  flow , with PST, calendar = year :</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>1 inequality     constraints  on SHORT , RHS= variable , min  value for hour 0 :44000</text>
+      <text fontweight="90">" + 157"</text>
+      <text fontweight="92">"  =  44157 "</text>
+      <text fontweight="90">, max value for hour 0 : 44000 +   264</text>
+      <text fontweight="92">" = 44264"</text>
+    </paragraph>
+    <paragraph>
+      <text>3 inequality  constraints  on  LONG , with :</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>LONG01:</text>
+      <symbol>9</symbol>
+      <text>"RHS min = X1  for hour 0, - infinite for all other hours   ; RHS max:  Y1   for hour 0 ,    infinite for all other hours   "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>LONG02:</text>
+      <symbol>9</symbol>
+      <text>"RHS min = X2  for hour 7, - infinite for all other hours    ; RHS max: Y2  for hour 7 ,    infinite for all other hours   "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>LONG03:</text>
+      <symbol>9</symbol>
+      <text>"RHS min =- infinite for hours 0 and 7, finite values for all other hours  ; RHS max: + infinite for hours 0 and 7, finite values for all other hours "</text>
+    </paragraph>
+    <paragraph>
+      <text>"  "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>assessment of X1,Y1 , X2, Y2 in this case (see input data):</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"X1= 242635 "</text>
+      <text fontweight="92">"-  "</text>
+      <text fontweight="90">"  400"</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="92">= 242235</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>Y1= 242635 +  150</text>
+      <symbol fontweight="92">9</symbol>
+      <text fontweight="92">= 242785</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"X2= 245665  "</text>
+      <text fontweight="92">"- "</text>
+      <text fontweight="90">400</text>
+      <symbol fontweight="92">9</symbol>
+      <text fontweight="92">= 245265</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>Y2= 245665  +</text>
+      <text fontweight="90">" 700"</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="92">"= 246365 "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

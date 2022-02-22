@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>This example is the</text>
+      <text fontweight="92">" second"</text>
+      <text>" of a set of "</text>
+      <text fontweight="92">three</text>
+      <text>, meant to introduce the Kirchhoff's Contraints Generator module of Antares_Simulator on an intermediate case</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"All three  examples describe exactly the same power system, which includes three interconnected  "</text>
+      <symbol>34</symbol>
+      <text>countries</text>
+      <symbol>34</symbol>
+      <text>, each one being  divided up into a dozen of regions</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>C1 : A-M</text>
+    </paragraph>
+    <paragraph>
+      <text>C2: Z1-Z11</text>
+    </paragraph>
+    <paragraph>
+      <text>C3: 1-13</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Nine interconnectors bind together the three countries (in red on the main map)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">In the first example</text>
+      <text>, the system is operated so as to minimize the overall system cost and no special equipment is available. To implement this strategy:</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="1" bulletname="standard/circle" liststyle="Bullet List">
+      <text>Regular Kirchhoff's contraints have been generated for the (37 vertices, 71 edges) graph of the system</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="2" bulletname="standard/circle" liststyle="Bullet List">
+      <text>There are no particular additional market-related constraints</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">In the second example</text>
+      <text>, the system is again operated so as to minimize the overall system cost, but  this time domestic Phase-Shifters have been installed</text>
+    </paragraph>
+    <paragraph>
+      <text>in C1 on line C/D and in C3 on line 1/4.  To implement this strategy:</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="1" bulletname="standard/circle" liststyle="Bullet List">
+      <text>Kirchhoff's contraints enhanced with PST capabilities ( on C/D and on 1/4)  have been generated for the (37 vertices, 71 edges) graph of the system</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="2" bulletname="standard/circle" liststyle="Bullet List">
+      <text>There are no particular additional market-related constraints</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The expectation of the overall sytem cost obtained for the whole system is smaller  in example #2  than in #1</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">In the third example</text>
+      <text>, the domestic Phase-Shifters  introduced in the second example  are again in activity (on C/D and 1/4) , but this time the system's  operation is subject to a strict</text>
+    </paragraph>
+    <paragraph>
+      <text>zero-balance for international exchanges. To implement this strategy:</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="1" bulletname="standard/circle" liststyle="Bullet List">
+      <text>Kirchhoff's contraints enhanced with PST capabilities (on  C/D and on 1/4)  have been generated for the (37 vertices, 71 edges) graph of the system</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="2" bulletname="standard/circle" liststyle="Bullet List">
+      <text>Additional bindings constraints have been added manually so as to keep the import-export balance to zero for C1,C2,C3</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The expectation of the overall sytem cost obtained for the whole system is greater  in example #3  than in #2</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Besides, the sum of  flows crossing each border provides  an assessment of the hourly  "</text>
+      <symbol>34</symbol>
+      <text>passive</text>
+      <symbol>34</symbol>
+      <text>" loop flow that would have to be accounted for if a mandatory reduction of the detailed grid"</text>
+    </paragraph>
+    <paragraph>
+      <text>"to a simplified three-area market happened to be required in another study process. "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

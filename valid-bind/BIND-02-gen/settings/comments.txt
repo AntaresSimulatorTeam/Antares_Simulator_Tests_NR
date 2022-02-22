@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>"104 areas, 191 links out of which 191 AC "</text>
+    </paragraph>
+    <paragraph>
+      <text>loop  flows, PST settings,impedance  variations throughout the year</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>number of cycles = 191+1-104= 88</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"PST settings: "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>link BB-2/FF :  PST settings (+500,-700) on  hour# 1 (01/01 0:00)</text>
+    </paragraph>
+    <paragraph>
+      <text>"link  C-2/ZZ: PST settings (1800,+256) from hour 745  to 8760  (from 01/02 0:00 to 31/12 23:00) "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Loop flows: "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>150 MW over loop A-2/B-2/E-2/G-2/D-2 (ALL YEAR ROUND)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Impedances variations : "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>link  C-2/ZZ: impedance  from hour 1 to 744  (january) : 1    ; impedance from hour 745 to 8760 (february to december) : 100</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">expected binding constraints generated : 89</text>
+    </paragraph>
+    <paragraph>
+      <text>" 86  equality constraints with zero- RHS "</text>
+    </paragraph>
+    <paragraph>
+      <text>" 1   inequality constraint  with non zero RHS on hour 1 (BB-2 FF II MM OO SS VV ZZ C-2 A-2 B2 F-2 CC-2 AA-2)"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"2  inequality constraints over the same cyle, for three time intervals :  "</text>
+    </paragraph>
+    <paragraph>
+      <text>C1:</text>
+    </paragraph>
+    <paragraph>
+      <text>" - INT 1 :  hour 1"</text>
+    </paragraph>
+    <paragraph>
+      <text>" - INT 2 : from  hour 2 to hour 744"</text>
+    </paragraph>
+    <paragraph>
+      <text>C2:</text>
+    </paragraph>
+    <paragraph>
+      <text>" - INT 3 : from hour 745 to hour 8760  "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

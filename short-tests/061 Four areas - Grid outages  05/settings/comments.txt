@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>"This example is the "</text>
+      <text fontweight="92">"fifth "</text>
+      <text>"of a set of "</text>
+      <text fontweight="92">five</text>
+      <text>" examples devoted to the modelling of grid outages in a meshed system "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>In all five examples, the power system is made up of four identical areas (77 GW peak load)  interconnected through 3GW capacities</text>
+    </paragraph>
+    <paragraph>
+      <text>The system symmetry leads to similar behaviour for North and South nodes for a large number of MC years</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>==========================================================================================</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">In the first two examples, the grid model does not involve any  representation of Kirchhoff's second law</text>
+      <text>" : from a physical standpoint, that implies that the modelled system is either :"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>a) Entirely built up from DC interconnectors</text>
+    </paragraph>
+    <paragraph>
+      <text>b) An hybrid grid involving DC and AC lines, on which PST are able to alleviate Kirchhoff's commitments</text>
+    </paragraph>
+    <paragraph>
+      <text>"c) A simplified view of a more complex system, being here reduced to a set of virtual corridors whose capacities are so-called "</text>
+      <symbol>34</symbol>
+      <text>NTC</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"In #1 , it is assumed that forced line outages never  occur , and the optimal dispatch assessment does not consider any such event as a contingency to prevent against. "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>In # 2 ,   outages can actually occur. For simplicity'sake, it is assumed that only interconnections EAST-WEST  and NORTH-WEST are exposed to outages. These outages are short (3 days) but quite frequent (overall availbility of EW and NW : 95 % )</text>
+    </paragraph>
+    <paragraph>
+      <text>"In this "</text>
+      <symbol>34</symbol>
+      <text>DC or Hybrid+PST or  NTC</text>
+      <symbol>34</symbol>
+      <text>" grid , it is assumed that all redispatching actions necessary to manage the contigencies take place instantly. "</text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">The overall cost difference between  #2 and #1 is therefore an assessment of  the cost induced by outages on a completely flexible grid</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">Notice : The flexibility assumption makes it possible to model outages of any order (N-1),(N-2)....(N-k)</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">"In other words, the realism of the simulation is not affected by the magnitude of the outage rates, which can  greater than 5% .  "</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90"></text>
+    </paragraph>
+    <paragraph>
+      <text>==========================================================================================</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">In the last three examples, the grid model involves a full representation of Kirchhoff's second law :</text>
+      <text>" from the physical standpoint, that means that  the modelled system  is made up from actual AC interconnectors, and is not equipped with  PST "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"In  #3, it is assumed that forced outages never  occur, and the optimal dispatch assessment does not consider them as contigencies whose consequences should be prevented against. "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>In , #4,  outages are considered as contigencies that are worth to be considered, even if they seldom occur : only interconnections EAST-WEST  and NORTH-WEST are potentially exposed to outages, these  are short (3 days) and exceptional (overall availbility of EW and NW : 99.9 % )</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"In this "</text>
+      <symbol>34</symbol>
+      <text>AC without PST</text>
+      <symbol>34</symbol>
+      <text>" grid, preventive redispatching takes place to ensure  that , during N-1 outages, the weakened grid will not have to face  overloads above a given threshold [110 %] during the first stages of the contigency (standard  "</text>
+      <symbol>34</symbol>
+      <text>N-1</text>
+      <symbol>34</symbol>
+      <text>" security policy). The probability of actual outages being very low,  the contigency management implemented here does not include the modelling of the additional corrective  redispatching that may have to be carried out  to bring  power flows back below their regular rated capacity, for the whole duration of the outage. "</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">"The overall cost difference between  #4  and  #3  is therefore an assessment of  the cost induced by the "</text>
+      <symbol fontweight="92">34</symbol>
+      <text fontweight="92">N-1</text>
+      <symbol fontweight="92">34</symbol>
+      <text fontweight="92">" preventive pre-contigency security policy on a grid that is not flexible but whose components are very reliable."</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>In #5, outages are considered  by the operator as events of high probability.  Much like examples #4, it will be assumed that only interconnections EAST-WEST  and NORTH-WEST are potentially exposed to outages.  These outages are short (3 days) but are now quite frequent  (overall availbility of EW and NW : 95 % ).</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"In this "</text>
+      <symbol>34</symbol>
+      <text>AC without PST</text>
+      <symbol>34</symbol>
+      <text>" grid, the eventuality of contigencies on either EW or NW is taken into account (alike in #4)  by  adopting  preventive redispatching. This redispatching is meant to ensure that , during N-1 outages, the weakened grid will not have to face  overloads above a given threshold [110 %] during the first stages of the contigency (standard  "</text>
+      <symbol>34</symbol>
+      <text>N-1</text>
+      <symbol>34</symbol>
+      <text>" security policy). In this example, however, unlike in #4, the contigency management model also includes the corrective additional redispatching required to bring  power flows back belowr their regular rated capacity, for the whole duration of the outage. "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="92">"The overall cost difference between  #5  and  #4  is therefore an assessment of  the cost induced by the "</text>
+      <symbol fontweight="92">34</symbol>
+      <text fontweight="92">N-1</text>
+      <symbol fontweight="92">34</symbol>
+      <text fontweight="92">" corrective post-contigency security policy, on a grid that is not flexible and whose AC components  face high outage rates"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  "</text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="90">"Notice : The "</text>
+      <symbol fontweight="90">34</symbol>
+      <text fontweight="90">" Kirchhoff's"</text>
+      <symbol fontweight="90">34</symbol>
+      <text fontweight="90">" modelling of  power transfers during outages  includes only (N-1) contingencies, thus precluding the modelling of contingencies of higher order (N-2)....(N-k). In other words, the simulation is realistic only if all outage rates of AC components remain typically below the 5% threshold (leading to 0.25% for N-2 contingencies, which can be neglected in "</text>
+      <text fontstyle="93" fontweight="90" fontunderlined="1">economic</text>
+      <text fontweight="90">" analysis)  "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>==========================================================================================</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92" fontunderlined="0">Specific notes for #1</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Although no outages are modelled in this example, all of the auxiliary variables (fake generation and fake flows) required to model contigencies in scenarios involving them  are already introduced in this dataset. This is meant to facilitate comparisons between scenarios, by ensuring that random numbers generated here and there are exactly the same. "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"These auxiliary variables are attached to the objects displayed on the  map  "</text>
+      <symbol>34</symbol>
+      <text>VIRT-SYS</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"This simplest of all examples includes no binding constraints at all "</text>
+    </paragraph>
+    <paragraph>
+      <text>==========================================================================================</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92" fontunderlined="0">Specific notes for #2</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"In this case, some binding constraints involving auxiliary variables (bounded auxiliary variables : fake generation) "</text>
+    </paragraph>
+    <paragraph>
+      <text>"Outages status on EW and NW  interconnections are implemented through "</text>
+      <text fontweight="92">4</text>
+      <text>" hourly  constraints:"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>OUT1-EW</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>" OUT2-EW"</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>" OUT1-NW"</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>" OUT2-NW"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>==========================================================================================</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92" fontunderlined="0">Specific notes for  #3</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>" Although no outages are modelled in this example, all of the auxiliary variables (fake generation and fake flows) required to model contigencies in scenarios involving them  are already introduced in this dataset. "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"These variables are attached to the objects displayed on the  map  "</text>
+      <symbol>34</symbol>
+      <text>VIRT-SYS</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Kirchhoff's second law is implemented through</text>
+      <text fontweight="92">" 2 "</text>
+      <text>hourly binding constraints (northern  mesh, southern mesh) involving interconnection impedances (all of them being equal to a default value of 1, for clarity's sake)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>KIRCH-north , KIRCH-south</text>
+    </paragraph>
+    <paragraph>
+      <text>==========================================================================================</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92" fontunderlined="0">Specific notes for #4</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>" In this example,  outages on EW and NW may actually happen and this possibility is addressed  by  preventive redispatching. Actual modelling of outages, however,  is not implemented : that would make the model much more complex (identical to that of #5), for a very small added value."</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Kirchhoff's second law is implemented through "</text>
+      <text fontweight="92">2</text>
+      <text>" hourly binding constraints (northern  mesh, southern mesh) involving interconnection impedances (all of them being equal to a default value of 1, for clarity's sake). These two constraints are identical to those implemented in # 3."</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>" KIRCH-north , KIRCH-south"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"N-1 security commitments, meant to limit flows to 110% of the  lines nominal capacities during the first phase of the outages ( 20 minutes or so, during which post-contigency remedial actions have to be carried out) are implemented through "</text>
+      <text fontweight="92">8</text>
+      <text>"  hourly constraints involving tripped flows coming from either EW or NW , should outages happen."</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>TRIP-EW-on-NW</text>
+      <symbol>9</symbol>
+      <text>TRIP-EW-on-EN</text>
+      <symbol>9</symbol>
+      <text>TRIP-EW-on-SW</text>
+      <symbol>9</symbol>
+      <text>TRIP-EW-on-ES</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>TRIP-NW-on-EW</text>
+      <symbol>9</symbol>
+      <text>TRIP-NW-on-EN</text>
+      <symbol>9</symbol>
+      <text>TRIP-NW-on-SW</text>
+      <symbol>9</symbol>
+      <text>TRIP-NW-on-ES</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"In this example, corrective actions (additional redispatching) that may be required  to bring all flows back below 100% of the lines nominal capacities  are not modelled, because  of the low probability of the events  calling for them (their specific cost therefore bringing a very small contribution to the total system cost "</text>
+      <text fontstyle="93" fontunderlined="1">expectation</text>
+      <text>"). "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>==========================================================================================</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92" fontunderlined="0">Specific notes for #5</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>In this case, most binding constraints now include auxiliary variables (bounded auxiliary variables : fake generation ; unbounded auxiliary variables : fake flows). These auxiliary variables make it possible to simulate both preventive actions (carried out before outages occur) and corrective actions (carried out during outages)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Outages status on EW and NW  interconnections are implemented through "</text>
+      <text fontweight="92">4</text>
+      <text>" hourly  (identical to their counterpart in #2)"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>OUT1-EW</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>" OUT2-EW"</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>" OUT1-NW"</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>" OUT2-NW"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Kirchhoff's second law is implemented through "</text>
+      <text fontweight="92">2</text>
+      <text>" hourly binding constraints (northern  mesh, southern mesh) involving interconnection impedances (all of them being equal to a default value of 1, for clarity's sake). These two constraints are different from those implemented in # 4 (if they were formulated as in #3 or #4, N-1 outages would be equivalent to N-grid)."</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>" KIRCH-RELAX-north , KIRCH-RELAX-south"</text>
+    </paragraph>
+    <paragraph alignment="1" leftindent="60" leftsubindent="60" bulletstyle="16896" bulletnumber="0" bulletname="standard/circle" liststyle="Bullet List">
+      <text></text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Segoe UI" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="16896" bulletnumber="0" bulletname="standard/circle" liststyle="Bullet List">
+      <text textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Segoe UI">"N-1 security commitments, meant to limit flows to 110% of the  lines nominal capacities during the first phase of the outages ( 20 minutes or so, during which post-contigency remedial actions have to be carried out) are implemented through "</text>
+      <text textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="92" fontunderlined="0" fontface="Segoe UI">8</text>
+      <text textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Segoe UI">"  hourly constraints (identical to their counterpart in #4) involving tripped flows coming from either EW or NW , should outages happen."</text>
+      <text>"  "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>TRIP-EW-on-NW</text>
+      <symbol>9</symbol>
+      <text>TRIP-EW-on-EN</text>
+      <symbol>9</symbol>
+      <text>TRIP-EW-on-SW</text>
+      <symbol>9</symbol>
+      <text>TRIP-EW-on-ES</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>TRIP-NW-on-EW</text>
+      <symbol>9</symbol>
+      <text>TRIP-NW-on-EN</text>
+      <symbol>9</symbol>
+      <text>TRIP-NW-on-SW</text>
+      <symbol>9</symbol>
+      <text>TRIP-NW-on-ES</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+    </paragraph>
+    <paragraph>
+      <text>"Zero-flow contraints on outaged interconnections are implemented through "</text>
+      <text fontweight="92">4</text>
+      <text>" hourly  constraints:"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>LOOP-EW-sup</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>LOOP-NW-sup</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>LOOP-EW-inf</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>LOOP-NW-inf</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>==========================================================================================</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

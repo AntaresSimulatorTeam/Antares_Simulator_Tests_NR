@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph alignment="1">
+      <text>"This case-study is the "</text>
+      <text fontweight="92">"third "</text>
+      <text>"of a set of three examples  that are meant to illustrate the operation and the economic benefits of a "</text>
+      <text fontstyle="93" fontweight="92">"Pumped-storage power plant "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontstyle="93" fontweight="92" fontunderlined="1">" In this third example,  the Western pumped-storage power plant is in operation and its reservoir has a capacity of 6 GWh "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"The modelling of the plant relies mainly on the use of two virtual nodes  (PSP-IN and PSP-OUT), to which are assigned  virtual load and generation  curves (through ROW balance). "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Pumping and generating capacities are both set at a constant level of 1.5 GW (ROW balances of PSP-IN and PSP-OUT)</text>
+    </paragraph>
+    <paragraph fontweight="92" fontunderlined="1">
+      <text fontweight="92" fontunderlined="1"></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92" fontunderlined="1">"Moreover, the capacity of the reservoir is modelled with  additional binding constraints bearing on purely virtual components "</text>
+      <text>"       "</text>
+    </paragraph>
+    <paragraph>
+      <text>The volume stored in the beginning of each optimization period is set freely by the optimizer. However, the binding constraint with offset forces the equality between the volume at the beginning and end of each period.</text>
+    </paragraph>
+    <paragraph>
+      <text>The volume of energy stored in the reservoir is described by the flow between the virtual nodes PSP-X1 and PSP-Y, which can be read in the outputs of the simulation.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"In this example, the reservoir capacity of the plant is assumed to be equal to "</text>
+      <text fontweight="92">6 GWh</text>
+      <text>", as seen from the "</text>
+      <text fontunderlined="1">input</text>
+      <text>" side (through ROW balance of PSP-X1 and PSP-X2)."</text>
+    </paragraph>
+    <paragraph>
+      <text>" (i.e. an empty reservoir cannot be filled in less than 4/0.72 hours  and a full reservoir provides  4 hours of operation at Pmax) "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The  benefits brought by the PSP are three-fold :</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>-  The overall operating cost is reduced</text>
+    </paragraph>
+    <paragraph>
+      <text>"-  The amount of unsupplied energy is reduced "</text>
+    </paragraph>
+    <paragraph>
+      <text>"-  The amount of spilled wind energy is reduced   "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Results can be compared with the second example, in which the PSP reservoir capacity size was 15GWh "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>In this example, the reservoir is operated on a 1-day basis (the energy stored in the end of the day must equal the one stored in the begininning). It can however be changed by configuring the optimization range in the optimization preferences.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text fontweight="92">load  january-jun : 5000 exept wednesday :          7500</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="92">load july-december : 10000 except wednesday: 15000</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>"inflows to generate : 0 for all months "</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>"expected results : "</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>Storage time series : daily energy 0 MWh  for all months</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>ror time series :  hourly power 0 MW for all months</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>output : daily energies generated = 0 MWh</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

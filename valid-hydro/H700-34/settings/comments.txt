@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>One zone with  ready made inflow time series : 200 MWh on Monday (except 31 dec) , 300 MWh on Tuesday, 0 MWh other days</text>
+    </paragraph>
+    <paragraph>
+      <text>Follow load modulation = YES</text>
+    </paragraph>
+    <paragraph>
+      <text>Reservoir management = YES</text>
+    </paragraph>
+    <paragraph>
+      <text>Use heuristic target = NO</text>
+    </paragraph>
+    <paragraph>
+      <text>Use water Value = YES    value = 1000 &#8364;/MWh- for three consecutive weeks,  1 &#8364;/MWh for three consecutive weeks</text>
+    </paragraph>
+    <paragraph>
+      <text>"Use leeway = NO  "</text>
+    </paragraph>
+    <paragraph>
+      <text>"Reservoir capacity = 200 GWh "</text>
+    </paragraph>
+    <paragraph>
+      <text>Initial level = 50%</text>
+    </paragraph>
+    <paragraph>
+      <text>unsupplied energy cost = 10000</text>
+    </paragraph>
+    <paragraph>
+      <text>spilled energy cost = 0</text>
+    </paragraph>
+    <paragraph>
+      <text>simplexe  :168</text>
+    </paragraph>
+    <paragraph>
+      <text>hard bounds on rule curves : YES (upper bound : 70 % , lower bound 30%)</text>
+    </paragraph>
+    <paragraph>
+      <text>power to level modulations : NO   ( not activated limits : generating: below 50% : 0.7  above 50% : 10000   pumping: below 50% : 1 above 50%: 0.6)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Max generating credit = 2000 MW * 24 h from Tuesday to Sunday, 800 * 6 h on Monday</text>
+    </paragraph>
+    <paragraph>
+      <text>"Max pumping credit = 450MW * 24h from Monday to Saturday , 440*10h on Sunday "</text>
+    </paragraph>
+    <paragraph>
+      <text>"Pumping efficiency : 0.995  "</text>
+    </paragraph>
+    <paragraph>
+      <text>Constant load 500 MW every day except sunday (0) and 31 dec</text>
+    </paragraph>
+    <paragraph>
+      <text>thermal generation : 1 cluster 200000 MW, always available, cost = 50 &#8364;/MWh</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Power fluctuations : free modulations</text>
+    </paragraph>
+    <paragraph>
+      <text>"Shedding policy : shave peaks "</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">"expected results: "</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text>level oscillates from one bound to the other, depending on hydro values</text>
+    </paragraph>
+    <paragraph>
+      <text>"level should never be above  70% or below 30% "</text>
+    </paragraph>
+    <paragraph>
+      <text>"note that on 1st January  on years 2 to 10,  the level constraint "</text>
+      <text fontweight="92">at the end</text>
+      <text>" of the first hour of the year (min=50-epsilon, max=50+espilon) can be met only because there is a very large pumping credit on this date and the thermal unit is large enough to alllow operation of the pump "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"A variant of this test giving an unfesaibility diagnosis on first week of year 2 , "</text>
+      <text fontweight="92">with hot start activated</text>
+      <text>, can be worked out by either :</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>a) limiting the pumping credit for 1st Jan to the  regular value used for other days</text>
+    </paragraph>
+    <paragraph>
+      <text>b) reducing the size of the thermal unit supplying th epump OR simulating outages of this unit</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

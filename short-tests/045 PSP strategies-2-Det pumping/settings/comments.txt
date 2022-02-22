@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>" This example is the "</text>
+      <text fontweight="92">second</text>
+      <text>"  of a set of "</text>
+      <text fontweight="92">"four "</text>
+      <text>"that are meant to illustrate how pumped storage power plants can be modelled "</text>
+    </paragraph>
+    <paragraph>
+      <text>" with or less complexity in Antares"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"In all four examples, the main system is made of one single node, to which may be attached one or more auxiliary nodes devoted to the "</text>
+    </paragraph>
+    <paragraph>
+      <text>modelling of the pumped power station(s)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">"In the main system, the  characteristics of demand and generation stand as follows :  "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Peak demand :     23 GW  (at  average temperature)</text>
+    </paragraph>
+    <paragraph>
+      <text>Annual demand : 133 TWh</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Thermal plants, lignite:  "</text>
+      <symbol>9</symbol>
+      <text>"   9 GW installed  "</text>
+    </paragraph>
+    <paragraph>
+      <text>Thermal plants, mixed fuel :       8.5 GW installed</text>
+    </paragraph>
+    <paragraph>
+      <text>"Thermal plants , gas (OCGT):   3.75 GW installed "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Hydro power : "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"    3    GW installed "</text>
+    </paragraph>
+    <paragraph>
+      <text>"Hydro energy : "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"    10 TWh "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Wind power :    "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"     3  GW installed"</text>
+    </paragraph>
+    <paragraph>
+      <text>"Average Wind energy : "</text>
+      <symbol>9</symbol>
+      <text>"     6   TWh "</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text>"Solar Power : "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"     2 GW installed"</text>
+    </paragraph>
+    <paragraph>
+      <text>Average solar energy:</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"     2.4 TWh"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"CHP, Biomass, Biogaz, Waste, geothermal, miscellenaous :  700 MW installed / 3.3 TWh "</text>
+      <symbol>9</symbol>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">The four  examples stand as folllows :</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>1  No PSP   :  In this first example, no pumped  storage power plant  is built yet . System costs, prices and LOLP are at their highest</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"2  Det pumping : "</text>
+      <symbol>9</symbol>
+      <text>"    "</text>
+      <symbol>9</symbol>
+      <text>"In this second example, a 4  GW PSP is available. the hourly TS pumping curve is supposed to be "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>predetermined all year-long. Hydro generation takes place so as to optimize monthly credits, equivalent to</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>" 72 % of the pumped energy;  As expected, costs , prices and LOLP are significantly improved"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"3  Opt daily pumping : "</text>
+      <symbol>9</symbol>
+      <text>"    "</text>
+      <symbol>9</symbol>
+      <text>" In this third example, a  4  GW PSP is available and is assumed to be operated on a daily cycle, with a 72% efficiency ratio.  "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"      "</text>
+      <symbol>9</symbol>
+      <text>Both pumping and generation   are optimized so as to make the best out of  stochastic opportunities (wind power, etc.)</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"     "</text>
+      <symbol>9</symbol>
+      <text>The optimization of the pumping strategy brings more economic efficiency to the system</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"4 Opt weekly pumping :    "</text>
+      <symbol>9</symbol>
+      <text>"In this fourth example,  a  4  GW PSP is available and is assumed to be operated on a weekly cycle, with a 72% efficiency ratio.  "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"      "</text>
+      <symbol>9</symbol>
+      <text>Both pumping and generation  are optimized so as to make the best out of  stochastic opportunities (wind power, etc.)</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"     "</text>
+      <symbol>9</symbol>
+      <text>"The optimization of the pumping strategy at a weekly range make  it possible to pump  during  week-ends  and generate during week-days "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"   "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"   "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"  "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

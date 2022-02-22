@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>One zone with  ready made inflow time series : 20000 MWh on Monday (except 31 dec) , 30000 MWh on Tuesday, 0 MWh other days</text>
+    </paragraph>
+    <paragraph>
+      <text>Follow load modulation = YES</text>
+    </paragraph>
+    <paragraph>
+      <text>Reservoir management = YES</text>
+    </paragraph>
+    <paragraph>
+      <text>Use heuristic target = YES</text>
+    </paragraph>
+    <paragraph>
+      <text>Use water Value = YES</text>
+    </paragraph>
+    <paragraph>
+      <text>"Use leeway = YES   1 : 1.2  "</text>
+    </paragraph>
+    <paragraph>
+      <text>Hard bound on Rule curves : YES</text>
+    </paragraph>
+    <paragraph>
+      <text>"Reservoir capacity = 7000 GWh "</text>
+    </paragraph>
+    <paragraph>
+      <text>Initial level = 50%</text>
+    </paragraph>
+    <paragraph>
+      <text>unsupplied energy cost = 10000</text>
+    </paragraph>
+    <paragraph>
+      <text>spilled energy cost = 0</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Max generating credit = 2000 MW * 24 h "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Constant load 500 MW every day except sunday (0) and 31 dec</text>
+    </paragraph>
+    <paragraph>
+      <text>thermal generation : 1 cluster 1000 MW, always available, cost = 50 &#8364;/MWh</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Power fluctuations : free modulations</text>
+    </paragraph>
+    <paragraph>
+      <text>"Shedding policy : shave peaks "</text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">"expected results: "</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text>level starts &#224; 50% and decreases</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>weekly generation starts at 60 GWh and decreases to 50 GWh, so that lower level remains above the 45.9% limit</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

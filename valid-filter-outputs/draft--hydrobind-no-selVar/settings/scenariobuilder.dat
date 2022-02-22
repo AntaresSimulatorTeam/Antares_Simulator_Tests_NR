@@ -1,0 +1,14 @@
+[Default Ruleset]
+l,at,0 = 1
+l,at,1 = 2
+l,at,2 = 3
+l,ch,0 = 1
+l,ch,1 = 2
+l,ch,2 = 3
+l,pompage,0 = 1
+l,pompage,1 = 1
+l,pompage,2 = 1
+l,turbinage,0 = 1
+l,turbinage,1 = 1
+l,turbinage,2 = 1
+

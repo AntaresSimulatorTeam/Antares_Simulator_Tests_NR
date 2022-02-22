@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>" This example is the second of a set of "</text>
+      <text fontweight="92">"three "</text>
+      <text>"that are meant to illustrate the differences between "</text>
+      <text fontweight="92">"probabilistic, "</text>
+      <text fontweight="92" fontunderlined="0">deterministic</text>
+      <text fontweight="92">" and derated simulations"</text>
+      <text>.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92" fontunderlined="0">Deterministic simulations</text>
+      <text fontweight="90" fontunderlined="0">" are based only on "</text>
+      <text fontweight="92" fontunderlined="1">one possible realization</text>
+      <text fontweight="90" fontunderlined="0">" of the load, wind power generation, thermal power availability, ..."</text>
+    </paragraph>
+    <paragraph fontweight="90" fontunderlined="0">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="90" fontunderlined="0">
+      <text fontweight="92">"Probabilistic simulations "</text>
+      <text>"are performed with Antares through a "</text>
+      <text fontweight="92">Monte Carlo</text>
+      <text>" method which consists in "</text>
+      <text fontweight="92" fontunderlined="1">analyzing the response of the power system to many possible situations</text>
+      <text>: not only reference or average conditions, but also less usual circumstances (e.g.: critical combination of RES, cold spell in winter with an especially high load, drought with low producible energy, failures of one or more thermal units, intersection of some of the previously listed events, etc.). That is to say, simulations are run with different sets of the time-series sampled by the TS generator.</text>
+    </paragraph>
+    <paragraph fontweight="90" fontunderlined="0">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="90" fontunderlined="0">
+      <text fontweight="92">Derated simulations</text>
+      <text>" consist of only "</text>
+      <text fontweight="92" fontunderlined="1">one run with average values</text>
+      <text fontweight="90" fontunderlined="0">" of the stochastic time-series"</text>
+      <text>.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>------</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>In this example, two identical  systems supply 2 X 400 TWh with coal, gas and oil thermal plants, wind and hydro power. The overall interconnection capacity is set at 3 GW.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"In this second example, "</text>
+      <text fontweight="92">500 Monte-Carlo years</text>
+      <text>" are simulated."</text>
+    </paragraph>
+    <paragraph>
+      <text>Results can be compared with the two other examples :</text>
+    </paragraph>
+    <paragraph>
+      <text>-&gt; A derated  run on average conditions suggests that the interconnection has no value</text>
+    </paragraph>
+    <paragraph>
+      <text>-&gt; A deterministic run on one Monte-Carlo year shows that the interconnection is actually used and even operated at its maximum capacity for several hours in the year. However the evaluation of some indexes, such as the expected congestion fee or the overall operating cost, is not so good as several Monte-Carlo years should ideally be run for those indexes to converge.</text>
+    </paragraph>
+    <paragraph>
+      <text>"-&gt; A large number of MC years shows that the interconnector is often used at a high rate (though the expectation of the flow is zero). The overall operating cost of the whole system is higher in a thorough probabilistic simulation than in a quick derated one. "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

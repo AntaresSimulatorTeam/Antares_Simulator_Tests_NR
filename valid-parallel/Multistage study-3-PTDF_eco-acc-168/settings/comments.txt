@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10">
+    <paragraph>
+      <text>"This example is the "</text>
+      <text fontweight="92">third</text>
+      <text>"  of a set of "</text>
+      <text fontweight="92">"eight "</text>
+      <text>that are meant to illustrate the fundamentals of power system modelling in Antares</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>All examples  involve the same four regions/countries in which generation fleets and loads  have identical characteristics (same power installed, same outage rates, same fuel costs , same average wind speed, same load at average temperature,...)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"In the first five examples, market bids are different from generating  costs but all zones have the same bid strategy : "</text>
+    </paragraph>
+    <paragraph>
+      <text>"As a result, the economic interest of  a grid relies mostly on the "</text>
+      <text fontweight="92">interconnection</text>
+      <text>" side (compensation of stochastic phenomena)"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"In the last three examples, market bids are modified  as follows : "</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="1" bulletname="standard/circle" liststyle="Bullet List">
+      <text>" bids are unchanged in zones NORTH and SOUTH "</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="3" bulletname="standard/circle" liststyle="Bullet List">
+      <text>" bids are increased by 3&#8364;/MWh  in zone EAST"</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="3" bulletname="standard/circle" liststyle="Bullet List">
+      <text>" bids are decreased by 3&#8364;/MWh in zone WEST  "</text>
+    </paragraph>
+    <paragraph>
+      <text>"As a result the economic value of the grid in the last three examples relies both on the "</text>
+      <text fontweight="92">"interconnection "</text>
+      <text>"side (compensation of stochastic "</text>
+    </paragraph>
+    <paragraph>
+      <text>"phenomena) but also on the "</text>
+      <text fontweight="92">"transmission "</text>
+      <text>"side (differences in prices and/or costs)  "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">"In each zone (WEST,NORTH,SOUTH,EAST), the main characteristics of demand and generation stand as follows :  "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Peak demand :     23 GW  (at  average temperature)</text>
+    </paragraph>
+    <paragraph>
+      <text>Annual demand : 133 TWh</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Thermal plants, lignite:  "</text>
+      <symbol>9</symbol>
+      <text>"   13 GW installed "</text>
+    </paragraph>
+    <paragraph>
+      <text>Thermal plants, mixed fuel :       8.5 GW installed</text>
+    </paragraph>
+    <paragraph>
+      <text>"Thermal plants , gas (OCGT):   3.75 GW installed "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Hydro power : "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"    3    GW installed "</text>
+    </paragraph>
+    <paragraph>
+      <text>"Hydro energy : "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"    10 TWh "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Wind power :    "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"     3  GW installed"</text>
+    </paragraph>
+    <paragraph>
+      <text>"Average Wind energy : "</text>
+      <symbol>9</symbol>
+      <text>"     6   TWh "</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text>"Solar Power : "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"     2 GW installed"</text>
+    </paragraph>
+    <paragraph>
+      <text>Average solar energy:</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"     2.4 TWh"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"CHP, Biomass, Biogaz, Waste, geothermal, miscellenaous :  700 MW installed / 3.3 TWh "</text>
+      <symbol>9</symbol>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">"Though load and generation main characteristics are identical,   stochastic phenomena create different techno-economic conditions in each area  "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"some of these phenomena are independent events,  e.g. forced thermal plants outages , while some  others "</text>
+    </paragraph>
+    <paragraph>
+      <text>"are not ,  e.g. cold spells  in winter or heat waves in summer, etc.. "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>As a result, actual operation conditions always  differ in the four zones (though the local averages are the same on a large sample of Monte -Carlo)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="92">"These stochastic differences (examples 1 to 5) create an economic  opportunity for building up an "</text>
+      <text fontweight="92" fontunderlined="1">"interconnection  "</text>
+      <text fontweight="92">"grid . This  economic potential is even reinforced (examples 6 to 8) if there are differences in terms of costs and prices that give the grid a "</text>
+      <text fontweight="92" fontunderlined="1">transmission</text>
+      <text fontweight="92">"  function. The 8 examples are the following : "</text>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>1 - Isolated systems ( No interconnection between the different areas) :  overall operating costs , market prices and loss of load probability (LOLP) are at their highest</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text>"2 - Copperplate        ( grid with infinite capacity)   : costs, prices and LOLP are at their lowest  possible value   "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The behaviour of a real finite system is somewhere in-between 1 and 2 : examples 3 and 4  illustrate  how the modelling of the grid can be gradually improved. In  the following examples, the grid is supposed to rely on 1-line interconnection corridors  of  identical length. The WEST-EAST capacity is set at 200 MW while the other lines  can transmit  400 MW</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"3 - PTDF (basic  physics implemented through use of PTDF) :   realistic costs, prices and LOLP "</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text>4 - Kirchhoff  (basic physics implemented as mesh laws) :  same results as in 3, with  a more efficient  modelling</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"5 - Derated (same grid physics as 4 but with only one year of simulation  in "</text>
+      <symbol>34</symbol>
+      <text>average</text>
+      <symbol>34</symbol>
+      <text>" conditions for load and generation) : though the grid is finite and submitted to the physics of electricity,  the operating costs is lower than in the "</text>
+      <symbol>34</symbol>
+      <text>copperplate</text>
+      <symbol>34</symbol>
+      <text>" assumption.This  example  is introduced to show how the use of "</text>
+      <symbol>34</symbol>
+      <text>derated</text>
+      <symbol>34</symbol>
+      <text>" average scenarios instead of explicit Monte-Carlo draws when used without due caution."</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"6 - NTC (grid with finite capacities but flowing freely) : because of the west-east market bid gradient, a permanent flow from west to east "</text>
+    </paragraph>
+    <paragraph>
+      <text>"     may now be observed (transmission function)"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"7- PTDF  (basic  physics implemented through use of PTDF) :  same modelling as 3 , the  bid  gradient gives more value to the grid "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"8 - Kirchhoff (basic physics implemented as mesh laws) :  same modelling as in 4 , the  bid  gradient gives more value to the grid "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

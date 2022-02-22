@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10">
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="1" bulletname="standard/circle" liststyle="Bullet List">
+      <text textcolor="#000000" fontsize="8" fontstyle="90" fontweight="92" fontunderlined="0" fontface="MS Shell Dlg 2">"A system made of three active nodes, to illustrate the use of the hydro time-series generator : "</text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="2" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph>
+      <text>In each node :</text>
+    </paragraph>
+    <paragraph>
+      <text>"A hydro generation fleet  characterized by  an average monthly energy ranging from 4.4 TWh to 6.6 TWh,  out of which 45% to 85 % of run of the river and 15% to 65%. Standard deviation are comprised between 0.5 and 1.4 TWh, successive monthly energies are 65% correlated.  "</text>
+    </paragraph>
+    <paragraph>
+      <text>" The  maximum available hydro storage generating power ranges from 8.2 GW to 11.6 GW"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>the inter-area annual energy correlation matrix shows a positive  30 % correlation between 1 and 2, a negative -30 % correlation between 1 and 3 and a 10% between 2 and 3</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The time-series generator is set so as to build a sample of 200 time-series</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

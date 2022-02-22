@@ -1,0 +1,4 @@
+Memo : 289148928 o
+NBVAR : 14616
+NBCON : 14620
+Linear combination : 14794336

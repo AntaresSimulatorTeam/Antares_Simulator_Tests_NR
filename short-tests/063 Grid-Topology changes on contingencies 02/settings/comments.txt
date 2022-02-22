@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>"This example is the "</text>
+      <text fontweight="92">second</text>
+      <text>" of a set of "</text>
+      <text fontweight="92">"two "</text>
+      <text>that illustrate how Antares can deal with toplogy  changes induced by single contingencies, on an AC system.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"The system is composed of 4 EHV substations, two EHV/HV substations and one HV substation.No phase-shifting transformers are installed.   "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>In both cases, an East- West EHV corridor has to accommodate  high flows from West to East</text>
+    </paragraph>
+    <paragraph>
+      <text>In an ideal uncongested scenario,the optimal dispatch would call only the generating fleet installed in the area REMOTE-W since:</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>a) Generation in REMOTE-W t is 20&#8364;/MWh cheaper than the generation located in REMOTE-E</text>
+    </paragraph>
+    <paragraph>
+      <text>b) The overall system demand is 3500 (REMOTE-E) + 400 (HV-EAST) + 500 (SWITCH)  + 400 (HV-WEST) = 4800 , while  installed power in REMOTE-W is 6000  &gt;&gt;4800</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>===========================================================================================</text>
+    </paragraph>
+    <paragraph>
+      <text>In the frst example, all breakers are closed, which means that some part of the EHV power generated on the west side and expected to supply the demand on the east side</text>
+    </paragraph>
+    <paragraph>
+      <text>is derived through the HV parallel corridor. To avoid congestion of the HV corridor, some expensive generation in REMOTE-E has to be scheduled on, thus preventing to achieve</text>
+    </paragraph>
+    <paragraph>
+      <text>full use of the less expensive generation available on the west side..</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>============================================================================================</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>In the second example, the breakers of the SWITCH-HV-EAST corridors are open, thus protecting the HV corridor from being congested by undesirable derived flows.</text>
+    </paragraph>
+    <paragraph>
+      <text>"As a result, full use of the unexpensive Western generation can be achieved. However, since the SWITCH substation is now  supplied by single line, "</text>
+    </paragraph>
+    <paragraph>
+      <text>an additional piece of modelling is required to manage a contingency on this  HV-WEST line (making sure that the demand in  SWITCH will be supplied through the  HV-EAST-SWITCH</text>
+    </paragraph>
+    <paragraph>
+      <text>"back-up line "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>This is achieved with binding constraints using virtual objects visible on the VIRT SYS map</text>
+    </paragraph>
+    <paragraph>
+      <text>The automated  topology change: (Outage on HVWEST-SWITCH   &gt;&gt;&gt;Back-up on SWITCH-HVEAST) makes it possible, this time,  to benefit from the full potential of the Western generation</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>=============================================================================================</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

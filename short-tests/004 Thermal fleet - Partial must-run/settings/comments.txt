@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10">
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="7" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92">The modelled power system is the same than in the previous example.</text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">However, a different modelling approach has been retained in order to represent the non-dispatchable part of the semi-base thermal cluster</text>
+      <text>.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The thermal fleet is  now made of  :</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"4  "</text>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>base</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>units of 900 MW with a generation  cost of 35 euros/MWh</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"5 "</text>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>semi-base</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <text>units of 300 MW, with a generation  cost of 50 euros/MWh and 20% of Min Gen. Modulation</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"8 "</text>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>peak</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>units of 100 MW, with a generation  cost  80 euros/MWh</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The Min Gen. Modulation represents a percentage of the installed capacity which is not dispatchable.</text>
+    </paragraph>
+    <paragraph>
+      <text>"In this case, the Net Min. Generation is equal to 300MW (20% of 1500MW). "</text>
+    </paragraph>
+    <paragraph>
+      <text>The generation of the semi-base thermal cluster will always be above that minimum level.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Results of the simulation can be compared to the ones of example 003. In this case, they are strictly similar.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The only difference between the two modelling approach  is that :</text>
+    </paragraph>
+    <paragraph>
+      <text>"- in example 003, the 300 non-dispatchable MW will always be provided by "</text>
+      <text fontunderlined="1">one</text>
+      <text>" thermal unit operating at its nominal capacity"</text>
+    </paragraph>
+    <paragraph>
+      <text>"- in this example, the 300 non-dispatchable MW can be provided by "</text>
+      <text fontunderlined="1">several</text>
+      <text>" thermal units operating below their nominal capacity"</text>
+    </paragraph>
+    <paragraph>
+      <symbol>29</symbol>
+      <text>This difference can impact the results when minimum stable power, minimum up and down durations and/or start-up costs are modelled (see next examples).</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

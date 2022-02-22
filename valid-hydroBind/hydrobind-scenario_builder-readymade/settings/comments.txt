@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>"Etude origine principale pour les tests de non-r&#233;gression "</text>
+    </paragraph>
+    <paragraph>
+      <text>de la branche int&#233;gration V7</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Sert de mod&#232;le et de r&#233;servoir pour les tests de validation des nouvelles fonctions</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Variante avec :</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"simplexe : week "</text>
+    </paragraph>
+    <paragraph>
+      <text>mdulations hydrauliques : free mod</text>
+    </paragraph>
+    <paragraph>
+      <text>"mps : yes "</text>
+    </paragraph>
+    <paragraph>
+      <text>"Num&#233;ro de paliers thermiques prescrits par le scenario builder "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>TS hydro &amp; therm : generees + stock&#233;es (5)</text>
+    </paragraph>
+    <paragraph>
+      <text>calendrier simu  &#224; cheval sur janvier mars, calendrier ann&#233;e d&#233;but juillet</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Les param&#232;tres de g&#233;n&#233;ration des s&#233;ries temporelles des paliers thermiques des zones SOURCE 1 &#224; 8 sont modifi&#233;s</text>
+    </paragraph>
+    <paragraph>
+      <text>"Tous les noeuds n'appartenant pas &#224; la couche "</text>
+      <symbol>34</symbol>
+      <text>binding constrainst hourly</text>
+      <symbol>34</symbol>
+      <text>" sont supprim&#233;s"</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

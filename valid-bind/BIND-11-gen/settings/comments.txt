@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text fontweight="92">Case topology:</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>a  four-area system forming a simple  AC square loop</text>
+    </paragraph>
+    <paragraph>
+      <text>all impedances are constant throughout the year and are eqal to 2</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">Loop flows and phase shifters settings:</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">there is  a constant loop flow of 500 MW, anti-clockwise</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90"></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">PST settings are set to  :</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <symbol fontweight="90">9</symbol>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">MIN</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">MAX</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">AB</text>
+      <symbol fontweight="90">9</symbol>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">10</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">15</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">AC</text>
+      <symbol fontweight="90">9</symbol>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">-33</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">-22</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">BD</text>
+      <symbol fontweight="90">9</symbol>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">-30</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">40</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">CD</text>
+      <symbol fontweight="90">9</symbol>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">-100</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">-90</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90"></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>"1/4 Expected result of constraint generation for all year with : "</text>
+      <symbol>34</symbol>
+      <text>no loop flows</text>
+      <symbol>34</symbol>
+      <text>" &amp; "</text>
+      <symbol>34</symbol>
+      <text>no PST</text>
+      <symbol>34</symbol>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">one EQUALITY constraint with  RHS=</text>
+      <text fontweight="92">0</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">if the constraint builder gives a positive weight to AB  :</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">"constraint weights : "</text>
+      <text fontweight="92">AB : +2  BD: +2  CD: -2  AC: -2</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">if the constraint builder gives a negative weight to AB  :</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">"constraint weights : "</text>
+      <text fontweight="92">AB : -2  BD: -2  CD: +2  AC: +2</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>"2/4 Expected result of constraint generation for all year with  : "</text>
+      <symbol>34</symbol>
+      <text>include loop flows</text>
+      <symbol>34</symbol>
+      <text>" &amp; no PST"</text>
+      <symbol>34</symbol>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">one EQUALITY constraint with  :</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">if the constraint builder gives a positive weight to AB  :</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">"RHS         = "</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">-2(-500-500) +2(500+500)</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">"= "</text>
+      <text fontweight="92">4000</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">if the constraint builder gives a negative weight to AB  :</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">"RHS         = "</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">2(-500-500) -2(500+500)</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">= -</text>
+      <text fontweight="92">4000</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>"3/4 Expected result of constraint generation for all year with : "</text>
+      <symbol>34</symbol>
+      <text>no loop flows</text>
+      <symbol>34</symbol>
+      <text>" &amp; "</text>
+      <symbol>34</symbol>
+      <text>include PST</text>
+      <symbol>34</symbol>
+      <text>:</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">one INEQUALITY constraint with  :</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">if the constraint builder gives a positive weight to AB  :</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">"RHS min = "</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">10 +22 -30 +90</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">=</text>
+      <text fontweight="92">92</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">"RHS max = "</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">"15+33+ 40+100   "</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">=</text>
+      <text fontweight="92">188</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90"></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">if the constraint builder gives a negative weight to AB  :</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">"RHS min = "</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">-15 -33-40 -100</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">=</text>
+      <text fontweight="92">-188</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">"RHS max = "</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">"-10 -22+30- 90   "</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">"= "</text>
+      <text fontweight="92">-92</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>"4/4 Expected result of constraint generation for all year with : "</text>
+      <symbol>34</symbol>
+      <text>include loop flows</text>
+      <symbol>34</symbol>
+      <text>" &amp; "</text>
+      <symbol>34</symbol>
+      <text>include PST</text>
+      <symbol>34</symbol>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">one INEQUALITY constraint with  :</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">if the constraint builder gives a positive weight to AB  :</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">"RHS min = "</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">10 +22 -30 +90 -2(-500-500) +2(500+500)</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">"= "</text>
+      <text fontweight="92">4092</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">"RHS max = "</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">"15+33+ 40+100 -2(-500-500) +2(500+500)= "</text>
+      <text fontweight="92">4188</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90"></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">if the constraint builder gives a negative weight to AB  :</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">"RHS min = "</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">-15 -33-40 -100+2(-500-500) -2(500+500)</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">=</text>
+      <text fontweight="92">-4188</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">"RHS max = "</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">"-10 -22+30- 90 +2(-500-500) -2(500+500) "</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">=</text>
+      <text fontweight="92">-4092</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90"></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

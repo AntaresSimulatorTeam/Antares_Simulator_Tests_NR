@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>"12 zones with inflow= 0 , hydro generating power = 100 MW on second day of the year &gt;&gt; "</text>
+      <symbol>34</symbol>
+      <text>hydro</text>
+      <symbol>34</symbol>
+      <text>" is present "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>reservoir management yes, each zone is initialized with level = 50% + (month-index) %+0.5%</text>
+    </paragraph>
+    <paragraph>
+      <text>For each reservoir, water value = level in % (&#8364;/MWh)+ (day-index*100) (&#8364;/MWh)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Use water value = YES "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">"expected results: "</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text>level constant throughout the year for all zones, equal to the initialized value</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>H.cost = 0</text>
+    </paragraph>
+    <paragraph>
+      <text>water-value = average value between values associated with lower and upper rounded levels in percents</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

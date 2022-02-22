@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10">
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="3" bulletname="standard/circle" liststyle="Bullet List">
+      <text textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2">The system is made almost identical to example 005,  with</text>
+      <text textcolor="#000000" fontsize="8" fontstyle="90" fontweight="92" fontunderlined="0" fontface="MS Shell Dlg 2">" a thermal fleet whose  operating costs are this time not purely proportional."</text>
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="4" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="1" bulletname="standard/circle" liststyle="Bullet List">
+      <text textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2">"operating cost = power generated * "</text>
+      <text textcolor="#000000" fontsize="8" fontstyle="90" fontweight="92" fontunderlined="0" fontface="MS Shell Dlg 2">marginal cost</text>
+      <text textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2">" + number of dispatched unit * "</text>
+      <text textcolor="#000000" fontsize="8" fontstyle="90" fontweight="92" fontunderlined="0" fontface="MS Shell Dlg 2">no-load heat cost</text>
+      <text textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2">" + number of start-up * "</text>
+      <text textcolor="#000000" fontsize="8" fontstyle="90" fontweight="92" fontunderlined="0" fontface="MS Shell Dlg 2">start-up cost</text>
+      <text textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2">" "</text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="2" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="5" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92">"Besides, plants can bid on the market at a higher price than their  marginal cost, "</text>
+      <text fontweight="90">"to take into account assets costs, etc.  "</text>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>------------</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>In this new example, the thermal fleet is  now made of  :</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"4  "</text>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>base</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>units of 900 MW, with a marginal cost of 35 euro/MWh, no-load heat cost of 1700 euros/h and start-up cost of 70000 euros/start-up</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>bid cost : 45 euros/MWh</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"5 "</text>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>semi-base</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <text>units of 300 MW, with a  marginal cost of 50 euros/MWh, no-load heat cost of 500 euros/h and start-up cost of 25000 euros/start-up</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>bid cost : 60 euros/MWh</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"8 "</text>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>peak</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>units of 100 MW, with a marginal cost of 80 euros/MWh, no-load heat cost of 0 euros/h and start-up cost of 5000 euros/start-up</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>bid cost : 90 euros/MWh</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Results can be compared to example 05 :</text>
+    </paragraph>
+    <paragraph>
+      <text>-&gt; the Non Proportional (NP) Costs are written in output. They are the sum of the no-load heat costs and start-up costs.</text>
+    </paragraph>
+    <paragraph>
+      <text>-&gt; Taking into account the extra-operating costs leads to an overall operating cost higher than in example 05</text>
+    </paragraph>
+    <paragraph>
+      <text>-&gt; Since all market bids  =  marginal operating cost + 10 euros mark-up, the marginal prices can be deduced from those of example 05 by adding 10 euros</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Note that the obtained thermal dispatch is the same as in example 005. This is due to the fact that, "</text>
+      <text fontweight="92">"in "</text>
+      <text fontweight="92" fontunderlined="1">default</text>
+      <text fontweight="92">" mode"</text>
+      <text>, the non proportionnal costs are not optimized. They are computed ex-post.</text>
+    </paragraph>
+    <paragraph>
+      <text>"The next examples adresses the accurate mode, which will notably "</text>
+      <text fontunderlined="1">optimize both proportionnal and non-proportionnal costs</text>
+      <text>.</text>
+    </paragraph>
+    <paragraph>
+      <text>"  "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

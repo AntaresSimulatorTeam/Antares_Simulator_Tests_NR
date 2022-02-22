@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text fontweight="92">load  january-jun : 5000 exept wednesday :          7500</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="92">load july-december : 10000 except wednesday: 15000</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>Inflows :  4000 GWh Jan,Mar,May,jul,Sep,Nov     ROR 0 %  daily pattern = 10 Tuesdays</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>" "</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>"expected results : "</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>Storage time series : daily energy Tuesdays = 10 * daily energies other days</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>output : daily energies generated = Wednesdays= 1.5 * other days (same results as H700-02)</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

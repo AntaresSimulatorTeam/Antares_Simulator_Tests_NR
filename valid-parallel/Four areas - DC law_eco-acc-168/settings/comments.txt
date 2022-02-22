@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10">
+    <paragraph>
+      <text>Four identical systems of 400 Twh each interconnected with 3GW capacities in two meshes</text>
+    </paragraph>
+    <paragraph>
+      <text>Flows are ruled by Kirchhoff's laws through hourly binding constraints</text>
+    </paragraph>
+    <paragraph>
+      <text>The system symmetry leads to similar behaviour for North and South nodes for a large number of MC years</text>
+    </paragraph>
+    <paragraph>
+      <text>Imports from ROW in WEST  and exports in EAST  break the symmetry between east and west</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

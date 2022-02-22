@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph textcolor="#000000" fontpointsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="1" bulletname="standard/circle" liststyle="Bullet List">
+      <text textcolor="#000000" fontpointsize="8" fontstyle="90" fontweight="92" fontunderlined="0" fontface="MS Shell Dlg 2">"A system made of three active nodes, to illustrate the use of the wind speed  time-series generator  "</text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontpointsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="2" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph>
+      <text>In each area :</text>
+    </paragraph>
+    <paragraph>
+      <text>The wind speed (expressed in 0.1 m/s)  is modelled  by :</text>
+    </paragraph>
+    <paragraph>
+      <text>"12 monthly Weibull variables, a 12*24  hourly average profile, and  12*2 autocorrelation parameters. "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The times-series generator is parametrized so as to build  a sample of 200 wind speed time-series.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The mean of 200 time series of wind speed follows the daily and seasonal modulations of the average speed defined by the Weibull parameters</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Spatial correlation between wind speeds are set at 30% between 1 and 2, -30% between 1 and 3 and 10% between 2 and 3</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

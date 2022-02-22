@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>"A two-area (A-B) system with "</text>
+      <text fontweight="92">strictly identical</text>
+      <text>"  loads and "</text>
+      <text fontweight="92">thermal dispatchable</text>
+      <text>" fleets. The differences between A and B are the following : "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="1" bulletname="standard/circle" liststyle="Bullet List">
+      <text>"In area A, a 15GW  wind power may be installed "</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="1" bulletname="standard/circle" liststyle="Bullet List">
+      <text>"In area B, a demand management scheme may be implemented "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>There is a 4GW  interconnection capacity between A and B</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"This  state of the system can be construed as the result of a mixed generation/transmission expansion study, in which the available "</text>
+    </paragraph>
+    <paragraph>
+      <text>development options were:</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="4353" bulletnumber="1" liststyle="Numbered List">
+      <text>build (or not) a 15 GW wind power fleet in A</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="4353" bulletnumber="2" liststyle="Numbered List">
+      <text>Implement (or not) a demand management scheme in B</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="4353" bulletnumber="3" liststyle="Numbered List">
+      <text>"build (or not) a 4GW interconnector  "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"The demand side management project in B is supposed to lead to the following behaviour, from the system operation standpoint  : "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>34</symbol>
+      <text>" At any time of the day, up to 3GW of the  load can  be delayed up to two hours, with an allowance of 0.005 euro /kWh = 5 euros /MWh"</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"This second demand response scheme is modelled using "</text>
+      <text fontweight="92">binding constraints with offsets</text>
+      <text>.</text>
+    </paragraph>
+    <paragraph>
+      <text>In this model, the load which is shed is postponed one or two hours later, as imposed by the following constraint : Shed (t) &lt;= Reload (t+1) + Reload (t+2).</text>
+    </paragraph>
+    <paragraph>
+      <text>"Note that the binding constraint is "</text>
+      <symbol>34</symbol>
+      <text>wrapped around</text>
+      <symbol>34</symbol>
+      <text>" the optimization period. For example, with an optimization period of one day : Shed (24) &lt;= Reload (1) + Reload (2)."</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"The economic behaviour of this system can be straightly compared to that of two previous examples : "</text>
+    </paragraph>
+    <paragraph>
+      <text>In example 33, the economic rationale of the daily PSP plant was to save : (peak thermal price) - (off-peak thermal price) / (PSP efficiency ratio)</text>
+    </paragraph>
+    <paragraph>
+      <text>"In example 34, the economic rationale of the DSM scheme is to save : (peak thermal price) - (off-peak thermal price + allowance)   "</text>
+    </paragraph>
+    <paragraph>
+      <text>In example 35, the economic rationale of the DSM scheme is also to save (peak thermal price) - (off-peak thermal price + allowance), but the scheme offers less flexibility  as the load which is shed has to be rescheduled within a delay time of 2h (and not 24h).</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

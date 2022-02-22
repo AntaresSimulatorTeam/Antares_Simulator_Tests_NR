@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10">
+    <paragraph>
+      <text>"A simple example of a system showing economic flows not oriented pricewise "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Area</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>Load MW</text>
+      <symbol>9</symbol>
+      <text>Available Gen MW</text>
+      <symbol>9</symbol>
+      <text>Gen cost</text>
+    </paragraph>
+    <paragraph>
+      <text>NE</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>300</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>120</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>90</text>
+    </paragraph>
+    <paragraph>
+      <text>NW</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>0</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>2500</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>10</text>
+    </paragraph>
+    <paragraph>
+      <text>SE</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>200</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>120</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>20</text>
+    </paragraph>
+    <paragraph>
+      <text>"SW "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>2000</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>120</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>100</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Transmission  features :</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>capacity</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>length</text>
+    </paragraph>
+    <paragraph>
+      <text>NW-SW</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>infinite</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>1</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+    </paragraph>
+    <paragraph>
+      <text>SE-SW</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>380</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>3</text>
+    </paragraph>
+    <paragraph>
+      <text>NE-NW</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>80</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>3</text>
+    </paragraph>
+    <paragraph>
+      <text>NE-SE</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>infinite</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>3</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"The simulation shows that : "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>price = 10      in NW  (cost of last scheduled unit : 10)</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text>price = 33.33 in SW  (cost of first avalable  unit : 100)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>price = 90 in NE     (cost of last scheduled unit : 90)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>price = 20 in SE      (cost of last scheduled unit : 20)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The following statements can be made :</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="1" bulletname="standard/circle" liststyle="Bullet List">
+      <text>the constrained-off merit-order is  : G(NW)= 2500, G(SE)=0, G(NE)=0,G(SW)=0</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="2" bulletname="standard/circle" liststyle="Bullet List">
+      <text>the actual schedule is : G(NW)= 2300, G(SE)=100,G(SW)=0,G(NE)=100</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="3" bulletname="standard/circle" liststyle="Bullet List">
+      <text>no unit is scheduled at Pmax</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="4" bulletname="standard/circle" liststyle="Bullet List">
+      <text>"there is an anti-pricewise 180 MW flow from NE to SE   "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

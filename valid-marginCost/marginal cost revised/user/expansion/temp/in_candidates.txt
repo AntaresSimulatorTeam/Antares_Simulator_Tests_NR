@@ -1,0 +1,6 @@
+semibase1 70000 200 5 false
+semibase2 126000 200 5 false
+peak1 60000 100 10 false
+peak2 60000 100 10 false
+renforcement_a1_a2_1 1000 250 1 false
+renforcement_a1_a2_2 5000 750 1 false

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>"This dataset is part of a set of five tests aiming at validating the "</text>
+      <symbol>34</symbol>
+      <text>hydro-pricing mode</text>
+      <symbol>34</symbol>
+      <text>" option introduced as of version 7.1.0"</text>
+    </paragraph>
+    <paragraph>
+      <text>"In all cases the simulation encompasses either  five weeks from 22 Jan to 18 Feb OR several years in "</text>
+      <symbol>34</symbol>
+      <text>hot start</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text>"  "</text>
+    </paragraph>
+    <paragraph>
+      <text>All of these tests includes 6 areas with identical hydro data, the only difference being the resrevoir management style (S,H,H&#8364;,E,M,M_hb)</text>
+    </paragraph>
+    <paragraph>
+      <text>Results obtained on areas managed in S,H,H&#8364; should be always identical in both pricing modes</text>
+    </paragraph>
+    <paragraph>
+      <text>Depending on the tests, results may be expected to differ for areas managed in M, M_hb and E modes</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>In test 1 water values are independent of depth and date :  all results must be identical in both pricing mode</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>In test 2  water values do not depend of depth but of date :  zero except on the first day of each of the five weeks AND on the first day of week 6</text>
+    </paragraph>
+    <paragraph>
+      <text>all results must be identical in oth pricing mode</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>In test 3  water values do not depend of depth but of date :  zero except on the first day of each of the five weeks. On the first day of week 6 water values are twice those of week 5</text>
+    </paragraph>
+    <paragraph>
+      <text>"Results are expected to ne identical for weeks 1 to 4 . For week 5, hydro pricing "</text>
+      <symbol>34</symbol>
+      <text>accurate</text>
+      <symbol>34</symbol>
+      <text>" is exected to differ from "</text>
+      <symbol>34</symbol>
+      <text>fast</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>In test 4 water values do not depend of date but of depth : results can differ on any week</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>In test 5 water values depend on both date and depth: results can differ on any week</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"   "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

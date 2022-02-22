@@ -1,0 +1,8 @@
+EAST
+NORTH
+SOUTH
+WEST
+hub E
+hub N
+hub S
+hub W

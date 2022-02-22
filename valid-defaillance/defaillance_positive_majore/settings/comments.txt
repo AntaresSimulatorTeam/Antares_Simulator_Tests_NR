@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>Ce jeu de test conduit &#224; des probl&#232;mes infaisables pour les versions 6.0.2 et 6.0.3</text>
+    </paragraph>
+    <paragraph>
+      <text>Le bug est corrig&#233; &#224; partir de la 6.0.4</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Il s'agit de dimensionner le groupe de d&#233;faillance poitive en tenant compte de la contribution &#233;ventuelle du segment ROW &#224; la demande nette</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

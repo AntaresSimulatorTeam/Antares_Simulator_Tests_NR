@@ -1,0 +1,8 @@
+[Default Ruleset]
+l,north,0 = 1
+l,north,1 = 2
+l,north,2 = 3
+t,north,0,a = 1
+t,north,1,a = 2
+t,north,2,a = 3
+

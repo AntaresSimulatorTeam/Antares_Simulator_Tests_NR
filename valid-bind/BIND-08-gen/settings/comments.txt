@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text fontweight="92">Case topology:</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>a three-area system forming a simple  AC triangular loop</text>
+    </paragraph>
+    <paragraph>
+      <text>Capacity of AC  is infinite. Capacities of  AB and BC are identical  and constant (1000 MW)</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+    </paragraph>
+    <paragraph>
+      <text>all impedances are constant throughout the year and are eqal to 2</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">Loop flows and phase shifters settings:</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">There is a constant anti-clockwise loop flow of 200 MW</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">PST are installed on AB with symmetrical settings (-1000 000 , +1 000 000)</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90"></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="92">Hurdle costs:</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90"></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">hurdle costs are defined but they are ignored , on AB , BC, AC</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90"></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">hurdle cost</text>
+      <symbol fontweight="90">9</symbol>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">direct</text>
+      <symbol fontweight="90">9</symbol>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">indirect</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">AB</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">(ignored)</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">10</text>
+      <symbol fontweight="90">9</symbol>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">12</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">"AC "</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">(ignored)</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">50</text>
+      <symbol fontweight="90">9</symbol>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">-20</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">BC</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">(ignored)</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">"10 "</text>
+      <symbol fontweight="90">9</symbol>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">" 20"</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">" "</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>Generation and load:</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">generation and load are equal to zero at all times for all zones</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>"Expected result of constraint generation with options : "</text>
+      <symbol>34</symbol>
+      <text>include loop flows</text>
+      <symbol>34</symbol>
+      <text>" &amp; "</text>
+      <symbol>34</symbol>
+      <text>include PST</text>
+      <symbol>34</symbol>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">one inequality constraint with following RHS:</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90"></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <symbol fontweight="90">9</symbol>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">RHS min</text>
+      <symbol fontweight="90">9</symbol>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">RHS max</text>
+      <symbol fontweight="90">9</symbol>
+    </paragraph>
+    <paragraph fontweight="92">
+      <symbol fontweight="90">9</symbol>
+      <symbol fontweight="92">9</symbol>
+      <text fontweight="92">-998800</text>
+      <symbol fontweight="92">9</symbol>
+      <symbol fontweight="92">9</symbol>
+      <text fontweight="92">+1001200</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90"></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="92">Expected results of a simulation after constraint generation , all hours:   some value X in the interval  [-1000,+1000]</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <symbol fontweight="90">9</symbol>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">Flow AB</text>
+      <symbol fontweight="90">9</symbol>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">H.cost AB</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">Flow AC</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">H.cost AC</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">Flow BC</text>
+      <symbol fontweight="90">9</symbol>
+      <text fontweight="90">H.cost BC</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <symbol fontweight="92">9</symbol>
+      <symbol fontweight="92">9</symbol>
+      <text fontweight="92">+X</text>
+      <symbol fontweight="92">9</symbol>
+      <symbol fontweight="92">9</symbol>
+      <symbol fontweight="92">9</symbol>
+      <text fontweight="92">0</text>
+      <symbol fontweight="92">9</symbol>
+      <symbol fontweight="92">9</symbol>
+      <text fontweight="92">-X</text>
+      <symbol fontweight="92">9</symbol>
+      <symbol fontweight="92">9</symbol>
+      <text fontweight="92">0</text>
+      <symbol fontweight="92">9</symbol>
+      <symbol fontweight="92">9</symbol>
+      <text fontweight="92">+X</text>
+      <symbol fontweight="92">9</symbol>
+      <symbol fontweight="92">9</symbol>
+      <text fontweight="92">0</text>
+      <symbol fontweight="92">9</symbol>
+      <symbol fontweight="92">9</symbol>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90"></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90"></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90"></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90"></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

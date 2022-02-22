@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>"One zone with  "</text>
+      <text fontweight="92">1 MW constant inflow</text>
+      <text>" , flat load =1000 hourly"</text>
+    </paragraph>
+    <paragraph>
+      <text>Follow load modulation = YES</text>
+    </paragraph>
+    <paragraph>
+      <text>Reservoir management = YES</text>
+    </paragraph>
+    <paragraph>
+      <text>Use heuristic target = YES</text>
+    </paragraph>
+    <paragraph>
+      <text>Use water Value = YES   (value = 100 &#8364;/MWh- all % all days)</text>
+    </paragraph>
+    <paragraph>
+      <text>"Use leeway = YES , min =0 max = 10^9  "</text>
+    </paragraph>
+    <paragraph>
+      <text>"Reservoir capacity = 10 GWh "</text>
+    </paragraph>
+    <paragraph>
+      <text>Initial level = ?%</text>
+    </paragraph>
+    <paragraph>
+      <text>unsupplied energy cost = 20000</text>
+    </paragraph>
+    <paragraph>
+      <text>spilled energy cost = 0</text>
+    </paragraph>
+    <paragraph>
+      <text>Use Hard BOUNDS = YES</text>
+    </paragraph>
+    <paragraph>
+      <text>"Max generating credit = 1000000 MW * 24 h "</text>
+    </paragraph>
+    <paragraph>
+      <text>Max Pumping credit   = 1000000 MW x 24 h</text>
+    </paragraph>
+    <paragraph>
+      <text>hydro hot start = YES</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>thermal generation : 1 cluster 1000000 MW, always available, cost = 10 &#8364;/MWh</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Power fluctuations : free modulations</text>
+    </paragraph>
+    <paragraph>
+      <text>"Shedding policy : shave peaks "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"In this data set , lower and upper level rule curve "</text>
+      <text fontweight="92">are neither concave nor convex, and they are strictly equal</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">"expected results: "</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text>"since there are inflows, generation can occur in decreasing sections of the rule curve. "</text>
+    </paragraph>
+    <paragraph>
+      <text>"violation of constraints on intermediate levels, between week first day and last day, are possible since "</text>
+    </paragraph>
+    <paragraph>
+      <text>"level control is in this case more lax than in the "</text>
+      <symbol>34</symbol>
+      <text>UHT=NO</text>
+      <symbol>34</symbol>
+      <text>" equivalent of this test (#37)"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10">
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="5" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92">A non-dispatchable thermal plant has been added to the system.</text>
+      <text></text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="6" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="7" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92">"The modelled power system is the same than in the previous example, "</text>
+      <text fontweight="90">"appart from one semi-base unit which is not dispatchable anymore. "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The thermal fleet is therefore now made of  :</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"4  "</text>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>base</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>units of 900 MW with a generation  cost of 35 euros/MWh</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"4 "</text>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>semi-base</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>units of 300 MW, with a generation  cost of 50 euros/MWh</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"1 "</text>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>non-dispatchable semi-base</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <text>"unit of 300 MW, with a generation  cost of 50 euros/MWh and an active must-run status "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"8 "</text>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>peak</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>units of 100 MW, with a generation  cost  80 euros/MWh</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"The "</text>
+      <symbol>34</symbol>
+      <text>must-run</text>
+      <symbol>34</symbol>
+      <text>" units are generating all year long at their maximum power, regardless of their higher generation cost. "</text>
+    </paragraph>
+    <paragraph>
+      <text>"&gt; The overall operating cost includes a component equal to the "</text>
+      <symbol>34</symbol>
+      <text>must-run</text>
+      <symbol>34</symbol>
+      <text>" energy multiplied by 50 euros/MWh"</text>
+    </paragraph>
+    <paragraph>
+      <text>"&gt; The marginal price is not influenced by must-run costs, since it is only determined by the market bids made by "</text>
+      <text fontweight="92">dispatchable</text>
+      <text>" plants "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Results of the simulation can be compared to the ones of example 002.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

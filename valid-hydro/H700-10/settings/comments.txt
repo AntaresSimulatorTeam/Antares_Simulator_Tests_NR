@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text fontweight="92">load  january-jun : 5000 exept wednesday :          7500</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="92">load july-december : 10000 except wednesday: 15000</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>Ready made inflows : 100 000 MWh all days</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>max daily gen credit : 0 MWh *0h</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>reservoir capacity : 10000 GWh</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>initialization ; january, at 50%</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>" "</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>" expected results : "</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>"reservoir is full after 1200 hours and remains so afterwards "</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>reservoir hot start : level pattern  year 1:   50% to 100%  years 2 to 100 : 100% to 100%</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text>" "</text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

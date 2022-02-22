@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>"Avec modif du 4 juin matin : "</text>
+    </paragraph>
+    <paragraph>
+      <text>- baisse de la NTC Sui--&gt;Fra &#224; 1100 MW (au lieu de 2300 MW)</text>
+    </paragraph>
+    <paragraph>
+      <text>- prise en compte de deux groupes THF aux Pays-BAs</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Avec modif du 4 juin apr&#232;s-midi :</text>
+    </paragraph>
+    <paragraph>
+      <text>- retrait de capacit&#233; Biomasse et CHP en Grande-Bretagne</text>
+    </paragraph>
+    <paragraph>
+      <text>- d&#233;classement de 4 groupes gaz en Allemagne (rumeur de fermeture)</text>
+    </paragraph>
+    <paragraph>
+      <text>- correction d'un d&#233;calage dans le parc THF au Portugal (capacit&#233; revue &#224; la hausse)</text>
+    </paragraph>
+    <paragraph>
+      <text>"- correction du "</text>
+      <symbol>34</symbol>
+      <text>bug</text>
+      <symbol>34</symbol>
+      <text>" du pr&#233;pro OTH qui ne g&#233;n&#233;rait pas de fichier pour la Belgique"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Modif du 5 juin :</text>
+    </paragraph>
+    <paragraph>
+      <text>- d&#233;classements strat&#233;giques de thermique en AL, au UK, en IT, en ES, en AT</text>
+    </paragraph>
+    <paragraph>
+      <text>- abattement de la puissance effective de cog&#233; en NL</text>
+    </paragraph>
+    <paragraph>
+      <text>- limitation de la Pmax de turbinage des STEP en AL, AT et CH</text>
+    </paragraph>
+    <paragraph>
+      <text>- correction du bug potentiel introduit par la macro thermique</text>
+    </paragraph>
+    <paragraph>
+      <text>- eleclink en 2019 au lieu de 2020</text>
+    </paragraph>
+    <paragraph>
+      <text>- correction des NTC France moyen terme (avec historiques, &#224; la baisse)</text>
+    </paragraph>
+    <paragraph>
+      <text>"- ajout du "</text>
+      <symbol>34</symbol>
+      <text>scenario builder</text>
+      <symbol>34</symbol>
+      <text>" pour la load"</text>
+    </paragraph>
+    <paragraph>
+      <text>"- ajout de "</text>
+      <symbol>34</symbol>
+      <text>intra-modal</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <text>"- modifications des "</text>
+      <symbol>34</symbol>
+      <text>misc-gen</text>
+      <symbol>34</symbol>
+      <text>"  : r&#233;partition des types de jour conformes au fichier OTH pour CHP en IT, ES et PT (+Biomasse PT) + "</text>
+      <symbol>34</symbol>
+      <text>normalisation</text>
+      <symbol>34</symbol>
+      <text>" pour Biomasse (ES et IT) et geothermie (IT) sur des valeurs moyennes prudentielles (--&gt; pas de saisonnalit&#233;)"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Modif du 6 juin :</text>
+    </paragraph>
+    <paragraph>
+      <text>- correction du d&#233;calage du THF Allemagne</text>
+    </paragraph>
+    <paragraph>
+      <text>- correction des misc-gen pour la France pour 2015 (bug macro ?)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Modif du 10 juin :</text>
+    </paragraph>
+    <paragraph>
+      <text>- retour arri&#232;re sur les d&#233;classements strat&#233;giques en Esp : les 4 groupes hard-coal 2 sont maintenus 45 ans, ainsi que le CCGT old1 de Elcogas</text>
+    </paragraph>
+    <paragraph>
+      <text>- limitation de l'&#233;rosion du CHP en Espagne (-100 MW sur 2014-2020 seulement)</text>
+    </paragraph>
+    <paragraph>
+      <text>- changement (&#224; la hausse) de la chronique de CHP en Belgique et aux Pays-Bas</text>
+    </paragraph>
+    <paragraph>
+      <text>- retour arri&#232;re sur les d&#233;classements strat&#233;giques en All : les groupes qui faisaient l'objet de rumeur de fermeture ont &#233;t&#233; laiss&#233;s en service</text>
+    </paragraph>
+    <paragraph>
+      <text>- limitation de l'&#233;rosion de la Biomasse en GB (via hausse du facteur de charge)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Modifs du 11 juin : "</text>
+    </paragraph>
+    <paragraph>
+      <text>- Correction du double d&#233;compte des indisponibilit&#233;s fortuites nucl&#233;aires, avec pour r&#233;sultat une hausse de la disponibilit&#233; nucl&#233;aire</text>
+    </paragraph>
+    <paragraph>
+      <text>"- Correction des NTC FR-ES "</text>
+    </paragraph>
+    <paragraph>
+      <text>- Ajout de l'augmentation NTC pour DE-NL d&#232;s 2018 et non seulement 2020</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

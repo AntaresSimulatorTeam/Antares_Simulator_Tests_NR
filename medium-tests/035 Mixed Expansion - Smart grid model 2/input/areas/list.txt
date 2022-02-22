@@ -1,0 +1,5 @@
+A
+B
+RELOAD 1h
+RELOAD 2h
+UNLOAD

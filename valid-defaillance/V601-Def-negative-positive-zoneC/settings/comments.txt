@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text fontweight="92">Objets des tests : changement  des modes de calcul de la d&#233;faillance positive et n&#233;gative</text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">"visant &#224;  s&#233;parer la demande r&#233;elle et les productions fatales et assimil&#233;es "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">"Dans l'onglet "</text>
+      <symbol fontweight="92">34</symbol>
+      <text fontweight="92">Economic Opt</text>
+      <symbol fontweight="92">34</symbol>
+      <text fontweight="92">, le thermique disptachable ne peut pas contribuer &#224; la d&#233;faillance n&#233;gative (shedding status : no)</text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">Dans cet exemple la d&#233;faillance positive en C est &#224; cout positif  100 et  la d&#233;faillance n&#233;gative est &#224; cout negatif -300</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>zone C</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Demande r&#233;elle (load)</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"1200    "</text>
+    </paragraph>
+    <paragraph>
+      <text>"Thermal  dispatchable minimal "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"100 (via Pmin cout : 40&#8364;/MWh)     "</text>
+    </paragraph>
+    <paragraph>
+      <text>H.ROR</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>100</text>
+    </paragraph>
+    <paragraph>
+      <text>H.STOR</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>0</text>
+    </paragraph>
+    <paragraph>
+      <text>Wind</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>199</text>
+    </paragraph>
+    <paragraph>
+      <text>Solar</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>198</text>
+    </paragraph>
+    <paragraph>
+      <text>Misc Gen (total)</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>144</text>
+    </paragraph>
+    <paragraph>
+      <text>Must-run</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>512</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Totaux : "</text>
+    </paragraph>
+    <paragraph>
+      <text>Demande r&#233;elle</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>1200</text>
+      <symbol>9</symbol>
+    </paragraph>
+    <paragraph>
+      <text>"productions fatales et assimil&#233;es  "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>" 1153"</text>
+    </paragraph>
+    <paragraph>
+      <text>conso abattue classique :</text>
+      <symbol>9</symbol>
+      <text>"        "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>47</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">" R&#233;sultats attendus (&#224; partir de la version 6.0.1) : "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"optim 1 :    Demande brute = 1200   &gt; d&#233;marrage du groupe thermique dispatchable &#224; 1000, d&#233;marrage du groupe de d&#233;faillance n&#233;gative &#224; 2153 "</text>
+    </paragraph>
+    <paragraph>
+      <text>pb interm&#233;diaire : Pmin thermique = 100</text>
+    </paragraph>
+    <paragraph>
+      <text>"optim 2 :  Demande brute = 1200  et  Pmin =100 &gt; "</text>
+      <text fontweight="92">"d&#233;marrage du groupe thermique dispatchable &#224; 1000, d&#233;marrage du groupe de d&#233;faillance n&#233;gative &#224; 2053, d&#233;faillance positive &#224; 1100 (cout = -465900) "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>
