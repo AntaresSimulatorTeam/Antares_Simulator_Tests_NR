@@ -30,5 +30,5 @@ jobs:
           with:
             upload_url: ${{ steps.get_release.outputs.upload_url }}
             asset_path: output.zip
-            asset_name: ${{ matrix.subdir }}-${{ steps.get_release.output.tag_name }}.zip
+            asset_name: ${{ matrix.subdir }}.zip
             asset_content_type: application/octet-stream
