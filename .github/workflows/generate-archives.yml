@@ -1,4 +1,4 @@
-name: Ubuntu reference generation
+name: Archive generation
 
 on:
   release:
