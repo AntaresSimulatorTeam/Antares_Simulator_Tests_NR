@@ -8,35 +8,43 @@ env:
   GITHUB_TOKEN: ${{ github.token }}
 
 jobs:
+    read_batches:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Read study-batches.txt
+          run: |
+            BATCHES=$(tr '\n' ',' < study-batches.txt | sed "s/^/[/;s/,$/]/")
+            echo "::set-output name=batches::$BATCHES"
+
     main:
-        runs-on: ubuntu-latest
-        strategy:
-          matrix:
-            subdir: [short-tests, medium-tests, long-tests-1, long-tests-2, valid-adq, valid-bind, valid-complex, valid-defaillance, valid-draft, valid-filter-outputs, valid-hydro, valid-hydroBind, valid-hydroPricing, valid-marginCost, valid-parallel, valid-thermal, valid-ts-gen-export]
+      runs-on: ubuntu-latest
+      strategy:
+        matrix:
+          batch: ${{ steps.read_batches.outputs.batches }}
 
         steps:
-        - name: Get release
-          id: get_release
-          uses: bruceadams/get-release@v1.2.3
+          - name: Get release
+            id: get_release
+            uses: bruceadams/get-release@v1.2.3
 
-        - name: Checkout self
-          uses: actions/checkout@v2
+          - name: Checkout self
+            uses: actions/checkout@v2
 
-        - name: zip directory
-          run: zip -r output.zip ${{ matrix.subdir }}
+          - name: zip directory
+            run: zip -r output.zip ${{ matrix.batch }}
 
-        - name: Upload .zip
-          uses: actions/upload-release-asset@v1.0.2
-          with:
-            upload_url: ${{ steps.get_release.outputs.upload_url }}
-            asset_path: output.zip
-            asset_name: ${{ matrix.subdir }}.zip
-            asset_content_type: application/octet-stream
+          - name: Upload .zip
+            uses: actions/upload-release-asset@v1.0.2
+            with:
+              upload_url: ${{ steps.get_release.outputs.upload_url }}
+              asset_path: output.zip
+              asset_name: ${{ matrix.batch }}.zip
+              asset_content_type: application/octet-stream
 
-        - name: Upload study-batches.yml
-          uses: actions/upload-release-asset@v1.0.2
-          with:
-            upload_url: ${{ steps.get_release.outputs.upload_url }}
-            asset_path: study-batches.yml
-            asset_name: study-batches.yml
-            asset_content_type: application/octet-stream
+          - name: Upload study-batches.txt
+            uses: actions/upload-release-asset@v1.0.2
+            with:
+              upload_url: ${{ steps.get_release.outputs.upload_url }}
+              asset_path: study-batches.txt
+              asset_name: study-batches.txt
+              asset_content_type: application/octet-stream
