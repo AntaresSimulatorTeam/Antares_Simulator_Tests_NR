@@ -13,6 +13,9 @@ jobs:
       outputs:
         batches: ${{ steps.read_batches.outputs.batches }}
       steps:
+        - name: Checkout self
+          uses: actions/checkout@v2
+
         - name: Read study-batches.txt
           id: read_batches
           run: |
