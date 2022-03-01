@@ -32,3 +32,11 @@ jobs:
             asset_path: output.zip
             asset_name: ${{ matrix.subdir }}.zip
             asset_content_type: application/octet-stream
+
+        - name: Upload study-batches.yml
+          uses: actions/upload-release-asset@v1.0.2
+          with:
+            upload_url: ${{ steps.get_release.outputs.upload_url }}
+            asset_path: study-batches.yml
+            asset_name: study-batches.yml
+            asset_content_type: application/octet-stream
