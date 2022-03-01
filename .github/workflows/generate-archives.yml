@@ -19,7 +19,7 @@ jobs:
         - name: Read study-batches.txt
           id: read_batches
           run: |
-            BATCHES=$(printf "%s," $(cat study-batches.txt) | sed "s/^/[/;s/,$/]/")
+            BATCHES=$(printf "\"%s\"," $(cat study-batches.txt) | sed "s/^/[/;s/,$/]/")
             echo "::set-output name=batches::$BATCHES"
 
         - name: Get release
@@ -40,7 +40,7 @@ jobs:
       needs: read_batches
       strategy:
         matrix:
-          batch: ${{ needs.read_batches.outputs.batches }}
+          batch: ${{ fromJson(needs.read_batches.outputs.batches) }}
 
       steps:
         - name: Get release
