@@ -11,7 +11,7 @@ jobs:
     read_batches:
       runs-on: ubuntu-latest
       outputs:
-        batches: ${{ steps.read_batches.batches }}
+        batches: ${{ steps.read_batches.outputs.batches }}
       steps:
         - name: Read study-batches.txt
           id: read_batches
