@@ -19,7 +19,7 @@ jobs:
         - name: Read study-batches.txt
           id: read_batches
           run: |
-            BATCHES=$(printf "'%s'," $(cat study-batches.txt) | sed "s/^/[/;s/,$/]/")
+            BATCHES=$(printf "%s," $(cat study-batches.txt) | sed "s/^/[/;s/,$/]/")
             echo "::set-output name=batches::$BATCHES"
 
         - name: Get release
