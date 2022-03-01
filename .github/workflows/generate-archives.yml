@@ -16,7 +16,7 @@ jobs:
         - name: Read study-batches.txt
           id: read_batches
           run: |
-            BATCHES=$(tr '\n' ',' < study-batches.txt | sed "s/^/[/;s/,$/]/")
+            BATCHES=$(tr '\n' ',' < $GITHUB_WORKSPACE/study-batches.txt | sed "s/^/[/;s/,$/]/")
             echo "::set-output name=batches::$BATCHES"
 
     main:
