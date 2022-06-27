@@ -1,0 +1,10 @@
+[
+	{
+		"name" : "BC--infinity on cluster power",
+		"checks" :
+		{
+			"output_compare" : {},
+			"integrity_compare" : null
+		}
+	}
+]

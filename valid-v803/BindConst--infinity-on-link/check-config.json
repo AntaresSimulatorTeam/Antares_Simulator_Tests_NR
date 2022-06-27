@@ -1,0 +1,10 @@
+[
+	{
+		"name" : "BC--infinity on link flow",
+		"checks" :
+		{
+			"output_compare" : {},
+			"integrity_compare" : null
+		}
+	}
+]

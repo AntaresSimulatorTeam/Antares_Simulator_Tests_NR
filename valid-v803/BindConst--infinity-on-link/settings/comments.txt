@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="400" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>2 independant systems of source + sink.</text>
+    </paragraph>
+    <paragraph>
+      <text>Source :  area with a thermal cluster only.</text>
+    </paragraph>
+    <paragraph>
+      <text>Sink : area with power consumption only.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Source and sink are bound with a link.</text>
+    </paragraph>
+    <paragraph>
+      <text>Sources can produce up to 1500 MW.</text>
+    </paragraph>
+    <paragraph>
+      <text>Sinks expect 1000 MW from source.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>system 1 : a binding constraint limits flow on link 1 to 500 MW.</text>
+    </paragraph>
+    <paragraph>
+      <text>system 2 : a binding constraint limits flow on link 2  to inifinty.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Expexted results :</text>
+    </paragraph>
+    <paragraph>
+      <text>Source 1 produces 500 MW.</text>
+    </paragraph>
+    <paragraph>
+      <text>Source 2 produces 1000 MW.</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>
