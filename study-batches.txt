@@ -16,3 +16,4 @@ valid-marginCost
 valid-parallel
 valid-thermal
 valid-ts-gen-export
+valid-v803
