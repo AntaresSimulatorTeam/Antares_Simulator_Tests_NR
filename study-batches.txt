@@ -17,3 +17,4 @@ valid-parallel
 valid-thermal
 valid-ts-gen-export
 valid-v830
+valid-mps
