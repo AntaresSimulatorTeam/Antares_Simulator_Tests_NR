@@ -7,7 +7,6 @@ valid-adq
 valid-bind
 valid-complex
 valid-defaillance
-valid-draft
 valid-filter-outputs
 valid-hydro
 valid-hydroBind
