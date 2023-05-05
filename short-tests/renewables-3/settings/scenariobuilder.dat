@@ -1,0 +1,5 @@
+[Default Ruleset]
+r,east,0,east 1 = 1
+r,east,1,east 1 = 2
+r,east,2,east 1 = 1
+
