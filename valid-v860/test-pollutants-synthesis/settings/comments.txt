@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="400" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text fontweight="700">Test on synthesis results of pollutants</text>
+      <text>.</text>
+    </paragraph>
+    <paragraph>
+      <text>- one area with flat demand and one thermal cluster with pollutant emissions.</text>
+    </paragraph>
+    <paragraph>
+      <text>- Simulation of 2 MC years of 1 week (so that synthesis results are meaningful).</text>
+    </paragraph>
+    <paragraph>
+      <text>"- Load : 2 flat time serie (of respectively 500 MWh and 600 MWh for every hour) "</text>
+    </paragraph>
+    <paragraph>
+      <text>- The scenario builer forces year 1 to use load TS 1, and year 2 to use load TS 2.</text>
+    </paragraph>
+    <paragraph>
+      <text>- Cluster : only 2 pollutants have a non null emission factor (in tons/MWh) :</text>
+    </paragraph>
+    <paragraph>
+      <text>"  nh3 = 2 and so2 = 5"</text>
+    </paragraph>
+    <paragraph>
+      <text>"- "</text>
+      <text fontweight="700" fontunderlined="1">Expected results</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  For nh3 emission : min = 1000 tons, max = 1200 tons, exp = 1100 tons, for each hour."</text>
+    </paragraph>
+    <paragraph>
+      <text>"  For so2 emission : min = 2500 tons, max = 3000 tons, exp = 2750 tons, for each hour.  "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

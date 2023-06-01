@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="400" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>Each areas is independant from the others and represent a use case.</text>
+    </paragraph>
+    <paragraph>
+      <text>In each area, we have load and a thermal cluster to ensure demand/supply balance.</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">Area</text>
+      <text>" : Simple test (flat demand + one cluster)"</text>
+    </paragraph>
+    <paragraph>
+      <text>- Load time series is flat (500 MWh for every hour)</text>
+    </paragraph>
+    <paragraph>
+      <text>- One cluster with a non null emission factor for CO2 (5 tons/MWh) and NH3 (6 tons/MWh)</text>
+    </paragraph>
+    <paragraph>
+      <text>"- "</text>
+      <text fontweight="700" fontunderlined="1">Expected results</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + Emission of CO2 is 2500 tons for each hour"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + Emission of NH3 is 3000 tons for each hour"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">Area 2</text>
+      <text>" : variable demand and many pollutants emission in the cluster"</text>
+    </paragraph>
+    <paragraph>
+      <text>- Load time series : from 100 MWh to 600 MWh depending on hours (cycles of a day)</text>
+    </paragraph>
+    <paragraph>
+      <text>- One cluster with a non null emission factor for many pollutants</text>
+    </paragraph>
+    <paragraph>
+      <text>"  Examples (units in tons/MWh) : CO2 = 1, NH3 = 2, nmvoc = 3, ..., so2 = 10."</text>
+    </paragraph>
+    <paragraph>
+      <text>"  "</text>
+      <text fontweight="700" fontunderlined="1">Expected results</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>"    For each hour, pollutant-X emission = load(h) x pollutant-X factor"</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>Example : so2(h = 1) = 1000 tons, so2(h = 5) = 2000 tons, ..., so2(h = 24) = 6000 tons</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

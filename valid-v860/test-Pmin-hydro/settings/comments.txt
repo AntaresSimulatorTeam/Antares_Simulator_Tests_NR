@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="11" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Ubuntu" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>"In many situations, we want to test that : "</text>
+      <text fontweight="700">hydro power &gt; hydro Pmin</text>
+      <text>". "</text>
+    </paragraph>
+    <paragraph>
+      <text>We have 4 islolated areas, each with 10 000 MWh reservoir capacity.</text>
+    </paragraph>
+    <paragraph>
+      <text>"We only have non null "</text>
+      <text fontweight="700">Load</text>
+      <text>" when we need a load profile (required when follow load modulation is "</text>
+      <text fontweight="700">true</text>
+      <text>).</text>
+    </paragraph>
+    <paragraph>
+      <text>No other kind of production is used.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"The first 3 areas have a reservoir used with mode "</text>
+      <text fontweight="700">heuristic target</text>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text>The reservoir of last area (</text>
+      <text fontweight="700">Area-4</text>
+      <text>) is used with water value mode.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">Expectations</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>"We expect that hourly "</text>
+      <text fontweight="700">hydro productions</text>
+      <text>" are always bigger than in the chosen "</text>
+      <text fontweight="700">Minimum Generation</text>
+      <text>" time series "</text>
+    </paragraph>
+    <paragraph>
+      <text>"Presence of spilled energy at nearly each hour, as "</text>
+      <text fontweight="700">hydro production</text>
+      <text>" is forced by "</text>
+      <text fontweight="700">Minimum Generation</text>
+      <text>" and always bigger that "</text>
+      <text fontweight="700">Load</text>
+      <text>". "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">"1. "</text>
+      <text>" area name : "</text>
+      <text fontweight="700">Area</text>
+    </paragraph>
+    <paragraph>
+      <text>"   - use heuristics = yes"</text>
+    </paragraph>
+    <paragraph>
+      <text>"   - follow load modulation = no, reservoir management = no, water value = no"</text>
+    </paragraph>
+    <paragraph>
+      <text>"   - "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">2.</text>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text>"   "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

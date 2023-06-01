@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="400" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text fontweight="700">Test on short a short term storage</text>
+      <text>" (= STS in short)."</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Each area is independant from others and represent a use case.</text>
+    </paragraph>
+    <paragraph>
+      <text>Simulation : 1 MC year of 2 weeks only.</text>
+    </paragraph>
+    <paragraph>
+      <text>STS :</text>
+    </paragraph>
+    <paragraph>
+      <text>- In every areas, one ST storage (efficiency : 0.9, reservoir capacity = 500 MWh).</text>
+    </paragraph>
+    <paragraph>
+      <text>"- Default time series : inflows = 0, low/up rule curves = 0 and 1, injection/withdrawal modulation = 1 "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700" fontunderlined="1">Area</text>
+      <text>" : a first general case"</text>
+    </paragraph>
+    <paragraph>
+      <text>"Testing STS general behaviour (see section Expected results) "</text>
+    </paragraph>
+    <paragraph>
+      <text>"- Load varies on a daily cycle basis, but only on the first week : "</text>
+    </paragraph>
+    <paragraph>
+      <text>"  starts at 100 MWh, goes up to 1500, then back to 100 at the end of day."</text>
+    </paragraph>
+    <paragraph>
+      <text>"  No load on the second week."</text>
+    </paragraph>
+    <paragraph>
+      <text>- Thermal : 2 clusters with different costs, together able to fulfill demand.</text>
+    </paragraph>
+    <paragraph>
+      <text>- STS : one STS taking advantage of thermal cluster costs difference to take part to production</text>
+    </paragraph>
+    <paragraph>
+      <text>"  Injection and with drawal capacity = 100 MWh"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  Default time series."</text>
+    </paragraph>
+    <paragraph>
+      <text>"- "</text>
+      <text fontweight="700">Expected results</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>- STS stores power before the most costly thermal cluster comes into play, and releases that power</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"  when load reaches its peak (at 1500 MWh)"</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>- STS stores and releases no more than 100 MWh per hour.</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>- When the second week starts, STS level reaches its the initial level</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700" fontunderlined="1">Area 2</text>
+      <text>" : testing the rules curves time series"</text>
+    </paragraph>
+    <paragraph>
+      <text>- No load</text>
+    </paragraph>
+    <paragraph>
+      <text>"- STS : lower and upper rule curves join at hours "</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + 11 and 12 (at 0.8 of STS capacity = 400 MWh)"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + 36 and 37 (at 0.5 of STS capacity = 250 MWh)"</text>
+    </paragraph>
+    <paragraph>
+      <text>- One thermal cluster : supplies power to make STS respect its rule curves.</text>
+    </paragraph>
+    <paragraph>
+      <text>"- "</text>
+      <text fontweight="700">Expected results</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  At hours 11, 12, 36, 37, STS levels reache 400 or 250 MWh."</text>
+    </paragraph>
+    <paragraph>
+      <text>"  After hour 37, the STS stores and releases power simultaneously to make its level "</text>
+    </paragraph>
+    <paragraph>
+      <text>"  slowly decrease towards its initial level : it wastes energy by its efficiency of 0.9."</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700" fontunderlined="1">Area 3</text>
+      <text>" : testing influence of inflows time series"</text>
+    </paragraph>
+    <paragraph>
+      <text>- No load, no thermal cluster</text>
+    </paragraph>
+    <paragraph>
+      <text>- STS : inflows is null except at hour 13, where 500 MWh (= STS capacity) come up all of a sudden.</text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">Expected results</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>- To avoid optimization infeasibility, the STS must accept this sudden inflow at hour 13.</text>
+    </paragraph>
+    <paragraph>
+      <text>"  So its must be empty at hour 12."</text>
+    </paragraph>
+    <paragraph>
+      <text>- After hour 13, level slowly decrease by storing and releasing power simultaneously, taking</text>
+    </paragraph>
+    <paragraph>
+      <text>"  advantage of the 0.9 efficiency to waste power."</text>
+    </paragraph>
+    <paragraph>
+      <text>"  "</text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700" fontunderlined="1">Area 4</text>
+      <text>" : testing influence of withdrawal PMAX time series"</text>
+    </paragraph>
+    <paragraph>
+      <text>"- Load varies on a daily cycle basis, but only on the first week : "</text>
+    </paragraph>
+    <paragraph>
+      <text>"  starts at 100 MWh, goes up to 1500, then back to 100 at the end of day."</text>
+    </paragraph>
+    <paragraph>
+      <text>"  No load on the second week."</text>
+    </paragraph>
+    <paragraph>
+      <text>- Thermal : 2 clusters with different costs, together able to fulfill demand.</text>
+    </paragraph>
+    <paragraph>
+      <text>- STS : withdrawal PMAX is max (= 1) for hours 1 to 15, then 0.</text>
+    </paragraph>
+    <paragraph>
+      <text>"  For this case : reservoir capacity = 700 MWh, injection capa = 150 MWh, wihdrawal capa = 50 MWh."</text>
+    </paragraph>
+    <paragraph>
+      <text>Expected results :</text>
+    </paragraph>
+    <paragraph>
+      <text>"  STS stores and releases alternatively power before hour 15 (normal behaviour), "</text>
+    </paragraph>
+    <paragraph>
+      <text>"  but cannot release any power after hour 15."</text>
+    </paragraph>
+    <paragraph>
+      <text>"  STS withdrawal is 0 after hour 15."</text>
+    </paragraph>
+    <paragraph>
+      <text>"  "</text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700" fontunderlined="1">Area 5</text>
+      <text>" : testing influence of injection PMAX time series"</text>
+    </paragraph>
+    <paragraph>
+      <text>"- Load varies on a daily cycle basis, but only on the first week : "</text>
+    </paragraph>
+    <paragraph>
+      <text>"  starts at 100 MWh, goes up to 1500, then back to 100 at the end of day."</text>
+    </paragraph>
+    <paragraph>
+      <text>"  No load on the second week."</text>
+    </paragraph>
+    <paragraph>
+      <text>- Thermal : 2 clusters with different costs, together able to fulfill demand.</text>
+    </paragraph>
+    <paragraph>
+      <text>- STS : injection PMAX is max (= 1) for hours 1 to 5, then 0.</text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">Expected results</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  STS stores power only on the 5 first hours, then scatter the release of this power within"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  the week."</text>
+    </paragraph>
+    <paragraph>
+      <text>"  STS injection is 0 after hour 5."</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>
