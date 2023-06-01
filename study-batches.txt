@@ -18,3 +18,4 @@ valid-ts-gen-export
 valid-v830
 valid-mps
 adequacy-patch-CSR
+valid-v860
