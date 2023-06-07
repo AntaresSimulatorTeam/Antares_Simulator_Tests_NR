@@ -1,8 +1,5 @@
 [Default Ruleset]
 l,o,0 = 10
-l,s,11 = 8
-l,y,8 = 4
 h,o,1 = 12
-h,x,11 = 7
 h,y,0 = 5
 
