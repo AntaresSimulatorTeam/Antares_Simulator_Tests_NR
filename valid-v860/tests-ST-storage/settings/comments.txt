@@ -60,20 +60,16 @@
       <text>" :"</text>
     </paragraph>
     <paragraph>
-      <symbol>9</symbol>
-      <text>- STS stores power before the most costly thermal cluster comes into play, and releases that power</text>
+      <text>"    - STS stores power before the most costly thermal cluster comes into play (marginal cost = 80 &#8364;/MWh), and releases that power"</text>
     </paragraph>
     <paragraph>
-      <symbol>9</symbol>
-      <text>"  when load reaches its peak (at 1500 MWh)"</text>
+      <text>"      when load reaches its peak (at 1500 MWh)"</text>
     </paragraph>
     <paragraph>
-      <symbol>9</symbol>
-      <text>- STS stores and releases no more than 100 MWh per hour.</text>
+      <text>"    - STS stores and releases no more than 100 MWh per hour."</text>
     </paragraph>
     <paragraph>
-      <symbol>9</symbol>
-      <text>- When the second week starts, STS level reaches its the initial level</text>
+      <text>"    - When the second week starts, STS level reaches its the initial level"</text>
     </paragraph>
     <paragraph>
       <symbol>9</symbol>
@@ -83,19 +79,26 @@
       <text>" : testing the rules curves time series"</text>
     </paragraph>
     <paragraph>
-      <text>- No load</text>
+      <text>"- Same load as in "</text>
+      <text fontweight="700">Area</text>
     </paragraph>
     <paragraph>
-      <text>"- STS : lower and upper rule curves join at hours "</text>
+      <text>- STS : lower and upper rule curves join at hours :</text>
     </paragraph>
     <paragraph>
-      <text>"  + 11 and 12 (at 0.8 of STS capacity = 400 MWh)"</text>
+      <text>"  + 3  and 4 (at 0.8 of STS capacity = 400 MWh)"</text>
     </paragraph>
     <paragraph>
-      <text>"  + 36 and 37 (at 0.5 of STS capacity = 250 MWh)"</text>
+      <text>"  + 36 and 37 (at 0.9 of STS capacity = 450 MWh)"</text>
     </paragraph>
     <paragraph>
-      <text>- One thermal cluster : supplies power to make STS respect its rule curves.</text>
+      <text>"- STS : note that we raise the injection nominal capacity to 250 MWh to allow the STS to fill up within 2 hours of time "</text>
+    </paragraph>
+    <paragraph>
+      <text>"   at the beginning of each week."</text>
+    </paragraph>
+    <paragraph>
+      <text>- Thermal : 2 clusters with different costs, together able to fulfill demand.</text>
     </paragraph>
     <paragraph>
       <text>"- "</text>
@@ -103,13 +106,7 @@
       <text>" :"</text>
     </paragraph>
     <paragraph>
-      <text>"  At hours 11, 12, 36, 37, STS levels reache 400 or 250 MWh."</text>
-    </paragraph>
-    <paragraph>
-      <text>"  After hour 37, the STS stores and releases power simultaneously to make its level "</text>
-    </paragraph>
-    <paragraph>
-      <text>"  slowly decrease towards its initial level : it wastes energy by its efficiency of 0.9."</text>
+      <text>"  At hours 3, 4, 30, 31, STS levels reache 400 or 450 MWh."</text>
     </paragraph>
     <paragraph>
       <text></text>
@@ -119,26 +116,26 @@
       <text>" : testing influence of inflows time series"</text>
     </paragraph>
     <paragraph>
-      <text>- No load, no thermal cluster</text>
+      <text>"- Load : 250 MWh on h = 1, then load is the same as in "</text>
+      <text fontweight="700">Area</text>
+      <text fontweight="400">". Note that 250 MWh at first hour is also the initial STS level. "</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"- STS : initial level is "</text>
+      <text fontweight="400">250 MWh</text>
     </paragraph>
     <paragraph>
-      <text>- STS : inflows is null except at hour 13, where 500 MWh (= STS capacity) come up all of a sudden.</text>
+      <text>- STS : inflows is null except at h = 1, where an inflow of 500 MWh (= STS capacity) is injected in the STS.</text>
     </paragraph>
     <paragraph>
       <text fontweight="700">Expected results</text>
       <text>" :"</text>
     </paragraph>
     <paragraph>
-      <text>- To avoid optimization infeasibility, the STS must accept this sudden inflow at hour 13.</text>
+      <text>- To avoid optimization infeasibility, the STS must accept this sudden inflow at hour 1.</text>
     </paragraph>
     <paragraph>
-      <text>"  So its must be empty at hour 12."</text>
-    </paragraph>
-    <paragraph>
-      <text>- After hour 13, level slowly decrease by storing and releasing power simultaneously, taking</text>
-    </paragraph>
-    <paragraph>
-      <text>"  advantage of the 0.9 efficiency to waste power."</text>
+      <text>"   So it must get empty on first hour to avoid infeasibility. Doing this, it also answers the demand at this hour."</text>
     </paragraph>
     <paragraph>
       <text>"  "</text>
@@ -166,7 +163,8 @@
       <text>"  For this case : reservoir capacity = 700 MWh, injection capa = 150 MWh, wihdrawal capa = 50 MWh."</text>
     </paragraph>
     <paragraph>
-      <text>Expected results :</text>
+      <text fontweight="700">Expected results</text>
+      <text>" :"</text>
     </paragraph>
     <paragraph>
       <text>"  STS stores and releases alternatively power before hour 15 (normal behaviour), "</text>
