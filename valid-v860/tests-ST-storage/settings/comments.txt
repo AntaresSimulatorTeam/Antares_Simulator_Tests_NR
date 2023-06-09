@@ -49,7 +49,10 @@
       <text>- STS : one STS taking advantage of thermal cluster costs difference to take part to production</text>
     </paragraph>
     <paragraph>
-      <text>"  Injection and with drawal capacity = 100 MWh"</text>
+      <text>"  Injection and withdrawal capacity = 100 MWh"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  Initial level = 0.1 (= 50 MWh)"</text>
     </paragraph>
     <paragraph>
       <text>"  Default time series."</text>
@@ -69,7 +72,7 @@
       <text>"    - STS stores and releases no more than 100 MWh per hour."</text>
     </paragraph>
     <paragraph>
-      <text>"    - When the second week starts, STS level reaches its the initial level"</text>
+      <text>"    - STS level reaches its the initial level at week's last hour"</text>
     </paragraph>
     <paragraph>
       <symbol>9</symbol>
@@ -86,13 +89,13 @@
       <text>- STS : lower and upper rule curves join at hours :</text>
     </paragraph>
     <paragraph>
-      <text>"  + 3  and 4 (at 0.8 of STS capacity = 400 MWh)"</text>
+      <text>"  + 3 and 4 (at 0.8 of STS capacity = 400 MWh)"</text>
     </paragraph>
     <paragraph>
-      <text>"  + 36 and 37 (at 0.9 of STS capacity = 450 MWh)"</text>
+      <text>"  + 27 and 28 (at 0.9 of STS capacity = 450 MWh)"</text>
     </paragraph>
     <paragraph>
-      <text>"- STS : note that we raise the injection nominal capacity to 250 MWh to allow the STS to fill up within 2 hours of time "</text>
+      <text>"- STS : note that we raise the injection nominal capacity to 150 MWh to allow the STS to fill up within 3 hours of time "</text>
     </paragraph>
     <paragraph>
       <text>"   at the beginning of each week."</text>
@@ -106,7 +109,7 @@
       <text>" :"</text>
     </paragraph>
     <paragraph>
-      <text>"  At hours 3, 4, 30, 31, STS levels reache 400 or 450 MWh."</text>
+      <text>"  At hours 3, 4, 27, 28, STS levels reache 400 or 450 MWh."</text>
     </paragraph>
     <paragraph>
       <text></text>
@@ -135,7 +138,10 @@
       <text>- To avoid optimization infeasibility, the STS must accept this sudden inflow at hour 1.</text>
     </paragraph>
     <paragraph>
-      <text>"   So it must get empty on first hour to avoid infeasibility. Doing this, it also answers the demand at this hour."</text>
+      <text>"   So it must get empty and fill up to its max capacity on first hour, to avoid infeasibility. "</text>
+    </paragraph>
+    <paragraph>
+      <text>"   Doing this, it also answers the demand at this hour."</text>
     </paragraph>
     <paragraph>
       <text>"  "</text>
@@ -145,13 +151,8 @@
       <text>" : testing influence of withdrawal PMAX time series"</text>
     </paragraph>
     <paragraph>
-      <text>"- Load varies on a daily cycle basis, but only on the first week : "</text>
-    </paragraph>
-    <paragraph>
-      <text>"  starts at 100 MWh, goes up to 1500, then back to 100 at the end of day."</text>
-    </paragraph>
-    <paragraph>
-      <text>"  No load on the second week."</text>
+      <text>"- Load : as in "</text>
+      <text fontweight="700">Area</text>
     </paragraph>
     <paragraph>
       <text>- Thermal : 2 clusters with different costs, together able to fulfill demand.</text>
@@ -183,13 +184,8 @@
       <text>" : testing influence of injection PMAX time series"</text>
     </paragraph>
     <paragraph>
-      <text>"- Load varies on a daily cycle basis, but only on the first week : "</text>
-    </paragraph>
-    <paragraph>
-      <text>"  starts at 100 MWh, goes up to 1500, then back to 100 at the end of day."</text>
-    </paragraph>
-    <paragraph>
-      <text>"  No load on the second week."</text>
+      <text>"- Load : as in "</text>
+      <text fontweight="700">Area</text>
     </paragraph>
     <paragraph>
       <text>- Thermal : 2 clusters with different costs, together able to fulfill demand.</text>
