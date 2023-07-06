@@ -1,0 +1,248 @@
+[Wed May 17 12:23:04 2023][solver][check] Antares Solver v8.6.0-rc4 (626852d-dirty)
+[Wed May 17 12:23:04 2023][solver][infos]   :: built for 64-bit architectures, Microsoft Windows, 8 cpu(s)
+[Wed May 17 12:23:04 2023][solver][infos]   :: hostname = WD0564
+[Wed May 17 12:23:04 2023][solver][infos] 
+[Wed May 17 12:23:04 2023][solver][infos]   :: from E:\RTE\Antares_Simulator\_build\solver\Debug
+[Wed May 17 12:23:04 2023][solver][infos]   :: log filename: E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\logs\solver-20230517-122304.log
+[Wed May 17 12:23:04 2023][solver][infos] 
+[Wed May 17 12:23:04 2023][solver][notic] Preparing 025 Hurdle costs - 2...
+[Wed May 17 12:23:04 2023][solver][infos]   detected version: 800
+[Wed May 17 12:23:04 2023][solver][infos]   from `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day`
+[Wed May 17 12:23:04 2023][solver][infos] 
+[Wed May 17 12:23:04 2023][solver][infos]   simulation mode: Economy
+[Wed May 17 12:23:04 2023][solver][infos]   simplex optimization range: day
+[Wed May 17 12:23:04 2023][solver][infos] Aggregate renewables were chosen. Output will be disabled for renewable clusters.
+[Wed May 17 12:23:04 2023][solver][infos]   :: ignoring adequacy patch
+[Wed May 17 12:23:04 2023][solver][infos]   :: ignoring export structure
+[Wed May 17 12:23:04 2023][solver][infos] Loading the list of areas...
+[Wed May 17 12:23:04 2023][solver][infos]   Loading the area list from `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\areas\list.txt`
+[Wed May 17 12:23:04 2023][solver][infos]   2 areas found
+[Wed May 17 12:23:04 2023][solver][infos] Loading global hydro data...
+[Wed May 17 12:23:04 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\hydro\common\capacity\maxpower_east.txt'
+[Wed May 17 12:23:04 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\hydro\common\capacity\creditmodulations_east.txt'
+[Wed May 17 12:23:04 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\hydro\common\capacity\reservoir_east.txt'
+[Wed May 17 12:23:04 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\hydro\common\capacity\inflowPattern_east.txt'
+[Wed May 17 12:23:04 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\hydro\common\capacity\maxpower_west.txt'
+[Wed May 17 12:23:04 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\hydro\common\capacity\creditmodulations_west.txt'
+[Wed May 17 12:23:04 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\hydro\common\capacity\reservoir_west.txt'
+[Wed May 17 12:23:04 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\hydro\common\capacity\inflowPattern_west.txt'
+[Wed May 17 12:23:04 2023][solver][infos] Loading thermal clusters...
+[Wed May 17 12:23:04 2023][solver][infos] Loading thermal configuration for the area east
+[Wed May 17 12:23:04 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\thermal\clusters\east\..\..\prepro\east\base\modulation.txt'
+[Wed May 17 12:23:04 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\thermal\clusters\east\..\..\prepro\east\peaking\modulation.txt'
+[Wed May 17 12:23:04 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\thermal\clusters\east\..\..\prepro\east\semi base\modulation.txt'
+[Wed May 17 12:23:04 2023][solver][infos] Loading thermal configuration for the area west
+[Wed May 17 12:23:04 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\thermal\clusters\west\..\..\prepro\west\base\modulation.txt'
+[Wed May 17 12:23:05 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\thermal\clusters\west\..\..\prepro\west\peaking\modulation.txt'
+[Wed May 17 12:23:05 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\thermal\clusters\west\..\..\prepro\west\semi base\modulation.txt'
+[Wed May 17 12:23:05 2023][solver][infos] Loading the area 1/2: east
+[Wed May 17 12:23:05 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\reserves\east.txt'
+[Wed May 17 12:23:05 2023][solver][debug] Checking : Misc Gen: `east`
+[Wed May 17 12:23:05 2023][solver][infos] Loading the area 1/2: east  11%
+[Wed May 17 12:23:05 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\links\east\west.txt'
+[Wed May 17 12:23:05 2023][solver][infos] Loading the area 1/2: east  22%
+[Wed May 17 12:23:05 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\load\series\load_east.txt'
+[Wed May 17 12:23:05 2023][solver][infos] Loading the area 1/2: east  33%
+[Wed May 17 12:23:05 2023][solver][infos] Loading the area 1/2: east  44%
+[Wed May 17 12:23:05 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\hydro\prepro\east\energy.txt'
+[Wed May 17 12:23:05 2023][solver][infos] Loading the area 1/2: east  55%
+[Wed May 17 12:23:06 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\wind\prepro\east\data.txt'
+[Wed May 17 12:23:06 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\wind\prepro\east\k.txt'
+[Wed May 17 12:23:06 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\wind\prepro\east\conversion.txt'
+[Wed May 17 12:23:06 2023][solver][infos] Loading the area 1/2: east  66%
+[Wed May 17 12:23:06 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\thermal\prepro\east\base\data.txt'
+[Wed May 17 12:23:06 2023][solver][infos] Loading the area 1/2: east  77%
+[Wed May 17 12:23:06 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\thermal\prepro\east\peaking\data.txt'
+[Wed May 17 12:23:06 2023][solver][infos] Loading the area 1/2: east  88%
+[Wed May 17 12:23:06 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\thermal\prepro\east\semi base\data.txt'
+[Wed May 17 12:23:06 2023][solver][infos] Loading the area 2/2: west
+[Wed May 17 12:23:06 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\reserves\west.txt'
+[Wed May 17 12:23:06 2023][solver][debug] Checking : Misc Gen: `west`
+[Wed May 17 12:23:06 2023][solver][infos] Loading the area 2/2: west  11%
+[Wed May 17 12:23:06 2023][solver][infos] Loading the area 2/2: west  22%
+[Wed May 17 12:23:06 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\load\series\load_west.txt'
+[Wed May 17 12:23:07 2023][solver][infos] Loading the area 2/2: west  33%
+[Wed May 17 12:23:07 2023][solver][infos] Loading the area 2/2: west  44%
+[Wed May 17 12:23:07 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\hydro\prepro\west\energy.txt'
+[Wed May 17 12:23:07 2023][solver][infos] Loading the area 2/2: west  55%
+[Wed May 17 12:23:07 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\wind\prepro\west\data.txt'
+[Wed May 17 12:23:07 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\wind\prepro\west\k.txt'
+[Wed May 17 12:23:07 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\wind\prepro\west\conversion.txt'
+[Wed May 17 12:23:07 2023][solver][infos] Loading the area 2/2: west  66%
+[Wed May 17 12:23:07 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\thermal\prepro\west\base\data.txt'
+[Wed May 17 12:23:07 2023][solver][infos] Loading the area 2/2: west  77%
+[Wed May 17 12:23:07 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\thermal\prepro\west\peaking\data.txt'
+[Wed May 17 12:23:07 2023][solver][infos] Loading the area 2/2: west  88%
+[Wed May 17 12:23:07 2023][solver][debug]   :: loading `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\thermal\prepro\west\semi base\data.txt'
+[Wed May 17 12:23:07 2023][solver][infos] Loading correlation matrices...
+[Wed May 17 12:23:07 2023][solver][debug]   Correlation: Wind: loading E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\wind\prepro\correlation.ini
+[Wed May 17 12:23:07 2023][solver][debug]   Correlation: Hydro: loading E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\input\hydro\prepro\correlation.ini
+[Wed May 17 12:23:07 2023][solver][infos] 
+[Wed May 17 12:23:07 2023][solver][infos] Loading constraints...
+[Wed May 17 12:23:07 2023][solver][infos] No binding constraint found
+[Wed May 17 12:23:07 2023][solver][infos] 
+[Wed May 17 12:23:07 2023][solver][infos] Loading sets of areas...
+[Wed May 17 12:23:07 2023][solver][debug]   > set :: All areas: applying 1 rules, got 2 items
+[Wed May 17 12:23:07 2023][solver][infos]    found `all areas` (2 items)
+[Wed May 17 12:23:07 2023][solver][infos]   Output folder : E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\output\20230517-1223eco
+[Wed May 17 12:23:07 2023][solver][debug]   reset calendar, month : January, january 1rst : Monday, first weekday : Monday
+[Wed May 17 12:23:07 2023][solver][debug]   reset calendar, month : January, january 1rst : Monday, first weekday : Monday
+[Wed May 17 12:23:07 2023][solver][infos] [statistics] disk: read: 9508 ko, written: 0 ko
+[Wed May 17 12:23:07 2023][solver][infos] [statistics] network: read: 0 ko, written: 0 ko
+[Wed May 17 12:23:07 2023][solver][infos] The study is loaded.
+[Wed May 17 12:23:07 2023][solver][infos] [UI] Display messages: Off
+[Wed May 17 12:23:07 2023][solver][infos]   Output folder : E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-day\output\20230517-1223eco
+[Wed May 17 12:23:07 2023][solver][infos] 
+[Wed May 17 12:23:07 2023][solver][infos] Generating calendar informations
+[Wed May 17 12:23:07 2023][solver][debug]   reset calendar, month : January, january 1rst : Monday, first weekday : Monday
+[Wed May 17 12:23:07 2023][solver][debug]   :: generating calendar dedicated to the output
+[Wed May 17 12:23:07 2023][solver][debug]   reset calendar, month : January, january 1rst : Monday, first weekday : Monday
+[Wed May 17 12:23:07 2023][solver][infos] Calendar: hours:1..504, days:1..21, weeks:1..3, months:1..1, years:1..3
+[Wed May 17 12:23:07 2023][solver][infos] Simulation days per month : 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+[Wed May 17 12:23:07 2023][solver][infos] 
+[Wed May 17 12:23:07 2023][solver][infos] Removing disabled thermal clusters in from solver computations...
+[Wed May 17 12:23:07 2023][solver][infos] No disabled thermal cluster removed before solver computations
+[Wed May 17 12:23:07 2023][solver][infos] 
+[Wed May 17 12:23:07 2023][solver][infos] Optimizing the thermal clusters in 'must-run' mode...
+[Wed May 17 12:23:07 2023][solver][infos] No thermal cluster in 'must-run' mode
+[Wed May 17 12:23:07 2023][solver][infos] 
+[Wed May 17 12:23:07 2023][solver][infos]   No binding constraint to consider
+[Wed May 17 12:23:07 2023][solver][infos] 
+[Wed May 17 12:23:07 2023][solver][infos] Summary
+[Wed May 17 12:23:07 2023][solver][infos]      areas: 2
+[Wed May 17 12:23:07 2023][solver][infos]      links: 1
+[Wed May 17 12:23:07 2023][solver][infos]      thermal clusters: 6
+[Wed May 17 12:23:07 2023][solver][infos]      thermal clusters (must-run): 0
+[Wed May 17 12:23:07 2023][solver][infos]      binding constraints: 0
+[Wed May 17 12:23:07 2023][solver][infos]      geographic trimming:false
+[Wed May 17 12:23:07 2023][solver][infos]      memory : 18Mo
+[Wed May 17 12:23:07 2023][solver][infos] 
+[Wed May 17 12:23:07 2023][solver][debug] 
+[Wed May 17 12:23:07 2023][solver][debug] applying transformations required by the simulation...
+[Wed May 17 12:23:07 2023][solver][debug]   > adding DSM values
+[Wed May 17 12:23:07 2023][solver][infos] Initializing random number generators...
+[Wed May 17 12:23:07 2023][solver][debug] areaname : east
+[Wed May 17 12:23:07 2023][solver][debug] cluster : BASE
+[Wed May 17 12:23:07 2023][solver][debug] cluster : PEAKING
+[Wed May 17 12:23:07 2023][solver][debug] cluster : SEMI BASE
+[Wed May 17 12:23:07 2023][solver][debug] areaname : west
+[Wed May 17 12:23:07 2023][solver][debug] cluster : BASE
+[Wed May 17 12:23:07 2023][solver][debug] cluster : PEAKING
+[Wed May 17 12:23:07 2023][solver][debug] cluster : SEMI BASE
+[Wed May 17 12:23:07 2023][solver][infos]   The progression is disabled
+[Wed May 17 12:23:07 2023][solver][infos]   system memory report: 6700 Mib / 16275 Mib,  41.167435% free
+[Wed May 17 12:23:07 2023][solver][infos] 
+[Wed May 17 12:23:07 2023][solver][infos] [UI] Display messages: On
+[Wed May 17 12:23:07 2023][solver][check] Running the simulation (economy)
+[Wed May 17 12:23:07 2023][solver][infos] Allocating resources...
+[Wed May 17 12:23:07 2023][solver][infos] Allocating resources...
+[Wed May 17 12:23:07 2023][solver][infos]  Variables:  (68Mo)
+[Wed May 17 12:23:07 2023][solver][infos]  + Areas                             
+[Wed May 17 12:23:07 2023][solver][infos]        OV. COST              Euro    Overall Cost throughout all MC years
+[Wed May 17 12:23:07 2023][solver][infos]        OP. COST              Euro    Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[Wed May 17 12:23:07 2023][solver][infos]        MRG. PRICE            Euro    Marginal Price, throughout all MC years
+[Wed May 17 12:23:07 2023][solver][infos]                              Tons    Overall pollutant emissions expected from all the thermal clusters
+[Wed May 17 12:23:07 2023][solver][infos]        DTG by plant          MWh     Energy generated by all the clusters
+[Wed May 17 12:23:07 2023][solver][infos]        RES generation by planMWh     Energy generated by all the RES clusters
+[Wed May 17 12:23:07 2023][solver][infos]        BALANCE               MWh     Nodal energy balance, throughout all MC years
+[Wed May 17 12:23:07 2023][solver][infos]        ROW BAL.              MWh     Row Balance
+[Wed May 17 12:23:07 2023][solver][infos]        PSP                   MWh     PSP
+[Wed May 17 12:23:07 2023][solver][infos]        MISC. NDG             MWh     Non-dispatchable generation (not including wind and run-of-the-river)
+[Wed May 17 12:23:07 2023][solver][infos]        LOAD                  MWh     Load generation, thoughout all MC years
+[Wed May 17 12:23:07 2023][solver][infos]        H. ROR                MWh     Hydro generation, thoughout all MC years
+[Wed May 17 12:23:07 2023][solver][infos]        WIND                  MWh     Wind generation, thoughout all MC years
+[Wed May 17 12:23:07 2023][solver][infos]        SOLAR                 MWh     Solar generation, thoughout all MC years
+[Wed May 17 12:23:07 2023][solver][infos]        Dispatch. Gen.        MWh     Value of all the dispatchable generation throughout all MC years
+[Wed May 17 12:23:07 2023][solver][infos]        Renewable Gen.        MWh     Value of all the renewable generation throughout all MC years
+[Wed May 17 12:23:07 2023][solver][infos]        H. STOR               MWh     Hydro Storage Generation
+[Wed May 17 12:23:07 2023][solver][infos]        H. PUMP               MWh     Hydraulic pumping
+[Wed May 17 12:23:07 2023][solver][infos]        H. LEV                %       Hydro Level
+[Wed May 17 12:23:07 2023][solver][infos]        H. INFL               MWh     Hydraulic inflows
+[Wed May 17 12:23:07 2023][solver][infos]        H. OVFL               %       Hydro overflow
+[Wed May 17 12:23:07 2023][solver][infos]        H. VAL                Euro/MWhWater value
+[Wed May 17 12:23:07 2023][solver][infos]        H. COST               Euro    Hydro Cost throughout all MC years, of all the thermal dispatchable clusters
+[Wed May 17 12:23:07 2023][solver][infos]        UNSP. ENRG            MWh     Unsuplied Energy (demand that cannot be satisfied)
+[Wed May 17 12:23:07 2023][solver][infos]        DENS                  MWh     Domestic Unsupplied Energy (demand that cannot be satisfied without interconnections/links)
+[Wed May 17 12:23:07 2023][solver][infos]        LMR VIOL.                     Local Matching Rule is violated more than the provided threshold
+[Wed May 17 12:23:07 2023][solver][infos]        SPIL. ENRG            MWh     Spilled Energy (generation that cannot be satisfied)
+[Wed May 17 12:23:07 2023][solver][infos]        SPIL. ENRG. CSR       MWh     Spilled Energy After CSR Optimization (generation that cannot be satisfied) after CSR optimization
+[Wed May 17 12:23:07 2023][solver][infos]        LOLD                  Hours   LOLD
+[Wed May 17 12:23:07 2023][solver][infos]        LOLP                  %       LOLP
+[Wed May 17 12:23:07 2023][solver][infos]        AVL DTG               MWh     Available dispatchable generation
+[Wed May 17 12:23:07 2023][solver][infos]        DTG MRG               MWh     Dispatchable Generation Margin
+[Wed May 17 12:23:07 2023][solver][infos]        DTG MRG CSR           MWh     Dispatchable Generation Margin (after CSR optimization)
+[Wed May 17 12:23:07 2023][solver][infos]        MAX MRG               MWh     Maximum margin throughout all MC years
+[Wed May 17 12:23:07 2023][solver][infos]        NP COST               Euro    Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[Wed May 17 12:23:07 2023][solver][infos]        NP Cost by plant      NP Cost Non proportional costs by all the clusters
+[Wed May 17 12:23:07 2023][solver][infos]        NODU                          Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[Wed May 17 12:23:07 2023][solver][infos]        NODU by plant         NODU    Number of Dispatchable Units by plant
+[Wed May 17 12:23:07 2023][solver][infos]        Profit by plant       Profit -Profit for thermal units
+[Wed May 17 12:23:07 2023][solver][infos]      + Links                         
+[Wed May 17 12:23:07 2023][solver][infos]            FLOW LIN.         MWh     Flow assessed, over all MC years, through linear optimization
+[Wed May 17 12:23:07 2023][solver][infos]            UCAP LIN.         MWh     Used capacity assessed, over all MC years, through linear optimization
+[Wed May 17 12:23:07 2023][solver][infos]            LOOP FLOW         MWh     Loop flow
+[Wed May 17 12:23:07 2023][solver][infos]            FLOW QUAD.        MWh     Flow (quad.)
+[Wed May 17 12:23:07 2023][solver][infos]            CONG. FEE (ALG.)  Euro    Congestion fee collected throughout all MC years (Alg.)
+[Wed May 17 12:23:08 2023][solver][infos]            CONG. FEE (ABS.)  Euro    Congestion fee collected throughout all MC years (Absolute value)
+[Wed May 17 12:23:08 2023][solver][infos]            MARG. COST        Euro/MW Decrease of the overall operating cost expected by a 1MW capacity reinforcement
+[Wed May 17 12:23:08 2023][solver][infos]            CONG. PROB. (+/-) %       Probability for the line to be congested in the upstream-downstream way
+[Wed May 17 12:23:08 2023][solver][infos]            HURDLE COST       Euro    Hurdle costs, over all MC years
+[Wed May 17 12:23:08 2023][solver][infos]  + Sets of Areas                     
+[Wed May 17 12:23:08 2023][solver][infos]        OV. COST              Euro    Overall Cost throughout all MC years
+[Wed May 17 12:23:08 2023][solver][infos]        OP. COST              Euro    Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[Wed May 17 12:23:08 2023][solver][infos]        MRG. PRICE            Euro    Marginal Price, throughout all MC years
+[Wed May 17 12:23:08 2023][solver][infos]                              Tons    Overall pollutant emissions expected from all the thermal clusters
+[Wed May 17 12:23:08 2023][solver][infos]        BALANCE               MWh     Nodal energy balance, throughout all MC years
+[Wed May 17 12:23:08 2023][solver][infos]        ROW BAL.              MWh     Row Balance
+[Wed May 17 12:23:08 2023][solver][infos]        PSP                   MWh     PSP
+[Wed May 17 12:23:08 2023][solver][infos]        MISC. NDG             MWh     Non-dispatchable generation (not including wind and run-of-the-river)
+[Wed May 17 12:23:08 2023][solver][infos]        LOAD                  MWh     Load generation, thoughout all MC years
+[Wed May 17 12:23:08 2023][solver][infos]        H. ROR                MWh     Hydro generation, thoughout all MC years
+[Wed May 17 12:23:08 2023][solver][infos]        WIND                  MWh     Wind generation, thoughout all MC years
+[Wed May 17 12:23:08 2023][solver][infos]        SOLAR                 MWh     Solar generation, thoughout all MC years
+[Wed May 17 12:23:08 2023][solver][infos]        Dispatch. Gen.        MWh     Value of all the dispatchable generation throughout all MC years
+[Wed May 17 12:23:08 2023][solver][infos]        Renewable Gen.        MWh     Value of all the renewable generation throughout all MC years
+[Wed May 17 12:23:08 2023][solver][infos]        H. STOR               MWh     Hydro Storage Generation
+[Wed May 17 12:23:08 2023][solver][infos]        H. PUMP               MWh     Hydraulic pumping
+[Wed May 17 12:23:08 2023][solver][infos]        H. LEV                %       Hydro Level
+[Wed May 17 12:23:08 2023][solver][infos]        H. INFL               MWh     Hydraulic inflows
+[Wed May 17 12:23:08 2023][solver][infos]        H. OVFL               %       Hydro overflow
+[Wed May 17 12:23:08 2023][solver][infos]        H. VAL                Euro/MWhWater value
+[Wed May 17 12:23:08 2023][solver][infos]        H. COST               Euro    Hydro Cost throughout all MC years, of all the thermal dispatchable clusters
+[Wed May 17 12:23:08 2023][solver][infos]        UNSP. ENRG            MWh     Unsuplied Energy (demand that cannot be satisfied)
+[Wed May 17 12:23:08 2023][solver][infos]        DENS                  MWh     Domestic Unsupplied Energy (demand that cannot be satisfied without interconnections/links)
+[Wed May 17 12:23:08 2023][solver][infos]        LMR VIOL.                     Local Matching Rule is violated more than the provided threshold
+[Wed May 17 12:23:08 2023][solver][infos]        SPIL. ENRG            MWh     Spilled Energy (generation that cannot be satisfied)
+[Wed May 17 12:23:08 2023][solver][infos]        SPIL. ENRG. CSR       MWh     Spilled Energy After CSR Optimization (generation that cannot be satisfied) after CSR optimization
+[Wed May 17 12:23:08 2023][solver][infos]        LOLD                  Hours   LOLD
+[Wed May 17 12:23:08 2023][solver][infos]        LOLP                  %       LOLP
+[Wed May 17 12:23:08 2023][solver][infos]        AVL DTG               MWh     Available dispatchable generation
+[Wed May 17 12:23:08 2023][solver][infos]        DTG MRG               MWh     Dispatchable Generation Margin
+[Wed May 17 12:23:08 2023][solver][infos]        DTG MRG CSR           MWh     Dispatchable Generation Margin (after CSR optimization)
+[Wed May 17 12:23:08 2023][solver][infos]        MAX MRG               MWh     Maximum margin throughout all MC years
+[Wed May 17 12:23:08 2023][solver][infos]        NP COST               Euro    Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[Wed May 17 12:23:08 2023][solver][infos]        NODU                          Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[Wed May 17 12:23:08 2023][solver][infos]  + Binding constraints               
+[Wed May 17 12:23:08 2023][solver][infos]        BC. MARG. COST        Euro    Marginal cost for binding constraints
+[Wed May 17 12:23:08 2023][solver][infos] 
+[Wed May 17 12:23:08 2023][solver][debug]   resizing timeseries numbers
+[Wed May 17 12:23:08 2023][solver][infos] Preparing time-series numbers...
+[Wed May 17 12:23:08 2023][solver][infos] MC-Years : [1 .. 3], total: 3
+[Wed May 17 12:23:08 2023][solver][infos]  Starting the simulation
+[Wed May 17 12:23:08 2023][solver][debug] Preparing the wind TS Generator
+[Wed May 17 12:23:08 2023][solver][infos] 
+[Wed May 17 12:23:08 2023][solver][infos] Generating the wind time-series
+[Wed May 17 12:23:08 2023][solver][infos]   Added the area 'east'
+[Wed May 17 12:23:08 2023][solver][infos]   Added the area 'west'
+[Wed May 17 12:23:08 2023][solver][debug]   allocated 1Ko
+[Wed May 17 12:23:09 2023][solver][infos]   4756800 points calculated, using 36500 correlation matrices, out of which 0 were npsd and transformed
+[Wed May 17 12:23:09 2023][solver][infos]   Releasing the wind TS Generator
+[Wed May 17 12:23:09 2023][solver][infos] Generating the hydro time-series
+[Wed May 17 12:23:09 2023][solver][infos] 
+[Wed May 17 12:23:09 2023][solver][infos] Generating the thermal time-series
+[Wed May 17 12:23:09 2023][solver][debug]   Calculation of spinning... east::BASE
+[Wed May 17 12:23:09 2023][solver][debug]   Calculation of spinning... east::SEMI BASE
+[Wed May 17 12:23:09 2023][solver][debug]   Calculation of spinning... west::BASE
+[Wed May 17 12:23:09 2023][solver][debug]   Calculation of spinning... west::SEMI BASE
+[Wed May 17 12:23:09 2023][solver][infos] parallel batch size : 1 (1 perfomed)
+[Wed May 17 12:23:09 2023][solver][infos] Year(s) 1 

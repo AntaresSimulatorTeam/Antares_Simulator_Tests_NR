@@ -1,0 +1,246 @@
+[2023-06-15 16:19:09][solver][check] Antares Solver v8.6.0-rc7 (c524450-dirty)
+[2023-06-15 16:19:09][solver][infos]   :: built for 64-bit architectures, Microsoft Windows, 8 cpu(s)
+[2023-06-15 16:19:09][solver][infos]   :: hostname = WD0564
+[2023-06-15 16:19:09][solver][infos] 
+[2023-06-15 16:19:09][solver][infos]   :: from E:\RTE\Antares_Simulator\_build\solver\Release
+[2023-06-15 16:19:09][solver][infos]   :: log filename: E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-week\logs\solver-20230615-161909.log
+[2023-06-15 16:19:09][solver][infos] 
+[2023-06-15 16:19:09][solver][notic] Preparing 025 Hurdle costs - 2...
+[2023-06-15 16:19:09][solver][infos]   detected version: 840
+[2023-06-15 16:19:09][solver][infos]   from `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-week`
+[2023-06-15 16:19:09][solver][infos] 
+[2023-06-15 16:19:09][solver][infos]   simulation mode: Economy
+[2023-06-15 16:19:09][solver][infos]   simplex optimization range: week
+[2023-06-15 16:19:09][solver][infos] Aggregate renewables were chosen. Output will be disabled for renewable clusters.
+[2023-06-15 16:19:09][solver][infos]   :: ignoring adequacy patch
+[2023-06-15 16:19:09][solver][infos]   :: ignoring export structure
+[2023-06-15 16:19:09][solver][infos] Loading the list of areas...
+[2023-06-15 16:19:09][solver][infos]   Loading the area list from `E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-week\input\areas\list.txt`
+[2023-06-15 16:19:09][solver][infos]   2 areas found
+[2023-06-15 16:19:09][solver][infos] Loading global hydro data...
+[2023-06-15 16:19:10][solver][infos] Loading thermal clusters...
+[2023-06-15 16:19:10][solver][infos] Loading thermal configuration for the area east
+[2023-06-15 16:19:10][solver][infos] Loading thermal configuration for the area west
+[2023-06-15 16:19:10][solver][infos] Loading renewable configuration for the area east
+[2023-06-15 16:19:10][solver][infos] Loading renewable configuration for the area west
+[2023-06-15 16:19:10][solver][infos] Loading the area 1/2: east
+[2023-06-15 16:19:10][solver][infos] Loading the area 1/2: east  11%
+[2023-06-15 16:19:10][solver][infos] Loading the area 1/2: east  22%
+[2023-06-15 16:19:10][solver][infos] Loading the area 1/2: east  33%
+[2023-06-15 16:19:10][solver][infos] Loading the area 1/2: east  44%
+[2023-06-15 16:19:10][solver][infos] Loading the area 1/2: east  55%
+[2023-06-15 16:19:10][solver][infos] Loading the area 1/2: east  66%
+[2023-06-15 16:19:10][solver][infos] Loading the area 1/2: east  77%
+[2023-06-15 16:19:10][solver][infos] Loading the area 1/2: east  88%
+[2023-06-15 16:19:10][solver][infos] Loading the area 2/2: west
+[2023-06-15 16:19:10][solver][infos] Loading the area 2/2: west  11%
+[2023-06-15 16:19:10][solver][infos] Loading the area 2/2: west  22%
+[2023-06-15 16:19:10][solver][infos] Loading the area 2/2: west  33%
+[2023-06-15 16:19:10][solver][infos] Loading the area 2/2: west  44%
+[2023-06-15 16:19:10][solver][infos] Loading the area 2/2: west  55%
+[2023-06-15 16:19:10][solver][infos] Loading the area 2/2: west  66%
+[2023-06-15 16:19:10][solver][infos] Loading the area 2/2: west  77%
+[2023-06-15 16:19:10][solver][infos] Loading the area 2/2: west  88%
+[2023-06-15 16:19:10][solver][infos] Loading correlation matrices...
+[2023-06-15 16:19:10][solver][infos] 
+[2023-06-15 16:19:10][solver][infos] Loading constraints...
+[2023-06-15 16:19:10][solver][infos] No binding constraint found
+[2023-06-15 16:19:10][solver][infos] 
+[2023-06-15 16:19:10][solver][infos] Loading sets of areas...
+[2023-06-15 16:19:10][solver][infos]    found `all areas` (2 items)
+[2023-06-15 16:19:10][solver][infos]   Output folder : E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-week\output\20230615-1619eco
+[2023-06-15 16:19:10][solver][infos] [statistics] disk: read: 9525 ko, written: 0 ko
+[2023-06-15 16:19:10][solver][infos] [statistics] network: read: 0 ko, written: 0 ko
+[2023-06-15 16:19:10][solver][infos] The study is loaded.
+[2023-06-15 16:19:10][solver][infos] [UI] Display messages: Off
+[2023-06-15 16:19:10][solver][infos]   Output folder : E:\RTE\Antares_Simulator_Tests_NR\valid-mps\025_mps-week\output\20230615-1619eco
+[2023-06-15 16:19:10][solver][infos] 
+[2023-06-15 16:19:10][solver][infos] Generating calendar informations
+[2023-06-15 16:19:10][solver][infos] Calendar: hours:1..504, days:1..21, weeks:1..3, months:1..1, years:1..3
+[2023-06-15 16:19:10][solver][infos] Simulation days per month : 21, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+[2023-06-15 16:19:10][solver][infos] 
+[2023-06-15 16:19:10][solver][infos] Removing disabled thermal clusters in from solver computations...
+[2023-06-15 16:19:10][solver][infos] No disabled thermal cluster removed before solver computations
+[2023-06-15 16:19:10][solver][infos] 
+[2023-06-15 16:19:10][solver][infos] Optimizing the thermal clusters in 'must-run' mode...
+[2023-06-15 16:19:10][solver][infos] No thermal cluster in 'must-run' mode
+[2023-06-15 16:19:10][solver][infos] 
+[2023-06-15 16:19:10][solver][infos]   No binding constraint to consider
+[2023-06-15 16:19:10][solver][infos] 
+[2023-06-15 16:19:10][solver][infos] Summary
+[2023-06-15 16:19:10][solver][infos]      areas: 2
+[2023-06-15 16:19:10][solver][infos]      links: 1
+[2023-06-15 16:19:10][solver][infos]      thermal clusters: 6
+[2023-06-15 16:19:10][solver][infos]      thermal clusters (must-run): 0
+[2023-06-15 16:19:10][solver][infos]      short-term storages: 0
+[2023-06-15 16:19:10][solver][infos]      binding constraints: 0
+[2023-06-15 16:19:10][solver][infos]      geographic trimming:false
+[2023-06-15 16:19:10][solver][infos]      memory : 18Mo
+[2023-06-15 16:19:10][solver][infos] 
+[2023-06-15 16:19:10][solver][infos] Initializing random number generators...
+[2023-06-15 16:19:10][solver][infos]   The progression is disabled
+[2023-06-15 16:19:10][solver][infos]   system memory report: 7729 Mib / 16275 Mib,  47.490015% free
+[2023-06-15 16:19:10][solver][infos] 
+[2023-06-15 16:19:10][solver][infos] [UI] Display messages: On
+[2023-06-15 16:19:10][solver][check] Running the simulation (economy)
+[2023-06-15 16:19:10][solver][infos] Allocating resources...
+[2023-06-15 16:19:10][solver][infos] Allocating resources...
+[2023-06-15 16:19:10][solver][infos]  Variables:  (97Mo)
+[2023-06-15 16:19:10][solver][infos]  + Areas                             
+[2023-06-15 16:19:10][solver][infos]        OV. COST              Euro    Overall Cost throughout all MC years
+[2023-06-15 16:19:10][solver][infos]        OP. COST              Euro    Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[2023-06-15 16:19:10][solver][infos]        MRG. PRICE            Euro    Marginal Price, throughout all MC years
+[2023-06-15 16:19:10][solver][infos]                              Tons    Overall pollutant emissions expected from all the thermal clusters
+[2023-06-15 16:19:10][solver][infos]        DTG by plant          MWh     Energy generated by all the clusters
+[2023-06-15 16:19:10][solver][infos]        RES generation by planMWh     Energy generated by all the RES clusters
+[2023-06-15 16:19:10][solver][infos]        BALANCE               MWh     Nodal energy balance, throughout all MC years
+[2023-06-15 16:19:10][solver][infos]        ROW BAL.              MWh     Row Balance
+[2023-06-15 16:19:10][solver][infos]        PSP                   MWh     PSP
+[2023-06-15 16:19:10][solver][infos]        MISC. NDG             MWh     Non-dispatchable generation (not including wind and run-of-the-river)
+[2023-06-15 16:19:10][solver][infos]        LOAD                  MWh     Load generation, thoughout all MC years
+[2023-06-15 16:19:10][solver][infos]        H. ROR                MWh     Hydro generation, thoughout all MC years
+[2023-06-15 16:19:10][solver][infos]        WIND                  MWh     Wind generation, thoughout all MC years
+[2023-06-15 16:19:10][solver][infos]        SOLAR                 MWh     Solar generation, thoughout all MC years
+[2023-06-15 16:19:10][solver][infos]        Dispatch. Gen.        MWh     Value of all the dispatchable generation throughout all MC years
+[2023-06-15 16:19:10][solver][infos]        Renewable Gen.        MWh     Value of all the renewable generation throughout all MC years
+[2023-06-15 16:19:10][solver][infos]        H. STOR               MWh     Hydro Storage Generation
+[2023-06-15 16:19:10][solver][infos]        H. PUMP               MWh     Hydraulic pumping
+[2023-06-15 16:19:10][solver][infos]        H. LEV                %       Hydro Level
+[2023-06-15 16:19:10][solver][infos]        H. INFL               MWh     Hydraulic inflows
+[2023-06-15 16:19:10][solver][infos]        H. OVFL               %       Hydro overflow
+[2023-06-15 16:19:10][solver][infos]        H. VAL                Euro/MWhWater value
+[2023-06-15 16:19:10][solver][infos]        H. COST               Euro    Hydro Cost throughout all MC years, of all the thermal dispatchable clusters
+[2023-06-15 16:19:10][solver][infos]        ST storage            MWh     Value of all short term storage throughout all MC years
+[2023-06-15 16:19:10][solver][infos]        STS inj by plant      P-injectEnergy injected by ST storage clusters
+[2023-06-15 16:19:10][solver][infos]        STS withdrawal by planP-withdrEnergy withdrawn by ST storage clusters
+[2023-06-15 16:19:10][solver][infos]        STS lvl by plant      Levels -Levels by ST storage clusters
+[2023-06-15 16:19:10][solver][infos]        UNSP. ENRG            MWh     Unsuplied Energy (demand that cannot be satisfied)
+[2023-06-15 16:19:10][solver][infos]        DENS                  MWh     Domestic Unsupplied Energy (demand that cannot be satisfied without interconnections/links)
+[2023-06-15 16:19:10][solver][infos]        LMR VIOL.                     Local Matching Rule is violated more than the provided threshold
+[2023-06-15 16:19:10][solver][infos]        SPIL. ENRG            MWh     Spilled Energy (generation that cannot be satisfied)
+[2023-06-15 16:19:10][solver][infos]        SPIL. ENRG. CSR       MWh     Spilled Energy After CSR Optimization (generation that cannot be satisfied) after CSR optimization
+[2023-06-15 16:19:10][solver][infos]        LOLD                  Hours   LOLD
+[2023-06-15 16:19:10][solver][infos]        LOLP                  %       LOLP
+[2023-06-15 16:19:10][solver][infos]        AVL DTG               MWh     Available dispatchable generation
+[2023-06-15 16:19:10][solver][infos]        DTG MRG               MWh     Dispatchable Generation Margin
+[2023-06-15 16:19:10][solver][infos]        DTG MRG CSR           MWh     Dispatchable Generation Margin (after CSR optimization)
+[2023-06-15 16:19:10][solver][infos]        MAX MRG               MWh     Maximum margin throughout all MC years
+[2023-06-15 16:19:10][solver][infos]        NP COST               Euro    Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[2023-06-15 16:19:10][solver][infos]        NP Cost by plant      NP Cost Non proportional costs by all the clusters
+[2023-06-15 16:19:10][solver][infos]        NODU                          Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[2023-06-15 16:19:10][solver][infos]        NODU by plant         NODU    Number of Dispatchable Units by plant
+[2023-06-15 16:19:10][solver][infos]        Profit by plant       Profit -Profit for thermal units
+[2023-06-15 16:19:10][solver][infos]      + Links                         
+[2023-06-15 16:19:10][solver][infos]            FLOW LIN.         MWh     Flow assessed, over all MC years, through linear optimization
+[2023-06-15 16:19:10][solver][infos]            UCAP LIN.         MWh     Used capacity assessed, over all MC years, through linear optimization
+[2023-06-15 16:19:10][solver][infos]            LOOP FLOW         MWh     Loop flow
+[2023-06-15 16:19:10][solver][infos]            FLOW QUAD.        MWh     Flow (quad.)
+[2023-06-15 16:19:10][solver][infos]            CONG. FEE (ALG.)  Euro    Congestion fee collected throughout all MC years (Alg.)
+[2023-06-15 16:19:10][solver][infos]            CONG. FEE (ABS.)  Euro    Congestion fee collected throughout all MC years (Absolute value)
+[2023-06-15 16:19:10][solver][infos]            MARG. COST        Euro/MW Decrease of the overall operating cost expected by a 1MW capacity reinforcement
+[2023-06-15 16:19:10][solver][infos]            CONG. PROB. (+/-) %       Probability for the line to be congested in the upstream-downstream way
+[2023-06-15 16:19:10][solver][infos]            HURDLE COST       Euro    Hurdle costs, over all MC years
+[2023-06-15 16:19:10][solver][infos]  + Sets of Areas                     
+[2023-06-15 16:19:10][solver][infos]        OV. COST              Euro    Overall Cost throughout all MC years
+[2023-06-15 16:19:10][solver][infos]        OP. COST              Euro    Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[2023-06-15 16:19:10][solver][infos]        MRG. PRICE            Euro    Marginal Price, throughout all MC years
+[2023-06-15 16:19:10][solver][infos]                              Tons    Overall pollutant emissions expected from all the thermal clusters
+[2023-06-15 16:19:10][solver][infos]        BALANCE               MWh     Nodal energy balance, throughout all MC years
+[2023-06-15 16:19:10][solver][infos]        ROW BAL.              MWh     Row Balance
+[2023-06-15 16:19:10][solver][infos]        PSP                   MWh     PSP
+[2023-06-15 16:19:10][solver][infos]        MISC. NDG             MWh     Non-dispatchable generation (not including wind and run-of-the-river)
+[2023-06-15 16:19:10][solver][infos]        LOAD                  MWh     Load generation, thoughout all MC years
+[2023-06-15 16:19:10][solver][infos]        H. ROR                MWh     Hydro generation, thoughout all MC years
+[2023-06-15 16:19:10][solver][infos]        WIND                  MWh     Wind generation, thoughout all MC years
+[2023-06-15 16:19:10][solver][infos]        SOLAR                 MWh     Solar generation, thoughout all MC years
+[2023-06-15 16:19:10][solver][infos]        Dispatch. Gen.        MWh     Value of all the dispatchable generation throughout all MC years
+[2023-06-15 16:19:10][solver][infos]        Renewable Gen.        MWh     Value of all the renewable generation throughout all MC years
+[2023-06-15 16:19:10][solver][infos]        H. STOR               MWh     Hydro Storage Generation
+[2023-06-15 16:19:10][solver][infos]        H. PUMP               MWh     Hydraulic pumping
+[2023-06-15 16:19:10][solver][infos]        H. LEV                %       Hydro Level
+[2023-06-15 16:19:10][solver][infos]        H. INFL               MWh     Hydraulic inflows
+[2023-06-15 16:19:10][solver][infos]        H. OVFL               %       Hydro overflow
+[2023-06-15 16:19:10][solver][infos]        H. VAL                Euro/MWhWater value
+[2023-06-15 16:19:10][solver][infos]        H. COST               Euro    Hydro Cost throughout all MC years, of all the thermal dispatchable clusters
+[2023-06-15 16:19:10][solver][infos]        ST storage            MWh     Value of all short term storage throughout all MC years
+[2023-06-15 16:19:10][solver][infos]        UNSP. ENRG            MWh     Unsuplied Energy (demand that cannot be satisfied)
+[2023-06-15 16:19:10][solver][infos]        DENS                  MWh     Domestic Unsupplied Energy (demand that cannot be satisfied without interconnections/links)
+[2023-06-15 16:19:10][solver][infos]        LMR VIOL.                     Local Matching Rule is violated more than the provided threshold
+[2023-06-15 16:19:10][solver][infos]        SPIL. ENRG            MWh     Spilled Energy (generation that cannot be satisfied)
+[2023-06-15 16:19:10][solver][infos]        SPIL. ENRG. CSR       MWh     Spilled Energy After CSR Optimization (generation that cannot be satisfied) after CSR optimization
+[2023-06-15 16:19:10][solver][infos]        LOLD                  Hours   LOLD
+[2023-06-15 16:19:10][solver][infos]        LOLP                  %       LOLP
+[2023-06-15 16:19:10][solver][infos]        AVL DTG               MWh     Available dispatchable generation
+[2023-06-15 16:19:10][solver][infos]        DTG MRG               MWh     Dispatchable Generation Margin
+[2023-06-15 16:19:10][solver][infos]        DTG MRG CSR           MWh     Dispatchable Generation Margin (after CSR optimization)
+[2023-06-15 16:19:10][solver][infos]        MAX MRG               MWh     Maximum margin throughout all MC years
+[2023-06-15 16:19:10][solver][infos]        NP COST               Euro    Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[2023-06-15 16:19:10][solver][infos]        NODU                          Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[2023-06-15 16:19:10][solver][infos]  + Binding constraints               
+[2023-06-15 16:19:10][solver][infos]        BC. MARG. COST        Euro    Marginal cost for binding constraints
+[2023-06-15 16:19:10][solver][infos] 
+[2023-06-15 16:19:10][solver][infos] Preparing time-series numbers...
+[2023-06-15 16:19:10][solver][infos] MC-Years : [1 .. 3], total: 3
+[2023-06-15 16:19:10][solver][infos]  Starting the simulation
+[2023-06-15 16:19:10][solver][infos] 
+[2023-06-15 16:19:10][solver][infos] Generating the wind time-series
+[2023-06-15 16:19:10][solver][infos]   Added the area 'east'
+[2023-06-15 16:19:10][solver][infos]   Added the area 'west'
+[2023-06-15 16:19:11][solver][infos]   4756800 points calculated, using 36500 correlation matrices, out of which 0 were npsd and transformed
+[2023-06-15 16:19:11][solver][infos]   Releasing the wind TS Generator
+[2023-06-15 16:19:11][solver][infos] Generating the hydro time-series
+[2023-06-15 16:19:11][solver][infos] 
+[2023-06-15 16:19:11][solver][infos] Generating the thermal time-series
+[2023-06-15 16:19:11][solver][infos] parallel batch size : 1 (1 perfomed)
+[2023-06-15 16:19:11][solver][infos] Year(s) 1 
+[2023-06-15 16:19:11][solver][infos] 
+[2023-06-15 16:19:11][solver][infos]  Starting Memory Allocation for a Weekly Optimization problem in Canonical form 
+[2023-06-15 16:19:11][solver][infos]  ( Problem Size :2520 variables 842 Constraints) 
+[2023-06-15 16:19:11][solver][infos]  Expected Number of Non-zero terms in Problem Matrix : 13544
+[2023-06-15 16:19:11][solver][infos] 
+[2023-06-15 16:19:11][solver][infos] 
+[2023-06-15 16:19:11][solver][infos]  Status of Preliminary Allocations for Generic Problem Resolution : Successful
+[2023-06-15 16:19:11][solver][infos] 
+[2023-06-15 16:19:11][solver][infos] Solver MPS File: `problem-1-1--optim-nb-1.mps'
+[2023-06-15 16:19:11][solver][infos] Solver Criterion File: `criterion-1-1--optim-nb-1.txt'
+[2023-06-15 16:19:11][solver][infos] Solver MPS File: `problem-1-1--optim-nb-2.mps'
+[2023-06-15 16:19:11][solver][infos] Solver Criterion File: `criterion-1-1--optim-nb-2.txt'
+[2023-06-15 16:19:11][solver][infos] Solver MPS File: `problem-1-2--optim-nb-1.mps'
+[2023-06-15 16:19:11][solver][infos] Solver Criterion File: `criterion-1-2--optim-nb-1.txt'
+[2023-06-15 16:19:11][solver][infos] Solver MPS File: `problem-1-2--optim-nb-2.mps'
+[2023-06-15 16:19:11][solver][infos] Solver Criterion File: `criterion-1-2--optim-nb-2.txt'
+[2023-06-15 16:19:11][solver][infos] Solver MPS File: `problem-1-3--optim-nb-1.mps'
+[2023-06-15 16:19:11][solver][infos] Solver Criterion File: `criterion-1-3--optim-nb-1.txt'
+[2023-06-15 16:19:11][solver][infos] Solver MPS File: `problem-1-3--optim-nb-2.mps'
+[2023-06-15 16:19:11][solver][infos] Solver Criterion File: `criterion-1-3--optim-nb-2.txt'
+[2023-06-15 16:19:11][solver][infos] parallel batch size : 1 (1 perfomed)
+[2023-06-15 16:19:11][solver][infos] Year(s) 2 
+[2023-06-15 16:19:11][solver][infos] Solver MPS File: `problem-2-1--optim-nb-1.mps'
+[2023-06-15 16:19:11][solver][infos] Solver Criterion File: `criterion-2-1--optim-nb-1.txt'
+[2023-06-15 16:19:11][solver][infos] Solver MPS File: `problem-2-1--optim-nb-2.mps'
+[2023-06-15 16:19:11][solver][infos] Solver Criterion File: `criterion-2-1--optim-nb-2.txt'
+[2023-06-15 16:19:11][solver][infos] Solver MPS File: `problem-2-2--optim-nb-1.mps'
+[2023-06-15 16:19:11][solver][infos] Solver Criterion File: `criterion-2-2--optim-nb-1.txt'
+[2023-06-15 16:19:11][solver][infos] Solver MPS File: `problem-2-2--optim-nb-2.mps'
+[2023-06-15 16:19:11][solver][infos] Solver Criterion File: `criterion-2-2--optim-nb-2.txt'
+[2023-06-15 16:19:11][solver][infos] Solver MPS File: `problem-2-3--optim-nb-1.mps'
+[2023-06-15 16:19:11][solver][infos] Solver Criterion File: `criterion-2-3--optim-nb-1.txt'
+[2023-06-15 16:19:11][solver][infos] Solver MPS File: `problem-2-3--optim-nb-2.mps'
+[2023-06-15 16:19:11][solver][infos] Solver Criterion File: `criterion-2-3--optim-nb-2.txt'
+[2023-06-15 16:19:11][solver][infos] parallel batch size : 1 (1 perfomed)
+[2023-06-15 16:19:11][solver][infos] Year(s) 3 
+[2023-06-15 16:19:11][solver][infos] Solver MPS File: `problem-3-1--optim-nb-1.mps'
+[2023-06-15 16:19:11][solver][infos] Solver Criterion File: `criterion-3-1--optim-nb-1.txt'
+[2023-06-15 16:19:11][solver][infos] Solver MPS File: `problem-3-1--optim-nb-2.mps'
+[2023-06-15 16:19:11][solver][infos] Solver Criterion File: `criterion-3-1--optim-nb-2.txt'
+[2023-06-15 16:19:11][solver][infos] Solver MPS File: `problem-3-2--optim-nb-1.mps'
+[2023-06-15 16:19:11][solver][infos] Solver Criterion File: `criterion-3-2--optim-nb-1.txt'
+[2023-06-15 16:19:11][solver][infos] Solver MPS File: `problem-3-2--optim-nb-2.mps'
+[2023-06-15 16:19:11][solver][infos] Solver Criterion File: `criterion-3-2--optim-nb-2.txt'
+[2023-06-15 16:19:11][solver][infos] Solver MPS File: `problem-3-3--optim-nb-1.mps'
+[2023-06-15 16:19:11][solver][infos] Solver Criterion File: `criterion-3-3--optim-nb-1.txt'
+[2023-06-15 16:19:11][solver][infos] Solver MPS File: `problem-3-3--optim-nb-2.mps'
+[2023-06-15 16:19:11][solver][infos] Solver Criterion File: `criterion-3-3--optim-nb-2.txt'
+[2023-06-15 16:19:11][solver][infos]   The quadratic optimisation has been skipped
+[2023-06-15 16:19:11][solver][infos] The simulation synthesis is disabled.
+[2023-06-15 16:19:12][solver][infos] [UI] Quitting the solver gracefully
