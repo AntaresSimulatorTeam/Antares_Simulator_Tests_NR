@@ -1,0 +1,7 @@
+[Default Ruleset]
+bc,limit-prod,0 = 1
+bc,limit-prod,1 = 2
+bc,limit-ntc,0 = 1
+bc,limit-ntc,1 = 2
+
+
