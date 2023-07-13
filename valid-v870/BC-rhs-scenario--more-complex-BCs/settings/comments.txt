@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="400" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text fontweight="700">Testing binding constraints' RHS scenarization, along with some NONE trivial binding constraints</text>
+    </paragraph>
+    <paragraph>
+      <text>Here we have :</text>
+    </paragraph>
+    <paragraph>
+      <text>- 3 binding constraints divided in 2 BC groups</text>
+    </paragraph>
+    <paragraph>
+      <text>- 1 BCs is related to a thermal cluster generation, the other 2 are about binding a cluster generation to a link flow.</text>
+    </paragraph>
+    <paragraph>
+      <text>- Each BC have a choice of 2 possible RHS time series.</text>
+    </paragraph>
+    <paragraph>
+      <text>- The study runs 2 MC years of one week only, and for each year, the scenario builder tells which RHS to choose</text>
+    </paragraph>
+    <paragraph>
+      <text>"  for each BC."</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">load-only</text>
+      <text>" : "</text>
+    </paragraph>
+    <paragraph>
+      <text>This area contains only a load of 100 MWh for every hour, and no generation.</text>
+    </paragraph>
+    <paragraph>
+      <text>"The other areas have generation means to supply energy to "</text>
+      <text fontweight="700">load-only</text>
+      <text>.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">th-prod</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>This area contains only a thermal cluster : 20 MWh of available generation.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">th-prod-1</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>This area contains only a thermal cluster : 30 MWh of available generation.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">th-prod-2</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>This area contains only a thermal cluster : 50 MWh of available generation.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">Binding constraints</text>
+      <text>" (RHS depends on year, see scenario builder):"</text>
+    </paragraph>
+    <paragraph>
+      <text>"- In area "</text>
+      <text fontweight="700">th-prod</text>
+      <text>, a BC limits the cluster generation to 3/4 or 1/2 of its available generation</text>
+    </paragraph>
+    <paragraph>
+      <text>"- In area "</text>
+      <text fontweight="700">th-prod-1</text>
+      <text>", the BC relates the cluster generation to the flow to area "</text>
+      <text fontweight="700">load-only</text>
+      <text>" : "</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+      <text fontweight="700">" clusterGen(h) - Flow_to_load-only(h) = RHS"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  This leads to a situation where the cluster generates as much as its available power allows, but"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  a part of its generation is spilled (RHS), and the other part supplies the demand in "</text>
+      <text fontweight="700">load-only</text>
+      <text>.</text>
+    </paragraph>
+    <paragraph>
+      <text>"- In area "</text>
+      <text fontweight="700">th-prod-2</text>
+      <text>", same idea as for "</text>
+      <text fontweight="700">th-prod-1</text>
+      <text>.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">Expected results :</text>
+    </paragraph>
+    <paragraph>
+      <text>"- "</text>
+      <text fontweight="700">On year 1</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + Cluster generation in area "</text>
+      <text fontweight="700">th-prod</text>
+      <text>" is limited to 15 MWh"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + Given the BC applied to the cluster generation in area "</text>
+      <text fontweight="700">th-prod-1</text>
+      <text>, we ends up with 5 MWh of spilled energy,</text>
+    </paragraph>
+    <paragraph>
+      <text>"    and a balance of 25 MWh."</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + In area"</text>
+      <text fontweight="700">" th-prod-2"</text>
+      <text>", we ends up with 20 MWh of spilled energy, and a balance of 30 MWh. "</text>
+    </paragraph>
+    <paragraph>
+      <text>"- "</text>
+      <text fontweight="700">On year 2</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + Cluster generation in area th-prod is limited to 10 MWh"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + Given the BC applied to the cluster generation in area "</text>
+      <text fontweight="700">th-prod-1</text>
+      <text>, we ends up with 10 MWh of spilled energy,</text>
+    </paragraph>
+    <paragraph>
+      <text>"    and a balance of 20 MWh."</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + In area th-prod-2, we ends up with 30 MWh of spilled energy, and a balance of 20 MWh."</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>
