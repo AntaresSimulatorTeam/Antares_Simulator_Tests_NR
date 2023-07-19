@@ -3,8 +3,7 @@
 		"name" : "Power-fluctuations-minimize-ramping-HydroPowerSmoothingUsingVariationSum",
 		"checks" :
 		{
-			"output_compare" : {},
-			"integrity_compare" : null
+			"mps_compare" : null
 		}
 	}
 ]
