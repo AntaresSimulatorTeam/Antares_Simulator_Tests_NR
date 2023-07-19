@@ -1,0 +1,9 @@
+[
+	{
+		"name" : "FinalStockEquivalent-cnt",
+		"checks" :
+		{
+			"mps_compare" : null
+		}
+	}
+]
