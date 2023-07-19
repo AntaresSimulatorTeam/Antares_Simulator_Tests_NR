@@ -1,0 +1,9 @@
+[
+	{
+		"name" : "AreaHydroLevel",
+		"checks" :
+		{
+			"mps_compare" : null
+		}
+	}
+]
