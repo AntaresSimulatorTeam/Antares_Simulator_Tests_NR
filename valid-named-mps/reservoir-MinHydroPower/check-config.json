@@ -1,9 +1,0 @@
-[
-	{
-		"name" : "reservoir-Min-MaxHydroPower",
-		"checks" :
-		{
-			"mps_compare" : null
-		}
-	}
-]
