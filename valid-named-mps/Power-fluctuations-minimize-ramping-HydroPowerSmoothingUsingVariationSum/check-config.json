@@ -1,6 +1,6 @@
 [
 	{
-		"name" : "test_1",
+		"name" : "Power-fluctuations-minimize-ramping-HydroPowerSmoothingUsingVariationSum",
 		"checks" :
 		{
 			"output_compare" : {},
