@@ -1,0 +1,95 @@
+	digest
+	VARIABLES	AREAS	LINKS
+	10	77	0
+
+		OV. COST	OP. COST	MRG. PRICE	H. ROR	H. STOR	H. PUMP	H. INFL	H. OVFL	H. VAL	H. COST
+		Euro	Euro	Euro	MWh	MWh	MWh	MWh	%	Euro/MWh	Euro
+		EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP	EXP
+	at	0	0	0	0	0	0	0	N/A	N/A	0
+	be	0	0	0	0	0	0	0	N/A	N/A	0
+	ch	0	0	0	0	0	0	0	0	0	0
+	de	0	0	0	0	0	0	0	N/A	N/A	0
+	es	0	0	0	0	0	0	0	N/A	N/A	0
+	fr	0	0	0	0	0	0	0	0	0	0
+	gb	0	0	0	0	0	0	0	N/A	N/A	0
+	ie	0	0	0	0	0	0	0	N/A	N/A	0
+	it	0	0	0	0	0	0	0	N/A	N/A	0
+	lu	0	0	0	0	0	0	0	N/A	N/A	0
+	lu_conso	0	0	0	0	0	0	0	N/A	N/A	0
+	ni	0	0	0	0	0	0	0	N/A	N/A	0
+	nl	0	0	0	0	0	0	0	N/A	N/A	0
+	pompage	0	0	0	0	0	0	0	N/A	N/A	0
+	pt	0	0	0	0	0	0	0	N/A	N/A	0
+	rmsf-flmf	0	0	0	0	0	0	0	N/A	N/A	0
+	rmsf-flmt	0	0	0	0	0	0	0	N/A	N/A	0
+	rmst-uhtf	0	0	0	0	0	0	0	0	0	0
+	rmst-uhtt-uvwf-flmf	0	0	0	0	0	0	0	0	0	0
+	rmst-uhtt-uvwf-flmt	0	0	0	0	0	0	0	0	0	0
+	rmst-uhtt-uvwt-flmf-hbrf-l1010	0	0	0	0	0	0	0	0	0	0
+	rmst-uhtt-uvwt-flmf-hbrt-l0812	0	0	0	0	0	0	0	0	0	0
+	rmst-uhtt-uvwt-flmf-hbrt-l1010	0	0	0	0	0	0	0	0	0	0
+	rmst-uhtt-uvwt-flmt-hbrf-l1010	0	0	0	0	0	0	0	0	0	0
+	rmst-uhtt-uvwt-flmt-hbrt-l0812	0	0	0	0	0	0	0	0	0	0
+	rmst-uhtt-uvwt-flmt-hbrt-l1010	0	0	0	0	0	0	0	0	0	0
+	rmst-uhtt_uvwt-flmf-hbrf-l0812	0	0	0	0	0	0	0	0	0	0
+	rmst-uhtt_uvwt-flmt-hbrf-l0812	0	0	0	0	0	0	0	0	0	0
+	sink-1	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-2	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-3	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-4	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-5	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-6	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-7	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-8	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-d-1	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-d-2	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-d-3	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-d-4	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-d-5	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-d-6	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-d-7	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-d-8	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-w-1	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-w-2	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-w-3	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-w-4	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-w-5	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-w-6	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-w-7	0	0	0	0	0	0	0	N/A	N/A	0
+	sink-w-8	0	0	0	0	0	0	0	N/A	N/A	0
+	source-1	0	0	0	0	0	0	0	N/A	N/A	0
+	source-2	0	0	0	0	0	0	0	N/A	N/A	0
+	source-3	0	0	0	0	0	0	0	N/A	N/A	0
+	source-4	0	0	0	0	0	0	0	N/A	N/A	0
+	source-5	0	0	0	0	0	0	0	N/A	N/A	0
+	source-6	0	0	0	0	0	0	0	N/A	N/A	0
+	source-7	0	0	0	0	0	0	0	N/A	N/A	0
+	source-8	0	0	0	0	0	0	0	N/A	N/A	0
+	source-d-1	0	0	0	0	0	0	0	N/A	N/A	0
+	source-d-2	0	0	0	0	0	0	0	N/A	N/A	0
+	source-d-3	0	0	0	0	0	0	0	N/A	N/A	0
+	source-d-4	0	0	0	0	0	0	0	N/A	N/A	0
+	source-d-5	0	0	0	0	0	0	0	N/A	N/A	0
+	source-d-6	0	0	0	0	0	0	0	N/A	N/A	0
+	source-d-7	0	0	0	0	0	0	0	N/A	N/A	0
+	source-d-8	0	0	0	0	0	0	0	N/A	N/A	0
+	source-w-1	0	0	0	0	0	0	0	N/A	N/A	0
+	source-w-2	0	0	0	0	0	0	0	N/A	N/A	0
+	source-w-3	0	0	0	0	0	0	0	N/A	N/A	0
+	source-w-4	0	0	0	0	0	0	0	N/A	N/A	0
+	source-w-5	0	0	0	0	0	0	0	N/A	N/A	0
+	source-w-6	0	0	0	0	0	0	0	N/A	N/A	0
+	source-w-7	0	0	0	0	0	0	0	N/A	N/A	0
+	source-w-8	0	0	0	0	0	0	0	N/A	N/A	0
+	turbinage	0	0	0	0	0	0	0	N/A	N/A	0
+
+
+	digest
+	VARIABLES	AREAS	LINKS
+	0	0	0
+
+	
+	
+	
+
+

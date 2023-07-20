@@ -1,0 +1,14 @@
+lu_conso	area	va	daily
+	VARIABLES	BEGIN	END
+	37	213	219
+
+lu_conso	daily			OV. COST	OP. COST	OP. COST	OP. COST	OP. COST	MRG. PRICE	MRG. PRICE	MRG. PRICE	MRG. PRICE	H. ROR	H. ROR	H. ROR	H. ROR	H. STOR	H. STOR	H. STOR	H. STOR	H. PUMP	H. PUMP	H. PUMP	H. PUMP	H. INFL	H. INFL	H. INFL	H. INFL	H. OVFL	H. OVFL	H. OVFL	H. OVFL	H. VAL	H. VAL	H. VAL	H. VAL	H. COST	H. COST	H. COST	H. COST
+				Euro	Euro	Euro	Euro	Euro	Euro	Euro	Euro	Euro	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	%	%	%	%	Euro/MWh	Euro/MWh	Euro/MWh	Euro/MWh	Euro	Euro	Euro	Euro
+	index	day	month	EXP	EXP	std	min	max	EXP	std	min	max	EXP	std	min	max	EXP	std	min	max	EXP	std	min	max	EXP	std	min	max	EXP	std	min	max	EXP	std	min	max	EXP	std	min	max
+	213	29	JAN	0	0	0	0	0	35.43	0	35.43	35.43	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	0	0	0	0
+	214	30	JAN	0	0	0	0	0	32.34	0	32.34	32.34	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	0	0	0	0
+	215	31	JAN	0	0	0	0	0	55.22	0	55.22	55.22	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	0	0	0	0
+	216	01	FEB	0	0	0	0	0	59.49	0	59.49	59.49	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	0	0	0	0
+	217	02	FEB	0	0	0	0	0	61.04	0	61.04	61.04	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	0	0	0	0
+	218	03	FEB	0	0	0	0	0	55.59	0	55.59	55.59	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	0	0	0	0
+	219	04	FEB	0	0	0	0	0	50.97	0	50.97	50.97	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	0	0	0	0
