@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="400" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text fontweight="700">Testing binding constraints' RHS scenarization.</text>
+    </paragraph>
+    <paragraph>
+      <text>Here we have :</text>
+    </paragraph>
+    <paragraph>
+      <text>- 4 simple binding constraints divided in 2 BC groups</text>
+    </paragraph>
+    <paragraph>
+      <text>- 2 BCs are related to a thermal cluster generation, the other 2 are related to a link capacity.</text>
+    </paragraph>
+    <paragraph>
+      <text>- each BC have a choice of RHS.</text>
+    </paragraph>
+    <paragraph>
+      <text>- The study runs 2 MC years of one week only, and for each year, the scenario builder tells which RHS to choose</text>
+    </paragraph>
+    <paragraph>
+      <text>"  for each BC."</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">Area</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>"- Load : 100 MWh for every hour "</text>
+    </paragraph>
+    <paragraph>
+      <text>- Power generation : 2 thermal clusters of available power 10 and 20 MWh.</text>
+    </paragraph>
+    <paragraph>
+      <text>"  So they can't satisfy the current area's demand."</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">ThermProd 3</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>- This area contains no load</text>
+    </paragraph>
+    <paragraph>
+      <text>- Power generation : 1 thermal clusters of available power 30 MWh.</text>
+    </paragraph>
+    <paragraph>
+      <text>- This area is linked to Area, and helps to satisfy Area's demand.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">ThermProd 4</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>Same as ThermProd 3, except that the thermal cluster's available power is 40 MWh.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Note that, all together, the thermal clusters generation satisfy Area's demand.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">Binding constraints</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>- 2 BCs to limit each thermal clusters generation of Area.</text>
+    </paragraph>
+    <paragraph>
+      <text>- 2 BCs to limit flow between Area and respectively ThermProd 3 and ThermProd 4</text>
+    </paragraph>
+    <paragraph>
+      <text>"- Each BC is a "</text>
+      <symbol>34</symbol>
+      <text>greater than</text>
+      <symbol>34</symbol>
+      <text>" BC, and has got 2 possible RHS time series :"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + These TS are constant through the simulation week"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + the first TS limit generations or capacities to 3/4 of its max."</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + the sacond TS limit generations or capacities to 1/2 of its max."</text>
+    </paragraph>
+    <paragraph>
+      <text>- The scenario builder associates the first RHS TS of each BC to year 1, and the second RHS TS to year 2.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700" fontunderlined="1">Expected results</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>- On year 1 : thermal clusters of Area and links capacities are limited to 3/4 ot their max.</text>
+    </paragraph>
+    <paragraph>
+      <text>"  So demand in Area is partially satisfied : only 3/4 of 100 MWh = 75 MWh."</text>
+    </paragraph>
+    <paragraph>
+      <text>"  Thus Area has 25 MWh of unsupplied energy."</text>
+    </paragraph>
+    <paragraph>
+      <text>"- On year 2 : Same as year 1, but only 1/2 of Area's demand is satisfied, "</text>
+    </paragraph>
+    <paragraph>
+      <text>"  and unsupplied energy in Area is 50 MWh."</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>
