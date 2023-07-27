@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph alignment="1">
+      <text>"This case-study is the "</text>
+      <text fontweight="92">"first "</text>
+      <text>"of a set of three examples  that are meant to illustrate the operation and the economic benefits of a "</text>
+      <text fontstyle="93" fontweight="92">"Pumped-storage power plant "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontstyle="93" fontweight="92" fontunderlined="1">" In this first example,  a PSP project envisaged in the Western area of the system is not yet commissioned "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The system involves two areas interconnected by a 3 GW corridor</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Loads and thermal generating fleets are identical on both sides,with :</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Peak load</text>
+      <symbol>9</symbol>
+      <text>12.6 GW</text>
+    </paragraph>
+    <paragraph>
+      <text>Hard coal</text>
+      <symbol>9</symbol>
+      <text>6.00 GW</text>
+    </paragraph>
+    <paragraph>
+      <text>Gas( CCG)</text>
+      <symbol>9</symbol>
+      <text>2.50 GW</text>
+    </paragraph>
+    <paragraph>
+      <text>Oil (OCGT)</text>
+      <symbol>9</symbol>
+      <text>1.00 GW</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Besides,there are large wind fleets in both areas, characterized by:</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"West/East correlation between hourly  power time-series                 75%  "</text>
+    </paragraph>
+    <paragraph>
+      <text>Wind installed capacity in the Western area                                       9 GW</text>
+    </paragraph>
+    <paragraph>
+      <text>Wind installed capacity in the Eastern  area                                       6 GW</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+    </paragraph>
+    <paragraph>
+      <text>"In this initial state, there is a very large amount of unsupplied energy as well as a lot of "</text>
+      <text fontweight="90">" spilled energy"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

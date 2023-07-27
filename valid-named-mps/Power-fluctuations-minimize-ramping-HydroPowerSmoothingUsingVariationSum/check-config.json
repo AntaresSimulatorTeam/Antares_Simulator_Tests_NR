@@ -1,0 +1,9 @@
+[
+	{
+		"name" : "Power-fluctuations-minimize-ramping-HydroPowerSmoothingUsingVariationSum",
+		"checks" :
+		{
+			"mps_compare" : null
+		}
+	}
+]

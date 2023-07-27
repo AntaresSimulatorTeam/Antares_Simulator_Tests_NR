@@ -1,0 +1,9 @@
+[
+	{
+		"name" : "test_thermal_fleet_Accurate_unit_commitment",
+		"checks" :
+		{
+			 "mps_compare" : null
+		}
+	}
+]

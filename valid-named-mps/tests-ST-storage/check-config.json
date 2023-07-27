@@ -1,0 +1,9 @@
+[
+	{
+		"name" : "tests-ST-storage",
+		"checks" :
+		{
+			"mps_compare" : null
+		}
+	}
+]

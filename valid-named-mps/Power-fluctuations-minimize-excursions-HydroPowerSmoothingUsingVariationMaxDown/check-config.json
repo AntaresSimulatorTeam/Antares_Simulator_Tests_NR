@@ -1,0 +1,9 @@
+[
+	{
+		"name" : "Power-fluctuations-minimize-ramping-HydroPowerSmoothingUsingVariationMawDown",
+		"checks" :
+		{
+			"mps_compare" : null
+		}
+	}
+]

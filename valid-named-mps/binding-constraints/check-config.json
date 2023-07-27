@@ -1,0 +1,9 @@
+[
+	{
+		"name" : "binding-constraints",
+		"checks" :
+		{
+			"mps_compare" : null
+		}
+	}
+]
