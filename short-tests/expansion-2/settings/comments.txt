@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>"This example is part of a set of "</text>
+      <text fontweight="92">" six cases"</text>
+      <text>" which are meant to  introduce an extension of the basic hydro modelling presented earlier in the tutorial. "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"All cases are theoretical and very simple,  which makes them easier to analyze than more complex real-life situations. Moreover, in all cases, there is only one single area (A,....,F)  in the system. In all cases, "</text>
+      <text fontweight="92">loads</text>
+      <text>" and "</text>
+      <text fontweight="92">thermal fleets</text>
+      <text>" are strictly identical, as are "</text>
+      <text fontweight="92">hydro physical resources</text>
+      <text>" (inflows), which is the only kind of RES implemented. The thermal merit-order involves only three different costs : 35, 50 , 80 currency unit/MWh"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The only difference between cases is the way hydro resources are managed (with or without explicit reservoir modelling, with or without use of shadow water values, etc.).</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"In all cases the advanced preference "</text>
+      <symbol>34</symbol>
+      <text>hydro initialization hot start</text>
+      <symbol>34</symbol>
+      <text>" is used, wich guarantees that each year  begins with the reservoir level reached  at the end of the  previous year"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Different cross-comparisons between the results obtained in the seven cases help to grasp the essentials about the different management modes made available in Antares_Simulator. Such comparisons may for instance be made on:</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="16896" bulletnumber="0" bulletname="standard/circle" liststyle="Bullet List">
+      <text></text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="1" bulletname="standard/circle" liststyle="Bullet List">
+      <text>Monte-carlo annual expectation of reservoir level</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="2" bulletname="standard/circle" liststyle="Bullet List">
+      <text>Year-by-year hourly reservoir levels trajectories</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="3" bulletname="standard/circle" liststyle="Bullet List">
+      <text>"Monte-Carlo expectation of annual total cost minus "</text>
+      <symbol>34</symbol>
+      <text>hydro expenses</text>
+      <symbol>34</symbol>
+      <text>"  (so as to remove the effect of usings different stock  values in some of the seven cases)"</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="4" bulletname="standard/circle" liststyle="Bullet List">
+      <text>"Annual costs (minus hydro expenses)  incurred in the "</text>
+      <symbol>34</symbol>
+      <text>best</text>
+      <symbol>34</symbol>
+      <text>" and in the "</text>
+      <symbol>34</symbol>
+      <text>worst</text>
+      <symbol>34</symbol>
+      <text>" year of the series of 100 simulated"</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="5" bulletname="standard/circle" liststyle="Bullet List">
+      <text>etc.</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="16896" bulletnumber="2" bulletname="standard/circle" liststyle="Bullet List">
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">"The six cases are defined as follows: "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="1" bulletname="standard/circle" liststyle="Bullet List">
+      <text>"Case 1 - Area A  : The explicit Reservoir management option   is not activated:  hydro energies defined in the "</text>
+      <symbol>34</symbol>
+      <text>local data</text>
+      <symbol>34</symbol>
+      <text>" item are based on historical production and are  considered as energies to use for each month."</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="2" bulletname="standard/circle" liststyle="Bullet List">
+      <text>"Case 2 - Area B  : The explicit  Reservoir management option  is activated. hydro energies defined in the "</text>
+      <symbol>34</symbol>
+      <text>local data</text>
+      <symbol>34</symbol>
+      <text>" item are considered as hydraulic inflows and reservoir parameters (level, capacity) will be used to define when they will be converted in actual hydro generation.  A preallocation heuristic target is asked for , while no water value are used. This implies that the annual  amount of generated hydro energy is set to be equal to the annual inflows"</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="3" bulletname="standard/circle" liststyle="Bullet List">
+      <text>"Case 3- Area C  : The  reservoir is managed as in B, with the difference that a time-independent value of 40 &#8364; is given to water when reservoir level is between 30% and 70%, 30&#8364; above 70% and 80 &#8364; below 30% . Since the other options are not changed, reservoir level at the end of the year is again committed to be identical to the initial level. As compared to B, overall cost includes a non-zero charge for "</text>
+      <symbol>34</symbol>
+      <text>water</text>
+      <symbol>34</symbol>
+      <text>" expenses"</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="4" bulletname="standard/circle" liststyle="Bullet List">
+      <text>Case 4- Area D  : The  reservoir is managed as in C, with the difference that some leeway around the pre-allocated target  is allowed when solving the weekly hydro-thermal optimal dispatch (actual generation can range from 50% to 150% of the target). However, use of this leeway is subject to the condition that  reservoir level should remain within the rule curve band (</text>
+      <symbol>34</symbol>
+      <text>hard bounds</text>
+      <symbol>34</symbol>
+      <text>" parameter). The consequence of the leeway granted around the target is that the final reservoir level may differ from the initial one. In other words, annual hydro -generation can be either greater or smaller than annual inflow. "</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="5" bulletname="standard/circle" liststyle="Bullet List">
+      <text>"Case 5- Area E  : The  reservoir is managed with the same water values as in C &amp; D , but  this time the heuristic pre-allocation target is no longer used to help define the storage policy. Besides,rule curves are no longer considered as "</text>
+      <symbol>34</symbol>
+      <text>barriers</text>
+      <symbol>34</symbol>
+      <text>" that should not be crossed. In other words,  blind confidence is put in the quality of the water-value table."</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="6" bulletname="standard/circle" liststyle="Bullet List">
+      <text>"Case 6- Area F  : The  reservoir is managed with the same  options as E, with the difference that the water value table is set 15 &#8364;/MWh  higher than previously, which helps keeping a strategic water stock in view of adverse conditions. "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>
