@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10">
+    <paragraph>
+      <text>A simple example of a system showing strictly negative marginal prices :</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"The overall demand is 800 MW, with 700 MW in "</text>
+      <symbol>34</symbol>
+      <text>South</text>
+      <symbol>34</symbol>
+      <text>" and 100 in "</text>
+      <symbol>34</symbol>
+      <text>East</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <text>"The overall available generation is 4000 MW, out of which 2000 in "</text>
+      <symbol>34</symbol>
+      <text>North</text>
+      <symbol>34</symbol>
+      <text>" and 2000 MW in "</text>
+      <symbol>34</symbol>
+      <text>South</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"price = 10      in "</text>
+      <symbol>34</symbol>
+      <text>North</text>
+      <symbol>34</symbol>
+      <text>"  (cost of the single available and scheduled unit : 10)"</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text>"price = 100   in "</text>
+      <symbol>34</symbol>
+      <text>West</text>
+      <symbol>34</symbol>
+      <text>"   (cost of the single available and scheduled unit : 100)"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"price = 370   in  "</text>
+      <symbol>34</symbol>
+      <text>South</text>
+      <symbol>34</symbol>
+      <text>"    (no  generation available)"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>price = -260   in  East     (no generation available)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Note that  :</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="1" bulletname="standard/circle" liststyle="Bullet List">
+      <text>The constrained-off merit-order is  : Generation in North (MW)= 800, Generation in West (MW) = 0</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="3" bulletname="standard/circle" liststyle="Bullet List">
+      <text>The actual schedule is : Generation in North (MW)= 300, Generation in West (MW) = 500</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="6" bulletname="standard/circle" liststyle="Bullet List">
+      <text>The marginal price in South is positive and higher than the most expensive unit in the system</text>
+    </paragraph>
+    <paragraph leftindent="60" leftsubindent="60" bulletstyle="512" bulletnumber="5" bulletname="standard/circle" liststyle="Bullet List">
+      <text>"The marginal price in East is strictly negative:  a local marginal increase of the demand would decrease the overall generation cost.  "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

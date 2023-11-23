@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="8" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph alignment="1">
+      <text>"This case-study introduces a set of three  "</text>
+      <text fontstyle="93" fontweight="92">"Pumped-storage power plant  "</text>
+      <text>models quite different from the different options presented earlier in the tutorial.</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text></text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text>In the previous  examples,the model was  based on virtual nodes allowing the implementation of an operation scenario  in which the reservoir level has always an optimal initial value, and is operated very sharply on either a daily or a weekly cycle.</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text></text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text>In this new model, the operation of the PSP is no longer constrained to fit exactly either a 24-hour cycle or a 168-hour cycle. It is free to optimize throughout the week the number of cycles it performs. The initilial reservoir level at the beginning of week is no longer set to be equal to the ending level of the same week, but to the ending level of the previous week.</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text>" "</text>
+    </paragraph>
+    <paragraph alignment="1">
+      <text>"In the three examples of the set, there is a 6 GWh pumped-storage power plan in the western node ; Pumping and generating capacities are both set at a constant level of 1.5 GW. Pumping efficiency is set at 72%. Reservoir has "</text>
+      <symbol>34</symbol>
+      <text>long memory</text>
+      <symbol>34</symbol>
+      <text>" (advanced parameter/reservoir level : hot start)"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>With these parameters, an empty reservoir cannot be filled in less than 4/0.72 hours  and a full reservoir provides  4 hours of operation at Pmax</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontstyle="93" fontweight="92" fontunderlined="1">" In this first example,  there is no natural inflow to the reservoir and  "</text>
+      <symbol fontstyle="93" fontweight="92" fontunderlined="1">34</symbol>
+      <text fontstyle="93" fontweight="92" fontunderlined="1">water value</text>
+      <symbol fontstyle="93" fontweight="92" fontunderlined="1">34</symbol>
+      <text fontstyle="93" fontweight="92" fontunderlined="1">" is set at 0&#8364;/MWh "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The  benefits brought by the PSP can be assessed by running once the simulation on the dataset as it is, and a second time with a zero capacity between WEST and PSP:</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>-  The overall operating cost is reduced</text>
+    </paragraph>
+    <paragraph>
+      <text>"-  The amount of unsupplied energy is reduced "</text>
+    </paragraph>
+    <paragraph>
+      <text>"-  The amount of spilled wind energy is reduced   "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>
