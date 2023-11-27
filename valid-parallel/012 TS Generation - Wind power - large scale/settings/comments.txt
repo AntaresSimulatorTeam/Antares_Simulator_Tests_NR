@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10">
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="2" bulletname="standard/circle" liststyle="Bullet List">
+      <text textcolor="#000000" fontsize="8" fontstyle="90" fontweight="92" fontunderlined="0" fontface="MS Shell Dlg 2">A system made of three active nodes, to illustrate the use of the wind power  time-series generator, using direct generation modelling (large scale)</text>
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="2" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph>
+      <text>In each node :</text>
+    </paragraph>
+    <paragraph>
+      <text>The wind generation  (expressed in percentage of power installed)  is modelled  by :</text>
+    </paragraph>
+    <paragraph>
+      <text>"12 monthly Beta variables, a 12*24  hourly average profile, and  12*2 autocorrelation parameters. "</text>
+    </paragraph>
+    <paragraph>
+      <text>The underlying wind speed fields are not described (remain unknown) : generation data are supposed to be fitted with sensible assumptions based,typically, on the historical behaviour of an existing fleet.</text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>The times-series generator is parametrized so as to build  a sample of 200 wind generation time-series for a 10 GW fleet</text>
+    </paragraph>
+    <paragraph>
+      <text>"(for 10 GW, the "</text>
+      <symbol>34</symbol>
+      <text>capacity</text>
+      <symbol>34</symbol>
+      <text>" parameter is set at 100 since the  simulated beta- variables range from 0 to 100)."</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"the Inter-area correlation matrix models a positive 30% correlation between 1 and 2, a negative -30% correlation between 1 and 3 and a 10% correlation between 2 and 3 "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>
