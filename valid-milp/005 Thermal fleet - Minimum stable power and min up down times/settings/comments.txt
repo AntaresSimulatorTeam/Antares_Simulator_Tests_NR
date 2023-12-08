@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10">
+    <paragraph>
+      <text fontweight="92">In this example, thermal plants are now constrained by a mimum stable power and minimum up and down durations.</text>
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph fontweight="92">
+      <text fontweight="90">The</text>
+      <text fontweight="92">" Min Stable Power"</text>
+      <text fontweight="90">" and the Nominal capacity define a region within which a thermal unit can generate. More precisely :"</text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="90">"-&gt; if the thermal plant is "</text>
+      <text>running, its generated power is above the minimum stable power power (pmin) and below its maximum power (pmax = (1-spinning)*nominal capacity)</text>
+    </paragraph>
+    <paragraph>
+      <text>-&gt; if the thermal plant is switched off, its generated power is zero</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Moreover, "</text>
+      <text fontweight="92">minimum up and down times</text>
+      <text>" are limiting the ability of a plant to switch on and off repeatedly :"</text>
+    </paragraph>
+    <paragraph>
+      <text>"-&gt; a thermal plant must be on during at least "</text>
+      <symbol>34</symbol>
+      <text>Min. Up Time</text>
+      <symbol>34</symbol>
+      <text>" hours"</text>
+    </paragraph>
+    <paragraph>
+      <text>"-&gt; a thermal plant must be off during at least "</text>
+      <symbol>34</symbol>
+      <text>Min. Down Time</text>
+      <symbol>34</symbol>
+      <text>" hours"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"Both minimum stable power and minimum up and down durations limit "</text>
+      <text fontweight="92">the flexbility of the thermal fleet.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>------------</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>In this new example, the thermal fleet is  now made of  :</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"4  "</text>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>base</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>units of 900 MW, with a minimum stable power of 500 MW, minimum up and down durations of 24 h and a generation cost of 35 euros/MWh</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"5 "</text>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>semi-base</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <text>units of 300 MW, with a minimum stable power of 100 MW, minimum up time of 6 h and down time of 12h,  and a generation cost of 50 euros/MWh</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>"8 "</text>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>peak</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>units of 100 MW, with a minimum stable power of 10 MW, minimum up and down durations of 2h and a generation cost of 80 euros/MWh</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>Results can be compared to example 002 :</text>
+    </paragraph>
+    <paragraph>
+      <text>-&gt; Taking into account the technical constraints leads to an overall operating cost higher than the optimum reached when the thermal units were fully flexible.</text>
+    </paragraph>
+    <paragraph>
+      <text>-&gt; In this case, due to the minimum stable power,  accommodating the load curve also imply to spill some thermal energy.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>" "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>
