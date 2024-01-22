@@ -1,2 +1,3 @@
 # Antares_Simulator_Tests_NR
-Antares_Simulator tests, no results
+
+// TODO tutorial on how to add new studies
