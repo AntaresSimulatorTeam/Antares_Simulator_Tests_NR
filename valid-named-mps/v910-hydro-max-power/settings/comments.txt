@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="400" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text fontweight="700" fontunderlined="1">Gaol of the test</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>"Before v8.7, hydro max powers (generation and pumping) are "</text>
+      <text fontweight="700">daily</text>
+      <text>" time series (= TS)."</text>
+    </paragraph>
+    <paragraph>
+      <text>"After v8.7, these max powers are "</text>
+      <text fontweight="700">hourly</text>
+      <text>" TS."</text>
+    </paragraph>
+    <paragraph>
+      <text>We want to compare results of 2 similar studies :</text>
+    </paragraph>
+    <paragraph>
+      <text>"- a study "</text>
+      <text fontweight="700">v8.6</text>
+      <text>" (hydro max power daily)"</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"- the same  study but in version &gt; "</text>
+      <text fontweight="700">v8.7</text>
+      <text fontweight="400">,</text>
+      <text fontweight="700">" "</text>
+      <text fontweight="400">and</text>
+      <text fontweight="700">" "</text>
+      <text fontweight="400">"for which (hourly) hydro max power are made in "</text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="400">"   such way that their means over days equals the daily values of the prvious study's TS."</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"The "</text>
+      <text fontweight="700">daily</text>
+      <text>" results must be exactly the same."</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>
