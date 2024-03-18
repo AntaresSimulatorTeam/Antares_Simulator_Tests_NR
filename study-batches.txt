@@ -23,3 +23,4 @@ valid-v870
 valid-v910
 valid-named-mps
 valid-milp
+ts-generator
