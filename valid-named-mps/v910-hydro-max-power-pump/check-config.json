@@ -1,0 +1,9 @@
+[
+	{
+		"name" : "v910-hydro-max-power-pump",
+		"checks" :
+		{
+			 "mps_compare" : null
+		}
+	}
+]
