@@ -1,0 +1,14 @@
+[Default Ruleset]
+hgp,area,0 = 1
+hgp,area,1 = 2
+hgp,area,2 = 2
+hgp,area,3 = 1
+hgp,area,4 = 2
+hgp,area,5 = 2
+hgp,area 2,0 = 1
+hgp,area 2,1 = 2
+hgp,area 2,2 = 1
+hgp,area 2,3 = 2
+hgp,area 2,4 = 1
+hgp,area 2,5 = 2
+
