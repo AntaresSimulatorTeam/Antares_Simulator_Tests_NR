@@ -1,0 +1,10 @@
+[
+	{
+		"name" : "ST-dynamic-groups",
+		"checks" :
+		{
+			"output_compare" : {},
+			"integrity_compare" : null
+		}
+	}
+]
