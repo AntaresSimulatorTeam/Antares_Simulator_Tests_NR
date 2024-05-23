@@ -1,0 +1,14 @@
+[Default Ruleset]
+h,area,0 = 1
+h,area,1 = 5
+h,area 2,0 = 1
+h,area 2,1 = 5
+h,area 3,0 = 1
+h,area 3,1 = 5
+h,area 4,0 = 1
+h,area 4,1 = 5
+h,area 5,0 = 1
+h,area 5,1 = 5
+hl,area 3,0 = 0.5
+hl,area 3,1 = 0.5
+
