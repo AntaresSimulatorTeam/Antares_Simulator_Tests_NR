@@ -1,0 +1,10 @@
+[
+	{
+		"name" : "hydro scenario builder",
+		"checks" :
+		{
+			"output_compare" : {},
+			"integrity_compare" : null
+		}
+	}
+]
