@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="400" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>This study test is all about hydro.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">Gaol of this study test</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>- testing hydro generation max power</text>
+    </paragraph>
+    <paragraph>
+      <text>- testing hydro pumping max power</text>
+    </paragraph>
+    <paragraph>
+      <text>- testing scenario builder on all hydro TS (time-series) : ror, inflows, minimum generation, and both max generation and pumping powers</text>
+    </paragraph>
+    <paragraph>
+      <text>"   Inedeed, we have one scenario for all these TS : for a given year and area, the chosen TS number is the same. "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">Overview of this test</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>To test all these points, suppose we only have one area. For any year a TS number is chosen for all TS (ror, inflows, ....).</text>
+    </paragraph>
+    <paragraph>
+      <text>It's difficult to both design a test with all hydro significant characteristics and then distinguish the effect of each of them in the output results.</text>
+    </paragraph>
+    <paragraph>
+      <text>So for this test, we chose to isolate the effect of each TS in an area.</text>
+    </paragraph>
+    <paragraph>
+      <text>That's why we have 5 isolated areas : one for ror, one for inflows, one for minium generation power, ...</text>
+    </paragraph>
+    <paragraph>
+      <text>We also run 2 years (of only one week), in order to test the scenario builder.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"- "</text>
+      <text fontweight="700">area</text>
+      <text>" : testing scenario builder for "</text>
+      <text fontweight="700">"ror "</text>
+      <text fontweight="400">"(run off the river) : "</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"  + load : steady demand of 100 MWh at each hour"</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"  + ror : to supply the demand, 5 TS of "</text>
+      <text fontweight="700">ror</text>
+      <text>" "</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"  "</text>
+      <text fontweight="700">Expected results</text>
+      <text>" : output variable ror is identical to  the chosen TS "</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"- "</text>
+      <text fontweight="700">area 2</text>
+      <text>" : testing scenario builder for "</text>
+      <text fontweight="700">inflows</text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">"  + "</text>
+      <text>load : steady demand of 100 MWh at each hour</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="700">"  + "</text>
+      <text fontweight="400">"inflows : to supply this demand, we have "</text>
+      <text fontweight="700">daily</text>
+      <text fontweight="400">" inflows, immediately turned into "</text>
+      <text fontweight="700">hourly</text>
+      <text fontweight="400">" generation."</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"  "</text>
+      <text fontweight="700">Expected results</text>
+      <text>" : "</text>
+      <text fontweight="400">"output variable for "</text>
+      <text fontweight="700">inflows</text>
+      <text fontweight="400">" matches  the chosen TS for "</text>
+      <text fontweight="700">inflows</text>
+      <text fontweight="400">" : sum(daily inflows over the week) / 168 = hourly output inflows  "</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text>"- area 3 "</text>
+      <text fontweight="400">: testing scenario builder for minimum generation power</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"  Demand changes over the week, and we have just enough inflows to supply weekly demand."</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"  inflows are turned into generation, but this generation respect the low limit of "</text>
+      <text fontweight="700">minimum generation</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"  "</text>
+      <text fontweight="700">+</text>
+      <text fontweight="400">" load :"</text>
+      <text>" "</text>
+      <text fontweight="400">demand of 50 MWh per hour the first day, 100 MWh the 6 others days</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"  + inflows : enough daily inflows to fulfill demand over the week. "</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"  + Generation : inflows are automatically turned into generation that fits the demand as much as possible."</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"  + Minimum generation : a bit higher than the demand on the first day."</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"  "</text>
+      <text fontweight="700">"Expected results "</text>
+      <text fontweight="400">: on each year, the chosen TS for minimum generation is respected (generation higher than demand).</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"  This implies a bit of spilled energy on this first day."</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400"></text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"- "</text>
+      <text fontweight="700">area 4</text>
+      <text fontweight="400">" :"</text>
+      <text fontweight="700">" "</text>
+      <text fontweight="400">testing</text>
+      <text fontweight="700">" "</text>
+      <text fontweight="400">"scenario builder for "</text>
+      <text fontweight="700">hydro generation max power</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"  + load : steady demand of 100 MWh at each hour"</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"  + inflows : enough daily inflows to fulfill demand over the week."</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"  + max power for hydro generation : is variable over the week (5 TS)"</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"   "</text>
+      <text fontweight="700">Expected results</text>
+      <text fontweight="400">" : the generation is only limited only by max generation power. On each year, the chosen TS for "</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"   max generation power is respected."</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400"></text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"- "</text>
+      <text fontweight="700">area 5</text>
+      <text fontweight="400">" : testing scenario builder for hydro "</text>
+      <text fontweight="700">pumping max power</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text>"  "</text>
+      <text fontweight="400">To trigger hydro pumping, we need a cluster (renewable cluster here).</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text>"  "</text>
+      <text fontweight="400">This cluster supplies energy to satisfy demand and to enable pumping at the same time, when it's available.</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"  The rest of the time, hydro generation satisfies demand."</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text>"  + "</text>
+      <text fontweight="400">load : steady demand of 100 MWh at each hour</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"  + renewable cluster : its production capacity is twice the demand, but it's off for a day every 2 days."</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"  + inflows : no inflows."</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"  + max power for hydro pumping : is variable over the week (5 TS)"</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"  "</text>
+      <text fontweight="700">Expected results</text>
+      <text fontweight="400">" : when cluster is available, pumping can be done, but it's limited by the max pumping power."</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"  On each year, the chosen TS for max puming power is respected."</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">" "</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"  "</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"  "</text>
+    </paragraph>
+    <paragraph fontweight="700">
+      <text fontweight="400">"   "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>
