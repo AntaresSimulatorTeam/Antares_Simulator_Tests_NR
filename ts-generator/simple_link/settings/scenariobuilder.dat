@@ -1,0 +1,12 @@
+[Default Ruleset]
+ntc,sink 1,source,0 = 1
+ntc,sink 1,source,1 = 2
+ntc,sink 1,source,2 = 1
+ntc,sink 1,source,3 = 1
+ntc,sink 1,source,4 = 2
+ntc,sink 2,source,0 = 1
+ntc,sink 2,source,1 = 2
+ntc,sink 2,source,2 = 1
+ntc,sink 2,source,3 = 1
+ntc,sink 2,source,4 = 1
+
