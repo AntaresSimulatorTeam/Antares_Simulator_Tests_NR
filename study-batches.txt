@@ -21,6 +21,7 @@ adequacy-patch-CSR
 valid-v860
 valid-v870
 valid-v910
+valid-v920
 valid-named-mps
 valid-milp
 ts-generator

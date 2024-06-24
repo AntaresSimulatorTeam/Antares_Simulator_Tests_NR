@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="400" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text fontweight="700">Testing hydro final levels</text>
+      <text>" (final : end of a complete year [365 days])"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">Goals of this test</text>
+      <text>" : "</text>
+    </paragraph>
+    <paragraph>
+      <text>1.  Check that the level starts from an initial high level and decreases to a lower level (no inflow needed)</text>
+    </paragraph>
+    <paragraph>
+      <text>2.  Check that the level starts from an initial low level and increases to a higher final level, if we have enough inflows along the year</text>
+    </paragraph>
+    <paragraph>
+      <text>"3.  Check the scenario builder effects regarding final levels "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">How do we do that</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>- We only need one area. Its reservoir is managed (levels are taken into account) and  does not use water values</text>
+    </paragraph>
+    <paragraph>
+      <text>- We play 2 complete years, so we can test the scenario builder effects (goal 3 in previous sections above). Year 1 fulfills the gaol 1 and  year fulfills the goal 2.</text>
+    </paragraph>
+    <paragraph>
+      <text>- Scenario builder : we tune the scenario builder for load, hydro (inflows),  initial and final levels.</text>
+    </paragraph>
+    <paragraph>
+      <text>- Year 1 : Initial level is 100 % and goes down to 50 % at end of year. In order to cause hydro production, we need load (300 MWh every hour), bot no inflows are required.</text>
+    </paragraph>
+    <paragraph>
+      <text>"- Year 2 : Initial level is 20 % and goes up to 70 % at end of year. No production is needed, so there's no load. But we need inflows (300 MWh per hour) "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">Expected results</text>
+      <text>" : "</text>
+    </paragraph>
+    <paragraph>
+      <text>- Year 1 : final hydro level is 50 %</text>
+    </paragraph>
+    <paragraph>
+      <text>- Year 2 : final hydro level is 70 %</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>
