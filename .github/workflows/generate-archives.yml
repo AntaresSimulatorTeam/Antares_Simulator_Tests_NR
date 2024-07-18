@@ -22,10 +22,6 @@ jobs:
             BATCHES=$(printf "\"%s\"," $(cat study-batches.txt) | sed "s/^/[/;s/,$/]/")
             echo "batches=$BATCHES" >> $GITHUB_OUTPUT
 
-        - name: Get release
-          id: get_release
-          uses: bruceadams/get-release@v1.2.3
-
         - name: Upload study-batches.txt
           env:
             GITHUB_TOKEN: ${{ github.token }}
@@ -42,20 +38,15 @@ jobs:
           batch: ${{ fromJson(needs.read_batches.outputs.batches) }}
 
       steps:
-        - name: Get release
-          id: get_release
-          uses: bruceadams/get-release@v1.2.3
-
         - name: Checkout self
-          uses: actions/checkout@v2
+          uses: actions/checkout@v4
 
         - name: zip directory
-          run: zip -r output.zip ${{ matrix.batch }}
+          run: zip -r ${{ matrix.batch }}.zip ${{ matrix.batch }}
 
         - name: Upload .zip
-          uses: actions/upload-release-asset@v1.0.2
-          with:
-            upload_url: ${{ steps.get_release.outputs.upload_url }}
-            asset_path: output.zip
-            asset_name: ${{ matrix.batch }}.zip
-            asset_content_type: application/octet-stream
+          env:
+            GITHUB_TOKEN: ${{ github.token }}
+            tag: ${{ github.event.inputs.release_tag }}
+          run: |
+            gh release upload "$tag" ${{ matrix.batch }}.zip
