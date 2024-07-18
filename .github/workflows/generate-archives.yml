@@ -47,6 +47,6 @@ jobs:
         - name: Upload .zip
           env:
             GITHUB_TOKEN: ${{ github.token }}
-            tag: ${{ github.event.inputs.release_tag }}
+            tag: ${{ github.ref_name }}
           run: |
             gh release upload "$tag" ${{ matrix.batch }}.zip
