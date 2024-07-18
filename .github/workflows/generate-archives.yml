@@ -31,7 +31,7 @@ jobs:
             GITHUB_TOKEN: ${{ github.token }}
             tag: ${{ github.ref }}
           run: |
-            gh release upload "$env.tag" study-batches.txt
+            gh release upload "$tag" study-batches.txt
 
 
     main:
