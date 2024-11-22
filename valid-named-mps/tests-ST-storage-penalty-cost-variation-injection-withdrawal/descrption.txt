@@ -1,0 +1,4 @@
+The test verifies the presence of penalty variables and constraints on short-term variation control (injection, withdrawal).
+Only penalty on injection variation is enabled for area 3/sts-3.
+Only penalty on withdrawal variation is enabled for area 4/sts-4.
+Both injection and withdrawal variation penalties are enabled for area 5/sts-5.

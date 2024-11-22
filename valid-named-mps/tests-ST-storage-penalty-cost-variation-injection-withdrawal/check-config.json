@@ -1,0 +1,9 @@
+[
+	{
+		"name" : "tests-ST-storage-penalty-cost-variation-injection-withdrawal",
+		"checks" :
+		{
+			"mps_compare" : null
+		}
+	}
+]
