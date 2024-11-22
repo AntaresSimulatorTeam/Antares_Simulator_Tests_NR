@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="400" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text fontweight="700">Goal</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>"Before the feature that associates costs to STS (short term storage) levels was developed, it was modelled with the help multiple areas and binding constraints. "</text>
+    </paragraph>
+    <paragraph>
+      <text>We want to test this feature.</text>
+    </paragraph>
+    <paragraph>
+      <text>To do that, we compare STS levels resulting from old modelling and levels resulting from the new feature.</text>
+    </paragraph>
+    <paragraph>
+      <text>"More specifically, in this test, hourly costs are all "</text>
+      <text fontweight="700">"positive "</text>
+      <text>"(+0.2 &#8364;/MWh). "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">Study description</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>We have 2 isolated sets of areas :</text>
+    </paragraph>
+    <paragraph>
+      <text>- A complicated one, in which we model a STS having costs associated to its levels  4 areas and a pair of binding constraints.</text>
+    </paragraph>
+    <paragraph>
+      <text>"  For the penalty of +0.2 &#8364;/MWh, the one that forces the stock to empty, we set the "</text>
+      <symbol>34</symbol>
+      <text>market bid</text>
+      <symbol>34</symbol>
+      <text>" of the "</text>
+      <symbol>34</symbol>
+      <text>Level1</text>
+      <symbol>34</symbol>
+      <text>" cluster in "</text>
+      <symbol>34</symbol>
+      <text>reservoir</text>
+      <symbol>34</symbol>
+      <text>" to this value."</text>
+    </paragraph>
+    <paragraph>
+      <text>- A more simple one where some STS's level costs are is represented by a time series associated to the STS.</text>
+    </paragraph>
+    <paragraph>
+      <text>"We also have 2 areas meant to avoid injection and withdrawal simultaneously in case of spillage (named "</text>
+      <text fontweight="700">spillage absorption</text>
+      <text>") in both modelling : "</text>
+    </paragraph>
+    <paragraph>
+      <text>It is in fact a DSR type object with a limit price of 0.05&#8364;/MWh.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">"Expected results "</text>
+      <text>:</text>
+    </paragraph>
+    <paragraph>
+      <text>"- Simulation resulting STS levels must be very close for both modelling. "</text>
+    </paragraph>
+    <paragraph>
+      <text>"   We may observe slight differences due to different noises associated to both sets of areas."</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>
