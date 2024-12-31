@@ -1,0 +1,4 @@
+solver: sirius
+solver-logs: false
+solver-parameters: PRESOLVE 1
+no-output: true
