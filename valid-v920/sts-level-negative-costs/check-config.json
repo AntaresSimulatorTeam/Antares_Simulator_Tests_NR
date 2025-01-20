@@ -1,0 +1,10 @@
+[
+	{
+		"name" : "test_final_level",
+		"checks" :
+		{
+			"output_compare" : {},
+			"integrity_compare" : null
+		}
+	}
+]
