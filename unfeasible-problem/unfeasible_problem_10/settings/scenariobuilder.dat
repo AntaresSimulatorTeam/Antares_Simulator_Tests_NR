@@ -1,0 +1,11 @@
+[Default Ruleset]
+t,area-2,0,thermal-3 = 1
+t,area-2,1,thermal-3 = 5
+t,area-2,2,thermal-3 = 10
+t,area-2,3,thermal-3 = 5
+t,area-2,4,thermal-3 = 1
+t,area-2,5,thermal-3 = 5
+t,area-2,6,thermal-3 = 10
+t,area-2,7,thermal-3 = 5
+t,area-2,8,thermal-3 = 10
+

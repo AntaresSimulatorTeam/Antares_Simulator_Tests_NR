@@ -1,0 +1,8 @@
+Area-2	area	de	annual
+	VARIABLES	BEGIN	END
+	3	1	1
+
+Area-2	annual	thermal-3	thermal-3	thermal-3
+		MWh	NP Cost - Euro	NODU
+		EXP	EXP	EXP
+	Annual	864267	0	8643

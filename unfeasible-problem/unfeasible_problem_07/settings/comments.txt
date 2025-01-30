@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>"This dataset is meant to test the feature "</text>
+      <symbol>34</symbol>
+      <text>unfeasibleproblem status</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <text>"expected results "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"error-dry : "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"error message "</text>
+      <symbol>34</symbol>
+      <text>" unfeasible problem encountered : year 1, week 1"</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"error-verbose: "</text>
+      <symbol>9</symbol>
+      <text>"error message "</text>
+      <symbol>34</symbol>
+      <text>" unfeasible problem encountered : year 1, week 1"</text>
+      <symbol>34</symbol>
+      <text>"  + print mps of week  1 , second opt (check: mps file should contain "</text>
+      <symbol>34</symbol>
+      <text>lower bounds</text>
+      <symbol>34</symbol>
+      <text>" fields  set to "</text>
+      <symbol>34</symbol>
+      <text>80</text>
+      <symbol>34</symbol>
+      <text>" for 168 variables)"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>warning dry:</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"5 warnings:     "</text>
+      <symbol>34</symbol>
+      <text>" unfeasible problem encountered : year 1, week 1"</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>" unfeasible problem encountered : year 3, week 52"</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>" "</text>
+      <symbol>34</symbol>
+      <text>unfeasible problem encountered : year 5, week 1</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>" unfeasible problem encountered : year 7, week 52"</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>" unfeasible problem encountered : year 9, week 52"</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"warning verbose: "</text>
+      <symbol>9</symbol>
+      <text>"   5 warnings:   "</text>
+      <symbol>34</symbol>
+      <text>" unfeasible problem encountered : year 1, week 1"</text>
+      <symbol>34</symbol>
+      <text>"  +print mps of week  1, second opt (check: mps file should contain "</text>
+      <symbol>34</symbol>
+      <text>lower bounds</text>
+      <symbol>34</symbol>
+      <text>" fields  set to "</text>
+      <symbol>34</symbol>
+      <text>80</text>
+      <symbol>34</symbol>
+      <text>" for 168 variables) "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>" unfeasible problem encountered : year 3, week 52"</text>
+      <symbol>34</symbol>
+      <text>" +print mps of week  52, second opt (check: mps file should contain "</text>
+      <symbol>34</symbol>
+      <text>lower bounds</text>
+      <symbol>34</symbol>
+      <text>" fields  set to "</text>
+      <symbol>34</symbol>
+      <text>80</text>
+      <symbol>34</symbol>
+      <text>" for 168 variables)"</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>" "</text>
+      <symbol>34</symbol>
+      <text>unfeasible problem encountered : year 5, week 1</text>
+      <symbol>34</symbol>
+      <text>"  +print mps of week  1, second opt (check: mps file should contain "</text>
+      <symbol>34</symbol>
+      <text>lower bounds</text>
+      <symbol>34</symbol>
+      <text>" fields  set to "</text>
+      <symbol>34</symbol>
+      <text>80</text>
+      <symbol>34</symbol>
+      <text>" for 168 variables) "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>" unfeasible problem encountered : year 7, week 52"</text>
+      <symbol>34</symbol>
+      <text>"+print mps of week  52, second opt (check: mps file should contain "</text>
+      <symbol>34</symbol>
+      <text>lower bounds</text>
+      <symbol>34</symbol>
+      <text>" fields  set to "</text>
+      <symbol>34</symbol>
+      <text>80</text>
+      <symbol>34</symbol>
+      <text>" for 168 variables)"</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>" unfeasible problem encountered : year 9, week 52"</text>
+      <symbol>34</symbol>
+      <text>"+print mps of week  52, second opt (check: mps file should contain "</text>
+      <symbol>34</symbol>
+      <text>lower bounds</text>
+      <symbol>34</symbol>
+      <text>" fields  set to "</text>
+      <symbol>34</symbol>
+      <text>80</text>
+      <symbol>34</symbol>
+      <text>" for 168 variables)"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"warning-dry and warning verbose: "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"results for failed weeks must all be set be set to zero, except the reservoir level in area "</text>
+      <symbol>34</symbol>
+      <text>C</text>
+      <symbol>34</symbol>
+      <text>", which must remain constant troughout failed weeks "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"Results regarding Thermal generation of cluster "</text>
+      <symbol>34</symbol>
+      <text>thermal-1</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"hourly min record value during week 1 and week 52 : "</text>
+      <text fontweight="92">"0 "</text>
+      <text>" ; hourly min record value for weeks 2 to 51: "</text>
+      <text fontweight="92">80</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"weekly expectation for week 1 :  80*168*7/9 = "</text>
+      <text fontweight="92">10453</text>
+      <text fontweight="90">" ; weekly expectation for week 52 : 80*168*6/9 ="</text>
+      <text fontweight="92">"8960  "</text>
+      <text fontweight="90">; weekly expectation for weeks 2 to 51:  80*168*9/9 =</text>
+      <text fontweight="92">" 13440"</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"yearly expectation : 10453+8960 + 50*13440 = "</text>
+      <text fontweight="92">691413</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

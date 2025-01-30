@@ -1,0 +1,19 @@
+Area	area	de	monthly
+	VARIABLES	BEGIN	END
+	6	1	12
+
+Area	monthly		thermal-1	thermal-2	thermal-1	thermal-2	thermal-1	thermal-2
+			MWh	MWh	NP Cost - Euro	NP Cost - Euro	NODU	NODU
+	index	month	EXP	EXP	EXP	EXP	EXP	EXP
+	1	JAN	0	63240	0	0	0	744
+	2	FEB	0	57120	0	0	0	672
+	3	MAR	0	63240	0	0	0	744
+	4	APR	0	61200	0	0	0	720
+	5	MAY	0	61560	0	0	0	702
+	6	JUN	0	61200	0	0	0	720
+	7	JUL	0	63240	0	0	0	744
+	8	AUG	0	63240	0	0	0	744
+	9	SEP	0	61200	0	0	0	720
+	10	OCT	0	65480	0	0	0	716
+	11	NOV	0	61200	0	0	0	720
+	12	DEC	0	62320	0	0	0	706
