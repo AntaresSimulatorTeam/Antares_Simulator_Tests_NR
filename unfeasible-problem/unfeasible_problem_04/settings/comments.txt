@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="90" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text>"This dataset is meant to test the feature "</text>
+      <symbol>34</symbol>
+      <text>unfeasibleproblem status</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <text>"expected results "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"error-dry : "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"error message "</text>
+      <symbol>34</symbol>
+      <text>" unfeasible problem encountered : year 6, week 22"</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"error-verbose: "</text>
+      <symbol>9</symbol>
+      <text>"error message "</text>
+      <symbol>34</symbol>
+      <text>" unfeasible problem encountered : year 6, week 22"</text>
+      <symbol>34</symbol>
+      <text>"  + print mps of monday of week  22, first opt"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>warning dry:</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"3 warnings:  "</text>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>" unfeasible problem encountered : year 6, week 22"</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>" "</text>
+      <symbol>34</symbol>
+      <text>unfeasible problem encountered : year 6, week 23</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>" unfeasible problem encountered : year 6, week 29"</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"warning verbose: "</text>
+      <symbol>9</symbol>
+      <text>"3 warnings:     "</text>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>" unfeasible problem encountered : year 6, week 22"</text>
+      <symbol>34</symbol>
+      <text>+ mps of monday of week 22, first opt</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>" "</text>
+      <symbol>34</symbol>
+      <text>unfeasible problem encountered : year 6, week 23</text>
+      <symbol>34</symbol>
+      <text>+ mps of monday of week 23, first opt</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>" unfeasible problem encountered : year 6, week 29"</text>
+      <symbol>34</symbol>
+      <text>+ mps of monday of week 29, first opt</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+    </paragraph>
+  </paragraphlayout>
+</richtext>
