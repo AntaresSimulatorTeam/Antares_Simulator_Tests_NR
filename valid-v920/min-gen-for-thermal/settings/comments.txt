@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="400" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph fontweight="700">
+      <text fontweight="700">Purpose of this study :</text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="400">Testing</text>
+      <text fontweight="700">" "</text>
+      <text fontweight="400">the values of dispatchable min generation output variable, by cluster and by group.</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"Let's recall that, for any thermal cluster : "</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text fontweight="700">"dispatchable min gen = min( nominal capacity * unit count  * min gen modulation, "</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text fontweight="700">"                                                     production )"</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text fontweight="700">Study main traits</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>- &lt;n&gt; independant areas : there is no link. So each area tests a different situation.</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>- Simulation : 1 year of 1 week only</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"- For many areas here, there is "</text>
+      <text fontweight="700">no load</text>
+      <text>" on each area, all clusters have a min generation &gt; 0, so any cluster production is is exactly its min generation."</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"  One exception though : "</text>
+      <text fontweight="700">Area 4</text>
+      <text>", where first hours are supplied with "</text>
+      <text fontweight="700">demand</text>
+      <text>" "</text>
+      <text fontweight="700">&gt;</text>
+      <text>" "</text>
+      <text fontweight="700">dispatchable min gen</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>- Spilled energy : is exactly the sum of all clusters production.</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"- Clusters : they all have a "</text>
+      <text fontweight="700">nominal capacity = 100 MW</text>
+      <text>" and "</text>
+      <text fontweight="700">only 1 unit</text>
+      <text>.</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text fontweight="700">Areas distinctive feature</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"- "</text>
+      <text fontweight="700">Area</text>
+      <text>" : testing disp. min. gen. on one cluster"</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"  + only one cluster"</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"  + Cluster's min gen modulation increasing from 0.1 to 0.9 during the week"</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"  + Cluster's available max production decreases from 100 to 20"</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"  "</text>
+      <text fontweight="700">Expected results</text>
+      <text>" : "</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text fontweight="400">"  + In ouptut files "</text>
+      <text fontweight="700">"values-&lt;time-granularity&gt;.txt "</text>
+      <text fontweight="400">"(the thermal results given by group), there is only one column of type "</text>
+      <text fontweight="700">MinGen-&lt;group&gt;</text>
+      <text fontweight="400">". It's named "</text>
+      <text fontweight="700">MinGen-HARD COAL</text>
+      <text fontweight="400">.</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"  + In ouptut files "</text>
+      <text fontweight="700">"details-&lt;time-granularity&gt;.txt "</text>
+      <text fontweight="400">(results cluster by cluster), there is a</text>
+      <text fontweight="700">" MinGen "</text>
+      <text fontweight="400">column associated to the cluster.</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text fontweight="400">"  + disp. min. gen."</text>
+      <text>" ( = "</text>
+      <text fontweight="400">MinGen-HARD COAL</text>
+      <text>") first equals "</text>
+      <text fontweight="700">min gen from min stable power</text>
+      <text>" (from 10 to 50 MWh), then equals "</text>
+      <text fontweight="700">cluster's production</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text fontweight="700"></text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text fontweight="700">"- Area 2 : "</text>
+      <text fontweight="400">"testing the "</text>
+      <text>disp. min. gen.</text>
+      <text fontweight="400">" by group"</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"  + 3 clusters : 2 "</text>
+      <text fontweight="700">gaz</text>
+      <text>" clusters, and 1 "</text>
+      <text fontweight="700">hard coal</text>
+      <text>" cluster."</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"  + The 2 "</text>
+      <text fontweight="700">gaz clusters</text>
+      <text>" are identical and generate at leats 10 MWh, up to 100 MWh. "</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"      The "</text>
+      <text fontweight="700">hard coal cluster</text>
+      <text>" generates less than 10 MWh."</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"   "</text>
+      <text fontweight="700">Expected results</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"   + In "</text>
+      <text fontweight="400">"ouptut files "</text>
+      <text fontweight="700">values-&lt;time-granularity&gt;.txt</text>
+      <text>", there are 2 columns "</text>
+      <text fontweight="700">MinGen-GAS</text>
+      <text>" and "</text>
+      <text fontweight="700">MinGen-HARD COAL</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"   + "</text>
+      <text fontweight="700">MinGen-GAS</text>
+      <text>" is exactly the sum of the generations of the 2 gaz clusters."</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"   + "</text>
+      <text fontweight="700">MinGen-HARD COAL</text>
+      <text>" is exactly the generation of the hard coal cluster"</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"- "</text>
+      <text fontweight="700">"Area 3 "</text>
+      <text>: testing that must-run clusters are not taken into account in MinGen results.</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"  + 3 clusters : 2 "</text>
+      <text fontweight="700">gaz</text>
+      <text>" clusters, and 1 "</text>
+      <text fontweight="700">hard coal</text>
+      <text>" (must-run) cluster."</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"  + Area 3 is similar to Area 2, except about the hard coal cluster, whicj is now must-run. "</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"  "</text>
+      <text fontweight="700">Expected results</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"  + In ouptut files "</text>
+      <text fontweight="700">details-&lt;time-granularity&gt;.txt,</text>
+      <text>" there are no additional column related to "</text>
+      <text fontweight="400">disp. min. gen.</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"  + Same in "</text>
+      <text fontweight="700">values-&lt;time-granularity&gt;.txt</text>
+      <text>" : no column named "</text>
+      <text fontweight="700">MinGen-HARD COAL</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text fontweight="700"></text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text fontweight="700">"- Area 4 : "</text>
+      <text fontweight="400">what if there is demand over the dispatchable min gen</text>
+      <text>" ? In this case, results about cluster production and "</text>
+      <text fontweight="400">disp. min. gen must be different.</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"  + Same situation as for "</text>
+      <text fontweight="700">Area 1</text>
+      <text fontweight="400">, except there is demand on the 4 first hour of the week.</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"   "</text>
+      <text fontweight="700">Expected results</text>
+      <text>" :   production and "</text>
+      <text fontweight="400">disp. min. gen</text>
+      <text>" for these 4 first hour of the week."</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"   "</text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text></text>
+    </paragraph>
+    <paragraph fontweight="400">
+      <text>"    "</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>
