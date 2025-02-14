@@ -1,6 +1,6 @@
 [
 	{
-		"name" : "tests-ST-storage-penalty-cost-variation-injection-withdrawal",
+		"name" : "disabled-mustrun-thermal-bindingconstraint",
 		"checks" :
 		{
 			"mps_compare" : null
