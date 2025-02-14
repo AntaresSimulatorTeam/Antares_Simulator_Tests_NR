@@ -1,0 +1,9 @@
+[
+	{
+		"name" : "disabled-mustrun-thermal-bindingconstraint",
+		"checks" :
+		{
+			"mps_compare" : null
+		}
+	}
+]
