@@ -1,6 +1,6 @@
 [
 	{
-		"name" : "ST-dynamic-groups",
+		"name" : "ST-additional-constraints",
 		"checks" :
 		{
 			"output_compare" : {},
