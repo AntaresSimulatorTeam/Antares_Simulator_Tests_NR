@@ -1,0 +1,6 @@
+[Default Ruleset]
+bc,limit-prod,0=1
+bc,limit-prod,1=2
+bc,mix-prod-and-flow,0=1
+bc,mix-prod-and-flow,1=2
+
