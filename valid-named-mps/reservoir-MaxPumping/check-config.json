@@ -1,9 +1,0 @@
-[
-	{
-		"name" : "reservoir-MaxPumping",
-		"checks" :
-		{
-			"mps_compare" : null
-		}
-	}
-]
