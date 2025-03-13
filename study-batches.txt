@@ -25,3 +25,5 @@ valid-v920
 valid-named-mps
 valid-milp
 ts-generator
+modeler
+hybrid
