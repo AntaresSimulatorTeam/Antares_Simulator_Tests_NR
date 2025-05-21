@@ -1,0 +1,846 @@
+[2025-04-09 11:04:02][solver][check] Antares Solver v9.2.0 (5c34536)
+[2025-04-09 11:04:02][solver][infos]   :: built for 64-bit architectures, Microsoft Windows, 8 cpu(s)
+[2025-04-09 11:04:02][solver][infos]   :: hostname = GM0WINUPL
+[2025-04-09 11:04:02][solver][infos]   :: command: D:\AppliRTE\Antares\9.2.0\bin\antares-solver.exe --name=test_9_2 --progress D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\capa_turb_heur_hydro_mens --solver=sirius
+[2025-04-09 11:04:02][solver][infos]   :: log filename: D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\capa_turb_heur_hydro_mens\logs\solver-20250409-110402.log
+[2025-04-09 11:04:02][solver][infos] 
+[2025-04-09 11:04:02][solver][notic] Preparing sorties hydro...
+[2025-04-09 11:04:02][solver][infos]   detected study version: 8.8
+[2025-04-09 11:04:02][solver][infos]   from `D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\capa_turb_heur_hydro_mens`
+[2025-04-09 11:04:02][solver][infos] 
+[2025-04-09 11:04:02][solver][infos]   simulation mode: Economy
+[2025-04-09 11:04:02][solver][infos]   simplex optimization range: week
+[2025-04-09 11:04:02][solver][infos]   36 years in the user's playlist
+[2025-04-09 11:04:02][solver][infos] Cluster renewables were chosen. Output will be disabled for aggregated modes.
+[2025-04-09 11:04:02][solver][infos]   :: enabling the 'year-by-year' mode
+[2025-04-09 11:04:02][solver][infos]   :: enabling the user playlist
+[2025-04-09 11:04:02][solver][infos]   :: enabling the user variable selection
+[2025-04-09 11:04:02][solver][infos]   :: enabling the custom build mode
+[2025-04-09 11:04:02][solver][infos]   :: enabling filtering by file
+[2025-04-09 11:04:02][solver][infos]   :: ignoring export mps
+[2025-04-09 11:04:02][solver][infos]   :: ignoring export structure
+[2025-04-09 11:04:02][solver][infos]   :: ignoring solution export
+[2025-04-09 11:04:02][solver][infos]   :: solver sirius is used for problem resolution
+[2025-04-09 11:04:02][solver][infos]   :: Printing solver logs : False
+[2025-04-09 11:04:02][solver][infos] Loading the list of areas...
+[2025-04-09 11:04:02][solver][infos]   Loading the area list from `D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\capa_turb_heur_hydro_mens\input\areas\list.txt`
+[2025-04-09 11:04:02][solver][infos]   1 area found
+[2025-04-09 11:04:02][solver][infos] Loading global hydro data...
+[2025-04-09 11:04:02][solver][infos] Loading thermal clusters...
+[2025-04-09 11:04:02][solver][infos] Loading thermal configuration for the area FI00
+[2025-04-09 11:04:03][solver][infos] Loading short term storage clusters...
+[2025-04-09 11:04:03][solver][infos] Loading renewable configuration for the area FI00
+[2025-04-09 11:04:03][solver][infos] Loading the area 1/1: FI00
+[2025-04-09 11:04:18][solver][infos] Loading correlation matrices...
+[2025-04-09 11:04:18][solver][infos] 
+[2025-04-09 11:04:18][solver][infos] Loading constraints...
+[2025-04-09 11:04:18][solver][infos] No binding constraint found
+[2025-04-09 11:04:18][solver][infos] 
+[2025-04-09 11:04:18][solver][infos] Loading sets of areas...
+[2025-04-09 11:04:18][solver][infos]    found `all areas` (1 item, no output)
+[2025-04-09 11:04:18][solver][infos]   Output folder : D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\capa_turb_heur_hydro_mens\output\20250409-1104eco-test_9_2
+[2025-04-09 11:04:18][solver][infos] [statistics] disk: read: 116787 ko, written: 0 ko
+[2025-04-09 11:04:18][solver][infos] [statistics] network: read: 0 ko, written: 0 ko
+[2025-04-09 11:04:18][solver][infos] The study is loaded.
+[2025-04-09 11:04:18][solver][infos] [UI] Display messages: Off
+[2025-04-09 11:04:18][solver][infos]   Output folder : D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\capa_turb_heur_hydro_mens\output\20250409-1104eco-test_9_2
+[2025-04-09 11:04:18][solver][infos] 
+[2025-04-09 11:04:18][solver][infos] Generating calendar informations
+[2025-04-09 11:04:18][solver][infos]     Partial week detected. Not allowed in Economy
+[2025-04-09 11:04:18][solver][infos]     Time interval that has been requested: 1..8760
+[2025-04-09 11:04:18][solver][infos] Calendar: hours:1..8736, days:1..364, weeks:1..52, months:1..12, years:1..720
+[2025-04-09 11:04:18][solver][infos] Simulation days per month : 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 30
+[2025-04-09 11:04:18][solver][infos] 
+[2025-04-09 11:04:18][solver][infos] Removing disabled short term storage clusters in from solver computations...
+[2025-04-09 11:04:18][solver][infos] No disabled short term storage cluster removed before solver computations
+[2025-04-09 11:04:18][solver][infos] Initializing random number generators...
+[2025-04-09 11:04:18][solver][infos] 
+[2025-04-09 11:04:18][solver][infos] Summary
+[2025-04-09 11:04:18][solver][infos]      areas: 1
+[2025-04-09 11:04:18][solver][infos]      links: 0
+[2025-04-09 11:04:18][solver][infos]      thermal clusters: 41
+[2025-04-09 11:04:18][solver][infos]      thermal clusters (must-run): 0
+[2025-04-09 11:04:18][solver][infos]      short-term storages: 0
+[2025-04-09 11:04:18][solver][infos]      short-term storage cumulative constraints count: 0
+[2025-04-09 11:04:18][solver][infos]      binding constraints: 0
+[2025-04-09 11:04:18][solver][infos]      geographic trimming:true
+[2025-04-09 11:04:18][solver][infos] 
+[2025-04-09 11:04:18][solver][infos] Preparing time-series numbers...
+[2025-04-09 11:04:18][solver][infos] Preparing time-series numbers... (default ruleset)
+[2025-04-09 11:04:18][solver][infos]   :: Scenario Builder, active target: default ruleset
+[2025-04-09 11:04:18][solver][infos]   > loading scenario builder data from D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\capa_turb_heur_hydro_mens\settings\scenariobuilder.dat
+[2025-04-09 11:04:19][solver][infos] 
+[2025-04-09 11:04:20][solver][infos] [UI] Progression map: about-the-study\map
+[2025-04-09 11:04:21][solver][infos]   system memory report: 18679 Mib / 32616 Mib,  57.269438% free
+[2025-04-09 11:04:21][solver][infos] 
+[2025-04-09 11:04:21][solver][infos] [UI] Display messages: On
+[2025-04-09 11:04:21][solver][check] Running the simulation (economy)
+[2025-04-09 11:04:21][solver][infos] Allocating resources...
+[2025-04-09 11:04:21][solver][infos] Allocating resources...
+[2025-04-09 11:04:21][solver][infos]  + Areas                                          
+[2025-04-09 11:04:21][solver][infos]        OV. COST                    Euro           Overall Cost throughout all MC years
+[2025-04-09 11:04:21][solver][infos]        OV. COST CSR                Euro           Overall Cost throughout all MC years
+[2025-04-09 11:04:21][solver][infos]        OP. COST                    Euro           Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[2025-04-09 11:04:21][solver][infos]        MRG. PRICE                  Euro           Marginal Price, throughout all MC years
+[2025-04-09 11:04:21][solver][infos]        MRG. PRICE CSR              Euro           Marginal Price CSR, throughout all MC years
+[2025-04-09 11:04:21][solver][infos]                                    Tons           Overall pollutant emissions expected from all the thermal clusters
+[2025-04-09 11:04:21][solver][infos]        DTG by plant                MWh            Energy generated by all the clusters
+[2025-04-09 11:04:21][solver][infos]        MIN DTG by plant            MIN GEN - MWh  Min power by cluster
+[2025-04-09 11:04:21][solver][infos]        RES generation by plant     MWh            Energy generated by all the RES clusters
+[2025-04-09 11:04:21][solver][infos]        BALANCE                     MWh            Nodal energy balance, throughout all MC years
+[2025-04-09 11:04:21][solver][infos]        ROW BAL.                    MWh            Row Balance
+[2025-04-09 11:04:21][solver][infos]        PSP                         MWh            PSP
+[2025-04-09 11:04:21][solver][infos]        MISC. NDG                   MWh            Non-dispatchable generation (not including wind and run-of-the-river)
+[2025-04-09 11:04:21][solver][infos]        LOAD                        MWh            Load generation, thoughout all MC years
+[2025-04-09 11:04:21][solver][infos]        H. ROR                      MWh            Hydro generation, thoughout all MC years
+[2025-04-09 11:04:21][solver][infos]        WIND                        MWh            Wind generation, thoughout all MC years
+[2025-04-09 11:04:21][solver][infos]        SOLAR                       MWh            Solar generation, thoughout all MC years
+[2025-04-09 11:04:21][solver][infos]        Dispatch. Gen.              MWh            Value of all the dispatchable generation throughout all MC years
+[2025-04-09 11:04:21][solver][infos]        Renewable Gen.              MWh            Value of all the renewable generation throughout all MC years
+[2025-04-09 11:04:21][solver][infos]        H. STOR                     MWh            Hydro Storage Generation
+[2025-04-09 11:04:21][solver][infos]        H. PUMP                     MWh            Hydraulic pumping
+[2025-04-09 11:04:21][solver][infos]        H. LEV                      %              Hydro Level
+[2025-04-09 11:04:21][solver][infos]        H. INFL                     MWh            Hydraulic inflows
+[2025-04-09 11:04:21][solver][infos]        H. OVFL                     %              Hydro overflow
+[2025-04-09 11:04:21][solver][infos]        H. VAL                      Euro/MWh       Water value
+[2025-04-09 11:04:21][solver][infos]        H. COST                     Euro           Hydro Cost throughout all MC years, of all the thermal dispatchable clusters
+[2025-04-09 11:04:21][solver][infos]        STS by group                MWh            STS injections, withdrawals and levels
+[2025-04-09 11:04:21][solver][infos]        STS inj by plant            P-injection - MEnergy injected by ST storage clusters
+[2025-04-09 11:04:21][solver][infos]        STS withdrawal by plant     P-withdrawal - Energy withdrawn by ST storage clusters
+[2025-04-09 11:04:21][solver][infos]        STS lvl by plant            Levels - MWh   Levels by ST storage clusters
+[2025-04-09 11:04:21][solver][infos]        STS Cashflow By Cluster     CashFlow - EuroCash Flow by short term storage
+[2025-04-09 11:04:21][solver][infos]        UNSP. ENRG                  MWh            Unsuplied Energy (demand that cannot be satisfied)
+[2025-04-09 11:04:21][solver][infos]        UNSP. ENRG CSR              MWh            Unsuplied Energy after CSR (demand that cannot be satisfied)
+[2025-04-09 11:04:21][solver][infos]        DENS                        MWh            Domestic Unsupplied Energy (demand that cannot be satisfied without interconnections/links)
+[2025-04-09 11:04:21][solver][infos]        LMR VIOL.                                  Local Matching Rule is violated more than the provided threshold
+[2025-04-09 11:04:21][solver][infos]        SPIL. ENRG                  MWh            Spilled Energy (generation that cannot be satisfied)
+[2025-04-09 11:04:21][solver][infos]        LOLD                        Hours          LOLD
+[2025-04-09 11:04:21][solver][infos]        LOLD CSR                    Hours          LOLD for CSR
+[2025-04-09 11:04:21][solver][infos]        LOLP                        %              LOLP
+[2025-04-09 11:04:21][solver][infos]        LOLP CSR                    %              LOLP for CSR
+[2025-04-09 11:04:21][solver][infos]        AVL DTG                     MWh            Available dispatchable generation
+[2025-04-09 11:04:21][solver][infos]        DTG MRG                     MWh            Dispatchable Generation Margin
+[2025-04-09 11:04:21][solver][infos]        DTG MRG CSR                 MWh            Dispatchable Generation Margin (after CSR optimization)
+[2025-04-09 11:04:21][solver][infos]        MAX MRG                     MWh            Maximum margin throughout all MC years
+[2025-04-09 11:04:21][solver][infos]        MAX MRG CSR                 MWh            Max margin for CSR
+[2025-04-09 11:04:21][solver][infos]        NP COST                     Euro           Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[2025-04-09 11:04:21][solver][infos]        NP Cost by plant            NP Cost - Euro Non proportional costs by all the clusters
+[2025-04-09 11:04:22][solver][infos]        NODU                                       Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[2025-04-09 11:04:22][solver][infos]        NODU by plant               NODU           Number of Dispatchable Units by plant
+[2025-04-09 11:04:22][solver][infos]        Profit by plant             Profit - Euro  Profit for thermal units
+[2025-04-09 11:04:22][solver][infos]      + Links                                      
+[2025-04-09 11:04:22][solver][infos]            FLOW LIN.               MWh            Flow assessed, over all MC years, through linear optimization
+[2025-04-09 11:04:22][solver][infos]            UCAP LIN.               MWh            Used capacity assessed, over all MC years, through linear optimization
+[2025-04-09 11:04:22][solver][infos]            LOOP FLOW               MWh            Loop flow
+[2025-04-09 11:04:22][solver][infos]            FLOW QUAD.              MWh            Flow (quad.)
+[2025-04-09 11:04:22][solver][infos]            CONG. FEE (ALG.)        Euro           Congestion fee collected throughout all MC years (Alg.)
+[2025-04-09 11:04:22][solver][infos]            CONG. FEE (ABS.)        Euro           Congestion fee collected throughout all MC years (Absolute value)
+[2025-04-09 11:04:22][solver][infos]            MARG. COST              Euro/MW        Decrease of the overall operating cost expected by a 1MW capacity reinforcement
+[2025-04-09 11:04:22][solver][infos]            CONG. PROB. (+/-)       %              Probability for the line to be congested in the upstream-downstream way
+[2025-04-09 11:04:22][solver][infos]            HURDLE COST             Euro           Hurdle costs, over all MC years
+[2025-04-09 11:04:22][solver][infos]  + Sets of Areas                                  
+[2025-04-09 11:04:22][solver][infos]        OV. COST                    Euro           Overall Cost throughout all MC years
+[2025-04-09 11:04:22][solver][infos]        OP. COST                    Euro           Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[2025-04-09 11:04:22][solver][infos]        MRG. PRICE                  Euro           Marginal Price, throughout all MC years
+[2025-04-09 11:04:22][solver][infos]                                    Tons           Overall pollutant emissions expected from all the thermal clusters
+[2025-04-09 11:04:22][solver][infos]        BALANCE                     MWh            Nodal energy balance, throughout all MC years
+[2025-04-09 11:04:22][solver][infos]        ROW BAL.                    MWh            Row Balance
+[2025-04-09 11:04:22][solver][infos]        PSP                         MWh            PSP
+[2025-04-09 11:04:22][solver][infos]        MISC. NDG                   MWh            Non-dispatchable generation (not including wind and run-of-the-river)
+[2025-04-09 11:04:22][solver][infos]        LOAD                        MWh            Load generation, thoughout all MC years
+[2025-04-09 11:04:22][solver][infos]        H. ROR                      MWh            Hydro generation, thoughout all MC years
+[2025-04-09 11:04:22][solver][infos]        WIND                        MWh            Wind generation, thoughout all MC years
+[2025-04-09 11:04:22][solver][infos]        SOLAR                       MWh            Solar generation, thoughout all MC years
+[2025-04-09 11:04:22][solver][infos]        Dispatch. Gen.              MWh            Value of all the dispatchable generation throughout all MC years
+[2025-04-09 11:04:22][solver][infos]        Renewable Gen.              MWh            Value of all the renewable generation throughout all MC years
+[2025-04-09 11:04:22][solver][infos]        H. STOR                     MWh            Hydro Storage Generation
+[2025-04-09 11:04:22][solver][infos]        H. PUMP                     MWh            Hydraulic pumping
+[2025-04-09 11:04:22][solver][infos]        H. LEV                      %              Hydro Level
+[2025-04-09 11:04:22][solver][infos]        H. INFL                     MWh            Hydraulic inflows
+[2025-04-09 11:04:22][solver][infos]        H. OVFL                     %              Hydro overflow
+[2025-04-09 11:04:22][solver][infos]        H. VAL                      Euro/MWh       Water value
+[2025-04-09 11:04:22][solver][infos]        H. COST                     Euro           Hydro Cost throughout all MC years, of all the thermal dispatchable clusters
+[2025-04-09 11:04:22][solver][infos]        UNSP. ENRG                  MWh            Unsuplied Energy (demand that cannot be satisfied)
+[2025-04-09 11:04:22][solver][infos]        DENS                        MWh            Domestic Unsupplied Energy (demand that cannot be satisfied without interconnections/links)
+[2025-04-09 11:04:22][solver][infos]        LMR VIOL.                                  Local Matching Rule is violated more than the provided threshold
+[2025-04-09 11:04:22][solver][infos]        SPIL. ENRG                  MWh            Spilled Energy (generation that cannot be satisfied)
+[2025-04-09 11:04:22][solver][infos]        LOLD                        Hours          LOLD
+[2025-04-09 11:04:22][solver][infos]        LOLP                        %              LOLP
+[2025-04-09 11:04:22][solver][infos]        AVL DTG                     MWh            Available dispatchable generation
+[2025-04-09 11:04:22][solver][infos]        DTG MRG                     MWh            Dispatchable Generation Margin
+[2025-04-09 11:04:22][solver][infos]        DTG MRG CSR                 MWh            Dispatchable Generation Margin (after CSR optimization)
+[2025-04-09 11:04:22][solver][infos]        MAX MRG                     MWh            Maximum margin throughout all MC years
+[2025-04-09 11:04:22][solver][infos]        NP COST                     Euro           Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[2025-04-09 11:04:22][solver][infos]        NODU                                       Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[2025-04-09 11:04:22][solver][infos]  + Binding constraints                            
+[2025-04-09 11:04:22][solver][infos]        BC. MARG. COST              Euro           Marginal cost for binding constraints
+[2025-04-09 11:04:24][solver][infos] 
+[2025-04-09 11:04:24][solver][infos] MC-Years : [1 .. 720], total: 36
+[2025-04-09 11:04:24][solver][infos]  Doing hydro validation
+[2025-04-09 11:04:25][solver][infos]  Starting the simulation
+[2025-04-09 11:04:25][solver][infos] parallel batch size : 1 (1 perfomed)
+[2025-04-09 11:04:25][solver][infos] Year(s) 1 
+[2025-04-09 11:04:26][solver][infos] 
+[2025-04-09 11:04:26][solver][infos]  Starting Memory Allocation for a Weekly Optimization problem in Canonical form 
+[2025-04-09 11:04:26][solver][infos]  ( Problem Size :7728 variables 505 Constraints) 
+[2025-04-09 11:04:26][solver][infos] 
+[2025-04-09 11:04:26][solver][infos]  Status of Preliminary Allocations for Generic Problem Resolution : Successful
+[2025-04-09 11:04:26][solver][infos] 
+[2025-04-09 11:04:29][solver][infos] [adq-patch] Year:1 Week:1.Total LMR violation:0.000000
+[2025-04-09 11:04:29][solver][infos] [adq-patch] Year:1 Week:2.Total LMR violation:0.000000
+[2025-04-09 11:04:30][solver][infos] [adq-patch] Year:1 Week:3.Total LMR violation:0.000000
+[2025-04-09 11:04:30][solver][infos] [adq-patch] Year:1 Week:4.Total LMR violation:0.000000
+[2025-04-09 11:04:30][solver][infos] [adq-patch] Year:1 Week:5.Total LMR violation:0.000000
+[2025-04-09 11:04:30][solver][infos] [adq-patch] Year:1 Week:6.Total LMR violation:0.000000
+[2025-04-09 11:04:30][solver][infos] [adq-patch] Year:1 Week:7.Total LMR violation:0.000000
+[2025-04-09 11:04:30][solver][progress] task 0 mc, year: 0, 700.000000
+[2025-04-09 11:04:30][solver][infos] [adq-patch] Year:1 Week:8.Total LMR violation:0.000000
+[2025-04-09 11:04:30][solver][infos] [adq-patch] Year:1 Week:9.Total LMR violation:0.000000
+[2025-04-09 11:04:30][solver][infos] [adq-patch] Year:1 Week:10.Total LMR violation:0.000000
+[2025-04-09 11:04:30][solver][infos] [adq-patch] Year:1 Week:11.Total LMR violation:0.000000
+[2025-04-09 11:04:30][solver][infos] [adq-patch] Year:1 Week:12.Total LMR violation:0.000000
+[2025-04-09 11:04:31][solver][infos] [adq-patch] Year:1 Week:13.Total LMR violation:0.000000
+[2025-04-09 11:04:31][solver][infos] [adq-patch] Year:1 Week:14.Total LMR violation:0.000000
+[2025-04-09 11:04:31][solver][infos] [adq-patch] Year:1 Week:15.Total LMR violation:0.000000
+[2025-04-09 11:04:31][solver][infos] [adq-patch] Year:1 Week:16.Total LMR violation:0.000000
+[2025-04-09 11:04:31][solver][infos] [adq-patch] Year:1 Week:17.Total LMR violation:0.000000
+[2025-04-09 11:04:31][solver][infos] [adq-patch] Year:1 Week:18.Total LMR violation:0.000000
+[2025-04-09 11:04:31][solver][infos] [adq-patch] Year:1 Week:19.Total LMR violation:0.000000
+[2025-04-09 11:04:31][solver][progress] task 0 mc, year: 0, 1900.000000
+[2025-04-09 11:04:31][solver][infos] [adq-patch] Year:1 Week:20.Total LMR violation:0.000000
+[2025-04-09 11:04:31][solver][infos] [adq-patch] Year:1 Week:21.Total LMR violation:0.000000
+[2025-04-09 11:04:31][solver][infos] [adq-patch] Year:1 Week:22.Total LMR violation:0.000000
+[2025-04-09 11:04:32][solver][infos] [adq-patch] Year:1 Week:23.Total LMR violation:0.000000
+[2025-04-09 11:04:32][solver][infos] [adq-patch] Year:1 Week:24.Total LMR violation:0.000000
+[2025-04-09 11:04:32][solver][infos] [adq-patch] Year:1 Week:25.Total LMR violation:0.000000
+[2025-04-09 11:04:32][solver][infos] [adq-patch] Year:1 Week:26.Total LMR violation:0.000000
+[2025-04-09 11:04:32][solver][infos] [adq-patch] Year:1 Week:27.Total LMR violation:0.000000
+[2025-04-09 11:04:32][solver][infos] [adq-patch] Year:1 Week:28.Total LMR violation:0.000000
+[2025-04-09 11:04:32][solver][infos] [adq-patch] Year:1 Week:29.Total LMR violation:0.000000
+[2025-04-09 11:04:32][solver][infos] [adq-patch] Year:1 Week:30.Total LMR violation:0.000000
+[2025-04-09 11:04:32][solver][progress] task 0 mc, year: 0, 3000.000000
+[2025-04-09 11:04:33][solver][infos] [adq-patch] Year:1 Week:31.Total LMR violation:0.000000
+[2025-04-09 11:04:33][solver][infos] [adq-patch] Year:1 Week:32.Total LMR violation:0.000000
+[2025-04-09 11:04:33][solver][infos] [adq-patch] Year:1 Week:33.Total LMR violation:0.000000
+[2025-04-09 11:04:33][solver][infos] [adq-patch] Year:1 Week:34.Total LMR violation:0.000000
+[2025-04-09 11:04:33][solver][infos] [adq-patch] Year:1 Week:35.Total LMR violation:0.000000
+[2025-04-09 11:04:34][solver][infos] [adq-patch] Year:1 Week:36.Total LMR violation:0.000000
+[2025-04-09 11:04:34][solver][progress] task 0 mc, year: 0, 3600.000000
+[2025-04-09 11:04:34][solver][infos] [adq-patch] Year:1 Week:37.Total LMR violation:0.000000
+[2025-04-09 11:04:34][solver][infos] [adq-patch] Year:1 Week:38.Total LMR violation:0.000000
+[2025-04-09 11:04:35][solver][infos] [adq-patch] Year:1 Week:39.Total LMR violation:0.000000
+[2025-04-09 11:04:35][solver][progress] task 0 mc, year: 0, 3900.000000
+[2025-04-09 11:04:35][solver][infos] [adq-patch] Year:1 Week:40.Total LMR violation:0.000000
+[2025-04-09 11:04:35][solver][infos] [adq-patch] Year:1 Week:41.Total LMR violation:0.000000
+[2025-04-09 11:04:36][solver][infos] [adq-patch] Year:1 Week:42.Total LMR violation:0.000000
+[2025-04-09 11:04:36][solver][progress] task 0 mc, year: 0, 4200.000000
+[2025-04-09 11:04:36][solver][infos] [adq-patch] Year:1 Week:43.Total LMR violation:0.000000
+[2025-04-09 11:04:37][solver][infos] [adq-patch] Year:1 Week:44.Total LMR violation:0.000000
+[2025-04-09 11:04:37][solver][infos] [adq-patch] Year:1 Week:45.Total LMR violation:0.000000
+[2025-04-09 11:04:37][solver][infos] [adq-patch] Year:1 Week:46.Total LMR violation:0.000000
+[2025-04-09 11:04:37][solver][progress] task 0 mc, year: 0, 4500.000000
+[2025-04-09 11:04:38][solver][infos] [adq-patch] Year:1 Week:47.Total LMR violation:0.000000
+[2025-04-09 11:04:38][solver][infos] [adq-patch] Year:1 Week:48.Total LMR violation:0.000000
+[2025-04-09 11:04:38][solver][infos] [adq-patch] Year:1 Week:49.Total LMR violation:0.000000
+[2025-04-09 11:04:38][solver][infos] [adq-patch] Year:1 Week:50.Total LMR violation:0.000000
+[2025-04-09 11:04:38][solver][infos] [adq-patch] Year:1 Week:51.Total LMR violation:0.000000
+[2025-04-09 11:04:39][solver][progress] task 0 mc, year: 0, 5100.000000
+[2025-04-09 11:04:39][solver][infos] [adq-patch] Year:1 Week:52.Total LMR violation:0.000000
+[2025-04-09 11:04:39][solver][infos] Exporting the annual results
+[2025-04-09 11:04:39][solver][infos] Exporting results : FI00
+[2025-04-09 11:04:40][solver][progress] task 0 mc, year: 0, 5200.000000
+[2025-04-09 11:04:40][solver][infos] Exporting results : binding constraints
+[2025-04-09 11:04:40][solver][progress] task 0 mc, year: 0, 100
+[2025-04-09 11:04:41][solver][infos] parallel batch size : 1 (1 perfomed)
+[2025-04-09 11:04:41][solver][infos] Year(s) 2 
+[2025-04-09 11:04:42][solver][infos] [adq-patch] Year:2 Week:1.Total LMR violation:0.000000
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:67
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:68
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:69
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:70
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:71
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:73
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:81
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:82
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:83
+[2025-04-09 11:04:42][solver][infos] [adq-patch] Year:2 Week:2.Total LMR violation:0.000000
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:225
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:226
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:227
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:228
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:229
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:230
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:231
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:232
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:233
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:234
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:235
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:236
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:237
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:238
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:239
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:240
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:241
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:242
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:243
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:253
+[2025-04-09 11:04:42][solver][infos] [adq-patch] CSR triggered for Year:2 Hour:254
+[2025-04-09 11:04:42][solver][infos] [adq-patch] Year:2 Week:3.Total LMR violation:0.000000
+[2025-04-09 11:04:42][solver][infos] [adq-patch] Year:2 Week:4.Total LMR violation:0.000000
+[2025-04-09 11:04:42][solver][progress] task 0 mc, year: 1, 400.000000
+[2025-04-09 11:04:42][solver][infos] [adq-patch] Year:2 Week:5.Total LMR violation:0.000000
+[2025-04-09 11:04:42][solver][infos] [adq-patch] Year:2 Week:6.Total LMR violation:0.000000
+[2025-04-09 11:04:43][solver][infos] [adq-patch] Year:2 Week:7.Total LMR violation:0.000000
+[2025-04-09 11:04:43][solver][infos] [adq-patch] Year:2 Week:8.Total LMR violation:0.000000
+[2025-04-09 11:04:43][solver][infos] [adq-patch] Year:2 Week:9.Total LMR violation:0.000000
+[2025-04-09 11:04:43][solver][infos] [adq-patch] Year:2 Week:10.Total LMR violation:0.000000
+[2025-04-09 11:04:43][solver][infos] [adq-patch] Year:2 Week:11.Total LMR violation:0.000000
+[2025-04-09 11:04:43][solver][infos] [adq-patch] Year:2 Week:12.Total LMR violation:0.000000
+[2025-04-09 11:04:43][solver][progress] task 0 mc, year: 1, 1200.000000
+[2025-04-09 11:04:44][solver][infos] [adq-patch] Year:2 Week:13.Total LMR violation:0.000000
+[2025-04-09 11:04:44][solver][infos] [adq-patch] Year:2 Week:14.Total LMR violation:0.000000
+[2025-04-09 11:04:44][solver][infos] [adq-patch] Year:2 Week:15.Total LMR violation:0.000000
+[2025-04-09 11:04:44][solver][infos] [adq-patch] Year:2 Week:16.Total LMR violation:0.000000
+[2025-04-09 11:04:44][solver][infos] [adq-patch] Year:2 Week:17.Total LMR violation:0.000000
+[2025-04-09 11:04:44][solver][infos] [adq-patch] Year:2 Week:18.Total LMR violation:0.000000
+[2025-04-09 11:04:44][solver][infos] [adq-patch] Year:2 Week:19.Total LMR violation:0.000000
+[2025-04-09 11:04:44][solver][infos] [adq-patch] Year:2 Week:20.Total LMR violation:0.000000
+[2025-04-09 11:04:44][solver][infos] [adq-patch] Year:2 Week:21.Total LMR violation:0.000000
+[2025-04-09 11:04:45][solver][infos] [adq-patch] Year:2 Week:22.Total LMR violation:0.000000
+[2025-04-09 11:04:45][solver][infos] [adq-patch] Year:2 Week:23.Total LMR violation:0.000000
+[2025-04-09 11:04:45][solver][progress] task 0 mc, year: 1, 2200.000000
+[2025-04-09 11:04:45][solver][infos] [adq-patch] Year:2 Week:24.Total LMR violation:0.000000
+[2025-04-09 11:04:45][solver][infos] [adq-patch] Year:2 Week:25.Total LMR violation:0.000000
+[2025-04-09 11:04:45][solver][infos] [adq-patch] Year:2 Week:26.Total LMR violation:0.000000
+[2025-04-09 11:04:45][solver][infos] [adq-patch] Year:2 Week:27.Total LMR violation:0.000000
+[2025-04-09 11:04:46][solver][infos] [adq-patch] Year:2 Week:28.Total LMR violation:0.000000
+[2025-04-09 11:04:46][solver][infos] [adq-patch] Year:2 Week:29.Total LMR violation:0.000000
+[2025-04-09 11:04:46][solver][infos] [adq-patch] Year:2 Week:30.Total LMR violation:0.000000
+[2025-04-09 11:04:46][solver][progress] task 0 mc, year: 1, 2900.000000
+[2025-04-09 11:04:46][solver][infos] [adq-patch] Year:2 Week:31.Total LMR violation:0.000000
+[2025-04-09 11:04:46][solver][infos] [adq-patch] Year:2 Week:32.Total LMR violation:0.000000
+[2025-04-09 11:04:46][solver][infos] [adq-patch] Year:2 Week:33.Total LMR violation:0.000000
+[2025-04-09 11:04:46][solver][infos] [adq-patch] Year:2 Week:34.Total LMR violation:0.000000
+[2025-04-09 11:04:46][solver][infos] [adq-patch] Year:2 Week:35.Total LMR violation:0.000000
+[2025-04-09 11:04:47][solver][infos] [adq-patch] Year:2 Week:36.Total LMR violation:0.000000
+[2025-04-09 11:04:47][solver][infos] [adq-patch] Year:2 Week:37.Total LMR violation:0.000000
+[2025-04-09 11:04:47][solver][infos] [adq-patch] Year:2 Week:38.Total LMR violation:0.000000
+[2025-04-09 11:04:47][solver][infos] [adq-patch] Year:2 Week:39.Total LMR violation:0.000000
+[2025-04-09 11:04:47][solver][progress] task 0 mc, year: 1, 3900.000000
+[2025-04-09 11:04:47][solver][infos] [adq-patch] Year:2 Week:40.Total LMR violation:0.000000
+[2025-04-09 11:04:47][solver][infos] [adq-patch] Year:2 Week:41.Total LMR violation:0.000000
+[2025-04-09 11:04:48][solver][infos] [adq-patch] Year:2 Week:42.Total LMR violation:0.000000
+[2025-04-09 11:04:48][solver][infos] [adq-patch] Year:2 Week:43.Total LMR violation:0.000000
+[2025-04-09 11:04:48][solver][infos] [adq-patch] Year:2 Week:44.Total LMR violation:0.000000
+[2025-04-09 11:04:48][solver][infos] [adq-patch] Year:2 Week:45.Total LMR violation:0.000000
+[2025-04-09 11:04:48][solver][infos] [adq-patch] Year:2 Week:46.Total LMR violation:0.000000
+[2025-04-09 11:04:48][solver][infos] [adq-patch] Year:2 Week:47.Total LMR violation:0.000000
+[2025-04-09 11:04:48][solver][progress] task 0 mc, year: 1, 4600.000000
+[2025-04-09 11:04:48][solver][infos] [adq-patch] Year:2 Week:48.Total LMR violation:0.000000
+[2025-04-09 11:04:48][solver][infos] [adq-patch] Year:2 Week:49.Total LMR violation:0.000000
+[2025-04-09 11:04:49][solver][infos] [adq-patch] Year:2 Week:50.Total LMR violation:0.000000
+[2025-04-09 11:04:49][solver][infos] [adq-patch] Year:2 Week:51.Total LMR violation:0.000000
+[2025-04-09 11:04:49][solver][infos] [adq-patch] Year:2 Week:52.Total LMR violation:0.000000
+[2025-04-09 11:04:49][solver][infos] Exporting the annual results
+[2025-04-09 11:04:49][solver][infos] Exporting results : FI00
+[2025-04-09 11:04:49][solver][infos] Exporting results : binding constraints
+[2025-04-09 11:04:49][solver][progress] task 0 mc, year: 1, 100
+[2025-04-09 11:04:49][solver][infos] parallel batch size : 1 (1 perfomed)
+[2025-04-09 11:04:49][solver][infos] Year(s) 3 
+[2025-04-09 11:04:50][solver][infos] [adq-patch] Year:3 Week:1.Total LMR violation:0.000000
+[2025-04-09 11:04:50][solver][infos] [adq-patch] Year:3 Week:2.Total LMR violation:0.000000
+[2025-04-09 11:04:50][solver][infos] [adq-patch] Year:3 Week:3.Total LMR violation:0.000000
+[2025-04-09 11:04:50][solver][infos] [adq-patch] Year:3 Week:4.Total LMR violation:0.000000
+[2025-04-09 11:04:50][solver][infos] [adq-patch] Year:3 Week:5.Total LMR violation:0.000000
+[2025-04-09 11:04:51][solver][infos] [adq-patch] Year:3 Week:6.Total LMR violation:0.000000
+[2025-04-09 11:04:51][solver][infos] [adq-patch] Year:3 Week:7.Total LMR violation:0.000000
+[2025-04-09 11:04:51][solver][progress] task 0 mc, year: 2, 700.000000
+[2025-04-09 11:04:51][solver][infos] [adq-patch] Year:3 Week:8.Total LMR violation:0.000000
+[2025-04-09 11:04:51][solver][infos] [adq-patch] Year:3 Week:9.Total LMR violation:0.000000
+[2025-04-09 11:04:51][solver][infos] [adq-patch] Year:3 Week:10.Total LMR violation:0.000000
+[2025-04-09 11:04:51][solver][infos] [adq-patch] Year:3 Week:11.Total LMR violation:0.000000
+[2025-04-09 11:04:51][solver][infos] [adq-patch] Year:3 Week:12.Total LMR violation:0.000000
+[2025-04-09 11:04:51][solver][infos] [adq-patch] Year:3 Week:13.Total LMR violation:0.000000
+[2025-04-09 11:04:51][solver][infos] [adq-patch] Year:3 Week:14.Total LMR violation:0.000000
+[2025-04-09 11:04:52][solver][infos] [adq-patch] Year:3 Week:15.Total LMR violation:0.000000
+[2025-04-09 11:04:52][solver][infos] [adq-patch] Year:3 Week:16.Total LMR violation:0.000000
+[2025-04-09 11:04:52][solver][infos] [adq-patch] Year:3 Week:17.Total LMR violation:0.000000
+[2025-04-09 11:04:52][solver][infos] [adq-patch] Year:3 Week:18.Total LMR violation:0.000000
+[2025-04-09 11:04:52][solver][progress] task 0 mc, year: 2, 1700.000000
+[2025-04-09 11:04:52][solver][infos] [adq-patch] Year:3 Week:19.Total LMR violation:0.000000
+[2025-04-09 11:04:52][solver][infos] [adq-patch] Year:3 Week:20.Total LMR violation:0.000000
+[2025-04-09 11:04:52][solver][infos] [adq-patch] Year:3 Week:21.Total LMR violation:0.000000
+[2025-04-09 11:04:52][solver][infos] [adq-patch] Year:3 Week:22.Total LMR violation:0.000000
+[2025-04-09 11:04:53][solver][infos] [adq-patch] Year:3 Week:23.Total LMR violation:0.000000
+[2025-04-09 11:04:53][solver][infos] [adq-patch] Year:3 Week:24.Total LMR violation:0.000000
+[2025-04-09 11:04:53][solver][infos] [adq-patch] Year:3 Week:25.Total LMR violation:0.000000
+[2025-04-09 11:04:53][solver][infos] [adq-patch] Year:3 Week:26.Total LMR violation:0.000000
+[2025-04-09 11:04:53][solver][progress] task 0 mc, year: 2, 2600.000000
+[2025-04-09 11:04:53][solver][infos] [adq-patch] Year:3 Week:27.Total LMR violation:0.000000
+[2025-04-09 11:04:54][solver][infos] [adq-patch] Year:3 Week:28.Total LMR violation:0.000000
+[2025-04-09 11:04:54][solver][infos] [adq-patch] Year:3 Week:29.Total LMR violation:0.000000
+[2025-04-09 11:04:54][solver][infos] [adq-patch] Year:3 Week:30.Total LMR violation:0.000000
+[2025-04-09 11:04:54][solver][infos] [adq-patch] Year:3 Week:31.Total LMR violation:0.000000
+[2025-04-09 11:04:54][solver][progress] task 0 mc, year: 2, 3100.000000
+[2025-04-09 11:04:54][solver][infos] [adq-patch] Year:3 Week:32.Total LMR violation:0.000000
+[2025-04-09 11:04:55][solver][infos] [adq-patch] Year:3 Week:33.Total LMR violation:0.000000
+[2025-04-09 11:04:55][solver][infos] [adq-patch] Year:3 Week:34.Total LMR violation:0.000000
+[2025-04-09 11:04:55][solver][infos] [adq-patch] Year:3 Week:35.Total LMR violation:0.000000
+[2025-04-09 11:04:56][solver][progress] task 0 mc, year: 2, 3500.000000
+[2025-04-09 11:04:56][solver][infos] [adq-patch] Year:3 Week:36.Total LMR violation:0.000000
+[2025-04-09 11:04:56][solver][infos] [adq-patch] Year:3 Week:37.Total LMR violation:0.000000
+[2025-04-09 11:04:56][solver][infos] [adq-patch] Year:3 Week:38.Total LMR violation:0.000000
+[2025-04-09 11:04:57][solver][infos] [adq-patch] Year:3 Week:39.Total LMR violation:0.000000
+[2025-04-09 11:04:57][solver][progress] task 0 mc, year: 2, 3900.000000
+[2025-04-09 11:04:57][solver][infos] [adq-patch] Year:3 Week:40.Total LMR violation:0.000000
+[2025-04-09 11:04:57][solver][infos] [adq-patch] Year:3 Week:41.Total LMR violation:0.000000
+[2025-04-09 11:04:57][solver][infos] [adq-patch] Year:3 Week:42.Total LMR violation:0.000000
+[2025-04-09 11:04:58][solver][infos] [adq-patch] Year:3 Week:43.Total LMR violation:0.000000
+[2025-04-09 11:04:58][solver][infos] [adq-patch] Year:3 Week:44.Total LMR violation:0.000000
+[2025-04-09 11:04:58][solver][progress] task 0 mc, year: 2, 4400.000000
+[2025-04-09 11:04:58][solver][infos] [adq-patch] Year:3 Week:45.Total LMR violation:0.000000
+[2025-04-09 11:04:58][solver][infos] [adq-patch] Year:3 Week:46.Total LMR violation:0.000000
+[2025-04-09 11:04:58][solver][infos] [adq-patch] Year:3 Week:47.Total LMR violation:0.000000
+[2025-04-09 11:04:58][solver][infos] [adq-patch] Year:3 Week:48.Total LMR violation:0.000000
+[2025-04-09 11:04:59][solver][infos] [adq-patch] Year:3 Week:49.Total LMR violation:0.000000
+[2025-04-09 11:04:59][solver][infos] [adq-patch] Year:3 Week:50.Total LMR violation:0.000000
+[2025-04-09 11:04:59][solver][infos] [adq-patch] Year:3 Week:51.Total LMR violation:0.000000
+[2025-04-09 11:04:59][solver][infos] [adq-patch] Year:3 Week:52.Total LMR violation:0.000000
+[2025-04-09 11:04:59][solver][progress] task 0 mc, year: 2, 5200.000000
+[2025-04-09 11:04:59][solver][infos] Exporting the annual results
+[2025-04-09 11:04:59][solver][infos] Exporting results : FI00
+[2025-04-09 11:05:00][solver][infos] Exporting results : binding constraints
+[2025-04-09 11:05:00][solver][progress] task 0 mc, year: 2, 100
+[2025-04-09 11:05:01][solver][infos] parallel batch size : 1 (1 perfomed)
+[2025-04-09 11:05:01][solver][infos] Year(s) 4 
+[2025-04-09 11:05:03][solver][infos] [adq-patch] Year:4 Week:1.Total LMR violation:0.000000
+[2025-04-09 11:05:03][solver][infos] [adq-patch] CSR triggered for Year:4 Hour:115
+[2025-04-09 11:05:03][solver][infos] [adq-patch] CSR triggered for Year:4 Hour:116
+[2025-04-09 11:05:03][solver][infos] [adq-patch] CSR triggered for Year:4 Hour:117
+[2025-04-09 11:05:03][solver][infos] [adq-patch] CSR triggered for Year:4 Hour:118
+[2025-04-09 11:05:03][solver][progress] task 0 mc, year: 3, 100.000000
+[2025-04-09 11:05:03][solver][infos] [adq-patch] Year:4 Week:2.Total LMR violation:0.000000
+[2025-04-09 11:05:03][solver][infos] [adq-patch] Year:4 Week:3.Total LMR violation:0.000000
+[2025-04-09 11:05:04][solver][progress] task 0 mc, year: 3, 300.000000
+[2025-04-09 11:05:05][solver][infos] [adq-patch] Year:4 Week:4.Total LMR violation:0.000000
+[2025-04-09 11:05:05][solver][progress] task 0 mc, year: 3, 400.000000
+[2025-04-09 11:05:06][solver][infos] [adq-patch] Year:4 Week:5.Total LMR violation:0.000000
+[2025-04-09 11:05:07][solver][progress] task 0 mc, year: 3, 500.000000
+[2025-04-09 11:05:07][solver][infos] [adq-patch] Year:4 Week:6.Total LMR violation:0.000000
+[2025-04-09 11:05:07][solver][infos] [adq-patch] Year:4 Week:7.Total LMR violation:0.000000
+[2025-04-09 11:05:07][solver][infos] [adq-patch] Year:4 Week:8.Total LMR violation:0.000000
+[2025-04-09 11:05:07][solver][infos] [adq-patch] Year:4 Week:9.Total LMR violation:0.000000
+[2025-04-09 11:05:08][solver][infos] [adq-patch] Year:4 Week:10.Total LMR violation:0.000000
+[2025-04-09 11:05:08][solver][progress] task 0 mc, year: 3, 1000.000000
+[2025-04-09 11:05:08][solver][infos] [adq-patch] Year:4 Week:11.Total LMR violation:0.000000
+[2025-04-09 11:05:08][solver][infos] [adq-patch] Year:4 Week:12.Total LMR violation:0.000000
+[2025-04-09 11:05:08][solver][infos] [adq-patch] Year:4 Week:13.Total LMR violation:0.000000
+[2025-04-09 11:05:09][solver][infos] [adq-patch] Year:4 Week:14.Total LMR violation:0.000000
+[2025-04-09 11:05:09][solver][infos] [adq-patch] Year:4 Week:15.Total LMR violation:0.000000
+[2025-04-09 11:05:09][solver][infos] [adq-patch] Year:4 Week:16.Total LMR violation:0.000000
+[2025-04-09 11:05:09][solver][progress] task 0 mc, year: 3, 1600.000000
+[2025-04-09 11:05:09][solver][infos] [adq-patch] Year:4 Week:17.Total LMR violation:0.000000
+[2025-04-09 11:05:10][solver][infos] [adq-patch] Year:4 Week:18.Total LMR violation:0.000000
+[2025-04-09 11:05:10][solver][progress] task 0 mc, year: 3, 1800.000000
+[2025-04-09 11:05:11][solver][infos] [adq-patch] Year:4 Week:19.Total LMR violation:0.000000
+[2025-04-09 11:05:11][solver][infos] [adq-patch] Year:4 Week:20.Total LMR violation:0.000000
+[2025-04-09 11:05:12][solver][progress] task 0 mc, year: 3, 2000.000000
+[2025-04-09 11:05:12][solver][infos] [adq-patch] Year:4 Week:21.Total LMR violation:0.000000
+[2025-04-09 11:05:13][solver][progress] task 0 mc, year: 3, 2100.000000
+[2025-04-09 11:05:13][solver][infos] [adq-patch] Year:4 Week:22.Total LMR violation:0.000000
+[2025-04-09 11:05:14][solver][infos] [adq-patch] Year:4 Week:23.Total LMR violation:0.000000
+[2025-04-09 11:05:14][solver][infos] [adq-patch] Year:4 Week:24.Total LMR violation:0.000000
+[2025-04-09 11:05:14][solver][progress] task 0 mc, year: 3, 2400.000000
+[2025-04-09 11:05:14][solver][infos] [adq-patch] Year:4 Week:25.Total LMR violation:0.000000
+[2025-04-09 11:05:15][solver][infos] [adq-patch] Year:4 Week:26.Total LMR violation:0.000000
+[2025-04-09 11:05:15][solver][infos] [adq-patch] Year:4 Week:27.Total LMR violation:0.000000
+[2025-04-09 11:05:15][solver][progress] task 0 mc, year: 3, 2600.000000
+[2025-04-09 11:05:16][solver][infos] [adq-patch] Year:4 Week:28.Total LMR violation:0.000000
+[2025-04-09 11:05:16][solver][progress] task 0 mc, year: 3, 2800.000000
+[2025-04-09 11:05:17][solver][infos] [adq-patch] Year:4 Week:29.Total LMR violation:0.000000
+[2025-04-09 11:05:18][solver][progress] task 0 mc, year: 3, 2900.000000
+[2025-04-09 11:05:19][solver][infos] [adq-patch] Year:4 Week:30.Total LMR violation:0.000000
+[2025-04-09 11:05:19][solver][progress] task 0 mc, year: 3, 3000.000000
+[2025-04-09 11:05:20][solver][infos] [adq-patch] Year:4 Week:31.Total LMR violation:0.000000
+[2025-04-09 11:05:20][solver][progress] task 0 mc, year: 3, 3100.000000
+[2025-04-09 11:05:21][solver][infos] [adq-patch] Year:4 Week:32.Total LMR violation:0.000000
+[2025-04-09 11:05:21][solver][infos] [adq-patch] Year:4 Week:33.Total LMR violation:0.000000
+[2025-04-09 11:05:21][solver][progress] task 0 mc, year: 3, 3300.000000
+[2025-04-09 11:05:22][solver][infos] [adq-patch] Year:4 Week:34.Total LMR violation:0.000000
+[2025-04-09 11:05:22][solver][infos] [adq-patch] Year:4 Week:35.Total LMR violation:0.000000
+[2025-04-09 11:05:23][solver][progress] task 0 mc, year: 3, 3500.000000
+[2025-04-09 11:05:23][solver][infos] [adq-patch] Year:4 Week:36.Total LMR violation:0.000000
+[2025-04-09 11:05:23][solver][infos] [adq-patch] Year:4 Week:37.Total LMR violation:0.000000
+[2025-04-09 11:05:23][solver][infos] [adq-patch] Year:4 Week:38.Total LMR violation:0.000000
+[2025-04-09 11:05:24][solver][progress] task 0 mc, year: 3, 3800.000000
+[2025-04-09 11:05:24][solver][infos] [adq-patch] Year:4 Week:39.Total LMR violation:0.000000
+[2025-04-09 11:05:24][solver][infos] [adq-patch] Year:4 Week:40.Total LMR violation:0.000000
+[2025-04-09 11:05:25][solver][progress] task 0 mc, year: 3, 4000.000000
+[2025-04-09 11:05:25][solver][infos] [adq-patch] Year:4 Week:41.Total LMR violation:0.000000
+[2025-04-09 11:05:25][solver][infos] [adq-patch] Year:4 Week:42.Total LMR violation:0.000000
+[2025-04-09 11:05:26][solver][infos] [adq-patch] Year:4 Week:43.Total LMR violation:0.000000
+[2025-04-09 11:05:26][solver][progress] task 0 mc, year: 3, 4300.000000
+[2025-04-09 11:05:27][solver][infos] [adq-patch] Year:4 Week:44.Total LMR violation:0.000000
+[2025-04-09 11:05:27][solver][infos] [adq-patch] Year:4 Week:45.Total LMR violation:0.000000
+[2025-04-09 11:05:27][solver][infos] [adq-patch] Year:4 Week:46.Total LMR violation:0.000000
+[2025-04-09 11:05:27][solver][progress] task 0 mc, year: 3, 4500.000000
+[2025-04-09 11:05:28][solver][infos] [adq-patch] Year:4 Week:47.Total LMR violation:0.000000
+[2025-04-09 11:05:28][solver][infos] [adq-patch] Year:4 Week:48.Total LMR violation:0.000000
+[2025-04-09 11:05:28][solver][infos] [adq-patch] Year:4 Week:49.Total LMR violation:0.000000
+[2025-04-09 11:05:28][solver][infos] [adq-patch] Year:4 Week:50.Total LMR violation:0.000000
+[2025-04-09 11:05:29][solver][progress] task 0 mc, year: 3, 5000.000000
+[2025-04-09 11:05:29][solver][infos] [adq-patch] Year:4 Week:51.Total LMR violation:0.000000
+[2025-04-09 11:05:29][solver][infos] [adq-patch] Year:4 Week:52.Total LMR violation:0.000000
+[2025-04-09 11:05:30][solver][infos] Exporting the annual results
+[2025-04-09 11:05:30][solver][infos] Exporting results : FI00
+[2025-04-09 11:05:30][solver][progress] task 0 mc, year: 3, 5200.000000
+[2025-04-09 11:05:35][solver][infos] Exporting results : binding constraints
+[2025-04-09 11:05:35][solver][progress] task 0 mc, year: 3, 100
+[2025-04-09 11:05:35][solver][infos] parallel batch size : 1 (1 perfomed)
+[2025-04-09 11:05:35][solver][infos] Year(s) 5 
+[2025-04-09 11:05:37][solver][infos] [adq-patch] Year:5 Week:1.Total LMR violation:0.000000
+[2025-04-09 11:05:37][solver][infos] [adq-patch] Year:5 Week:2.Total LMR violation:0.000000
+[2025-04-09 11:05:38][solver][progress] task 0 mc, year: 4, 200.000000
+[2025-04-09 11:05:38][solver][infos] [adq-patch] Year:5 Week:3.Total LMR violation:0.000000
+[2025-04-09 11:05:38][solver][infos] [adq-patch] Year:5 Week:4.Total LMR violation:0.000000
+[2025-04-09 11:05:38][solver][infos] [adq-patch] Year:5 Week:5.Total LMR violation:0.000000
+[2025-04-09 11:05:38][solver][infos] [adq-patch] Year:5 Week:6.Total LMR violation:0.000000
+[2025-04-09 11:05:38][solver][infos] [adq-patch] Year:5 Week:7.Total LMR violation:0.000000
+[2025-04-09 11:05:39][solver][infos] [adq-patch] Year:5 Week:8.Total LMR violation:0.000000
+[2025-04-09 11:05:39][solver][progress] task 0 mc, year: 4, 800.000000
+[2025-04-09 11:05:39][solver][infos] [adq-patch] Year:5 Week:9.Total LMR violation:0.000000
+[2025-04-09 11:05:39][solver][infos] [adq-patch] Year:5 Week:10.Total LMR violation:0.000000
+[2025-04-09 11:05:39][solver][infos] [adq-patch] Year:5 Week:11.Total LMR violation:0.000000
+[2025-04-09 11:05:39][solver][infos] [adq-patch] Year:5 Week:12.Total LMR violation:0.000000
+[2025-04-09 11:05:40][solver][infos] [adq-patch] Year:5 Week:13.Total LMR violation:0.000000
+[2025-04-09 11:05:40][solver][infos] [adq-patch] Year:5 Week:14.Total LMR violation:0.000000
+[2025-04-09 11:05:40][solver][infos] [adq-patch] Year:5 Week:15.Total LMR violation:0.000000
+[2025-04-09 11:05:40][solver][progress] task 0 mc, year: 4, 1400.000000
+[2025-04-09 11:05:40][solver][infos] [adq-patch] Year:5 Week:16.Total LMR violation:0.000000
+[2025-04-09 11:05:40][solver][infos] [adq-patch] Year:5 Week:17.Total LMR violation:0.000000
+[2025-04-09 11:05:41][solver][infos] [adq-patch] Year:5 Week:18.Total LMR violation:0.000000
+[2025-04-09 11:05:41][solver][infos] [adq-patch] Year:5 Week:19.Total LMR violation:0.000000
+[2025-04-09 11:05:41][solver][infos] [adq-patch] Year:5 Week:20.Total LMR violation:0.000000
+[2025-04-09 11:05:41][solver][progress] task 0 mc, year: 4, 2000.000000
+[2025-04-09 11:05:42][solver][infos] [adq-patch] Year:5 Week:21.Total LMR violation:0.000000
+[2025-04-09 11:05:42][solver][infos] [adq-patch] Year:5 Week:22.Total LMR violation:0.000000
+[2025-04-09 11:05:42][solver][infos] [adq-patch] Year:5 Week:23.Total LMR violation:0.000000
+[2025-04-09 11:05:42][solver][infos] [adq-patch] Year:5 Week:24.Total LMR violation:0.000000
+[2025-04-09 11:05:42][solver][infos] [adq-patch] Year:5 Week:25.Total LMR violation:0.000000
+[2025-04-09 11:05:42][solver][infos] [adq-patch] Year:5 Week:26.Total LMR violation:0.000000
+[2025-04-09 11:05:42][solver][progress] task 0 mc, year: 4, 2600.000000
+[2025-04-09 11:05:43][solver][infos] [adq-patch] Year:5 Week:27.Total LMR violation:0.000000
+[2025-04-09 11:05:43][solver][infos] [adq-patch] Year:5 Week:28.Total LMR violation:0.000000
+[2025-04-09 11:05:43][solver][infos] [adq-patch] Year:5 Week:29.Total LMR violation:0.000000
+[2025-04-09 11:05:43][solver][infos] [adq-patch] Year:5 Week:30.Total LMR violation:0.000000
+[2025-04-09 11:05:43][solver][infos] [adq-patch] Year:5 Week:31.Total LMR violation:0.000000
+[2025-04-09 11:05:44][solver][infos] [adq-patch] Year:5 Week:32.Total LMR violation:0.000000
+[2025-04-09 11:05:44][solver][progress] task 0 mc, year: 4, 3200.000000
+[2025-04-09 11:05:44][solver][infos] [adq-patch] Year:5 Week:33.Total LMR violation:0.000000
+[2025-04-09 11:05:44][solver][infos] [adq-patch] Year:5 Week:34.Total LMR violation:0.000000
+[2025-04-09 11:05:44][solver][infos] [adq-patch] Year:5 Week:35.Total LMR violation:0.000000
+[2025-04-09 11:05:44][solver][infos] [adq-patch] Year:5 Week:36.Total LMR violation:0.000000
+[2025-04-09 11:05:45][solver][infos] [adq-patch] Year:5 Week:37.Total LMR violation:0.000000
+[2025-04-09 11:05:45][solver][infos] [adq-patch] Year:5 Week:38.Total LMR violation:0.000000
+[2025-04-09 11:05:45][solver][infos] [adq-patch] Year:5 Week:39.Total LMR violation:0.000000
+[2025-04-09 11:05:45][solver][progress] task 0 mc, year: 4, 3900.000000
+[2025-04-09 11:05:45][solver][infos] [adq-patch] Year:5 Week:40.Total LMR violation:0.000000
+[2025-04-09 11:05:45][solver][infos] [adq-patch] Year:5 Week:41.Total LMR violation:0.000000
+[2025-04-09 11:05:45][solver][infos] [adq-patch] Year:5 Week:42.Total LMR violation:0.000000
+[2025-04-09 11:05:45][solver][infos] [adq-patch] Year:5 Week:43.Total LMR violation:0.000000
+[2025-04-09 11:05:46][solver][infos] [adq-patch] Year:5 Week:44.Total LMR violation:0.000000
+[2025-04-09 11:05:46][solver][infos] [adq-patch] Year:5 Week:45.Total LMR violation:0.000000
+[2025-04-09 11:05:46][solver][infos] [adq-patch] Year:5 Week:46.Total LMR violation:0.000000
+[2025-04-09 11:05:46][solver][infos] [adq-patch] Year:5 Week:47.Total LMR violation:0.000000
+[2025-04-09 11:05:46][solver][progress] task 0 mc, year: 4, 4700.000000
+[2025-04-09 11:05:46][solver][infos] [adq-patch] Year:5 Week:48.Total LMR violation:0.000000
+[2025-04-09 11:05:47][solver][infos] [adq-patch] Year:5 Week:49.Total LMR violation:0.000000
+[2025-04-09 11:05:47][solver][infos] [adq-patch] Year:5 Week:50.Total LMR violation:0.000000
+[2025-04-09 11:05:47][solver][infos] [adq-patch] Year:5 Week:51.Total LMR violation:0.000000
+[2025-04-09 11:05:47][solver][progress] task 0 mc, year: 4, 5100.000000
+[2025-04-09 11:05:47][solver][infos] [adq-patch] Year:5 Week:52.Total LMR violation:0.000000
+[2025-04-09 11:05:48][solver][infos] Exporting the annual results
+[2025-04-09 11:05:48][solver][infos] Exporting results : FI00
+[2025-04-09 11:05:49][solver][progress] task 0 mc, year: 4, 5200.000000
+[2025-04-09 11:05:49][solver][infos] Exporting results : binding constraints
+[2025-04-09 11:05:49][solver][progress] task 0 mc, year: 4, 100
+[2025-04-09 11:05:50][solver][infos] parallel batch size : 1 (1 perfomed)
+[2025-04-09 11:05:50][solver][infos] Year(s) 6 
+[2025-04-09 11:05:51][solver][infos] [adq-patch] Year:6 Week:1.Total LMR violation:0.000000
+[2025-04-09 11:05:51][solver][progress] task 0 mc, year: 5, 100.000000
+[2025-04-09 11:05:51][solver][infos] [adq-patch] Year:6 Week:2.Total LMR violation:0.000000
+[2025-04-09 11:05:52][solver][infos] [adq-patch] Year:6 Week:3.Total LMR violation:0.000000
+[2025-04-09 11:05:52][solver][infos] [adq-patch] Year:6 Week:4.Total LMR violation:0.000000
+[2025-04-09 11:05:52][solver][infos] [adq-patch] Year:6 Week:5.Total LMR violation:0.000000
+[2025-04-09 11:05:52][solver][infos] [adq-patch] Year:6 Week:6.Total LMR violation:0.000000
+[2025-04-09 11:05:52][solver][infos] [adq-patch] CSR triggered for Year:6 Hour:904
+[2025-04-09 11:05:52][solver][infos] [adq-patch] CSR triggered for Year:6 Hour:905
+[2025-04-09 11:05:52][solver][infos] [adq-patch] CSR triggered for Year:6 Hour:906
+[2025-04-09 11:05:52][solver][infos] [adq-patch] CSR triggered for Year:6 Hour:907
+[2025-04-09 11:05:52][solver][infos] [adq-patch] CSR triggered for Year:6 Hour:908
+[2025-04-09 11:05:52][solver][infos] [adq-patch] CSR triggered for Year:6 Hour:909
+[2025-04-09 11:05:52][solver][infos] [adq-patch] CSR triggered for Year:6 Hour:910
+[2025-04-09 11:05:52][solver][infos] [adq-patch] CSR triggered for Year:6 Hour:911
+[2025-04-09 11:05:52][solver][infos] [adq-patch] CSR triggered for Year:6 Hour:912
+[2025-04-09 11:05:52][solver][infos] [adq-patch] CSR triggered for Year:6 Hour:913
+[2025-04-09 11:05:52][solver][infos] [adq-patch] Year:6 Week:7.Total LMR violation:0.000000
+[2025-04-09 11:05:52][solver][progress] task 0 mc, year: 5, 700.000000
+[2025-04-09 11:05:52][solver][infos] [adq-patch] Year:6 Week:8.Total LMR violation:0.000000
+[2025-04-09 11:05:53][solver][infos] [adq-patch] Year:6 Week:9.Total LMR violation:0.000000
+[2025-04-09 11:05:53][solver][infos] [adq-patch] Year:6 Week:10.Total LMR violation:0.000000
+[2025-04-09 11:05:53][solver][infos] [adq-patch] Year:6 Week:11.Total LMR violation:0.000000
+[2025-04-09 11:05:53][solver][infos] [adq-patch] Year:6 Week:12.Total LMR violation:0.000000
+[2025-04-09 11:05:53][solver][infos] [adq-patch] Year:6 Week:13.Total LMR violation:0.000000
+[2025-04-09 11:05:53][solver][infos] [adq-patch] Year:6 Week:14.Total LMR violation:0.000000
+[2025-04-09 11:05:54][solver][progress] task 0 mc, year: 5, 1400.000000
+[2025-04-09 11:05:54][solver][infos] [adq-patch] Year:6 Week:15.Total LMR violation:0.000000
+[2025-04-09 11:05:54][solver][infos] [adq-patch] Year:6 Week:16.Total LMR violation:0.000000
+[2025-04-09 11:05:54][solver][infos] [adq-patch] Year:6 Week:17.Total LMR violation:0.000000
+[2025-04-09 11:05:54][solver][infos] [adq-patch] Year:6 Week:18.Total LMR violation:0.000000
+[2025-04-09 11:05:54][solver][infos] [adq-patch] Year:6 Week:19.Total LMR violation:0.000000
+[2025-04-09 11:05:54][solver][infos] [adq-patch] Year:6 Week:20.Total LMR violation:0.000000
+[2025-04-09 11:05:55][solver][infos] [adq-patch] Year:6 Week:21.Total LMR violation:0.000000
+[2025-04-09 11:05:55][solver][progress] task 0 mc, year: 5, 2100.000000
+[2025-04-09 11:05:55][solver][infos] [adq-patch] Year:6 Week:22.Total LMR violation:0.000000
+[2025-04-09 11:05:55][solver][infos] [adq-patch] Year:6 Week:23.Total LMR violation:0.000000
+[2025-04-09 11:05:55][solver][infos] [adq-patch] Year:6 Week:24.Total LMR violation:0.000000
+[2025-04-09 11:05:55][solver][infos] [adq-patch] Year:6 Week:25.Total LMR violation:0.000000
+[2025-04-09 11:05:56][solver][infos] [adq-patch] Year:6 Week:26.Total LMR violation:0.000000
+[2025-04-09 11:05:56][solver][progress] task 0 mc, year: 5, 2600.000000
+[2025-04-09 11:05:56][solver][infos] [adq-patch] Year:6 Week:27.Total LMR violation:0.000000
+[2025-04-09 11:05:56][solver][infos] [adq-patch] Year:6 Week:28.Total LMR violation:0.000000
+[2025-04-09 11:05:56][solver][infos] [adq-patch] Year:6 Week:29.Total LMR violation:0.000000
+[2025-04-09 11:05:57][solver][infos] [adq-patch] Year:6 Week:30.Total LMR violation:0.000000
+[2025-04-09 11:05:57][solver][infos] [adq-patch] Year:6 Week:31.Total LMR violation:0.000000
+[2025-04-09 11:05:57][solver][infos] [adq-patch] Year:6 Week:32.Total LMR violation:0.000000
+[2025-04-09 11:05:57][solver][progress] task 0 mc, year: 5, 3200.000000
+[2025-04-09 11:05:57][solver][infos] [adq-patch] Year:6 Week:33.Total LMR violation:0.000000
+[2025-04-09 11:05:58][solver][infos] [adq-patch] Year:6 Week:34.Total LMR violation:0.000000
+[2025-04-09 11:05:58][solver][infos] [adq-patch] Year:6 Week:35.Total LMR violation:0.000000
+[2025-04-09 11:05:58][solver][infos] [adq-patch] Year:6 Week:36.Total LMR violation:0.000000
+[2025-04-09 11:05:58][solver][infos] [adq-patch] Year:6 Week:37.Total LMR violation:0.000000
+[2025-04-09 11:05:58][solver][progress] task 0 mc, year: 5, 3700.000000
+[2025-04-09 11:05:59][solver][infos] [adq-patch] Year:6 Week:38.Total LMR violation:0.000000
+[2025-04-09 11:05:59][solver][infos] [adq-patch] Year:6 Week:39.Total LMR violation:0.000000
+[2025-04-09 11:05:59][solver][infos] [adq-patch] Year:6 Week:40.Total LMR violation:0.000000
+[2025-04-09 11:05:59][solver][infos] [adq-patch] Year:6 Week:41.Total LMR violation:0.000000
+[2025-04-09 11:05:59][solver][infos] [adq-patch] Year:6 Week:42.Total LMR violation:0.000000
+[2025-04-09 11:06:00][solver][progress] task 0 mc, year: 5, 4200.000000
+[2025-04-09 11:06:00][solver][infos] [adq-patch] Year:6 Week:43.Total LMR violation:0.000000
+[2025-04-09 11:06:00][solver][infos] [adq-patch] Year:6 Week:44.Total LMR violation:0.000000
+[2025-04-09 11:06:00][solver][infos] [adq-patch] Year:6 Week:45.Total LMR violation:0.000000
+[2025-04-09 11:06:00][solver][infos] [adq-patch] Year:6 Week:46.Total LMR violation:0.000000
+[2025-04-09 11:06:00][solver][infos] [adq-patch] Year:6 Week:47.Total LMR violation:0.000000
+[2025-04-09 11:06:01][solver][infos] [adq-patch] Year:6 Week:48.Total LMR violation:0.000000
+[2025-04-09 11:06:01][solver][infos] [adq-patch] Year:6 Week:49.Total LMR violation:0.000000
+[2025-04-09 11:06:01][solver][progress] task 0 mc, year: 5, 4900.000000
+[2025-04-09 11:06:01][solver][infos] [adq-patch] Year:6 Week:50.Total LMR violation:0.000000
+[2025-04-09 11:06:01][solver][infos] [adq-patch] Year:6 Week:51.Total LMR violation:0.000000
+[2025-04-09 11:06:01][solver][infos] [adq-patch] Year:6 Week:52.Total LMR violation:0.000000
+[2025-04-09 11:06:02][solver][infos] Exporting the annual results
+[2025-04-09 11:06:02][solver][infos] Exporting results : FI00
+[2025-04-09 11:06:02][solver][progress] task 0 mc, year: 5, 5200.000000
+[2025-04-09 11:06:03][solver][infos] Exporting results : binding constraints
+[2025-04-09 11:06:03][solver][progress] task 0 mc, year: 5, 100
+[2025-04-09 11:06:03][solver][infos] parallel batch size : 1 (1 perfomed)
+[2025-04-09 11:06:03][solver][infos] Year(s) 7 
+[2025-04-09 11:06:04][solver][infos] [adq-patch] Year:7 Week:1.Total LMR violation:0.000000
+[2025-04-09 11:06:05][solver][progress] task 0 mc, year: 6, 100.000000
+[2025-04-09 11:06:05][solver][infos] [adq-patch] Year:7 Week:2.Total LMR violation:0.000000
+[2025-04-09 11:06:05][solver][infos] [adq-patch] Year:7 Week:3.Total LMR violation:0.000000
+[2025-04-09 11:06:05][solver][infos] [adq-patch] Year:7 Week:4.Total LMR violation:0.000000
+[2025-04-09 11:06:05][solver][infos] [adq-patch] Year:7 Week:5.Total LMR violation:0.000000
+[2025-04-09 11:06:05][solver][infos] [adq-patch] Year:7 Week:6.Total LMR violation:0.000000
+[2025-04-09 11:06:06][solver][infos] [adq-patch] Year:7 Week:7.Total LMR violation:0.000000
+[2025-04-09 11:06:06][solver][infos] [adq-patch] Year:7 Week:8.Total LMR violation:0.000000
+[2025-04-09 11:06:06][solver][infos] [adq-patch] Year:7 Week:9.Total LMR violation:0.000000
+[2025-04-09 11:06:06][solver][progress] task 0 mc, year: 6, 900.000000
+[2025-04-09 11:06:06][solver][infos] [adq-patch] Year:7 Week:10.Total LMR violation:0.000000
+[2025-04-09 11:06:06][solver][infos] [adq-patch] Year:7 Week:11.Total LMR violation:0.000000
+[2025-04-09 11:06:06][solver][infos] [adq-patch] Year:7 Week:12.Total LMR violation:0.000000
+[2025-04-09 11:06:07][solver][infos] [adq-patch] Year:7 Week:13.Total LMR violation:0.000000
+[2025-04-09 11:06:07][solver][infos] [adq-patch] Year:7 Week:14.Total LMR violation:0.000000
+[2025-04-09 11:06:07][solver][infos] [adq-patch] Year:7 Week:15.Total LMR violation:0.000000
+[2025-04-09 11:06:07][solver][progress] task 0 mc, year: 6, 1500.000000
+[2025-04-09 11:06:07][solver][infos] [adq-patch] Year:7 Week:16.Total LMR violation:0.000000
+[2025-04-09 11:06:07][solver][infos] [adq-patch] Year:7 Week:17.Total LMR violation:0.000000
+[2025-04-09 11:06:08][solver][infos] [adq-patch] Year:7 Week:18.Total LMR violation:0.000000
+[2025-04-09 11:06:08][solver][infos] [adq-patch] Year:7 Week:19.Total LMR violation:0.000000
+[2025-04-09 11:06:08][solver][infos] [adq-patch] Year:7 Week:20.Total LMR violation:0.000000
+[2025-04-09 11:06:08][solver][infos] [adq-patch] Year:7 Week:21.Total LMR violation:0.000000
+[2025-04-09 11:06:08][solver][progress] task 0 mc, year: 6, 2100.000000
+[2025-04-09 11:06:08][solver][infos] [adq-patch] Year:7 Week:22.Total LMR violation:0.000000
+[2025-04-09 11:06:08][solver][infos] [adq-patch] Year:7 Week:23.Total LMR violation:0.000000
+[2025-04-09 11:06:09][solver][infos] [adq-patch] Year:7 Week:24.Total LMR violation:0.000000
+[2025-04-09 11:06:09][solver][infos] [adq-patch] Year:7 Week:25.Total LMR violation:0.000000
+[2025-04-09 11:06:09][solver][infos] [adq-patch] Year:7 Week:26.Total LMR violation:0.000000
+[2025-04-09 11:06:09][solver][infos] [adq-patch] Year:7 Week:27.Total LMR violation:0.000000
+[2025-04-09 11:06:09][solver][infos] [adq-patch] Year:7 Week:28.Total LMR violation:0.000000
+[2025-04-09 11:06:09][solver][progress] task 0 mc, year: 6, 2800.000000
+[2025-04-09 11:06:09][solver][infos] [adq-patch] Year:7 Week:29.Total LMR violation:0.000000
+[2025-04-09 11:06:10][solver][infos] [adq-patch] Year:7 Week:30.Total LMR violation:0.000000
+[2025-04-09 11:06:10][solver][infos] [adq-patch] Year:7 Week:31.Total LMR violation:0.000000
+[2025-04-09 11:06:10][solver][infos] [adq-patch] Year:7 Week:32.Total LMR violation:0.000000
+[2025-04-09 11:06:10][solver][infos] [adq-patch] Year:7 Week:33.Total LMR violation:0.000000
+[2025-04-09 11:06:11][solver][infos] [adq-patch] Year:7 Week:34.Total LMR violation:0.000000
+[2025-04-09 11:06:11][solver][progress] task 0 mc, year: 6, 3400.000000
+[2025-04-09 11:06:11][solver][infos] [adq-patch] Year:7 Week:35.Total LMR violation:0.000000
+[2025-04-09 11:06:11][solver][infos] [adq-patch] Year:7 Week:36.Total LMR violation:0.000000
+[2025-04-09 11:06:11][solver][infos] [adq-patch] Year:7 Week:37.Total LMR violation:0.000000
+[2025-04-09 11:06:11][solver][infos] [adq-patch] Year:7 Week:38.Total LMR violation:0.000000
+[2025-04-09 11:06:11][solver][infos] [adq-patch] Year:7 Week:39.Total LMR violation:0.000000
+[2025-04-09 11:06:12][solver][infos] [adq-patch] Year:7 Week:40.Total LMR violation:0.000000
+[2025-04-09 11:06:12][solver][progress] task 0 mc, year: 6, 4000.000000
+[2025-04-09 11:06:12][solver][infos] [adq-patch] Year:7 Week:41.Total LMR violation:0.000000
+[2025-04-09 11:06:12][solver][infos] [adq-patch] Year:7 Week:42.Total LMR violation:0.000000
+[2025-04-09 11:06:12][solver][infos] [adq-patch] Year:7 Week:43.Total LMR violation:0.000000
+[2025-04-09 11:06:13][solver][infos] [adq-patch] Year:7 Week:44.Total LMR violation:0.000000
+[2025-04-09 11:06:13][solver][infos] [adq-patch] Year:7 Week:45.Total LMR violation:0.000000
+[2025-04-09 11:06:13][solver][infos] [adq-patch] Year:7 Week:46.Total LMR violation:0.000000
+[2025-04-09 11:06:13][solver][infos] [adq-patch] Year:7 Week:47.Total LMR violation:0.000000
+[2025-04-09 11:06:13][solver][progress] task 0 mc, year: 6, 4700.000000
+[2025-04-09 11:06:13][solver][infos] [adq-patch] Year:7 Week:48.Total LMR violation:0.000000
+[2025-04-09 11:06:13][solver][infos] [adq-patch] Year:7 Week:49.Total LMR violation:0.000000
+[2025-04-09 11:06:14][solver][infos] [adq-patch] Year:7 Week:50.Total LMR violation:0.000000
+[2025-04-09 11:06:14][solver][infos] [adq-patch] Year:7 Week:51.Total LMR violation:0.000000
+[2025-04-09 11:06:14][solver][infos] [adq-patch] Year:7 Week:52.Total LMR violation:0.000000
+[2025-04-09 11:06:14][solver][progress] task 0 mc, year: 6, 5200.000000
+[2025-04-09 11:06:15][solver][infos] Exporting the annual results
+[2025-04-09 11:06:15][solver][infos] Exporting results : FI00
+[2025-04-09 11:06:17][solver][infos] Exporting results : binding constraints
+[2025-04-09 11:06:17][solver][progress] task 0 mc, year: 6, 100
+[2025-04-09 11:06:17][solver][infos] parallel batch size : 1 (1 perfomed)
+[2025-04-09 11:06:17][solver][infos] Year(s) 8 
+[2025-04-09 11:06:20][solver][infos] [adq-patch] Year:8 Week:1.Total LMR violation:0.000000
+[2025-04-09 11:06:20][solver][infos] [adq-patch] Year:8 Week:2.Total LMR violation:0.000000
+[2025-04-09 11:06:20][solver][infos] [adq-patch] Year:8 Week:3.Total LMR violation:0.000000
+[2025-04-09 11:06:20][solver][progress] task 0 mc, year: 7, 300.000000
+[2025-04-09 11:06:21][solver][infos] [adq-patch] Year:8 Week:4.Total LMR violation:0.000000
+[2025-04-09 11:06:21][solver][infos] [adq-patch] Year:8 Week:5.Total LMR violation:0.000000
+[2025-04-09 11:06:21][solver][infos] [adq-patch] Year:8 Week:6.Total LMR violation:0.000000
+[2025-04-09 11:06:21][solver][infos] [adq-patch] Year:8 Week:7.Total LMR violation:0.000000
+[2025-04-09 11:06:21][solver][infos] [adq-patch] Year:8 Week:8.Total LMR violation:0.000000
+[2025-04-09 11:06:22][solver][infos] [adq-patch] Year:8 Week:9.Total LMR violation:0.000000
+[2025-04-09 11:06:22][solver][progress] task 0 mc, year: 7, 900.000000
+[2025-04-09 11:06:22][solver][infos] [adq-patch] Year:8 Week:10.Total LMR violation:0.000000
+[2025-04-09 11:06:22][solver][infos] [adq-patch] Year:8 Week:11.Total LMR violation:0.000000
+[2025-04-09 11:06:22][solver][infos] [adq-patch] Year:8 Week:12.Total LMR violation:0.000000
+[2025-04-09 11:06:23][solver][infos] [adq-patch] Year:8 Week:13.Total LMR violation:0.000000
+[2025-04-09 11:06:23][solver][progress] task 0 mc, year: 7, 1300.000000
+[2025-04-09 11:06:23][solver][infos] [adq-patch] Year:8 Week:14.Total LMR violation:0.000000
+[2025-04-09 11:06:24][solver][infos] [adq-patch] Year:8 Week:15.Total LMR violation:0.000000
+[2025-04-09 11:06:24][solver][infos] [adq-patch] Year:8 Week:16.Total LMR violation:0.000000
+[2025-04-09 11:06:24][solver][progress] task 0 mc, year: 7, 1600.000000
+[2025-04-09 11:06:24][solver][infos] [adq-patch] Year:8 Week:17.Total LMR violation:0.000000
+[2025-04-09 11:06:25][solver][infos] [adq-patch] Year:8 Week:18.Total LMR violation:0.000000
+[2025-04-09 11:06:25][solver][infos] [adq-patch] Year:8 Week:19.Total LMR violation:0.000000
+[2025-04-09 11:06:25][solver][infos] [adq-patch] Year:8 Week:20.Total LMR violation:0.000000
+[2025-04-09 11:06:25][solver][progress] task 0 mc, year: 7, 2000.000000
+[2025-04-09 11:06:25][solver][infos] [adq-patch] Year:8 Week:21.Total LMR violation:0.000000
+[2025-04-09 11:06:26][solver][infos] [adq-patch] Year:8 Week:22.Total LMR violation:0.000000
+[2025-04-09 11:06:26][solver][infos] [adq-patch] Year:8 Week:23.Total LMR violation:0.000000
+[2025-04-09 11:06:26][solver][infos] [adq-patch] Year:8 Week:24.Total LMR violation:0.000000
+[2025-04-09 11:06:26][solver][infos] [adq-patch] Year:8 Week:25.Total LMR violation:0.000000
+[2025-04-09 11:06:27][solver][infos] [adq-patch] Year:8 Week:26.Total LMR violation:0.000000
+[2025-04-09 11:06:27][solver][progress] task 0 mc, year: 7, 2600.000000
+[2025-04-09 11:06:27][solver][infos] [adq-patch] Year:8 Week:27.Total LMR violation:0.000000
+[2025-04-09 11:06:27][solver][infos] [adq-patch] Year:8 Week:28.Total LMR violation:0.000000
+[2025-04-09 11:06:27][solver][infos] [adq-patch] Year:8 Week:29.Total LMR violation:0.000000
+[2025-04-09 11:06:28][solver][infos] [adq-patch] Year:8 Week:30.Total LMR violation:0.000000
+[2025-04-09 11:06:28][solver][infos] [adq-patch] Year:8 Week:31.Total LMR violation:0.000000
+[2025-04-09 11:06:28][solver][infos] [adq-patch] Year:8 Week:32.Total LMR violation:0.000000
+[2025-04-09 11:06:28][solver][progress] task 0 mc, year: 7, 3200.000000
+[2025-04-09 11:06:28][solver][infos] [adq-patch] Year:8 Week:33.Total LMR violation:0.000000
+[2025-04-09 11:06:28][solver][infos] [adq-patch] Year:8 Week:34.Total LMR violation:0.000000
+[2025-04-09 11:06:29][solver][infos] [adq-patch] Year:8 Week:35.Total LMR violation:0.000000
+[2025-04-09 11:06:29][solver][infos] [adq-patch] Year:8 Week:36.Total LMR violation:0.000000
+[2025-04-09 11:06:29][solver][infos] [adq-patch] Year:8 Week:37.Total LMR violation:0.000000
+[2025-04-09 11:06:29][solver][progress] task 0 mc, year: 7, 3600.000000
+[2025-04-09 11:06:30][solver][infos] [adq-patch] Year:8 Week:38.Total LMR violation:0.000000
+[2025-04-09 11:06:30][solver][infos] [adq-patch] Year:8 Week:39.Total LMR violation:0.000000
+[2025-04-09 11:06:30][solver][infos] [adq-patch] Year:8 Week:40.Total LMR violation:0.000000
+[2025-04-09 11:06:30][solver][progress] task 0 mc, year: 7, 4000.000000
+[2025-04-09 11:06:30][solver][infos] [adq-patch] Year:8 Week:41.Total LMR violation:0.000000
+[2025-04-09 11:06:31][solver][infos] [adq-patch] Year:8 Week:42.Total LMR violation:0.000000
+[2025-04-09 11:06:31][solver][infos] [adq-patch] Year:8 Week:43.Total LMR violation:0.000000
+[2025-04-09 11:06:31][solver][infos] [adq-patch] Year:8 Week:44.Total LMR violation:0.000000
+[2025-04-09 11:06:31][solver][infos] [adq-patch] Year:8 Week:45.Total LMR violation:0.000000
+[2025-04-09 11:06:31][solver][infos] [adq-patch] Year:8 Week:46.Total LMR violation:0.000000
+[2025-04-09 11:06:32][solver][progress] task 0 mc, year: 7, 4600.000000
+[2025-04-09 11:06:32][solver][infos] [adq-patch] Year:8 Week:47.Total LMR violation:0.000000
+[2025-04-09 11:06:32][solver][infos] [adq-patch] Year:8 Week:48.Total LMR violation:0.000000
+[2025-04-09 11:06:32][solver][infos] [adq-patch] Year:8 Week:49.Total LMR violation:0.000000
+[2025-04-09 11:06:32][solver][infos] [adq-patch] Year:8 Week:50.Total LMR violation:0.000000
+[2025-04-09 11:06:33][solver][infos] [adq-patch] Year:8 Week:51.Total LMR violation:0.000000
+[2025-04-09 11:06:33][solver][infos] [adq-patch] Year:8 Week:52.Total LMR violation:0.000000
+[2025-04-09 11:06:33][solver][progress] task 0 mc, year: 7, 5200.000000
+[2025-04-09 11:06:33][solver][infos] Exporting the annual results
+[2025-04-09 11:06:33][solver][infos] Exporting results : FI00
+[2025-04-09 11:06:35][solver][infos] Exporting results : binding constraints
+[2025-04-09 11:06:35][solver][progress] task 0 mc, year: 7, 100
+[2025-04-09 11:06:35][solver][infos] parallel batch size : 1 (1 perfomed)
+[2025-04-09 11:06:35][solver][infos] Year(s) 9 
+[2025-04-09 11:06:36][solver][infos] [adq-patch] Year:9 Week:1.Total LMR violation:0.000000
+[2025-04-09 11:06:36][solver][infos] [adq-patch] Year:9 Week:2.Total LMR violation:0.000000
+[2025-04-09 11:06:37][solver][progress] task 0 mc, year: 8, 200.000000
+[2025-04-09 11:06:37][solver][infos] [adq-patch] Year:9 Week:3.Total LMR violation:0.000000
+[2025-04-09 11:06:37][solver][infos] [adq-patch] Year:9 Week:4.Total LMR violation:0.000000
+[2025-04-09 11:06:37][solver][infos] [adq-patch] Year:9 Week:5.Total LMR violation:0.000000
+[2025-04-09 11:06:37][solver][infos] [adq-patch] Year:9 Week:6.Total LMR violation:0.000000
+[2025-04-09 11:06:37][solver][infos] [adq-patch] Year:9 Week:7.Total LMR violation:0.000000
+[2025-04-09 11:06:38][solver][infos] [adq-patch] Year:9 Week:8.Total LMR violation:0.000000
+[2025-04-09 11:06:38][solver][progress] task 0 mc, year: 8, 800.000000
+[2025-04-09 11:06:38][solver][infos] [adq-patch] Year:9 Week:9.Total LMR violation:0.000000
+[2025-04-09 11:06:38][solver][infos] [adq-patch] Year:9 Week:10.Total LMR violation:0.000000
+[2025-04-09 11:06:38][solver][infos] [adq-patch] Year:9 Week:11.Total LMR violation:0.000000
+[2025-04-09 11:06:39][solver][infos] [adq-patch] Year:9 Week:12.Total LMR violation:0.000000
+[2025-04-09 11:06:39][solver][infos] [adq-patch] Year:9 Week:13.Total LMR violation:0.000000
+[2025-04-09 11:06:39][solver][progress] task 0 mc, year: 8, 1300.000000
+[2025-04-09 11:06:39][solver][infos] [adq-patch] Year:9 Week:14.Total LMR violation:0.000000
+[2025-04-09 11:06:39][solver][infos] [adq-patch] Year:9 Week:15.Total LMR violation:0.000000
+[2025-04-09 11:06:40][solver][infos] [adq-patch] Year:9 Week:16.Total LMR violation:0.000000
+[2025-04-09 11:06:40][solver][infos] [adq-patch] Year:9 Week:17.Total LMR violation:0.000000
+[2025-04-09 11:06:40][solver][infos] [adq-patch] Year:9 Week:18.Total LMR violation:0.000000
+[2025-04-09 11:06:40][solver][progress] task 0 mc, year: 8, 1800.000000
+[2025-04-09 11:06:40][solver][infos] [adq-patch] Year:9 Week:19.Total LMR violation:0.000000
+[2025-04-09 11:06:41][solver][infos] [adq-patch] Year:9 Week:20.Total LMR violation:0.000000
+[2025-04-09 11:06:41][solver][infos] [adq-patch] Year:9 Week:21.Total LMR violation:0.000000
+[2025-04-09 11:06:41][solver][infos] [adq-patch] Year:9 Week:22.Total LMR violation:0.000000
+[2025-04-09 11:06:41][solver][progress] task 0 mc, year: 8, 2200.000000
+[2025-04-09 11:06:42][solver][infos] [adq-patch] Year:9 Week:23.Total LMR violation:0.000000
+[2025-04-09 11:06:42][solver][infos] [adq-patch] Year:9 Week:24.Total LMR violation:0.000000
+[2025-04-09 11:06:42][solver][infos] [adq-patch] Year:9 Week:25.Total LMR violation:0.000000
+[2025-04-09 11:06:42][solver][infos] [adq-patch] Year:9 Week:26.Total LMR violation:0.000000
+[2025-04-09 11:06:42][solver][infos] [adq-patch] Year:9 Week:27.Total LMR violation:0.000000
+[2025-04-09 11:06:43][solver][infos] [adq-patch] Year:9 Week:28.Total LMR violation:0.000000
+[2025-04-09 11:06:43][solver][progress] task 0 mc, year: 8, 2800.000000
+[2025-04-09 11:06:43][solver][infos] [adq-patch] Year:9 Week:29.Total LMR violation:0.000000
+[2025-04-09 11:06:43][solver][infos] [adq-patch] Year:9 Week:30.Total LMR violation:0.000000
+[2025-04-09 11:06:43][solver][infos] [adq-patch] Year:9 Week:31.Total LMR violation:0.000000
+[2025-04-09 11:06:43][solver][infos] [adq-patch] Year:9 Week:32.Total LMR violation:0.000000
+[2025-04-09 11:06:44][solver][infos] [adq-patch] Year:9 Week:33.Total LMR violation:0.000000
+[2025-04-09 11:06:44][solver][infos] [adq-patch] Year:9 Week:34.Total LMR violation:0.000000
+[2025-04-09 11:06:44][solver][progress] task 0 mc, year: 8, 3400.000000
+[2025-04-09 11:06:44][solver][infos] [adq-patch] Year:9 Week:35.Total LMR violation:0.000000
+[2025-04-09 11:06:44][solver][infos] [adq-patch] Year:9 Week:36.Total LMR violation:0.000000
+[2025-04-09 11:06:45][solver][infos] [adq-patch] Year:9 Week:37.Total LMR violation:0.000000
+[2025-04-09 11:06:45][solver][infos] [adq-patch] Year:9 Week:38.Total LMR violation:0.000000
+[2025-04-09 11:06:45][solver][infos] [adq-patch] Year:9 Week:39.Total LMR violation:0.000000
+[2025-04-09 11:06:45][solver][progress] task 0 mc, year: 8, 3900.000000
+[2025-04-09 11:06:45][solver][infos] [adq-patch] Year:9 Week:40.Total LMR violation:0.000000
+[2025-04-09 11:06:45][solver][infos] [adq-patch] Year:9 Week:41.Total LMR violation:0.000000
+[2025-04-09 11:06:45][solver][infos] [adq-patch] Year:9 Week:42.Total LMR violation:0.000000
+[2025-04-09 11:06:45][solver][infos] [adq-patch] Year:9 Week:43.Total LMR violation:0.000000
+[2025-04-09 11:06:46][solver][infos] [adq-patch] Year:9 Week:44.Total LMR violation:0.000000
+[2025-04-09 11:06:46][solver][infos] [adq-patch] Year:9 Week:45.Total LMR violation:0.000000
+[2025-04-09 11:06:46][solver][infos] [adq-patch] Year:9 Week:46.Total LMR violation:0.000000
+[2025-04-09 11:06:46][solver][infos] [adq-patch] Year:9 Week:47.Total LMR violation:0.000000
+[2025-04-09 11:06:46][solver][progress] task 0 mc, year: 8, 4700.000000
+[2025-04-09 11:06:46][solver][infos] [adq-patch] Year:9 Week:48.Total LMR violation:0.000000
+[2025-04-09 11:06:46][solver][infos] [adq-patch] Year:9 Week:49.Total LMR violation:0.000000
+[2025-04-09 11:06:47][solver][infos] [adq-patch] Year:9 Week:50.Total LMR violation:0.000000
+[2025-04-09 11:06:47][solver][infos] [adq-patch] Year:9 Week:51.Total LMR violation:0.000000
+[2025-04-09 11:06:47][solver][infos] [adq-patch] Year:9 Week:52.Total LMR violation:0.000000
+[2025-04-09 11:06:47][solver][infos] Exporting the annual results
+[2025-04-09 11:06:47][solver][infos] Exporting results : FI00
+[2025-04-09 11:06:47][solver][progress] task 0 mc, year: 8, 5200.000000

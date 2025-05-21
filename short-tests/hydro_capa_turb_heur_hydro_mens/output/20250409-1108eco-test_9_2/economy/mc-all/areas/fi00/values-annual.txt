@@ -1,0 +1,8 @@
+FI00	area	va	annual
+	VARIABLES	BEGIN	END
+	51	1	1
+
+FI00	annual	OV. COST	MRG. PRICE	MRG. PRICE	MRG. PRICE	MRG. PRICE	PSP	H. ROR	H. ROR	H. ROR	H. ROR	H. STOR	H. STOR	H. STOR	H. STOR	H. PUMP	H. PUMP	H. PUMP	H. PUMP	H. LEV	H. LEV	H. LEV	H. LEV	H. INFL	H. INFL	H. INFL	H. INFL	H. OVFL	H. OVFL	H. OVFL	H. OVFL	H. VAL	H. VAL	H. VAL	H. VAL	H. COST	H. COST	H. COST	H. COST	UNSP. ENRG	UNSP. ENRG	UNSP. ENRG	UNSP. ENRG	SPIL. ENRG	SPIL. ENRG	SPIL. ENRG	SPIL. ENRG	LOLD	LOLD	LOLD	LOLD	LOLP
+		Euro	Euro	Euro	Euro	Euro	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	%	%	%	%	MWh	MWh	MWh	MWh	%	%	%	%	Euro/MWh	Euro/MWh	Euro/MWh	Euro/MWh	Euro	Euro	Euro	Euro	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	Hours	Hours	Hours	Hours	%
+		EXP	EXP	std	min	max	EXP	EXP	std	min	max	EXP	std	min	max	EXP	std	min	max	EXP	std	min	max	EXP	std	min	max	EXP	std	min	max	EXP	std	min	max	EXP	std	min	max	EXP	std	min	max	EXP	std	min	max	EXP	std	min	max	values
+	Annual	587017364	16.0927	0	16.0927	16.0927	0	0	0	0	0	13161114	0	13161114	13161114	0	0	0	0	59.49	0	59.49	59.49	13719727	0	13719727	13719727	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9526868	0	9526868	9526868	0	0	0	0	0

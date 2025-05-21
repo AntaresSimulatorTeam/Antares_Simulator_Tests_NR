@@ -1,0 +1,1695 @@
+[2025-04-09 11:08:10][solver][check] Antares Solver v9.2.0 (5c34536)
+[2025-04-09 11:08:10][solver][infos]   :: built for 64-bit architectures, Microsoft Windows, 8 cpu(s)
+[2025-04-09 11:08:11][solver][infos]   :: hostname = GM0WINUPL
+[2025-04-09 11:08:11][solver][infos]   :: command: D:\AppliRTE\Antares\9.2.0\bin\antares-solver.exe --name=test_9_2 --progress D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\capa_turb_heur_hydro_mens --solver=sirius
+[2025-04-09 11:08:11][solver][infos]   :: log filename: D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\capa_turb_heur_hydro_mens\logs\solver-20250409-110810.log
+[2025-04-09 11:08:11][solver][infos] 
+[2025-04-09 11:08:11][solver][notic] Preparing sorties hydro...
+[2025-04-09 11:08:11][solver][infos]   detected study version: 8.8
+[2025-04-09 11:08:11][solver][infos]   from `D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\capa_turb_heur_hydro_mens`
+[2025-04-09 11:08:11][solver][infos] 
+[2025-04-09 11:08:11][solver][infos]   simulation mode: Economy
+[2025-04-09 11:08:11][solver][infos]   simplex optimization range: week
+[2025-04-09 11:08:11][solver][infos]   1 year in the user's playlist
+[2025-04-09 11:08:11][solver][infos] Cluster renewables were chosen. Output will be disabled for aggregated modes.
+[2025-04-09 11:08:11][solver][infos]   :: enabling the 'year-by-year' mode
+[2025-04-09 11:08:11][solver][infos]   :: enabling the user playlist
+[2025-04-09 11:08:11][solver][infos]   :: enabling the user variable selection
+[2025-04-09 11:08:11][solver][infos]   :: enabling the custom build mode
+[2025-04-09 11:08:11][solver][infos]   :: enabling filtering by file
+[2025-04-09 11:08:11][solver][infos]   :: ignoring export mps
+[2025-04-09 11:08:11][solver][infos]   :: ignoring export structure
+[2025-04-09 11:08:11][solver][infos]   :: ignoring solution export
+[2025-04-09 11:08:11][solver][infos]   :: solver sirius is used for problem resolution
+[2025-04-09 11:08:11][solver][infos]   :: Printing solver logs : False
+[2025-04-09 11:08:11][solver][infos] Loading the list of areas...
+[2025-04-09 11:08:11][solver][infos]   Loading the area list from `D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\capa_turb_heur_hydro_mens\input\areas\list.txt`
+[2025-04-09 11:08:11][solver][infos]   1 area found
+[2025-04-09 11:08:11][solver][infos] Loading global hydro data...
+[2025-04-09 11:08:11][solver][infos] Loading thermal clusters...
+[2025-04-09 11:08:11][solver][infos] Loading thermal configuration for the area FI00
+[2025-04-09 11:08:12][solver][infos] Loading short term storage clusters...
+[2025-04-09 11:08:12][solver][infos] Loading renewable configuration for the area FI00
+[2025-04-09 11:08:12][solver][infos] Loading the area 1/1: FI00
+[2025-04-09 11:08:19][solver][infos] Loading correlation matrices...
+[2025-04-09 11:08:19][solver][infos] 
+[2025-04-09 11:08:19][solver][infos] Loading constraints...
+[2025-04-09 11:08:19][solver][infos] No binding constraint found
+[2025-04-09 11:08:19][solver][infos] 
+[2025-04-09 11:08:19][solver][infos] Loading sets of areas...
+[2025-04-09 11:08:19][solver][infos]    found `all areas` (1 item, no output)
+[2025-04-09 11:08:19][solver][infos]   Output folder : D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\capa_turb_heur_hydro_mens\output\20250409-1108eco-test_9_2
+[2025-04-09 11:08:19][solver][infos] [statistics] disk: read: 116786 ko, written: 0 ko
+[2025-04-09 11:08:19][solver][infos] [statistics] network: read: 0 ko, written: 0 ko
+[2025-04-09 11:08:19][solver][infos] The study is loaded.
+[2025-04-09 11:08:19][solver][infos] [UI] Display messages: Off
+[2025-04-09 11:08:19][solver][infos]   Output folder : D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\capa_turb_heur_hydro_mens\output\20250409-1108eco-test_9_2
+[2025-04-09 11:08:19][solver][infos] 
+[2025-04-09 11:08:19][solver][infos] Generating calendar informations
+[2025-04-09 11:08:19][solver][infos]     Partial week detected. Not allowed in Economy
+[2025-04-09 11:08:19][solver][infos]     Time interval that has been requested: 1..8760
+[2025-04-09 11:08:19][solver][infos] Calendar: hours:1..8736, days:1..364, weeks:1..52, months:1..12, years:1..720
+[2025-04-09 11:08:19][solver][infos] Simulation days per month : 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 30
+[2025-04-09 11:08:19][solver][infos] 
+[2025-04-09 11:08:19][solver][infos] Removing disabled short term storage clusters in from solver computations...
+[2025-04-09 11:08:19][solver][infos] No disabled short term storage cluster removed before solver computations
+[2025-04-09 11:08:19][solver][infos] Initializing random number generators...
+[2025-04-09 11:08:19][solver][infos] 
+[2025-04-09 11:08:19][solver][infos] Summary
+[2025-04-09 11:08:19][solver][infos]      areas: 1
+[2025-04-09 11:08:19][solver][infos]      links: 0
+[2025-04-09 11:08:19][solver][infos]      thermal clusters: 41
+[2025-04-09 11:08:19][solver][infos]      thermal clusters (must-run): 0
+[2025-04-09 11:08:19][solver][infos]      short-term storages: 0
+[2025-04-09 11:08:19][solver][infos]      short-term storage cumulative constraints count: 0
+[2025-04-09 11:08:19][solver][infos]      binding constraints: 0
+[2025-04-09 11:08:19][solver][infos]      geographic trimming:true
+[2025-04-09 11:08:19][solver][infos] 
+[2025-04-09 11:08:19][solver][infos] Preparing time-series numbers...
+[2025-04-09 11:08:19][solver][infos] Preparing time-series numbers... (default ruleset)
+[2025-04-09 11:08:19][solver][infos]   :: Scenario Builder, active target: default ruleset
+[2025-04-09 11:08:19][solver][infos]   > loading scenario builder data from D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\capa_turb_heur_hydro_mens\settings\scenariobuilder.dat
+[2025-04-09 11:08:20][solver][infos] 
+[2025-04-09 11:08:20][solver][infos] [UI] Progression map: about-the-study\map
+[2025-04-09 11:08:20][solver][infos]   system memory report: 21845 Mib / 32616 Mib,  66.976331% free
+[2025-04-09 11:08:20][solver][infos] 
+[2025-04-09 11:08:20][solver][infos] [UI] Display messages: On
+[2025-04-09 11:08:20][solver][check] Running the simulation (economy)
+[2025-04-09 11:08:20][solver][infos] Allocating resources...
+[2025-04-09 11:08:20][solver][infos] Allocating resources...
+[2025-04-09 11:08:20][solver][infos]  + Areas                                          
+[2025-04-09 11:08:20][solver][infos]        OV. COST                    Euro           Overall Cost throughout all MC years
+[2025-04-09 11:08:20][solver][infos]        OV. COST CSR                Euro           Overall Cost throughout all MC years
+[2025-04-09 11:08:20][solver][infos]        OP. COST                    Euro           Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[2025-04-09 11:08:20][solver][infos]        MRG. PRICE                  Euro           Marginal Price, throughout all MC years
+[2025-04-09 11:08:20][solver][infos]        MRG. PRICE CSR              Euro           Marginal Price CSR, throughout all MC years
+[2025-04-09 11:08:20][solver][infos]                                    Tons           Overall pollutant emissions expected from all the thermal clusters
+[2025-04-09 11:08:20][solver][infos]        DTG by plant                MWh            Energy generated by all the clusters
+[2025-04-09 11:08:20][solver][infos]        MIN DTG by plant            MIN GEN - MWh  Min power by cluster
+[2025-04-09 11:08:20][solver][infos]        RES generation by plant     MWh            Energy generated by all the RES clusters
+[2025-04-09 11:08:20][solver][infos]        BALANCE                     MWh            Nodal energy balance, throughout all MC years
+[2025-04-09 11:08:20][solver][infos]        ROW BAL.                    MWh            Row Balance
+[2025-04-09 11:08:20][solver][infos]        PSP                         MWh            PSP
+[2025-04-09 11:08:20][solver][infos]        MISC. NDG                   MWh            Non-dispatchable generation (not including wind and run-of-the-river)
+[2025-04-09 11:08:20][solver][infos]        LOAD                        MWh            Load generation, thoughout all MC years
+[2025-04-09 11:08:20][solver][infos]        H. ROR                      MWh            Hydro generation, thoughout all MC years
+[2025-04-09 11:08:20][solver][infos]        WIND                        MWh            Wind generation, thoughout all MC years
+[2025-04-09 11:08:20][solver][infos]        SOLAR                       MWh            Solar generation, thoughout all MC years
+[2025-04-09 11:08:20][solver][infos]        Dispatch. Gen.              MWh            Value of all the dispatchable generation throughout all MC years
+[2025-04-09 11:08:20][solver][infos]        Renewable Gen.              MWh            Value of all the renewable generation throughout all MC years
+[2025-04-09 11:08:20][solver][infos]        H. STOR                     MWh            Hydro Storage Generation
+[2025-04-09 11:08:20][solver][infos]        H. PUMP                     MWh            Hydraulic pumping
+[2025-04-09 11:08:20][solver][infos]        H. LEV                      %              Hydro Level
+[2025-04-09 11:08:20][solver][infos]        H. INFL                     MWh            Hydraulic inflows
+[2025-04-09 11:08:20][solver][infos]        H. OVFL                     %              Hydro overflow
+[2025-04-09 11:08:20][solver][infos]        H. VAL                      Euro/MWh       Water value
+[2025-04-09 11:08:20][solver][infos]        H. COST                     Euro           Hydro Cost throughout all MC years, of all the thermal dispatchable clusters
+[2025-04-09 11:08:20][solver][infos]        STS by group                MWh            STS injections, withdrawals and levels
+[2025-04-09 11:08:20][solver][infos]        STS inj by plant            P-injection - MEnergy injected by ST storage clusters
+[2025-04-09 11:08:20][solver][infos]        STS withdrawal by plant     P-withdrawal - Energy withdrawn by ST storage clusters
+[2025-04-09 11:08:20][solver][infos]        STS lvl by plant            Levels - MWh   Levels by ST storage clusters
+[2025-04-09 11:08:20][solver][infos]        STS Cashflow By Cluster     CashFlow - EuroCash Flow by short term storage
+[2025-04-09 11:08:20][solver][infos]        UNSP. ENRG                  MWh            Unsuplied Energy (demand that cannot be satisfied)
+[2025-04-09 11:08:20][solver][infos]        UNSP. ENRG CSR              MWh            Unsuplied Energy after CSR (demand that cannot be satisfied)
+[2025-04-09 11:08:20][solver][infos]        DENS                        MWh            Domestic Unsupplied Energy (demand that cannot be satisfied without interconnections/links)
+[2025-04-09 11:08:20][solver][infos]        LMR VIOL.                                  Local Matching Rule is violated more than the provided threshold
+[2025-04-09 11:08:20][solver][infos]        SPIL. ENRG                  MWh            Spilled Energy (generation that cannot be satisfied)
+[2025-04-09 11:08:20][solver][infos]        LOLD                        Hours          LOLD
+[2025-04-09 11:08:20][solver][infos]        LOLD CSR                    Hours          LOLD for CSR
+[2025-04-09 11:08:20][solver][infos]        LOLP                        %              LOLP
+[2025-04-09 11:08:20][solver][infos]        LOLP CSR                    %              LOLP for CSR
+[2025-04-09 11:08:20][solver][infos]        AVL DTG                     MWh            Available dispatchable generation
+[2025-04-09 11:08:20][solver][infos]        DTG MRG                     MWh            Dispatchable Generation Margin
+[2025-04-09 11:08:20][solver][infos]        DTG MRG CSR                 MWh            Dispatchable Generation Margin (after CSR optimization)
+[2025-04-09 11:08:20][solver][infos]        MAX MRG                     MWh            Maximum margin throughout all MC years
+[2025-04-09 11:08:20][solver][infos]        MAX MRG CSR                 MWh            Max margin for CSR
+[2025-04-09 11:08:20][solver][infos]        NP COST                     Euro           Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[2025-04-09 11:08:20][solver][infos]        NP Cost by plant            NP Cost - Euro Non proportional costs by all the clusters
+[2025-04-09 11:08:20][solver][infos]        NODU                                       Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[2025-04-09 11:08:20][solver][infos]        NODU by plant               NODU           Number of Dispatchable Units by plant
+[2025-04-09 11:08:20][solver][infos]        Profit by plant             Profit - Euro  Profit for thermal units
+[2025-04-09 11:08:20][solver][infos]      + Links                                      
+[2025-04-09 11:08:20][solver][infos]            FLOW LIN.               MWh            Flow assessed, over all MC years, through linear optimization
+[2025-04-09 11:08:20][solver][infos]            UCAP LIN.               MWh            Used capacity assessed, over all MC years, through linear optimization
+[2025-04-09 11:08:20][solver][infos]            LOOP FLOW               MWh            Loop flow
+[2025-04-09 11:08:20][solver][infos]            FLOW QUAD.              MWh            Flow (quad.)
+[2025-04-09 11:08:20][solver][infos]            CONG. FEE (ALG.)        Euro           Congestion fee collected throughout all MC years (Alg.)
+[2025-04-09 11:08:20][solver][infos]            CONG. FEE (ABS.)        Euro           Congestion fee collected throughout all MC years (Absolute value)
+[2025-04-09 11:08:20][solver][infos]            MARG. COST              Euro/MW        Decrease of the overall operating cost expected by a 1MW capacity reinforcement
+[2025-04-09 11:08:20][solver][infos]            CONG. PROB. (+/-)       %              Probability for the line to be congested in the upstream-downstream way
+[2025-04-09 11:08:20][solver][infos]            HURDLE COST             Euro           Hurdle costs, over all MC years
+[2025-04-09 11:08:20][solver][infos]  + Sets of Areas                                  
+[2025-04-09 11:08:20][solver][infos]        OV. COST                    Euro           Overall Cost throughout all MC years
+[2025-04-09 11:08:20][solver][infos]        OP. COST                    Euro           Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[2025-04-09 11:08:20][solver][infos]        MRG. PRICE                  Euro           Marginal Price, throughout all MC years
+[2025-04-09 11:08:20][solver][infos]                                    Tons           Overall pollutant emissions expected from all the thermal clusters
+[2025-04-09 11:08:20][solver][infos]        BALANCE                     MWh            Nodal energy balance, throughout all MC years
+[2025-04-09 11:08:20][solver][infos]        ROW BAL.                    MWh            Row Balance
+[2025-04-09 11:08:20][solver][infos]        PSP                         MWh            PSP
+[2025-04-09 11:08:20][solver][infos]        MISC. NDG                   MWh            Non-dispatchable generation (not including wind and run-of-the-river)
+[2025-04-09 11:08:20][solver][infos]        LOAD                        MWh            Load generation, thoughout all MC years
+[2025-04-09 11:08:20][solver][infos]        H. ROR                      MWh            Hydro generation, thoughout all MC years
+[2025-04-09 11:08:20][solver][infos]        WIND                        MWh            Wind generation, thoughout all MC years
+[2025-04-09 11:08:20][solver][infos]        SOLAR                       MWh            Solar generation, thoughout all MC years
+[2025-04-09 11:08:20][solver][infos]        Dispatch. Gen.              MWh            Value of all the dispatchable generation throughout all MC years
+[2025-04-09 11:08:20][solver][infos]        Renewable Gen.              MWh            Value of all the renewable generation throughout all MC years
+[2025-04-09 11:08:20][solver][infos]        H. STOR                     MWh            Hydro Storage Generation
+[2025-04-09 11:08:20][solver][infos]        H. PUMP                     MWh            Hydraulic pumping
+[2025-04-09 11:08:20][solver][infos]        H. LEV                      %              Hydro Level
+[2025-04-09 11:08:20][solver][infos]        H. INFL                     MWh            Hydraulic inflows
+[2025-04-09 11:08:20][solver][infos]        H. OVFL                     %              Hydro overflow
+[2025-04-09 11:08:20][solver][infos]        H. VAL                      Euro/MWh       Water value
+[2025-04-09 11:08:20][solver][infos]        H. COST                     Euro           Hydro Cost throughout all MC years, of all the thermal dispatchable clusters
+[2025-04-09 11:08:20][solver][infos]        UNSP. ENRG                  MWh            Unsuplied Energy (demand that cannot be satisfied)
+[2025-04-09 11:08:20][solver][infos]        DENS                        MWh            Domestic Unsupplied Energy (demand that cannot be satisfied without interconnections/links)
+[2025-04-09 11:08:20][solver][infos]        LMR VIOL.                                  Local Matching Rule is violated more than the provided threshold
+[2025-04-09 11:08:20][solver][infos]        SPIL. ENRG                  MWh            Spilled Energy (generation that cannot be satisfied)
+[2025-04-09 11:08:20][solver][infos]        LOLD                        Hours          LOLD
+[2025-04-09 11:08:20][solver][infos]        LOLP                        %              LOLP
+[2025-04-09 11:08:20][solver][infos]        AVL DTG                     MWh            Available dispatchable generation
+[2025-04-09 11:08:20][solver][infos]        DTG MRG                     MWh            Dispatchable Generation Margin
+[2025-04-09 11:08:20][solver][infos]        DTG MRG CSR                 MWh            Dispatchable Generation Margin (after CSR optimization)
+[2025-04-09 11:08:20][solver][infos]        MAX MRG                     MWh            Maximum margin throughout all MC years
+[2025-04-09 11:08:20][solver][infos]        NP COST                     Euro           Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[2025-04-09 11:08:20][solver][infos]        NODU                                       Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[2025-04-09 11:08:20][solver][infos]  + Binding constraints                            
+[2025-04-09 11:08:20][solver][infos]        BC. MARG. COST              Euro           Marginal cost for binding constraints
+[2025-04-09 11:08:21][solver][infos] 
+[2025-04-09 11:08:21][solver][infos] MC-Years : [1 .. 720], total: 1
+[2025-04-09 11:08:21][solver][infos]  Doing hydro validation
+[2025-04-09 11:08:21][solver][infos]  Starting the simulation
+[2025-04-09 11:08:21][solver][infos] parallel batch size : 1 (1 perfomed)
+[2025-04-09 11:08:21][solver][infos] Year(s) 1 
+[2025-04-09 11:08:21][solver][infos] 
+[2025-04-09 11:08:21][solver][infos]  Starting Memory Allocation for a Weekly Optimization problem in Canonical form 
+[2025-04-09 11:08:21][solver][infos]  ( Problem Size :7728 variables 505 Constraints) 
+[2025-04-09 11:08:21][solver][infos] 
+[2025-04-09 11:08:21][solver][infos]  Status of Preliminary Allocations for Generic Problem Resolution : Successful
+[2025-04-09 11:08:21][solver][infos] 
+[2025-04-09 11:08:21][solver][infos] [adq-patch] Year:1 Week:1.Total LMR violation:0.000000
+[2025-04-09 11:08:21][solver][infos] [adq-patch] Year:1 Week:2.Total LMR violation:0.000000
+[2025-04-09 11:08:21][solver][infos] [adq-patch] Year:1 Week:3.Total LMR violation:0.000000
+[2025-04-09 11:08:21][solver][infos] [adq-patch] Year:1 Week:4.Total LMR violation:0.000000
+[2025-04-09 11:08:21][solver][infos] [adq-patch] Year:1 Week:5.Total LMR violation:0.000000
+[2025-04-09 11:08:21][solver][infos] [adq-patch] Year:1 Week:6.Total LMR violation:0.000000
+[2025-04-09 11:08:22][solver][infos] [adq-patch] Year:1 Week:7.Total LMR violation:0.000000
+[2025-04-09 11:08:22][solver][infos] [adq-patch] Year:1 Week:8.Total LMR violation:0.000000
+[2025-04-09 11:08:22][solver][infos] [adq-patch] Year:1 Week:9.Total LMR violation:0.000000
+[2025-04-09 11:08:22][solver][infos] [adq-patch] Year:1 Week:10.Total LMR violation:0.000000
+[2025-04-09 11:08:22][solver][infos] [adq-patch] Year:1 Week:11.Total LMR violation:0.000000
+[2025-04-09 11:08:22][solver][infos] [adq-patch] Year:1 Week:12.Total LMR violation:0.000000
+[2025-04-09 11:08:22][solver][infos] [adq-patch] Year:1 Week:13.Total LMR violation:0.000000
+[2025-04-09 11:08:22][solver][infos] [adq-patch] Year:1 Week:14.Total LMR violation:0.000000
+[2025-04-09 11:08:22][solver][infos] [adq-patch] Year:1 Week:15.Total LMR violation:0.000000
+[2025-04-09 11:08:22][solver][infos] [adq-patch] Year:1 Week:16.Total LMR violation:0.000000
+[2025-04-09 11:08:22][solver][infos] [adq-patch] Year:1 Week:17.Total LMR violation:0.000000
+[2025-04-09 11:08:22][solver][infos] [adq-patch] Year:1 Week:18.Total LMR violation:0.000000
+[2025-04-09 11:08:22][solver][progress] task 0 mc, year: 0, 1800.000000
+[2025-04-09 11:08:22][solver][infos] [adq-patch] Year:1 Week:19.Total LMR violation:0.000000
+[2025-04-09 11:08:22][solver][infos] [adq-patch] Year:1 Week:20.Total LMR violation:0.000000
+[2025-04-09 11:08:23][solver][infos] [adq-patch] Year:1 Week:21.Total LMR violation:0.000000
+[2025-04-09 11:08:23][solver][infos] [adq-patch] Year:1 Week:22.Total LMR violation:0.000000
+[2025-04-09 11:08:23][solver][infos] [adq-patch] Year:1 Week:23.Total LMR violation:0.000000
+[2025-04-09 11:08:23][solver][infos] [adq-patch] Year:1 Week:24.Total LMR violation:0.000000
+[2025-04-09 11:08:23][solver][infos] [adq-patch] Year:1 Week:25.Total LMR violation:0.000000
+[2025-04-09 11:08:23][solver][infos] [adq-patch] Year:1 Week:26.Total LMR violation:0.000000
+[2025-04-09 11:08:23][solver][infos] [adq-patch] Year:1 Week:27.Total LMR violation:0.000000
+[2025-04-09 11:08:23][solver][infos] [adq-patch] Year:1 Week:28.Total LMR violation:0.000000
+[2025-04-09 11:08:23][solver][infos] [adq-patch] Year:1 Week:29.Total LMR violation:0.000000
+[2025-04-09 11:08:24][solver][progress] task 0 mc, year: 0, 2900.000000
+[2025-04-09 11:08:24][solver][infos] [adq-patch] Year:1 Week:30.Total LMR violation:0.000000
+[2025-04-09 11:08:24][solver][infos] [adq-patch] Year:1 Week:31.Total LMR violation:0.000000
+[2025-04-09 11:08:24][solver][infos] [adq-patch] Year:1 Week:32.Total LMR violation:0.000000
+[2025-04-09 11:08:24][solver][infos] [adq-patch] Year:1 Week:33.Total LMR violation:0.000000
+[2025-04-09 11:08:24][solver][infos] [adq-patch] Year:1 Week:34.Total LMR violation:0.000000
+[2025-04-09 11:08:24][solver][infos] [adq-patch] Year:1 Week:35.Total LMR violation:0.000000
+[2025-04-09 11:08:24][solver][infos] [adq-patch] Year:1 Week:36.Total LMR violation:0.000000
+[2025-04-09 11:08:24][solver][infos] [adq-patch] Year:1 Week:37.Total LMR violation:0.000000
+[2025-04-09 11:08:24][solver][infos] [adq-patch] Year:1 Week:38.Total LMR violation:0.000000
+[2025-04-09 11:08:24][solver][infos] [adq-patch] Year:1 Week:39.Total LMR violation:0.000000
+[2025-04-09 11:08:24][solver][infos] [adq-patch] Year:1 Week:40.Total LMR violation:0.000000
+[2025-04-09 11:08:24][solver][infos] [adq-patch] Year:1 Week:41.Total LMR violation:0.000000
+[2025-04-09 11:08:24][solver][infos] [adq-patch] Year:1 Week:42.Total LMR violation:0.000000
+[2025-04-09 11:08:24][solver][infos] [adq-patch] Year:1 Week:43.Total LMR violation:0.000000
+[2025-04-09 11:08:25][solver][infos] [adq-patch] Year:1 Week:44.Total LMR violation:0.000000
+[2025-04-09 11:08:25][solver][infos] [adq-patch] Year:1 Week:45.Total LMR violation:0.000000
+[2025-04-09 11:08:25][solver][infos] [adq-patch] Year:1 Week:46.Total LMR violation:0.000000
+[2025-04-09 11:08:25][solver][infos] [adq-patch] Year:1 Week:47.Total LMR violation:0.000000
+[2025-04-09 11:08:25][solver][progress] task 0 mc, year: 0, 4700.000000
+[2025-04-09 11:08:25][solver][infos] [adq-patch] Year:1 Week:48.Total LMR violation:0.000000
+[2025-04-09 11:08:25][solver][infos] [adq-patch] Year:1 Week:49.Total LMR violation:0.000000
+[2025-04-09 11:08:25][solver][infos] [adq-patch] Year:1 Week:50.Total LMR violation:0.000000
+[2025-04-09 11:08:25][solver][infos] [adq-patch] Year:1 Week:51.Total LMR violation:0.000000
+[2025-04-09 11:08:25][solver][infos] [adq-patch] Year:1 Week:52.Total LMR violation:0.000000
+[2025-04-09 11:08:25][solver][infos] Exporting the annual results
+[2025-04-09 11:08:25][solver][infos] Exporting results : FI00
+[2025-04-09 11:08:25][solver][infos] Exporting results : binding constraints
+[2025-04-09 11:08:25][solver][progress] task 0 mc, year: 0, 100
+[2025-04-09 11:08:26][solver][infos] parallel batch size : 719 (0 perfomed)
+[2025-04-09 11:08:26][solver][infos] Year(s) 
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 2
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 1, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 3
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 2, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 4
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 3, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 5
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 4, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 6
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 5, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 7
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 6, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 8
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 7, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 9
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 8, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 10
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 9, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 11
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 10, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 12
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 11, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 13
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 12, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 14
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 13, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 15
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 14, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 16
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 15, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 17
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 16, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 18
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 17, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 19
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 18, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 20
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 19, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 21
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 20, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 22
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 21, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 23
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 22, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 24
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 23, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 25
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 24, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 26
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 25, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 27
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 26, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 28
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 27, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 29
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 28, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 30
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 29, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 31
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 30, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 32
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 31, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 33
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 32, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 34
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 33, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 35
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 34, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 36
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 35, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 37
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 36, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 38
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 37, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 39
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 38, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 40
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 39, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 41
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 40, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 42
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 41, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 43
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 42, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 44
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 43, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 45
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 44, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 46
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 45, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 47
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 46, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 48
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 47, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 49
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 48, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 50
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 49, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 51
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 50, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 52
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 51, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 53
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 52, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 54
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 53, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 55
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 54, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 56
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 55, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 57
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 56, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 58
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 57, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 59
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 58, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 60
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 59, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 61
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 60, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 62
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 61, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 63
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 62, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 64
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 63, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 65
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 64, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 66
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 65, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 67
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 66, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 68
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 67, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 69
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 68, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 70
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 69, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 71
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 70, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 72
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 71, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 73
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 72, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 74
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 73, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 75
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 74, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 76
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 75, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 77
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 76, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 78
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 77, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 79
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 78, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 80
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 79, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 81
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 80, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 82
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 81, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 83
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 82, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 84
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 83, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 85
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 84, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 86
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 85, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 87
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 86, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 88
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 87, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 89
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 88, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 90
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 89, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 91
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 90, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 92
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 91, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 93
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 92, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 94
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 93, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 95
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 94, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 96
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 95, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 97
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 96, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 98
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 97, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 99
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 98, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 100
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 99, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 101
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 100, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 102
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 101, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 103
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 102, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 104
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 103, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 105
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 104, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 106
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 105, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 107
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 106, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 108
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 107, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 109
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 108, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 110
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 109, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 111
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 110, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 112
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 111, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 113
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 112, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 114
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 113, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 115
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 114, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 116
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 115, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 117
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 116, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 118
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 117, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 119
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 118, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 120
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 119, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 121
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 120, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 122
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 121, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 123
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 122, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 124
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 123, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 125
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 124, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 126
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 125, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 127
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 126, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 128
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 127, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 129
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 128, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 130
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 129, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 131
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 130, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 132
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 131, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 133
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 132, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 134
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 133, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 135
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 134, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 136
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 135, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 137
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 136, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 138
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 137, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 139
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 138, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 140
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 139, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 141
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 140, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 142
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 141, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 143
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 142, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 144
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 143, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 145
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 144, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 146
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 145, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 147
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 146, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 148
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 147, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 149
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 148, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 150
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 149, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 151
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 150, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 152
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 151, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 153
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 152, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 154
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 153, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 155
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 154, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 156
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 155, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 157
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 156, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 158
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 157, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 159
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 158, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 160
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 159, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 161
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 160, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 162
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 161, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 163
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 162, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 164
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 163, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 165
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 164, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 166
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 165, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 167
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 166, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 168
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 167, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 169
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 168, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 170
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 169, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 171
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 170, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 172
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 171, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 173
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 172, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 174
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 173, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 175
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 174, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 176
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 175, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 177
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 176, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 178
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 177, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 179
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 178, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 180
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 179, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 181
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 180, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 182
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 181, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 183
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 182, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 184
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 183, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 185
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 184, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 186
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 185, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 187
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 186, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 188
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 187, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 189
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 188, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 190
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 189, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 191
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 190, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 192
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 191, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 193
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 192, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 194
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 193, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 195
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 194, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 196
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 195, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 197
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 196, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 198
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 197, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 199
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 198, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 200
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 199, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 201
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 200, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 202
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 201, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 203
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 202, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 204
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 203, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 205
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 204, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 206
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 205, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 207
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 206, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 208
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 207, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 209
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 208, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 210
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 209, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 211
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 210, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 212
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 211, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 213
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 212, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 214
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 213, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 215
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 214, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 216
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 215, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 217
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 216, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 218
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 217, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 219
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 218, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 220
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 219, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 221
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 220, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 222
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 221, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 223
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 222, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 224
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 223, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 225
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 224, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 226
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 225, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 227
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 226, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 228
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 227, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 229
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 228, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 230
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 229, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 231
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 230, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 232
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 231, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 233
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 232, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 234
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 233, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 235
+[2025-04-09 11:08:26][solver][progress] task 0 mc, year: 234, 100
+[2025-04-09 11:08:26][solver][infos]   playlist: ignoring the year 236
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 235, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 237
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 236, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 238
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 237, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 239
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 238, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 240
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 239, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 241
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 240, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 242
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 241, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 243
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 242, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 244
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 243, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 245
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 244, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 246
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 245, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 247
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 246, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 248
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 247, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 249
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 248, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 250
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 249, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 251
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 250, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 252
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 251, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 253
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 252, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 254
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 253, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 255
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 254, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 256
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 255, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 257
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 256, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 258
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 257, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 259
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 258, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 260
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 259, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 261
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 260, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 262
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 261, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 263
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 262, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 264
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 263, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 265
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 264, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 266
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 265, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 267
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 266, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 268
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 267, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 269
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 268, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 270
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 269, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 271
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 270, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 272
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 271, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 273
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 272, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 274
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 273, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 275
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 274, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 276
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 275, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 277
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 276, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 278
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 277, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 279
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 278, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 280
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 279, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 281
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 280, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 282
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 281, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 283
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 282, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 284
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 283, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 285
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 284, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 286
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 285, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 287
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 286, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 288
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 287, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 289
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 288, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 290
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 289, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 291
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 290, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 292
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 291, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 293
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 292, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 294
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 293, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 295
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 294, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 296
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 295, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 297
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 296, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 298
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 297, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 299
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 298, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 300
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 299, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 301
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 300, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 302
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 301, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 303
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 302, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 304
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 303, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 305
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 304, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 306
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 305, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 307
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 306, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 308
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 307, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 309
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 308, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 310
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 309, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 311
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 310, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 312
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 311, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 313
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 312, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 314
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 313, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 315
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 314, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 316
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 315, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 317
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 316, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 318
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 317, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 319
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 318, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 320
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 319, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 321
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 320, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 322
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 321, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 323
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 322, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 324
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 323, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 325
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 324, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 326
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 325, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 327
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 326, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 328
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 327, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 329
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 328, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 330
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 329, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 331
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 330, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 332
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 331, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 333
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 332, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 334
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 333, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 335
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 334, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 336
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 335, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 337
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 336, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 338
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 337, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 339
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 338, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 340
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 339, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 341
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 340, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 342
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 341, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 343
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 342, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 344
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 343, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 345
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 344, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 346
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 345, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 347
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 346, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 348
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 347, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 349
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 348, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 350
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 349, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 351
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 350, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 352
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 351, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 353
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 352, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 354
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 353, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 355
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 354, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 356
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 355, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 357
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 356, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 358
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 357, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 359
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 358, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 360
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 359, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 361
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 360, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 362
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 361, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 363
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 362, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 364
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 363, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 365
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 364, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 366
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 365, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 367
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 366, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 368
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 367, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 369
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 368, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 370
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 369, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 371
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 370, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 372
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 371, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 373
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 372, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 374
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 373, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 375
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 374, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 376
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 375, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 377
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 376, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 378
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 377, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 379
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 378, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 380
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 379, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 381
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 380, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 382
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 381, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 383
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 382, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 384
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 383, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 385
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 384, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 386
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 385, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 387
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 386, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 388
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 387, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 389
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 388, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 390
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 389, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 391
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 390, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 392
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 391, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 393
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 392, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 394
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 393, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 395
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 394, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 396
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 395, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 397
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 396, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 398
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 397, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 399
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 398, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 400
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 399, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 401
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 400, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 402
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 401, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 403
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 402, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 404
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 403, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 405
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 404, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 406
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 405, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 407
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 406, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 408
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 407, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 409
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 408, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 410
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 409, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 411
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 410, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 412
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 411, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 413
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 412, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 414
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 413, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 415
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 414, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 416
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 415, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 417
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 416, 100
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 407, 5200.000000
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 418
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 417, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 419
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 418, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 420
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 419, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 421
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 420, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 422
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 421, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 423
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 422, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 424
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 423, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 425
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 424, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 426
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 425, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 427
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 426, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 428
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 427, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 429
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 428, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 430
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 429, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 431
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 430, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 432
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 431, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 433
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 432, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 434
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 433, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 435
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 434, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 436
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 435, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 437
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 436, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 438
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 437, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 439
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 438, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 440
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 439, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 441
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 440, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 442
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 441, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 443
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 442, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 444
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 443, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 445
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 444, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 446
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 445, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 447
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 446, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 448
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 447, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 449
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 448, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 450
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 449, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 451
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 450, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 452
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 451, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 453
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 452, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 454
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 453, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 455
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 454, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 456
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 455, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 457
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 456, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 458
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 457, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 459
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 458, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 460
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 459, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 461
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 460, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 462
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 461, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 463
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 462, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 464
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 463, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 465
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 464, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 466
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 465, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 467
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 466, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 468
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 467, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 469
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 468, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 470
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 469, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 471
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 470, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 472
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 471, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 473
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 472, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 474
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 473, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 475
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 474, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 476
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 475, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 477
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 476, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 478
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 477, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 479
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 478, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 480
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 479, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 481
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 480, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 482
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 481, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 483
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 482, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 484
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 483, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 485
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 484, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 486
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 485, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 487
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 486, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 488
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 487, 100
+[2025-04-09 11:08:27][solver][infos]   playlist: ignoring the year 489
+[2025-04-09 11:08:27][solver][progress] task 0 mc, year: 488, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 490
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 489, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 491
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 490, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 492
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 491, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 493
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 492, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 494
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 493, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 495
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 494, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 496
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 495, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 497
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 496, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 498
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 497, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 499
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 498, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 500
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 499, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 501
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 500, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 502
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 501, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 503
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 502, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 504
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 503, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 505
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 504, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 506
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 505, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 507
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 506, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 508
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 507, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 509
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 508, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 510
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 509, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 511
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 510, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 512
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 511, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 513
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 512, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 514
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 513, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 515
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 514, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 516
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 515, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 517
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 516, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 518
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 517, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 519
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 518, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 520
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 519, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 521
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 520, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 522
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 521, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 523
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 522, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 524
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 523, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 525
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 524, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 526
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 525, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 527
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 526, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 528
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 527, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 529
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 528, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 530
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 529, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 531
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 530, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 532
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 531, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 533
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 532, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 534
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 533, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 535
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 534, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 536
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 535, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 537
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 536, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 538
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 537, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 539
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 538, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 540
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 539, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 541
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 540, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 542
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 541, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 543
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 542, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 544
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 543, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 545
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 544, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 546
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 545, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 547
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 546, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 548
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 547, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 549
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 548, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 550
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 549, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 551
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 550, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 552
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 551, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 553
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 552, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 554
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 553, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 555
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 554, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 556
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 555, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 557
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 556, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 558
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 557, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 559
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 558, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 560
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 559, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 561
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 560, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 562
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 561, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 563
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 562, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 564
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 563, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 565
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 564, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 566
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 565, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 567
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 566, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 568
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 567, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 569
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 568, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 570
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 569, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 571
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 570, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 572
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 571, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 573
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 572, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 574
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 573, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 575
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 574, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 576
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 575, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 577
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 576, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 578
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 577, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 579
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 578, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 580
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 579, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 581
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 580, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 582
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 581, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 583
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 582, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 584
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 583, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 585
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 584, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 586
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 585, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 587
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 586, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 588
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 587, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 589
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 588, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 590
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 589, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 591
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 590, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 592
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 591, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 593
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 592, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 594
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 593, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 595
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 594, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 596
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 595, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 597
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 596, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 598
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 597, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 599
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 598, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 600
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 599, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 601
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 600, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 602
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 601, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 603
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 602, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 604
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 603, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 605
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 604, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 606
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 605, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 607
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 606, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 608
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 607, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 609
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 608, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 610
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 609, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 611
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 610, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 612
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 611, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 613
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 612, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 614
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 613, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 615
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 614, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 616
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 615, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 617
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 616, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 618
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 617, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 619
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 618, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 620
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 619, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 621
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 620, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 622
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 621, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 623
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 622, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 624
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 623, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 625
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 624, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 626
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 625, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 627
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 626, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 628
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 627, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 629
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 628, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 630
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 629, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 631
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 630, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 632
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 631, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 633
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 632, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 634
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 633, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 635
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 634, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 636
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 635, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 637
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 636, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 638
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 637, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 639
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 638, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 640
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 639, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 641
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 640, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 642
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 641, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 643
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 642, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 644
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 643, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 645
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 644, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 646
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 645, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 647
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 646, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 648
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 647, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 649
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 648, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 650
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 649, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 651
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 650, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 652
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 651, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 653
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 652, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 654
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 653, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 655
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 654, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 656
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 655, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 657
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 656, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 658
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 657, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 659
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 658, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 660
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 659, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 661
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 660, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 662
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 661, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 663
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 662, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 664
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 663, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 665
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 664, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 666
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 665, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 667
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 666, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 668
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 667, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 669
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 668, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 670
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 669, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 671
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 670, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 672
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 671, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 673
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 672, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 674
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 673, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 675
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 674, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 676
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 675, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 677
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 676, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 678
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 677, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 679
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 678, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 680
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 679, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 681
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 680, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 682
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 681, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 683
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 682, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 684
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 683, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 685
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 684, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 686
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 685, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 687
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 686, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 688
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 687, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 689
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 688, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 690
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 689, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 691
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 690, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 692
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 691, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 693
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 692, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 694
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 693, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 695
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 694, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 696
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 695, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 697
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 696, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 698
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 697, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 699
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 698, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 700
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 699, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 701
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 700, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 702
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 701, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 703
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 702, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 704
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 703, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 705
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 704, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 706
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 705, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 707
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 706, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 708
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 707, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 709
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 708, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 710
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 709, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 711
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 710, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 712
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 711, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 713
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 712, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 714
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 713, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 715
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 714, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 716
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 715, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 717
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 716, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 718
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 717, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 719
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 718, 100
+[2025-04-09 11:08:28][solver][infos]   playlist: ignoring the year 720
+[2025-04-09 11:08:28][solver][progress] task 0 mc, year: 719, 100
+[2025-04-09 11:08:28][solver][infos] 
+[2025-04-09 11:08:28][solver][check] Exporting the survey results...
+[2025-04-09 11:08:28][solver][infos] Exporting results : FI00
+[2025-04-09 11:08:29][solver][infos] Exporting results : binding constraints
+[2025-04-09 11:08:29][solver][infos] Exporting digest...
+[2025-04-09 11:08:29][solver][infos] Total simulation time: 00h00m20s
+[2025-04-09 11:08:29][solver][infos] [UI] Quitting the solver gracefully

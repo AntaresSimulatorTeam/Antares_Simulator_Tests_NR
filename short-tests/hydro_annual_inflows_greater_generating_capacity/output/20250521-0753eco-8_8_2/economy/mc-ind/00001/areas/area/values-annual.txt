@@ -1,0 +1,8 @@
+Area	area	va	annual
+	VARIABLES	BEGIN	END
+	10	1	1
+
+Area	annual	OV. COST	OP. COST	MRG. PRICE	LOAD	H. STOR	H. LEV	H. INFL	H. OVFL	UNSP. ENRG	SPIL. ENRG
+		Euro	Euro	Euro	MWh	MWh	%	MWh	%	MWh	MWh
+											
+	Annual	436800000	0	1000.00	873600	436800	71.84	873600	0	436800	0
