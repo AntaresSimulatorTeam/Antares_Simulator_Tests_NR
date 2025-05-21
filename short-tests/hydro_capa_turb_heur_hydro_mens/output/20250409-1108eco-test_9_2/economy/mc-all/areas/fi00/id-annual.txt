@@ -1,0 +1,8 @@
+FI00	area	id	annual
+	VARIABLES	BEGIN	END
+	24	1	1
+
+FI00	annual	MRG. PRICE	MRG. PRICE	H. ROR	H. ROR	H. STOR	H. STOR	H. PUMP	H. PUMP	H. LEV	H. LEV	H. INFL	H. INFL	H. OVFL	H. OVFL	H. VAL	H. VAL	H. COST	H. COST	UNSP. ENRG	UNSP. ENRG	SPIL. ENRG	SPIL. ENRG	LOLD	LOLD
+		Euro	Euro	MWh	MWh	MWh	MWh	MWh	MWh	%	%	MWh	MWh	%	%	Euro/MWh	Euro/MWh	Euro	Euro	MWh	MWh	MWh	MWh	Hours	Hours
+		min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max
+	Annual	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
