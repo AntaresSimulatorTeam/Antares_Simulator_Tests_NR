@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="400" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text fontweight="700">Purpose</text>
+      <text>" : testing near price cap (also named NCAP)"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">General study properties</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + 1 year of 1 week"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + 4 independent areas (no links) for 4 different configurations"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + for all areas, demand is flat : always 100 MWh."</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + output : only relevant ouput are printed"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"- "</text>
+      <text fontweight="700">area 1</text>
+      <text>" : "</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + "</text>
+      <text fontweight="700">Scenario</text>
+      <text>" :  only a renewable cluster can satisfy demand. The renewable production decreases."</text>
+    </paragraph>
+    <paragraph>
+      <text>"     At some point in the week, production is too low."</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + "</text>
+      <text fontweight="700">Expected results</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>"     When renewable production gets equal to or lower than demand, NCAP becomes TRUE"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"- "</text>
+      <text fontweight="700">area 2</text>
+      <text>" : "</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + "</text>
+      <text fontweight="700">Scenario</text>
+      <text>" : Only a thermal (gas) cluster can satisfy demand. Its available power is decreasing."</text>
+    </paragraph>
+    <paragraph>
+      <text>"      At some point, available power prevent the cluster from satisfying demand."</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + "</text>
+      <text fontweight="700">Expected results</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>"     When gas production gets equal to or lower than demand, NCAP becomes TRUE"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"- "</text>
+      <text fontweight="700">area 3</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + "</text>
+      <text fontweight="700">Scenario</text>
+      <text>" : Only a thermal (gas) cluster can satisfy demand. "</text>
+    </paragraph>
+    <paragraph>
+      <text>"      It always can (it has enough available power), but its prices increases."</text>
+    </paragraph>
+    <paragraph>
+      <text>"      At some point, price of gas production gets greater than unsupplied energy cost."</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + "</text>
+      <text fontweight="700">Expected results</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>"     When gas cost gets equal to or lower than unsupplied energy cost, NCAP becomes TRUE"</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"- "</text>
+      <text fontweight="700">area 4</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + "</text>
+      <text fontweight="700">Scenario</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>"      Everything happens within day 1 (load and productions are null on the 6 other days)."</text>
+    </paragraph>
+    <paragraph>
+      <text>"      Only a thermal (gas) cluster can satisfy demand."</text>
+    </paragraph>
+    <paragraph>
+      <text>"      It always can (it has enough available power), but its prices fluctuates (see market bid modulation time series)."</text>
+    </paragraph>
+    <paragraph>
+      <text>"      For some hours, price of gas production gets greater than unsupplied energy cost."</text>
+    </paragraph>
+    <paragraph>
+      <text>"  + "</text>
+      <text fontweight="700">Expected results</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>"      On hours 12, 13 and 17, 18, gas production prices is near unsupplied energy cost enough to make NCAP become TRUE"</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>
