@@ -1,0 +1,200 @@
+[2025-05-21 07:45:53][solver][check] Antares Solver v8.8.2 (670628e-dirty)
+[2025-05-21 07:45:53][solver][infos]   :: built for 64-bit architectures, Microsoft Windows, 8 cpu(s)
+[2025-05-21 07:45:53][solver][infos]   :: hostname = GM0WINUPL
+[2025-05-21 07:45:53][solver][infos] 
+[2025-05-21 07:45:53][solver][infos]   :: command: D:\AppliRTE\Antares\8.8\bin\antares-8.8-solver.exe --name=8_8_2 --progress D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\monthly_hydro_heuristic_gen_capa
+[2025-05-21 07:45:53][solver][infos]   :: log filename: D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\monthly_hydro_heuristic_gen_capa\logs\solver-20250521-074553.log
+[2025-05-21 07:45:53][solver][infos] 
+[2025-05-21 07:45:53][solver][notic] Preparing monthly_hydro_heuristic_gen_capa...
+[2025-05-21 07:45:53][solver][infos]   detected version: 880
+[2025-05-21 07:45:53][solver][infos]   from `D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\monthly_hydro_heuristic_gen_capa`
+[2025-05-21 07:45:53][solver][infos] 
+[2025-05-21 07:45:53][solver][infos]   simulation mode: Economy
+[2025-05-21 07:45:53][solver][infos]   simplex optimization range: week
+[2025-05-21 07:45:53][solver][infos] Cluster renewables were chosen. Output will be disabled for aggregated modes.
+[2025-05-21 07:45:53][solver][infos]   :: enabling the 'year-by-year' mode
+[2025-05-21 07:45:53][solver][infos]   :: enabling the user variable selection
+[2025-05-21 07:45:53][solver][infos]   :: ignoring export mps
+[2025-05-21 07:45:53][solver][infos]   :: ignoring adequacy patch
+[2025-05-21 07:45:53][solver][infos]   :: ignoring export structure
+[2025-05-21 07:45:53][solver][infos]   :: Printing solver logs : False
+[2025-05-21 07:45:53][solver][infos] Loading the list of areas...
+[2025-05-21 07:45:53][solver][infos]   Loading the area list from `D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\monthly_hydro_heuristic_gen_capa\input\areas\list.txt`
+[2025-05-21 07:45:53][solver][infos]   1 area found
+[2025-05-21 07:45:53][solver][infos] Loading global hydro data...
+[2025-05-21 07:45:53][solver][infos] Loading thermal clusters...
+[2025-05-21 07:45:53][solver][infos] Loading thermal configuration for the area Area
+[2025-05-21 07:45:53][solver][infos] Loading short term storage clusters...
+[2025-05-21 07:45:53][solver][infos] Loading renewable configuration for the area Area
+[2025-05-21 07:45:53][solver][infos] Loading the area 1/1: Area
+[2025-05-21 07:45:53][solver][infos] Loading the area 1/1: Area  16%
+[2025-05-21 07:45:53][solver][infos] Loading the area 1/1: Area  33%
+[2025-05-21 07:45:53][solver][infos] Loading the area 1/1: Area  50%
+[2025-05-21 07:45:53][solver][infos] Loading the area 1/1: Area  66%
+[2025-05-21 07:45:53][solver][infos] Loading the area 1/1: Area  83%
+[2025-05-21 07:45:53][solver][infos] Loading correlation matrices...
+[2025-05-21 07:45:53][solver][infos] 
+[2025-05-21 07:45:53][solver][infos] Loading constraints...
+[2025-05-21 07:45:53][solver][infos] No binding constraint found
+[2025-05-21 07:45:53][solver][infos] 
+[2025-05-21 07:45:53][solver][infos] Loading sets of areas...
+[2025-05-21 07:45:53][solver][infos]    found `all areas` (1 item, no output)
+[2025-05-21 07:45:53][solver][infos]   Output folder : D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\monthly_hydro_heuristic_gen_capa\output\20250521-0745eco-8_8_2
+[2025-05-21 07:45:53][solver][infos] [statistics] disk: read: 49 ko, written: 0 ko
+[2025-05-21 07:45:53][solver][infos] [statistics] network: read: 0 ko, written: 0 ko
+[2025-05-21 07:45:53][solver][infos] The study is loaded.
+[2025-05-21 07:45:53][solver][infos] [UI] Display messages: Off
+[2025-05-21 07:45:53][solver][infos]   Output folder : D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\monthly_hydro_heuristic_gen_capa\output\20250521-0745eco-8_8_2
+[2025-05-21 07:45:53][solver][infos] 
+[2025-05-21 07:45:53][solver][infos] Generating calendar informations
+[2025-05-21 07:45:53][solver][infos]     Partial week detected. Not allowed in Economy
+[2025-05-21 07:45:53][solver][infos]     Time interval that has been requested: 1..8760
+[2025-05-21 07:45:53][solver][infos] Calendar: hours:1..8736, days:1..364, weeks:1..52, months:1..12, years:1..1
+[2025-05-21 07:45:53][solver][infos] Simulation days per month : 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 30
+[2025-05-21 07:45:53][solver][infos] 
+[2025-05-21 07:45:53][solver][infos] Removing disabled thermal clusters in from solver computations...
+[2025-05-21 07:45:53][solver][infos] No disabled thermal cluster removed before solver computations
+[2025-05-21 07:45:53][solver][infos] 
+[2025-05-21 07:45:53][solver][infos] Removing disabled short term storage clusters in from solver computations...
+[2025-05-21 07:45:53][solver][infos] No disabled short term storage cluster removed before solver computations
+[2025-05-21 07:45:53][solver][infos] 
+[2025-05-21 07:45:53][solver][infos] Removing disabled renewable clusters in from solver computations...
+[2025-05-21 07:45:53][solver][infos] No disabled renewable cluster removed before solver computations
+[2025-05-21 07:45:53][solver][infos] 
+[2025-05-21 07:45:53][solver][infos] Optimizing the thermal clusters in 'must-run' mode...
+[2025-05-21 07:45:53][solver][infos] No thermal cluster in 'must-run' mode
+[2025-05-21 07:45:53][solver][infos] 
+[2025-05-21 07:45:53][solver][infos] 
+[2025-05-21 07:45:53][solver][infos] Summary
+[2025-05-21 07:45:53][solver][infos]      areas: 1
+[2025-05-21 07:45:53][solver][infos]      links: 0
+[2025-05-21 07:45:53][solver][infos]      thermal clusters: 0
+[2025-05-21 07:45:53][solver][infos]      thermal clusters (must-run): 0
+[2025-05-21 07:45:53][solver][infos]      short-term storages: 0
+[2025-05-21 07:45:53][solver][infos]      binding constraints: 0
+[2025-05-21 07:45:53][solver][infos]      geographic trimming:false
+[2025-05-21 07:45:53][solver][infos]      memory : 1Mo
+[2025-05-21 07:45:53][solver][infos] 
+[2025-05-21 07:45:53][solver][infos] Initializing random number generators...
+[2025-05-21 07:45:53][solver][infos] [UI] Progression map: about-the-study\map
+[2025-05-21 07:45:53][solver][infos]   system memory report: 18888 Mib / 32616 Mib,  57.910228% free
+[2025-05-21 07:45:53][solver][infos] 
+[2025-05-21 07:45:53][solver][infos] [UI] Display messages: On
+[2025-05-21 07:45:53][solver][check] Running the simulation (economy)
+[2025-05-21 07:45:53][solver][infos] Allocating resources...
+[2025-05-21 07:45:53][solver][infos] Allocating resources...
+[2025-05-21 07:45:53][solver][infos]  Variables:  (31Mo)
+[2025-05-21 07:45:53][solver][infos]  + Areas                             
+[2025-05-21 07:45:53][solver][infos]        OV. COST              Euro    Overall Cost throughout all MC years
+[2025-05-21 07:45:53][solver][infos]        OP. COST              Euro    Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[2025-05-21 07:45:53][solver][infos]        MRG. PRICE            Euro    Marginal Price, throughout all MC years
+[2025-05-21 07:45:53][solver][infos]                              Tons    Overall pollutant emissions expected from all the thermal clusters
+[2025-05-21 07:45:53][solver][infos]        DTG by plant          MWh     Energy generated by all the clusters
+[2025-05-21 07:45:53][solver][infos]        RES generation by planMWh     Energy generated by all the RES clusters
+[2025-05-21 07:45:53][solver][infos]        BALANCE               MWh     Nodal energy balance, throughout all MC years
+[2025-05-21 07:45:53][solver][infos]        ROW BAL.              MWh     Row Balance
+[2025-05-21 07:45:53][solver][infos]        PSP                   MWh     PSP
+[2025-05-21 07:45:53][solver][infos]        MISC. NDG             MWh     Non-dispatchable generation (not including wind and run-of-the-river)
+[2025-05-21 07:45:53][solver][infos]        LOAD                  MWh     Load generation, thoughout all MC years
+[2025-05-21 07:45:53][solver][infos]        H. ROR                MWh     Hydro generation, thoughout all MC years
+[2025-05-21 07:45:53][solver][infos]        WIND                  MWh     Wind generation, thoughout all MC years
+[2025-05-21 07:45:53][solver][infos]        SOLAR                 MWh     Solar generation, thoughout all MC years
+[2025-05-21 07:45:53][solver][infos]        Dispatch. Gen.        MWh     Value of all the dispatchable generation throughout all MC years
+[2025-05-21 07:45:53][solver][infos]        Renewable Gen.        MWh     Value of all the renewable generation throughout all MC years
+[2025-05-21 07:45:53][solver][infos]        H. STOR               MWh     Hydro Storage Generation
+[2025-05-21 07:45:53][solver][infos]        H. PUMP               MWh     Hydraulic pumping
+[2025-05-21 07:45:53][solver][infos]        H. LEV                %       Hydro Level
+[2025-05-21 07:45:53][solver][infos]        H. INFL               MWh     Hydraulic inflows
+[2025-05-21 07:45:53][solver][infos]        H. OVFL               %       Hydro overflow
+[2025-05-21 07:45:53][solver][infos]        H. VAL                Euro/MWhWater value
+[2025-05-21 07:45:53][solver][infos]        H. COST               Euro    Hydro Cost throughout all MC years, of all the thermal dispatchable clusters
+[2025-05-21 07:45:53][solver][infos]        ST storage            MWh     Value of all short term storage throughout all MC years
+[2025-05-21 07:45:53][solver][infos]        STS inj by plant      P-injectEnergy injected by ST storage clusters
+[2025-05-21 07:45:53][solver][infos]        STS withdrawal by planP-withdrEnergy withdrawn by ST storage clusters
+[2025-05-21 07:45:53][solver][infos]        STS lvl by plant      Levels -Levels by ST storage clusters
+[2025-05-21 07:45:53][solver][infos]        STS Cashflow By ClusteCashFlowCash Flow by short term storage
+[2025-05-21 07:45:53][solver][infos]        UNSP. ENRG            MWh     Unsuplied Energy (demand that cannot be satisfied)
+[2025-05-21 07:45:53][solver][infos]        DENS                  MWh     Domestic Unsupplied Energy (demand that cannot be satisfied without interconnections/links)
+[2025-05-21 07:45:53][solver][infos]        LMR VIOL.                     Local Matching Rule is violated more than the provided threshold
+[2025-05-21 07:45:54][solver][infos]        SPIL. ENRG            MWh     Spilled Energy (generation that cannot be satisfied)
+[2025-05-21 07:45:54][solver][infos]        SPIL. ENRG. CSR       MWh     Spilled Energy After CSR Optimization (generation that cannot be satisfied) after CSR optimization
+[2025-05-21 07:45:54][solver][infos]        LOLD                  Hours   LOLD
+[2025-05-21 07:45:54][solver][infos]        LOLP                  %       LOLP
+[2025-05-21 07:45:54][solver][infos]        AVL DTG               MWh     Available dispatchable generation
+[2025-05-21 07:45:54][solver][infos]        DTG MRG               MWh     Dispatchable Generation Margin
+[2025-05-21 07:45:54][solver][infos]        DTG MRG CSR           MWh     Dispatchable Generation Margin (after CSR optimization)
+[2025-05-21 07:45:54][solver][infos]        MAX MRG               MWh     Maximum margin throughout all MC years
+[2025-05-21 07:45:54][solver][infos]        NP COST               Euro    Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[2025-05-21 07:45:54][solver][infos]        NP Cost by plant      NP Cost Non proportional costs by all the clusters
+[2025-05-21 07:45:54][solver][infos]        NODU                          Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[2025-05-21 07:45:54][solver][infos]        NODU by plant         NODU    Number of Dispatchable Units by plant
+[2025-05-21 07:45:54][solver][infos]        Profit by plant       Profit -Profit for thermal units
+[2025-05-21 07:45:54][solver][infos]      + Links                         
+[2025-05-21 07:45:54][solver][infos]            FLOW LIN.         MWh     Flow assessed, over all MC years, through linear optimization
+[2025-05-21 07:45:54][solver][infos]            UCAP LIN.         MWh     Used capacity assessed, over all MC years, through linear optimization
+[2025-05-21 07:45:54][solver][infos]            LOOP FLOW         MWh     Loop flow
+[2025-05-21 07:45:54][solver][infos]            FLOW QUAD.        MWh     Flow (quad.)
+[2025-05-21 07:45:54][solver][infos]            CONG. FEE (ALG.)  Euro    Congestion fee collected throughout all MC years (Alg.)
+[2025-05-21 07:45:54][solver][infos]            CONG. FEE (ABS.)  Euro    Congestion fee collected throughout all MC years (Absolute value)
+[2025-05-21 07:45:54][solver][infos]            MARG. COST        Euro/MW Decrease of the overall operating cost expected by a 1MW capacity reinforcement
+[2025-05-21 07:45:54][solver][infos]            CONG. PROB. (+/-) %       Probability for the line to be congested in the upstream-downstream way
+[2025-05-21 07:45:54][solver][infos]            HURDLE COST       Euro    Hurdle costs, over all MC years
+[2025-05-21 07:45:54][solver][infos]  + Sets of Areas                     
+[2025-05-21 07:45:54][solver][infos]        OV. COST              Euro    Overall Cost throughout all MC years
+[2025-05-21 07:45:54][solver][infos]        OP. COST              Euro    Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[2025-05-21 07:45:54][solver][infos]        MRG. PRICE            Euro    Marginal Price, throughout all MC years
+[2025-05-21 07:45:54][solver][infos]                              Tons    Overall pollutant emissions expected from all the thermal clusters
+[2025-05-21 07:45:54][solver][infos]        BALANCE               MWh     Nodal energy balance, throughout all MC years
+[2025-05-21 07:45:54][solver][infos]        ROW BAL.              MWh     Row Balance
+[2025-05-21 07:45:54][solver][infos]        PSP                   MWh     PSP
+[2025-05-21 07:45:54][solver][infos]        MISC. NDG             MWh     Non-dispatchable generation (not including wind and run-of-the-river)
+[2025-05-21 07:45:54][solver][infos]        LOAD                  MWh     Load generation, thoughout all MC years
+[2025-05-21 07:45:54][solver][infos]        H. ROR                MWh     Hydro generation, thoughout all MC years
+[2025-05-21 07:45:54][solver][infos]        WIND                  MWh     Wind generation, thoughout all MC years
+[2025-05-21 07:45:54][solver][infos]        SOLAR                 MWh     Solar generation, thoughout all MC years
+[2025-05-21 07:45:54][solver][infos]        Dispatch. Gen.        MWh     Value of all the dispatchable generation throughout all MC years
+[2025-05-21 07:45:54][solver][infos]        Renewable Gen.        MWh     Value of all the renewable generation throughout all MC years
+[2025-05-21 07:45:54][solver][infos]        H. STOR               MWh     Hydro Storage Generation
+[2025-05-21 07:45:54][solver][infos]        H. PUMP               MWh     Hydraulic pumping
+[2025-05-21 07:45:54][solver][infos]        H. LEV                %       Hydro Level
+[2025-05-21 07:45:54][solver][infos]        H. INFL               MWh     Hydraulic inflows
+[2025-05-21 07:45:54][solver][infos]        H. OVFL               %       Hydro overflow
+[2025-05-21 07:45:54][solver][infos]        H. VAL                Euro/MWhWater value
+[2025-05-21 07:45:54][solver][infos]        H. COST               Euro    Hydro Cost throughout all MC years, of all the thermal dispatchable clusters
+[2025-05-21 07:45:54][solver][infos]        ST storage            MWh     Value of all short term storage throughout all MC years
+[2025-05-21 07:45:54][solver][infos]        UNSP. ENRG            MWh     Unsuplied Energy (demand that cannot be satisfied)
+[2025-05-21 07:45:54][solver][infos]        DENS                  MWh     Domestic Unsupplied Energy (demand that cannot be satisfied without interconnections/links)
+[2025-05-21 07:45:54][solver][infos]        LMR VIOL.                     Local Matching Rule is violated more than the provided threshold
+[2025-05-21 07:45:54][solver][infos]        SPIL. ENRG            MWh     Spilled Energy (generation that cannot be satisfied)
+[2025-05-21 07:45:54][solver][infos]        SPIL. ENRG. CSR       MWh     Spilled Energy After CSR Optimization (generation that cannot be satisfied) after CSR optimization
+[2025-05-21 07:45:54][solver][infos]        LOLD                  Hours   LOLD
+[2025-05-21 07:45:54][solver][infos]        LOLP                  %       LOLP
+[2025-05-21 07:45:54][solver][infos]        AVL DTG               MWh     Available dispatchable generation
+[2025-05-21 07:45:54][solver][infos]        DTG MRG               MWh     Dispatchable Generation Margin
+[2025-05-21 07:45:54][solver][infos]        DTG MRG CSR           MWh     Dispatchable Generation Margin (after CSR optimization)
+[2025-05-21 07:45:54][solver][infos]        MAX MRG               MWh     Maximum margin throughout all MC years
+[2025-05-21 07:45:54][solver][infos]        NP COST               Euro    Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[2025-05-21 07:45:54][solver][infos]        NODU                          Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[2025-05-21 07:45:54][solver][infos]  + Binding constraints               
+[2025-05-21 07:45:54][solver][infos]        BC. MARG. COST        Euro    Marginal cost for binding constraints
+[2025-05-21 07:45:54][solver][infos] 
+[2025-05-21 07:45:54][solver][infos] Preparing time-series numbers...
+[2025-05-21 07:45:54][solver][infos] MC-Years : [1 .. 1], total: 1
+[2025-05-21 07:45:54][solver][infos]  Starting the simulation
+[2025-05-21 07:45:54][solver][infos] parallel batch size : 1 (1 perfomed)
+[2025-05-21 07:45:54][solver][infos] Year(s) 1 
+[2025-05-21 07:45:54][solver][infos] 
+[2025-05-21 07:45:54][solver][infos]  Starting Memory Allocation for a Weekly Optimization problem in Canonical form 
+[2025-05-21 07:45:54][solver][infos]  ( Problem Size :504 variables 337 Constraints) 
+[2025-05-21 07:45:54][solver][infos]  Expected Number of Non-zero terms in Problem Matrix : 4135
+[2025-05-21 07:45:54][solver][infos] 
+[2025-05-21 07:45:54][solver][infos] 
+[2025-05-21 07:45:54][solver][infos]  Status of Preliminary Allocations for Generic Problem Resolution : Successful
+[2025-05-21 07:45:54][solver][infos] 
+[2025-05-21 07:45:54][solver][progress] task 0 mc, year: 0, 1400.000000
+[2025-05-21 07:45:55][solver][infos] Exporting the annual results
+[2025-05-21 07:45:55][solver][infos] Exporting results : Area
+[2025-05-21 07:45:55][solver][infos] Exporting results : binding constraints
+[2025-05-21 07:45:55][solver][progress] task 0 mc, year: 0, 100
+[2025-05-21 07:45:55][solver][infos] The simulation synthesis is disabled.
+[2025-05-21 07:45:56][solver][infos] [UI] Quitting the solver gracefully

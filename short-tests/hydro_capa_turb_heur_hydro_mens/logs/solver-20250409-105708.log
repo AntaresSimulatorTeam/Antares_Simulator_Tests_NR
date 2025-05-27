@@ -1,0 +1,52 @@
+[2025-04-09 10:57:08][solver][check] Antares Solver v9.2.0 (5c34536)
+[2025-04-09 10:57:08][solver][infos]   :: built for 64-bit architectures, Microsoft Windows, 8 cpu(s)
+[2025-04-09 10:57:08][solver][infos]   :: hostname = GM0WINUPL
+[2025-04-09 10:57:08][solver][infos]   :: command: D:\AppliRTE\Antares\9.2.0\bin\antares-solver.exe --name=test_9_2 --progress D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\capa_turb_heur_hydro_mens --solver=sirius
+[2025-04-09 10:57:08][solver][infos]   :: log filename: D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\capa_turb_heur_hydro_mens\logs\solver-20250409-105708.log
+[2025-04-09 10:57:08][solver][infos] 
+[2025-04-09 10:57:08][solver][notic] Preparing sorties hydro...
+[2025-04-09 10:57:08][solver][infos]   detected study version: 8.8
+[2025-04-09 10:57:08][solver][infos]   from `D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\capa_turb_heur_hydro_mens`
+[2025-04-09 10:57:08][solver][infos] 
+[2025-04-09 10:57:08][solver][warns] Parameter enable-first-step is deprecated, please remove it from the study
+[2025-04-09 10:57:08][solver][infos]   simulation mode: Economy
+[2025-04-09 10:57:08][solver][infos]   simplex optimization range: week
+[2025-04-09 10:57:08][solver][infos]   36 years in the user's playlist
+[2025-04-09 10:57:08][solver][infos] Cluster renewables were chosen. Output will be disabled for aggregated modes.
+[2025-04-09 10:57:08][solver][infos]   :: enabling the 'year-by-year' mode
+[2025-04-09 10:57:08][solver][infos]   :: enabling the user playlist
+[2025-04-09 10:57:08][solver][infos]   :: enabling the user variable selection
+[2025-04-09 10:57:08][solver][infos]   :: enabling the custom build mode
+[2025-04-09 10:57:08][solver][infos]   :: enabling filtering by file
+[2025-04-09 10:57:08][solver][infos]   :: ignoring export mps
+[2025-04-09 10:57:08][solver][infos]   :: ignoring export structure
+[2025-04-09 10:57:08][solver][infos]   :: ignoring solution export
+[2025-04-09 10:57:08][solver][infos]   :: solver sirius is used for problem resolution
+[2025-04-09 10:57:08][solver][infos]   :: Printing solver logs : False
+[2025-04-09 10:57:08][solver][infos] Loading the list of areas...
+[2025-04-09 10:57:08][solver][infos]   Loading the area list from `D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\capa_turb_heur_hydro_mens\input\areas\list.txt`
+[2025-04-09 10:57:08][solver][infos]   1 area found
+[2025-04-09 10:57:08][solver][infos] Loading global hydro data...
+[2025-04-09 10:57:08][solver][infos] Loading thermal clusters...
+[2025-04-09 10:57:08][solver][infos] Loading thermal configuration for the area FI00
+[2025-04-09 10:57:10][solver][infos] Loading short term storage clusters...
+[2025-04-09 10:57:10][solver][infos] Loading renewable configuration for the area FI00
+[2025-04-09 10:57:10][solver][infos] Loading the area 1/1: FI00
+[2025-04-09 10:57:20][solver][infos] Loading correlation matrices...
+[2025-04-09 10:57:20][solver][infos] 
+[2025-04-09 10:57:20][solver][infos] Loading constraints...
+[2025-04-09 10:57:20][solver][infos] No binding constraint found
+[2025-04-09 10:57:20][solver][infos] 
+[2025-04-09 10:57:20][solver][infos] Loading sets of areas...
+[2025-04-09 10:57:20][solver][infos]    found `all areas` (1 item, no output)
+[2025-04-09 10:57:20][solver][infos]   Output folder : D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\capa_turb_heur_hydro_mens\output\20250409-1057eco-test_9_2
+[2025-04-09 10:57:20][solver][infos] [statistics] disk: read: 116787 ko, written: 0 ko
+[2025-04-09 10:57:20][solver][infos] [statistics] network: read: 0 ko, written: 0 ko
+[2025-04-09 10:57:20][solver][infos] The study is loaded.
+[2025-04-09 10:57:20][solver][infos] [UI] Display messages: Off
+[2025-04-09 10:57:20][solver][infos]   Output folder : D:\Users\gerbauxjul\Documents\6-Etudes Antares\6-bugs\capa_turb_heur_hydro_mens\output\20250409-1057eco-test_9_2
+[2025-04-09 10:57:20][solver][infos] 
+[2025-04-09 10:57:20][solver][error] Found 1 warning: The simulation must stop.
+[2025-04-09 10:57:20][solver][infos] [UI] Quitting the solver gracefully
+[2025-04-09 10:57:21][solver][fatal] The simulation must stop.
+[2025-04-09 10:57:21][solver][error] Aborting now. See logs for more details

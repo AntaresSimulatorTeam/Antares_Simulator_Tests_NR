@@ -1,0 +1,10 @@
+First optimization :
+EXP (ms) : 16.6154
+STD (ms) : 0
+MIN (ms) : 16.6154
+MAX (ms) : 16.6154
+Second optimization :
+EXP (ms) : 9.53846
+STD (ms) : 0
+MIN (ms) : 9.53846
+MAX (ms) : 9.53846
