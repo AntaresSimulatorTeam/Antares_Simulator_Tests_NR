@@ -1,0 +1,7 @@
+[Default Ruleset]
+l,area,0 = 1
+l,area,1 = 2
+sts,area,0,cluster-11 = 2
+sts,area,1,cluster-11 = 1
+sta,area,0,cluster-11,withdrawal-1 = 1
+sta,area,1,cluster-11,withdrawal-1 = 2
