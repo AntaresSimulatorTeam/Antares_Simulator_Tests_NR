@@ -10,28 +10,27 @@
 #
 # This file is part of the Antares project.
 
-   # Study 028b Electrolyser - V8.6
-   # Small test case in hybrid mode. The only Andromede component is the electrolyser.
+# Study 028b Electrolyser - V8.6
+# Small test case in hybrid mode. The only Andromede component is the electrolyser.
 system:
   id: 8_2
   components:
-    - id: dsr_base_zone
-      scenario-group: sg
-      model: andromede-v1-models-weo-hybrid.dsr
-      parameters:
-      
-        - id: max_load
-          time-dependent: false
-          scenario-dependent: false
-          value: 300
-        - id: curtailment_price
-          time-dependent: false
-          scenario-dependent: false
-          value: 42.7
+  - id: dsr_base_zone
+    model: andromede-v1-models-weo-hybrid.dsr
+    parameters:
+
+    - id: max_load
+      time-dependent: false
+      scenario-dependent: false
+      value: 300
+    - id: curtailment_price
+      time-dependent: false
+      scenario-dependent: false
+      value: 42.7
 
   area-connections:
 
 
-    - component: dsr_base_zone
-      port: balance_port
-      area: west
+  - component: dsr_base_zone
+    port: balance_port
+    area: west

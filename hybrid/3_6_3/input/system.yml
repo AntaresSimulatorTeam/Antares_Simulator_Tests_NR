@@ -8,7 +8,6 @@ system:
   components:
   - id: load1
     model: lib_hybrid_0.load
-    scenario-group: sg
     parameters:
     - id: load_value
       time-dependent: false
@@ -16,6 +15,6 @@ system:
       value: 3000
 
   area-connections:
-    - component: load1
-      port: consumption
-      area: AREA
+  - component: load1
+    port: consumption
+    area: AREA
