@@ -8,7 +8,6 @@ system:
   components:
   - id: gen1
     model: lib_hybrid_0.generator
-    scenario-group: sg
     parameters:
     - id: max_p
       time-dependent: false
@@ -29,9 +28,9 @@ system:
       value: 100
 
   area-connections:
-    - component: gen1
-      port: generation
-      area: node
-    - component: load1
-      port: consumption
-      area: node
+  - component: gen1
+    port: generation
+    area: node
+  - component: load1
+    port: consumption
+    area: node
