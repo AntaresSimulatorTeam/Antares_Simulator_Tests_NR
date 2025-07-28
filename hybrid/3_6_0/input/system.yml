@@ -20,7 +20,6 @@ system:
 
   - id: load1
     model: lib_hybrid_0.load
-    scenario-group: sg
     parameters:
     - id: load_value
       time-dependent: false
