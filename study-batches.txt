@@ -19,6 +19,7 @@ valid-v860
 valid-v870
 valid-v910
 valid-v920
+valid-v930
 valid-named-mps
 valid-milp
 modeler
