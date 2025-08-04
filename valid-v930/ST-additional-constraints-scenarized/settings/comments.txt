@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontpointsize="9" fontfamily="70" fontstyle="90" fontweight="400" fontunderlined="0" fontface="Segoe UI" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10" margin-left="5,4098" margin-right="5,4098" margin-top="5,4098" margin-bottom="5,4098">
+    <paragraph>
+      <text fontweight="700">STS</text>
+      <text>" (Short Term Storage) group are dynamic : user defines groups containing as much STS clusters she/he wants    "</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">Gaol of the test</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>- Generally testing STS groups</text>
+    </paragraph>
+    <paragraph>
+      <text>- When many clusters belong to the same group, the group results are correctly aggregated</text>
+    </paragraph>
+    <paragraph>
+      <text>- When there are many years, the synthesis results are as expected.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">Characteristics of the test</text>
+      <text>" :"</text>
+    </paragraph>
+    <paragraph>
+      <text>- one area</text>
+    </paragraph>
+    <paragraph>
+      <text>- 4 clusters, but 3 groups (2 clusters are in the same groups)</text>
+    </paragraph>
+    <paragraph>
+      <text>- 2 MC years (to tests synthesis), with only 1 week of simulation.</text>
+    </paragraph>
+    <paragraph>
+      <text>"- We have irregular wind productions to encourage STS to pump (injection). "</text>
+    </paragraph>
+    <paragraph>
+      <text>- Synthesis for STS groups covers all statistics (exp, std dev, min, max)</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="700">Expected results</text>
+      <text>" : "</text>
+    </paragraph>
+    <paragraph>
+      <text>"- year by year results for group (named "</text>
+      <text fontweight="700">psp</text>
+      <text>") are correctly formed : "</text>
+    </paragraph>
+    <paragraph>
+      <text>"   + for injections and withdrawals : sum of results of 2 clusters"</text>
+    </paragraph>
+    <paragraph>
+      <text>"   + for level : average of results of 2 clusters"</text>
+    </paragraph>
+    <paragraph>
+      <text>- Synthesis results are correct</text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

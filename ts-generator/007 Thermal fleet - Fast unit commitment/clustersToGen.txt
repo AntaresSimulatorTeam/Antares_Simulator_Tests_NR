@@ -1,2 +1,0 @@
---thermal=area.base;area.peak
-

@@ -1,0 +1,10 @@
+[
+	{
+		"name" : "ST-additional-constraints-scenarized",
+		"checks" :
+		{
+			"output_compare" : {},
+			"integrity_compare" : null
+		}
+	}
+]

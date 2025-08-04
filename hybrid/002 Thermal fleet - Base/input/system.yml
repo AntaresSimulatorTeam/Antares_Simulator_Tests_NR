@@ -18,7 +18,6 @@ system:
   components:
   - id: node1
     model: lib_example_1_1.node_2gen_1load
-    scenario-group: sg
     parameters:
     - id: load
       time-dependent: true
