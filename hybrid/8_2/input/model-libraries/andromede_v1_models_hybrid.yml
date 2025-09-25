@@ -35,9 +35,7 @@ library:
           lower-bound: 0
           upper-bound: max_load
           variable-type: continuous
-      objectives:
-        - id: objective
-          expression: sum(curtailment * curtailment_price)
+      objective: sum(curtailment * curtailment_price)
       ports:
         - id: balance_port
           type: flow
