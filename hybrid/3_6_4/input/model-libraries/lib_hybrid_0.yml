@@ -32,7 +32,7 @@ library:
         - port: generation
           field: flow_field
           definition: p
-      objectives:
+      objective-contributions:
         - id: objective
           expression: p * prop_cost
 
