@@ -1,0 +1,9 @@
+[
+	{
+		"name" : "test_float_values_hydro",
+		"checks" :
+		{
+			 "mps_compare" : null
+		}
+	}
+]
