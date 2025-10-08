@@ -33,7 +33,6 @@ library:
         - id: investment_cost
           lower-bound: 0
           upper-bound: 99999
-          scenario-dependent: false
       constraints:
         - id: balance
           expression: gen1_p + gen2_p - load = 0
