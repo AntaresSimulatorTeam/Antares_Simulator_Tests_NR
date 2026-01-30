@@ -1,0 +1,45 @@
+# Copyright (c) 2024, RTE (https://www.rte-france.com)
+#
+# See AUTHORS.txt
+#
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+# This file is part of the Antares project.
+library:
+  id: lib_example_13_1_add_on
+  description: Library for test cases with investment
+
+  port-types:
+    - id: capacity_port
+      fields:
+        - id: capacity
+      thermal-capacity-connection:
+        - capacity-field: capacity
+
+  models:
+    - id: continuous_invest_add_on
+      parameters:
+        - id: invest_cost
+          scenario-dependent: false
+          time-dependent: false
+      variables:
+        - id: p_max
+          scenario-dependent: false
+          time-dependent: false
+          lower-bound: 0
+          upper-bound: 1000
+          variable-type: continuous
+      ports:
+        - id: capacity_port
+          type: capacity_port
+      port-field-definitions:
+        - port: capacity_port
+          field: capacity
+          definition: p_max
+      objective-contributions: 
+        - id: invest_objective
+          expression: invest_cost * p_max
