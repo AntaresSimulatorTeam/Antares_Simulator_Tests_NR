@@ -58,7 +58,7 @@ system:
           value: 10
 
   thermal-capacity-connections:
-    - component: thermal_add_on
+    - component: thermal_add_on_continuous
       port: capacity_port
       thermal-component:
         area: area
