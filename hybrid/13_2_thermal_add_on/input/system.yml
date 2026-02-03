@@ -63,4 +63,9 @@ system:
       thermal-component:
         area: area
         cluster-id: continuous_generator_candidate
+    - component: thermal_add_on_discrete
+      port: capacity_port
+      thermal-component:
+        area: area
+        cluster-id: discrete_generator_candidate
           
