@@ -42,4 +42,4 @@ library:
           definition: p_max
       objective-contributions: 
         - id: invest_objective
-          expression: sum(invest_cost * p_max)
+          expression: invest_cost * p_max
