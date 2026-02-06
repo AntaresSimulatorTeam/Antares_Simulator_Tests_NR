@@ -27,7 +27,7 @@ models:
         - id: p_max
           location: master-and-subproblems
         - id: invested_units
-          location: master-and-subproblems
+          location: master
       constraints:
         - id: units_capa_relationship
           location: master

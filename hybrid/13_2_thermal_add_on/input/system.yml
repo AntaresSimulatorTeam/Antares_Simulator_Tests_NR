@@ -40,7 +40,7 @@ system:
         - id: invest_cost
           scenario-dependent: false
           time-dependent: false
-          value: 400
+          value: 490
     - id: thermal_add_on_discrete
       model: lib_example_13_2_add_on.discrete_invest_add_on
       parameters:

@@ -61,7 +61,6 @@ library:
           scenario-dependent: false
           time-dependent: false
           lower-bound: 0
-          upper-bound: unit_size * max_units
           variable-type: continuous
         - id: invested_units
           scenario-dependent: false
