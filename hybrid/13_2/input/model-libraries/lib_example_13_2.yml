@@ -18,6 +18,8 @@ library:
       description: A port which transfers power flow
       fields:
         - id: flow
+      area-connection:
+        - injection-field: flow
 
   models:
     - id: area
