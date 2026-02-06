@@ -26,7 +26,7 @@ models:
       variables:
         - id: p_max
           location: master-and-subproblems
-        - id: invested_units
+        - id: nb_units
           location: master
       constraints:
         - id: units_capa_relationship

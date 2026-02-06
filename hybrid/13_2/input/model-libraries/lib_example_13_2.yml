@@ -125,7 +125,10 @@ library:
         - id: invest_cost
           scenario-dependent: false
           time-dependent: false
-        - id: p_max_per_unit
+        - id: unit_size
+          scenario-dependent: false
+          time-dependent: false
+        - id: max_units
           scenario-dependent: false
           time-dependent: false
       variables:
@@ -141,13 +144,13 @@ library:
           scenario-dependent: false
           time-dependent: false
           lower-bound: 0
-          upper-bound: 10
+          upper-bound: max_units
           variable-type: integer
       constraints:
         - id: max_generation
           expression: generation <= p_max
-        - id: p_max_nb_units_relation
-          expression: p_max = p_max_per_unit * nb_units
+        - id: units_capa_relationship
+          expression: p_max = unit_size * nb_units
       ports:
         - id: balance_port
           type: flow
