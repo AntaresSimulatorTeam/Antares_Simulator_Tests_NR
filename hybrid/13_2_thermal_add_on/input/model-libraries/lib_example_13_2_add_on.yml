@@ -62,7 +62,7 @@ library:
           time-dependent: false
           lower-bound: 0
           variable-type: continuous
-        - id: invested_units
+        - id: nb_units
           scenario-dependent: false
           time-dependent: false
           lower-bound: 0
@@ -70,7 +70,7 @@ library:
           variable-type: integer
       constraints:
         - id: units_capa_relationship
-          expression: p_max = unit_size * invested_units
+          expression: p_max = unit_size * nb_units
       ports:
         - id: capacity_port
           type: capacity_port

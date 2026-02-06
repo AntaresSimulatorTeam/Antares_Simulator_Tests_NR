@@ -9,16 +9,29 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 # This file is part of the Antares project.
+resolution-mode: benders-decomposition
 models:
-  - id: lib_example_13_1.generator_with_continuous_invest
+  - id: lib_example_13_2.generator_with_continuous_invest
     model-decomposition:
       variables:
         - id: p_max
           location: master-and-subproblems
 
-        # Variable generation has default settings, no need to make it appear here
       objective-contributions:
         - id: invest_objective
           location: master
-        - id: operational_objective
-          location: subproblems
+  
+  - id: lib_example_13_2.generator_with_discrete_invest
+    model-decomposition:
+      variables:
+        - id: p_max
+          location: master-and-subproblems
+        - id: nb_units
+          location: master
+      constraints:
+        - id: units_capa_relationship
+          location: master
+
+      objective-contributions:
+        - id: invest_objective
+          location: master
