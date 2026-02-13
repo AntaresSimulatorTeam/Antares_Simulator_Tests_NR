@@ -11,23 +11,23 @@
 # This file is part of the Antares project.
 
 # Study case 13_1 : to test investment problems
-# Simple generation expansion problem on one node, one timestep and one scenario with one candidate.
+# Simple generation expansion problem on one node, 3 weeks and one scenario with one candidate.
 
 # Demand = 400
 # Generator : P_max : 200, Cost : 45
 # Unsupplied energy : Cost : 501
+# Spillage cost : Cost : 1
 
-# -> 200 of unsupplied energy
-# -> Total cost without investment = 45 * 200 + 501 * 200 = 109_200
+# -> 200 of unsupplied energy on 3 weeks : 3 x 168 time steps
+# -> Total cost without investment = 45 * 200 + 501 * 200 * 168 * 3 = 50_509_800
 
 # Continuous candidate  : Invest cost : 400 / MW; Prod cost : 10
 
-# Optimal investment : 200 MW
+# Optimal investment : 400 MW
 
-# -> Optimal cost = 400 * 200 + 10 * 200 (Invest cost + prod cost of new generator)
-#                             + 45 * 200 (Generator)
-#                 =    80_000 +   11_000
-#                 = 91_000
+# -> Optimal cost = 400 * 400 + 10 * 400 * 3 * 168 (Invest cost + prod cost of new generator)
+#                 =    160_000 +   2_016_000
+#                 = 2_176_000
 
 system:
   id: case_13_1
