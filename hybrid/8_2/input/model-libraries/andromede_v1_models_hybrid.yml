@@ -20,9 +20,9 @@ library:
       fields:
         - id: flow
       area-connection:
-        - injection-field: flow
-        - spillage-bound:
-        - unsupplied-energy-bound:
+        injection-to-balance: flow
+        spillage-bound:
+        unsupplied-energy-bound:
 
 
   models:
