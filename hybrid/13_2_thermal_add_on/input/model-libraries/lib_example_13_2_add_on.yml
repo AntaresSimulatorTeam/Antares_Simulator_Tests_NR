@@ -18,7 +18,7 @@ library:
       fields:
         - id: capacity
       thermal-capacity-connection:
-        - capacity-field: capacity
+        capacity-field: capacity
 
   models:
     - id: continuous_invest_add_on
