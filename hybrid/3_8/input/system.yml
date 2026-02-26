@@ -1,0 +1,32 @@
+# The study consists of a single area with:
+#  - A leagcy generator of capacity 10 MW, cost 2 €/MW
+#  - A legacy load of value 1, 2, 3, 4, 5 in the first time steps, then 0 for all remaining steps in the week.
+#  - A GEMS load of value 11 for all time steps
+#  - Spillage and unsupplied energy cost: 1000
+#
+# The objective is then :
+#  - 10 MW of generation at each time step : 10 * 2 * 168 = 3360
+#  - Unsupplied energy : 2, 3, 4, 5, 6 and 1 for 163 time steps = (2 + 3 + 4 + 5 + 6 + 163) * 1000 = 183 * 100 = 183 000
+#  ==> Overall cost = 3360 + 183 000 = 186 360
+# 
+# This test aims at verifying the RHS of the area balance constraint (which is -load in the mps file), 
+# it should be : -12, -13, -14, -15, -16 for 5 first hours, then -11 for all remaining 163 time steps.
+
+system:
+  id: basic-study
+   
+  components:
+  - id: modeler_load
+    model: load_library.load
+    parameters:
+    - id: load_value
+      scenario-dependent: false
+      time-dependent: false
+      value: 11.0
+
+  area-connections:
+  - area: unique
+    component: modeler_load
+    port: balance_port
+ 
+  
