@@ -1,4 +1,0 @@
-id	name
-area	Area
-area-2	Area-2
-c	C
