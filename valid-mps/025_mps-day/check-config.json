@@ -1,0 +1,9 @@
+[
+	{
+		"name" : "test_025-mps-day",
+		"checks" :
+		{
+			"mps_compare" : null
+		}
+	}
+]
