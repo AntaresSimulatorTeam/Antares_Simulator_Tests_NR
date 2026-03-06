@@ -1,9 +1,0 @@
-[
-	{
-		"name" : "test_025-mps-week",
-		"checks" :
-		{
-			"mps_compare" : null
-		}
-	}
-]

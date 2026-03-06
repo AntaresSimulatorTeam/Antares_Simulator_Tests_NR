@@ -12,7 +12,6 @@ valid-marginCost
 valid-parallel
 valid-thermal
 valid-ts-gen-export
-valid-mps
 adequacy-patch-CSR
 valid-v830
 valid-v860
