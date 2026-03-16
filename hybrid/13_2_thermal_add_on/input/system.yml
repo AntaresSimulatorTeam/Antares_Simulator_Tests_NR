@@ -1,0 +1,71 @@
+# Copyright (c) 2026, RTE (https://www.rte-france.com)
+#
+# See AUTHORS.txt
+#
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+# This file is part of the Antares project.
+
+# Study case 13_2 : to test investment problems with GEMS add-on on legacy thermal cluster
+# Simple generation expansion problem on one node, 3 weeks and one scenario with two candidates: one continuous and one discrete.
+
+# Demand = 400
+# Generator : P_max : 200, Cost : 45
+# Unsupplied energy : Cost : 501
+# Spillage : Cost : 1
+
+# -> 200 of unsupplied energy
+# -> Total cost without investment = 45 * 200 + 501 * 200 = 50_509_800
+
+# Continuous candidate  : Invest cost : 490 / MW; Prod cost : 10
+# Discrete candidate : Invest cost : 200 / MW; Prod cost : 10; Nb of units: 10; Prod per unit: 10
+
+# Optimal investment : 100 MW (Discrete) + 300 MW (Continuous)
+
+# -> Optimal cost = 490 * 300 + 10 * 300 * 3 * 168 (Continuous)
+#                 + 200 * 100 + 10 * 100 * 3 * 168 (Discrete)
+#                 =    167_000 +   2_016_000
+#                 = 2_183_000
+
+system:
+  id: case_13_2_add_on
+  components:
+    - id: thermal_add_on_continuous
+      model: lib_example_13_2_add_on.continuous_invest_add_on
+      parameters:
+        - id: invest_cost
+          scenario-dependent: false
+          time-dependent: false
+          value: 490
+    - id: thermal_add_on_discrete
+      model: lib_example_13_2_add_on.discrete_invest_add_on
+      parameters:
+        - id: invest_cost
+          scenario-dependent: false
+          time-dependent: false
+          value: 200
+        - id: unit_size
+          scenario-dependent: false
+          time-dependent: false
+          value: 10
+        - id: max_units
+          scenario-dependent: false
+          time-dependent: false
+          value: 10
+
+  thermal-capacity-connections:
+    - component: thermal_add_on_continuous
+      port: capacity_port
+      thermal-component:
+        area: area
+        cluster-id: continuous_generator_candidate
+    - component: thermal_add_on_discrete
+      port: capacity_port
+      thermal-component:
+        area: area
+        cluster-id: discrete_generator_candidate
+          

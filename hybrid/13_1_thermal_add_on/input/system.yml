@@ -1,0 +1,49 @@
+# Copyright (c) 2026, RTE (https://www.rte-france.com)
+#
+# See AUTHORS.txt
+#
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+# This file is part of the Antares project.
+
+# Study case 13_1_add_on : to test investment problems on thermal cluster legacy with GEMS add on
+# Simple generation expansion problem on one node, 3 weeks and one scenario with one candidate.
+
+# Demand = 400
+# Generator : P_max : 200, Cost : 45
+# Unsupplied energy : Cost : 501
+# Spillage cost : Cost : 1
+
+# -> 200 of unsupplied energy on 3 weeks : 3 x 168 time steps
+# -> Total cost without investment = 45 * 200 + 501 * 200 * 168 * 3 = 50_509_800
+
+# Continuous candidate  : Invest cost : 400 / MW; Prod cost : 10
+
+# Optimal investment : 400 MW
+
+# -> Optimal cost = 400 * 400 + 10 * 400 * 3 * 168 (Invest cost + prod cost of new generator)
+#                 =    160_000 +   2_016_000
+#                 = 2_176_000
+
+system:
+  id: case_13_1_add_on
+  components:
+    - id: thermal_add_on
+      model: lib_example_13_1_add_on.continuous_invest_add_on
+      parameters:
+        - id: invest_cost
+          scenario-dependent: false
+          time-dependent: false
+          value: 400
+
+  thermal-capacity-connections:
+    - component: thermal_add_on
+      port: capacity_port
+      thermal-component:
+        area: area
+        cluster-id: continuous_generator_candidate
+          

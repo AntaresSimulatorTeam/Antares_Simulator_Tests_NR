@@ -8,7 +8,9 @@ library:
     fields:
     - id: flow_field
     area-connection:
-    - injection-field: flow_field
+      injection-to-balance: flow_field
+      spillage-bound:
+      unsupplied-energy-bound:
 
   models:
   - id: generator

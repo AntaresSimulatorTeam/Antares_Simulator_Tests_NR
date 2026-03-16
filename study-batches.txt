@@ -5,7 +5,6 @@ long-tests-2
 long-tests-3
 valid-adq
 valid-bind
-valid-complex
 valid-defaillance
 valid-filter-outputs
 valid-marginCost
