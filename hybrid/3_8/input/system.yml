@@ -18,11 +18,12 @@ system:
   components:
   - id: modeler_load
     model: load_library.load
+    scenario-group: load_group
     parameters:
     - id: load_value
-      scenario-dependent: false
+      scenario-dependent: true
       time-dependent: false
-      value: 11.0
+      value: load_value
 
   area-connections:
   - area: unique
