@@ -1,6 +1,0 @@
-AreaIN-1
-AreaIN-2
-AreaOUT-1
-AreaOUT-2
-Virtual-1
-Virtual-2
