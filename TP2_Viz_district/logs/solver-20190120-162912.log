@@ -1,0 +1,643 @@
+[Sun Jan 20 16:29:12 2019][solver][check] Antares Solver v6.1.3 (RTE France)
+[Sun Jan 20 16:29:12 2019][solver][infos]   :: built for 64-bit architectures, Microsoft Windows, 8 cpu(s)
+[Sun Jan 20 16:29:12 2019][solver][infos]   :: hostname = GROESNWG7
+[Sun Jan 20 16:29:12 2019][solver][infos] 
+[Sun Jan 20 16:29:13 2019][solver][infos]   :: from D:\Program Files\RTE\Antares\6.1.3\bin
+[Sun Jan 20 16:29:13 2019][solver][infos]   :: log filename: E:\ANTARES\Formation\TPs\TP2_Viz\TP2_Viz_2\logs\solver-20190120-162912.log
+[Sun Jan 20 16:29:13 2019][solver][infos] 
+[Sun Jan 20 16:29:13 2019][solver][notic] Preparing TP2_Viz_2...
+[Sun Jan 20 16:29:13 2019][solver][infos]   detected version: 610
+[Sun Jan 20 16:29:13 2019][solver][infos]   from `E:\ANTARES\Formation\TPs\TP2_Viz\TP2_Viz_2`
+[Sun Jan 20 16:29:13 2019][solver][infos] 
+[Sun Jan 20 16:29:13 2019][solver][infos]   simulation mode: Economy
+[Sun Jan 20 16:29:13 2019][solver][infos]   simplex optimization range: week
+[Sun Jan 20 16:29:13 2019][solver][infos]   :: enabling the custom build mode
+[Sun Jan 20 16:29:13 2019][solver][infos]   :: enabling filtering
+[Sun Jan 20 16:29:13 2019][solver][infos]   :: ignoring export mps
+[Sun Jan 20 16:29:13 2019][solver][infos]   Output folder : E:\ANTARES\Formation\TPs\TP2_Viz\TP2_Viz_2\output\20190120-1629eco-synthese
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the list of areas...
+[Sun Jan 20 16:29:13 2019][solver][infos]   Loading the area list from `E:\ANTARES\Formation\TPs\TP2_Viz\TP2_Viz_2\input\areas\list.txt`
+[Sun Jan 20 16:29:13 2019][solver][infos]   15 areas found
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading global hydro data...
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading thermal clusters...
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading thermal configuration for the area 00_Pump_d
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading thermal configuration for the area 00_Pump_w
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading thermal configuration for the area 00_Turb_d
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading thermal configuration for the area 00_Turb_w
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading thermal configuration for the area AL
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading thermal configuration for the area BA
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading thermal configuration for the area BG
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading thermal configuration for the area CY
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading thermal configuration for the area GR
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading thermal configuration for the area HR
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading thermal configuration for the area HU
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading thermal configuration for the area ME
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading thermal configuration for the area MK
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading thermal configuration for the area RO
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading thermal configuration for the area RS
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 1/15: 00_Pump_d
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 1/15: 00_Pump_d  16%
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 1/15: 00_Pump_d  33%
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 1/15: 00_Pump_d  50%
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 1/15: 00_Pump_d  66%
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 1/15: 00_Pump_d  83%
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 2/15: 00_Pump_w
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 2/15: 00_Pump_w  16%
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 2/15: 00_Pump_w  33%
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 2/15: 00_Pump_w  50%
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 2/15: 00_Pump_w  66%
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 2/15: 00_Pump_w  83%
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 3/15: 00_Turb_d
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 3/15: 00_Turb_d  14%
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 3/15: 00_Turb_d  28%
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 3/15: 00_Turb_d  42%
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 3/15: 00_Turb_d  57%
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 3/15: 00_Turb_d  71%
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 3/15: 00_Turb_d  85%
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 4/15: 00_Turb_w
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 4/15: 00_Turb_w  14%
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 4/15: 00_Turb_w  28%
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 4/15: 00_Turb_w  42%
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 4/15: 00_Turb_w  57%
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 4/15: 00_Turb_w  71%
+[Sun Jan 20 16:29:13 2019][solver][infos] Loading the area 4/15: 00_Turb_w  85%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 5/15: AL
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 5/15: AL  12%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 5/15: AL  25%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 5/15: AL  37%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 5/15: AL  50%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 5/15: AL  62%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 5/15: AL  75%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 5/15: AL  87%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 6/15: BA
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 6/15: BA  12%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 6/15: BA  25%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 6/15: BA  37%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 6/15: BA  50%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 6/15: BA  62%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 6/15: BA  75%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 6/15: BA  87%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 7/15: BG
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 7/15: BG  8%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 7/15: BG  16%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 7/15: BG  25%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 7/15: BG  33%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 7/15: BG  41%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 7/15: BG  50%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 7/15: BG  58%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 7/15: BG  66%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 7/15: BG  75%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 7/15: BG  83%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 7/15: BG  91%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 8/15: CY
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 8/15: CY  9%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 8/15: CY  18%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 8/15: CY  27%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 8/15: CY  36%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 8/15: CY  45%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 8/15: CY  54%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 8/15: CY  63%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 8/15: CY  72%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 8/15: CY  81%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 8/15: CY  90%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 9/15: GR
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 9/15: GR  7%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 9/15: GR  15%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 9/15: GR  23%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 9/15: GR  30%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 9/15: GR  38%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 9/15: GR  46%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 9/15: GR  53%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 9/15: GR  61%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 9/15: GR  69%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 9/15: GR  76%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 9/15: GR  84%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 9/15: GR  92%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 10/15: HR
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 10/15: HR  10%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 10/15: HR  20%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 10/15: HR  30%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 10/15: HR  40%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 10/15: HR  50%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 10/15: HR  60%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 10/15: HR  70%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 10/15: HR  80%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 10/15: HR  90%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 11/15: HU
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 11/15: HU  8%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 11/15: HU  16%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 11/15: HU  25%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 11/15: HU  33%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 11/15: HU  41%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 11/15: HU  50%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 11/15: HU  58%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 11/15: HU  66%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 11/15: HU  75%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 11/15: HU  83%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 11/15: HU  91%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 12/15: ME
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 12/15: ME  12%
+[Sun Jan 20 16:29:14 2019][solver][infos] Loading the area 12/15: ME  25%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 12/15: ME  37%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 12/15: ME  50%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 12/15: ME  62%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 12/15: ME  75%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 12/15: ME  87%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 13/15: MK
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 13/15: MK  9%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 13/15: MK  18%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 13/15: MK  27%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 13/15: MK  36%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 13/15: MK  45%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 13/15: MK  54%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 13/15: MK  63%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 13/15: MK  72%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 13/15: MK  81%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 13/15: MK  90%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 14/15: RO
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 14/15: RO  8%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 14/15: RO  16%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 14/15: RO  25%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 14/15: RO  33%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 14/15: RO  41%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 14/15: RO  50%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 14/15: RO  58%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 14/15: RO  66%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 14/15: RO  75%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 14/15: RO  83%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 14/15: RO  91%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 15/15: RS
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 15/15: RS  11%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 15/15: RS  22%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 15/15: RS  33%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 15/15: RS  44%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 15/15: RS  55%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 15/15: RS  66%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 15/15: RS  77%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading the area 15/15: RS  88%
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading correlation matrices...
+[Sun Jan 20 16:29:15 2019][solver][infos] 
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading constraints...
+[Sun Jan 20 16:29:15 2019][solver][infos]  added `step_ba_daily` (daily, equality)
+[Sun Jan 20 16:29:15 2019][solver][infos]  added `step_bg_weekly` (weekly, equality)
+[Sun Jan 20 16:29:15 2019][solver][infos]  added `step_gr_daily` (daily, equality)
+[Sun Jan 20 16:29:15 2019][solver][infos]  added `step_gr_weekly` (weekly, equality)
+[Sun Jan 20 16:29:15 2019][solver][infos]  added `step_hr_daily` (daily, equality)
+[Sun Jan 20 16:29:15 2019][solver][infos]  added `step_rs_weekly` (weekly, equality)
+[Sun Jan 20 16:29:15 2019][solver][infos] 6 binding constraints found
+[Sun Jan 20 16:29:15 2019][solver][infos] 
+[Sun Jan 20 16:29:15 2019][solver][infos] Loading sets of areas...
+[Sun Jan 20 16:29:15 2019][solver][infos]    found `all areas` (15 items, no output)
+[Sun Jan 20 16:29:15 2019][solver][infos]  Elapsed time: Study loading: 1818ms
+[Sun Jan 20 16:29:15 2019][solver][infos] [statistics] disk: read: 65525 ko, written: 0 ko
+[Sun Jan 20 16:29:15 2019][solver][infos] [statistics] network: read: 0 ko, written: 0 ko
+[Sun Jan 20 16:29:15 2019][solver][infos] The study is loaded.
+[Sun Jan 20 16:29:15 2019][solver][infos] [UI] Display messages: Off
+[Sun Jan 20 16:29:15 2019][solver][infos] 
+[Sun Jan 20 16:29:15 2019][solver][infos] Generating calendar informations
+[Sun Jan 20 16:29:15 2019][solver][infos]     Partial week detected. Not allowed in Economy
+[Sun Jan 20 16:29:15 2019][solver][infos]     Time interval that has been requested: 1..8760
+[Sun Jan 20 16:29:15 2019][solver][infos] Calendar: hours:1..8736, days:1..364, weeks:1..52, months:1..12, years:1..20
+[Sun Jan 20 16:29:15 2019][solver][infos] Simulation days per month : 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 30
+[Sun Jan 20 16:29:15 2019][solver][infos] 
+[Sun Jan 20 16:29:15 2019][solver][infos] Removing disabled thermal clusters in from solver computations...
+[Sun Jan 20 16:29:15 2019][solver][infos] No disabled thermal cluster removed before solver computations
+[Sun Jan 20 16:29:15 2019][solver][infos] 
+[Sun Jan 20 16:29:15 2019][solver][infos] 
+[Sun Jan 20 16:29:15 2019][solver][infos] Optimizing the thermal clusters in 'must-run' mode...
+[Sun Jan 20 16:29:15 2019][solver][infos] No thermal cluster in 'must-run' mode
+[Sun Jan 20 16:29:15 2019][solver][infos] 
+[Sun Jan 20 16:29:15 2019][solver][infos] Optimizing 6 binding constraints
+[Sun Jan 20 16:29:15 2019][solver][infos] 
+[Sun Jan 20 16:29:15 2019][solver][infos] Summary
+[Sun Jan 20 16:29:15 2019][solver][infos]      areas: 15
+[Sun Jan 20 16:29:15 2019][solver][infos]      links: 32
+[Sun Jan 20 16:29:15 2019][solver][infos]      thermal clusters: 50
+[Sun Jan 20 16:29:15 2019][solver][infos]      thermal clusters (must-run): 0
+[Sun Jan 20 16:29:15 2019][solver][infos]      binding constraints: 6
+[Sun Jan 20 16:29:15 2019][solver][infos]      filtering:true
+[Sun Jan 20 16:29:15 2019][solver][infos]      memory : 163Mo
+[Sun Jan 20 16:29:15 2019][solver][infos] 
+[Sun Jan 20 16:29:15 2019][solver][infos] Initializing random number generators...
+[Sun Jan 20 16:29:15 2019][solver][infos] [UI] Progression map: E:\ANTARES\Formation\TPs\TP2_Viz\TP2_Viz_2\output\20190120-1629eco-synthese\about-the-study\map
+[Sun Jan 20 16:29:15 2019][solver][infos]   system memory report: 11407 Mib / 15974 Mib,  71.409791% free
+[Sun Jan 20 16:29:15 2019][solver][infos] 
+[Sun Jan 20 16:29:15 2019][solver][infos] [UI] Display messages: On
+[Sun Jan 20 16:29:15 2019][solver][check] Running the simulation (economy)
+[Sun Jan 20 16:29:15 2019][solver][infos] Allocating resources...
+[Sun Jan 20 16:29:15 2019][solver][infos] Allocating resources 33%
+[Sun Jan 20 16:29:15 2019][solver][infos] Allocating resources 73%
+[Sun Jan 20 16:29:15 2019][solver][infos] Allocating resources...
+[Sun Jan 20 16:29:15 2019][solver][infos]  Variables:  (245Mo)
+[Sun Jan 20 16:29:15 2019][solver][infos]  + Areas                             
+[Sun Jan 20 16:29:15 2019][solver][infos]        OV. COST              Euro    Overall Cost throughout all MC years
+[Sun Jan 20 16:29:15 2019][solver][infos]        OP. COST              Euro    Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[Sun Jan 20 16:29:15 2019][solver][infos]        MRG. PRICE            Euro    Marginal Price, throughout all MC years
+[Sun Jan 20 16:29:15 2019][solver][infos]        CO2 EMIS.             Tons    Overall CO2 emissions expected from all the thermal dispatchable clusters
+[Sun Jan 20 16:29:15 2019][solver][infos]        ENERG. PLANT          MWh     Energy generated by all the clusters
+[Sun Jan 20 16:29:15 2019][solver][infos]        BALANCE               MWh     Nodal energy balance, throughout all MC years
+[Sun Jan 20 16:29:15 2019][solver][infos]        ROW BAL.              MWh     Row Balance
+[Sun Jan 20 16:29:15 2019][solver][infos]        PSP                   MWh     PSP
+[Sun Jan 20 16:29:15 2019][solver][infos]        MISC. NDG             MWh     Non-dispatchable generation (not including wind and run-of-the-river)
+[Sun Jan 20 16:29:15 2019][solver][infos]        LOAD                  MWh     Load generation, thoughout all MC years
+[Sun Jan 20 16:29:15 2019][solver][infos]        H. ROR                MWh     Hydro generation, thoughout all MC years
+[Sun Jan 20 16:29:15 2019][solver][infos]        WIND                  MWh     Wind generation, thoughout all MC years
+[Sun Jan 20 16:29:15 2019][solver][infos]        SOLAR                 MWh     Solar generation, thoughout all MC years
+[Sun Jan 20 16:29:15 2019][solver][infos]        Dispatch. Gen.        MWh     Value of all the dispatchable generation throughout all MC years
+[Sun Jan 20 16:29:15 2019][solver][infos]        H. STOR               MWh     Hydro Storage Generation
+[Sun Jan 20 16:29:15 2019][solver][infos]        UNSP. ENRG            MWh     Unsuplied Energy (demand that cannot be satisfied)
+[Sun Jan 20 16:29:15 2019][solver][infos]        SPIL. ENRG            MWh     Spilled Energy (generation that cannot be satisfied)
+[Sun Jan 20 16:29:15 2019][solver][infos]        LOLD                  Hours   LOLD
+[Sun Jan 20 16:29:15 2019][solver][infos]        LOLP                  %       LOLP
+[Sun Jan 20 16:29:15 2019][solver][infos]        AVL DTG               MWh     Available dispatchable generation
+[Sun Jan 20 16:29:15 2019][solver][infos]        DTG MRG               MWh     Dispatchable Generation Margin
+[Sun Jan 20 16:29:15 2019][solver][infos]        MAX MRG               MWh     Maximum margin throughout all MC years
+[Sun Jan 20 16:29:15 2019][solver][infos]        NP COST               Euro    Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[Sun Jan 20 16:29:15 2019][solver][infos]                              NP Cost Non proportional costs by all the clusters
+[Sun Jan 20 16:29:15 2019][solver][infos]        NODU                          Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[Sun Jan 20 16:29:15 2019][solver][infos]                              NODU    Number of Dispatchable Units by plant
+[Sun Jan 20 16:29:15 2019][solver][infos]      + Links                         
+[Sun Jan 20 16:29:15 2019][solver][infos]            FLOW LIN.         MWh     Flow assessed, over all MC years, through linear optimization
+[Sun Jan 20 16:29:15 2019][solver][infos]            UCAP LIN.         MWh     Used capacity assessed, over all MC years, through linear optimization
+[Sun Jan 20 16:29:15 2019][solver][infos]            FLOW QUAD.        MWh     Flow (quad.)
+[Sun Jan 20 16:29:15 2019][solver][infos]            CONG. FEE (ALG.)  Euro    Congestion fee collected throughout all MC years (Alg.)
+[Sun Jan 20 16:29:15 2019][solver][infos]            CONG. FEE (ABS.)  Euro    Congestion fee collected throughout all MC years (Absolute value)
+[Sun Jan 20 16:29:15 2019][solver][infos]            MARG. COST        Euro/MW Decrease of the overall operating cost expected by a 1MW capacity reinforcement
+[Sun Jan 20 16:29:15 2019][solver][infos]            CONG. PROB. (+/-) %       Probability for the line to be congested in the upstream-downstream way
+[Sun Jan 20 16:29:15 2019][solver][infos]            HURDLE COST       Euro    Hurdle costs, over all MC years
+[Sun Jan 20 16:29:15 2019][solver][infos]  + Sets of Areas                     
+[Sun Jan 20 16:29:15 2019][solver][infos]        OV. COST              Euro    Overall Cost throughout all MC years
+[Sun Jan 20 16:29:15 2019][solver][infos]        OP. COST              Euro    Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[Sun Jan 20 16:29:15 2019][solver][infos]        MRG. PRICE            Euro    Marginal Price, throughout all MC years
+[Sun Jan 20 16:29:15 2019][solver][infos]        CO2 EMIS.             Tons    Overall CO2 emissions expected from all the thermal dispatchable clusters
+[Sun Jan 20 16:29:15 2019][solver][infos]        BALANCE               MWh     Nodal energy balance, throughout all MC years
+[Sun Jan 20 16:29:15 2019][solver][infos]        ROW BAL.              MWh     Row Balance
+[Sun Jan 20 16:29:15 2019][solver][infos]        PSP                   MWh     PSP
+[Sun Jan 20 16:29:15 2019][solver][infos]        MISC. NDG             MWh     Non-dispatchable generation (not including wind and run-of-the-river)
+[Sun Jan 20 16:29:15 2019][solver][infos]        LOAD                  MWh     Load generation, thoughout all MC years
+[Sun Jan 20 16:29:15 2019][solver][infos]        H. ROR                MWh     Hydro generation, thoughout all MC years
+[Sun Jan 20 16:29:15 2019][solver][infos]        WIND                  MWh     Wind generation, thoughout all MC years
+[Sun Jan 20 16:29:15 2019][solver][infos]        SOLAR                 MWh     Solar generation, thoughout all MC years
+[Sun Jan 20 16:29:15 2019][solver][infos]        Dispatch. Gen.        MWh     Value of all the dispatchable generation throughout all MC years
+[Sun Jan 20 16:29:15 2019][solver][infos]        H. STOR               MWh     Hydro Storage Generation
+[Sun Jan 20 16:29:15 2019][solver][infos]        UNSP. ENRG            MWh     Unsuplied Energy (demand that cannot be satisfied)
+[Sun Jan 20 16:29:15 2019][solver][infos]        SPIL. ENRG            MWh     Spilled Energy (generation that cannot be satisfied)
+[Sun Jan 20 16:29:15 2019][solver][infos]        LOLD                  Hours   LOLD
+[Sun Jan 20 16:29:15 2019][solver][infos]        LOLP                  %       LOLP
+[Sun Jan 20 16:29:15 2019][solver][infos]        AVL DTG               MWh     Available dispatchable generation
+[Sun Jan 20 16:29:15 2019][solver][infos]        DTG MRG               MWh     Dispatchable Generation Margin
+[Sun Jan 20 16:29:15 2019][solver][infos]        MAX MRG               MWh     Maximum margin throughout all MC years
+[Sun Jan 20 16:29:15 2019][solver][infos]        NP COST               Euro    Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[Sun Jan 20 16:29:15 2019][solver][infos]        NODU                          Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[Sun Jan 20 16:29:15 2019][solver][infos] 
+[Sun Jan 20 16:29:15 2019][solver][infos] Preparing time-series numbers...
+[Sun Jan 20 16:29:15 2019][solver][infos] Preparing time-series numbers... (default ruleset)
+[Sun Jan 20 16:29:15 2019][solver][infos]   :: Scenario Builder, active target: default ruleset
+[Sun Jan 20 16:29:15 2019][solver][infos]   > loading scenario builder data from E:\ANTARES\Formation\TPs\TP2_Viz\TP2_Viz_2\settings\scenariobuilder.dat
+[Sun Jan 20 16:29:15 2019][solver][infos] 
+[Sun Jan 20 16:29:16 2019][solver][infos] MC-Years : [1 .. 20], total: 20
+[Sun Jan 20 16:29:16 2019][solver][infos]  Starting the simulation
+[Sun Jan 20 16:29:16 2019][solver][infos] nb years in set : 4
+[Sun Jan 20 16:29:16 2019][solver][infos] Years from 1 to 4
+[Sun Jan 20 16:29:16 2019][solver][infos] 
+[Sun Jan 20 16:29:16 2019][solver][infos]  Starting Memory Allocation for a Weekly Optimization problem in Canonical form 
+[Sun Jan 20 16:29:16 2019][solver][infos]  ( Problem Size :31080 Variables 10449 Constraints) 
+[Sun Jan 20 16:29:16 2019][solver][infos]  Expected Number of Non-zero terms in Problem Matrix : 221580
+[Sun Jan 20 16:29:16 2019][solver][infos] 
+[Sun Jan 20 16:29:16 2019][solver][infos] 
+[Sun Jan 20 16:29:16 2019][solver][infos]  Status of Preliminary Allocations for Generic Problem Resolution : Successful
+[Sun Jan 20 16:29:16 2019][solver][infos] 
+[Sun Jan 20 16:29:16 2019][solver][infos] 
+[Sun Jan 20 16:29:16 2019][solver][infos]  Starting Memory Allocation for a Weekly Optimization problem in Canonical form 
+[Sun Jan 20 16:29:16 2019][solver][infos]  ( Problem Size :31080 Variables 10449 Constraints) 
+[Sun Jan 20 16:29:16 2019][solver][infos]  Expected Number of Non-zero terms in Problem Matrix : 221580
+[Sun Jan 20 16:29:16 2019][solver][infos] 
+[Sun Jan 20 16:29:16 2019][solver][infos] 
+[Sun Jan 20 16:29:16 2019][solver][infos]  Status of Preliminary Allocations for Generic Problem Resolution : Successful
+[Sun Jan 20 16:29:16 2019][solver][infos] 
+[Sun Jan 20 16:29:16 2019][solver][infos] 
+[Sun Jan 20 16:29:16 2019][solver][infos]  Starting Memory Allocation for a Weekly Optimization problem in Canonical form 
+[Sun Jan 20 16:29:16 2019][solver][infos]  ( Problem Size :31080 Variables 10449 Constraints) 
+[Sun Jan 20 16:29:16 2019][solver][infos]  Expected Number of Non-zero terms in Problem Matrix : 221580
+[Sun Jan 20 16:29:16 2019][solver][infos] 
+[Sun Jan 20 16:29:16 2019][solver][infos] 
+[Sun Jan 20 16:29:16 2019][solver][infos]  Status of Preliminary Allocations for Generic Problem Resolution : Successful
+[Sun Jan 20 16:29:16 2019][solver][infos] 
+[Sun Jan 20 16:29:16 2019][solver][infos] 
+[Sun Jan 20 16:29:16 2019][solver][infos]  Starting Memory Allocation for a Weekly Optimization problem in Canonical form 
+[Sun Jan 20 16:29:16 2019][solver][infos]  ( Problem Size :31080 Variables 10449 Constraints) 
+[Sun Jan 20 16:29:16 2019][solver][infos]  Expected Number of Non-zero terms in Problem Matrix : 221580
+[Sun Jan 20 16:29:16 2019][solver][infos] 
+[Sun Jan 20 16:29:16 2019][solver][infos] 
+[Sun Jan 20 16:29:16 2019][solver][infos]  Status of Preliminary Allocations for Generic Problem Resolution : Successful
+[Sun Jan 20 16:29:16 2019][solver][infos] 
+[Sun Jan 20 16:29:17 2019][solver][progress] task 0 mc, year: 0, 7.692307
+[Sun Jan 20 16:29:17 2019][solver][progress] task 0 mc, year: 3, 7.692307
+[Sun Jan 20 16:29:17 2019][solver][progress] task 0 mc, year: 2, 7.692307
+[Sun Jan 20 16:29:17 2019][solver][progress] task 0 mc, year: 1, 7.692307
+[Sun Jan 20 16:29:19 2019][solver][progress] task 0 mc, year: 0, 19.230770
+[Sun Jan 20 16:29:19 2019][solver][progress] task 0 mc, year: 3, 19.230770
+[Sun Jan 20 16:29:19 2019][solver][progress] task 0 mc, year: 2, 17.307692
+[Sun Jan 20 16:29:19 2019][solver][progress] task 0 mc, year: 1, 17.307692
+[Sun Jan 20 16:29:20 2019][solver][progress] task 0 mc, year: 0, 26.923077
+[Sun Jan 20 16:29:20 2019][solver][progress] task 0 mc, year: 3, 28.846153
+[Sun Jan 20 16:29:20 2019][solver][progress] task 0 mc, year: 2, 28.846153
+[Sun Jan 20 16:29:20 2019][solver][progress] task 0 mc, year: 1, 26.923077
+[Sun Jan 20 16:29:21 2019][solver][progress] task 0 mc, year: 0, 36.538460
+[Sun Jan 20 16:29:21 2019][solver][progress] task 0 mc, year: 3, 38.461540
+[Sun Jan 20 16:29:21 2019][solver][progress] task 0 mc, year: 2, 38.461540
+[Sun Jan 20 16:29:21 2019][solver][progress] task 0 mc, year: 1, 32.692307
+[Sun Jan 20 16:29:22 2019][solver][progress] task 0 mc, year: 0, 44.230770
+[Sun Jan 20 16:29:22 2019][solver][progress] task 0 mc, year: 3, 48.076923
+[Sun Jan 20 16:29:22 2019][solver][progress] task 0 mc, year: 2, 48.076923
+[Sun Jan 20 16:29:22 2019][solver][progress] task 0 mc, year: 1, 42.307693
+[Sun Jan 20 16:29:23 2019][solver][progress] task 0 mc, year: 0, 50.000000
+[Sun Jan 20 16:29:23 2019][solver][progress] task 0 mc, year: 3, 53.846153
+[Sun Jan 20 16:29:23 2019][solver][progress] task 0 mc, year: 2, 55.769230
+[Sun Jan 20 16:29:23 2019][solver][progress] task 0 mc, year: 1, 48.076923
+[Sun Jan 20 16:29:25 2019][solver][progress] task 0 mc, year: 0, 55.769230
+[Sun Jan 20 16:29:25 2019][solver][progress] task 0 mc, year: 3, 59.615383
+[Sun Jan 20 16:29:25 2019][solver][progress] task 0 mc, year: 2, 59.615383
+[Sun Jan 20 16:29:25 2019][solver][progress] task 0 mc, year: 1, 53.846153
+[Sun Jan 20 16:29:26 2019][solver][progress] task 0 mc, year: 0, 61.538460
+[Sun Jan 20 16:29:26 2019][solver][progress] task 0 mc, year: 3, 67.307693
+[Sun Jan 20 16:29:26 2019][solver][progress] task 0 mc, year: 2, 67.307693
+[Sun Jan 20 16:29:26 2019][solver][progress] task 0 mc, year: 1, 59.615383
+[Sun Jan 20 16:29:27 2019][solver][progress] task 0 mc, year: 0, 67.307693
+[Sun Jan 20 16:29:27 2019][solver][progress] task 0 mc, year: 3, 73.076920
+[Sun Jan 20 16:29:27 2019][solver][progress] task 0 mc, year: 2, 75.000000
+[Sun Jan 20 16:29:27 2019][solver][progress] task 0 mc, year: 1, 67.307693
+[Sun Jan 20 16:29:28 2019][solver][progress] task 0 mc, year: 0, 75.000000
+[Sun Jan 20 16:29:28 2019][solver][progress] task 0 mc, year: 3, 78.846153
+[Sun Jan 20 16:29:28 2019][solver][progress] task 0 mc, year: 2, 80.769234
+[Sun Jan 20 16:29:28 2019][solver][progress] task 0 mc, year: 1, 73.076920
+[Sun Jan 20 16:29:29 2019][solver][progress] task 0 mc, year: 0, 84.615387
+[Sun Jan 20 16:29:29 2019][solver][progress] task 0 mc, year: 3, 88.461540
+[Sun Jan 20 16:29:29 2019][solver][progress] task 0 mc, year: 2, 90.384613
+[Sun Jan 20 16:29:29 2019][solver][progress] task 0 mc, year: 1, 80.769234
+[Sun Jan 20 16:29:31 2019][solver][progress] task 0 mc, year: 0, 90.384613
+[Sun Jan 20 16:29:31 2019][solver][progress] task 0 mc, year: 3, 96.153847
+[Sun Jan 20 16:29:31 2019][solver][progress] task 0 mc, year: 2, 98.076920
+[Sun Jan 20 16:29:31 2019][solver][progress] task 0 mc, year: 1, 90.384613
+[Sun Jan 20 16:29:31 2019][solver][progress] task 0 mc, year: 2, 100
+[Sun Jan 20 16:29:31 2019][solver][progress] task 0 mc, year: 3, 100
+[Sun Jan 20 16:29:31 2019][solver][progress] task 0 mc, year: 0, 100
+[Sun Jan 20 16:29:32 2019][solver][progress] task 0 mc, year: 1, 100
+[Sun Jan 20 16:29:32 2019][solver][infos] nb years in set : 4
+[Sun Jan 20 16:29:32 2019][solver][infos] Years from 5 to 8
+[Sun Jan 20 16:29:33 2019][solver][progress] task 0 mc, year: 7, 3.846154
+[Sun Jan 20 16:29:33 2019][solver][progress] task 0 mc, year: 6, 1.923077
+[Sun Jan 20 16:29:33 2019][solver][progress] task 0 mc, year: 5, 1.923077
+[Sun Jan 20 16:29:34 2019][solver][progress] task 0 mc, year: 4, 9.615385
+[Sun Jan 20 16:29:34 2019][solver][progress] task 0 mc, year: 7, 11.538462
+[Sun Jan 20 16:29:34 2019][solver][progress] task 0 mc, year: 6, 9.615385
+[Sun Jan 20 16:29:34 2019][solver][progress] task 0 mc, year: 5, 11.538462
+[Sun Jan 20 16:29:35 2019][solver][progress] task 0 mc, year: 4, 17.307692
+[Sun Jan 20 16:29:35 2019][solver][progress] task 0 mc, year: 7, 21.153847
+[Sun Jan 20 16:29:35 2019][solver][progress] task 0 mc, year: 6, 21.153847
+[Sun Jan 20 16:29:35 2019][solver][progress] task 0 mc, year: 5, 23.076923
+[Sun Jan 20 16:29:37 2019][solver][progress] task 0 mc, year: 4, 26.923077
+[Sun Jan 20 16:29:37 2019][solver][progress] task 0 mc, year: 7, 28.846153
+[Sun Jan 20 16:29:37 2019][solver][progress] task 0 mc, year: 6, 28.846153
+[Sun Jan 20 16:29:37 2019][solver][progress] task 0 mc, year: 5, 30.769230
+[Sun Jan 20 16:29:38 2019][solver][progress] task 0 mc, year: 4, 34.615383
+[Sun Jan 20 16:29:38 2019][solver][progress] task 0 mc, year: 7, 36.538460
+[Sun Jan 20 16:29:38 2019][solver][progress] task 0 mc, year: 6, 38.461540
+[Sun Jan 20 16:29:38 2019][solver][progress] task 0 mc, year: 5, 40.384617
+[Sun Jan 20 16:29:39 2019][solver][progress] task 0 mc, year: 4, 44.230770
+[Sun Jan 20 16:29:39 2019][solver][progress] task 0 mc, year: 7, 46.153847
+[Sun Jan 20 16:29:39 2019][solver][progress] task 0 mc, year: 6, 46.153847
+[Sun Jan 20 16:29:39 2019][solver][progress] task 0 mc, year: 5, 48.076923
+[Sun Jan 20 16:29:40 2019][solver][progress] task 0 mc, year: 4, 53.846153
+[Sun Jan 20 16:29:40 2019][solver][progress] task 0 mc, year: 7, 53.846153
+[Sun Jan 20 16:29:40 2019][solver][progress] task 0 mc, year: 6, 53.846153
+[Sun Jan 20 16:29:40 2019][solver][progress] task 0 mc, year: 5, 53.846153
+[Sun Jan 20 16:29:41 2019][solver][progress] task 0 mc, year: 4, 63.461540
+[Sun Jan 20 16:29:41 2019][solver][progress] task 0 mc, year: 7, 59.615383
+[Sun Jan 20 16:29:41 2019][solver][progress] task 0 mc, year: 6, 59.615383
+[Sun Jan 20 16:29:41 2019][solver][progress] task 0 mc, year: 5, 61.538460
+[Sun Jan 20 16:29:43 2019][solver][progress] task 0 mc, year: 4, 73.076920
+[Sun Jan 20 16:29:43 2019][solver][progress] task 0 mc, year: 7, 69.230766
+[Sun Jan 20 16:29:43 2019][solver][progress] task 0 mc, year: 6, 69.230766
+[Sun Jan 20 16:29:43 2019][solver][progress] task 0 mc, year: 5, 69.230766
+[Sun Jan 20 16:29:44 2019][solver][progress] task 0 mc, year: 4, 80.769234
+[Sun Jan 20 16:29:44 2019][solver][progress] task 0 mc, year: 7, 78.846153
+[Sun Jan 20 16:29:44 2019][solver][progress] task 0 mc, year: 6, 76.923080
+[Sun Jan 20 16:29:44 2019][solver][progress] task 0 mc, year: 5, 78.846153
+[Sun Jan 20 16:29:45 2019][solver][progress] task 0 mc, year: 4, 90.384613
+[Sun Jan 20 16:29:45 2019][solver][progress] task 0 mc, year: 7, 88.461540
+[Sun Jan 20 16:29:45 2019][solver][progress] task 0 mc, year: 6, 86.538460
+[Sun Jan 20 16:29:45 2019][solver][progress] task 0 mc, year: 5, 88.461540
+[Sun Jan 20 16:29:46 2019][solver][progress] task 0 mc, year: 4, 98.076920
+[Sun Jan 20 16:29:46 2019][solver][progress] task 0 mc, year: 7, 96.153847
+[Sun Jan 20 16:29:46 2019][solver][progress] task 0 mc, year: 6, 98.076920
+[Sun Jan 20 16:29:46 2019][solver][progress] task 0 mc, year: 5, 96.153847
+[Sun Jan 20 16:29:46 2019][solver][progress] task 0 mc, year: 4, 100
+[Sun Jan 20 16:29:46 2019][solver][progress] task 0 mc, year: 6, 100
+[Sun Jan 20 16:29:46 2019][solver][progress] task 0 mc, year: 5, 100
+[Sun Jan 20 16:29:46 2019][solver][progress] task 0 mc, year: 7, 100
+[Sun Jan 20 16:29:47 2019][solver][infos] nb years in set : 4
+[Sun Jan 20 16:29:47 2019][solver][infos] Years from 9 to 12
+[Sun Jan 20 16:29:49 2019][solver][progress] task 0 mc, year: 8, 9.615385
+[Sun Jan 20 16:29:49 2019][solver][progress] task 0 mc, year: 11, 9.615385
+[Sun Jan 20 16:29:49 2019][solver][progress] task 0 mc, year: 10, 9.615385
+[Sun Jan 20 16:29:49 2019][solver][progress] task 0 mc, year: 9, 7.692307
+[Sun Jan 20 16:29:50 2019][solver][progress] task 0 mc, year: 8, 19.230770
+[Sun Jan 20 16:29:50 2019][solver][progress] task 0 mc, year: 11, 19.230770
+[Sun Jan 20 16:29:50 2019][solver][progress] task 0 mc, year: 10, 21.153847
+[Sun Jan 20 16:29:50 2019][solver][progress] task 0 mc, year: 9, 17.307692
+[Sun Jan 20 16:29:51 2019][solver][progress] task 0 mc, year: 8, 28.846153
+[Sun Jan 20 16:29:51 2019][solver][progress] task 0 mc, year: 11, 28.846153
+[Sun Jan 20 16:29:51 2019][solver][progress] task 0 mc, year: 10, 28.846153
+[Sun Jan 20 16:29:51 2019][solver][progress] task 0 mc, year: 9, 28.846153
+[Sun Jan 20 16:29:52 2019][solver][progress] task 0 mc, year: 8, 38.461540
+[Sun Jan 20 16:29:52 2019][solver][progress] task 0 mc, year: 11, 36.538460
+[Sun Jan 20 16:29:52 2019][solver][progress] task 0 mc, year: 10, 38.461540
+[Sun Jan 20 16:29:52 2019][solver][progress] task 0 mc, year: 9, 36.538460
+[Sun Jan 20 16:29:53 2019][solver][progress] task 0 mc, year: 8, 48.076923
+[Sun Jan 20 16:29:53 2019][solver][progress] task 0 mc, year: 11, 44.230770
+[Sun Jan 20 16:29:53 2019][solver][progress] task 0 mc, year: 10, 44.230770
+[Sun Jan 20 16:29:53 2019][solver][progress] task 0 mc, year: 9, 44.230770
+[Sun Jan 20 16:29:55 2019][solver][progress] task 0 mc, year: 8, 53.846153
+[Sun Jan 20 16:29:55 2019][solver][progress] task 0 mc, year: 11, 51.923077
+[Sun Jan 20 16:29:55 2019][solver][progress] task 0 mc, year: 10, 53.846153
+[Sun Jan 20 16:29:55 2019][solver][progress] task 0 mc, year: 9, 51.923077
+[Sun Jan 20 16:29:56 2019][solver][progress] task 0 mc, year: 8, 61.538460
+[Sun Jan 20 16:29:56 2019][solver][progress] task 0 mc, year: 11, 59.615383
+[Sun Jan 20 16:29:56 2019][solver][progress] task 0 mc, year: 10, 61.538460
+[Sun Jan 20 16:29:56 2019][solver][progress] task 0 mc, year: 9, 59.615383
+[Sun Jan 20 16:29:57 2019][solver][progress] task 0 mc, year: 8, 69.230766
+[Sun Jan 20 16:29:57 2019][solver][progress] task 0 mc, year: 11, 69.230766
+[Sun Jan 20 16:29:57 2019][solver][progress] task 0 mc, year: 10, 69.230766
+[Sun Jan 20 16:29:57 2019][solver][progress] task 0 mc, year: 9, 71.153847
+[Sun Jan 20 16:29:58 2019][solver][progress] task 0 mc, year: 8, 78.846153
+[Sun Jan 20 16:29:58 2019][solver][progress] task 0 mc, year: 11, 76.923080
+[Sun Jan 20 16:29:58 2019][solver][progress] task 0 mc, year: 10, 76.923080
+[Sun Jan 20 16:29:58 2019][solver][progress] task 0 mc, year: 9, 78.846153
+[Sun Jan 20 16:29:59 2019][solver][progress] task 0 mc, year: 8, 84.615387
+[Sun Jan 20 16:29:59 2019][solver][progress] task 0 mc, year: 11, 84.615387
+[Sun Jan 20 16:29:59 2019][solver][progress] task 0 mc, year: 10, 84.615387
+[Sun Jan 20 16:29:59 2019][solver][progress] task 0 mc, year: 9, 88.461540
+[Sun Jan 20 16:30:01 2019][solver][progress] task 0 mc, year: 8, 94.230766
+[Sun Jan 20 16:30:01 2019][solver][progress] task 0 mc, year: 11, 94.230766
+[Sun Jan 20 16:30:01 2019][solver][progress] task 0 mc, year: 10, 94.230766
+[Sun Jan 20 16:30:01 2019][solver][progress] task 0 mc, year: 9, 98.076920
+[Sun Jan 20 16:30:01 2019][solver][progress] task 0 mc, year: 9, 100
+[Sun Jan 20 16:30:01 2019][solver][progress] task 0 mc, year: 11, 100
+[Sun Jan 20 16:30:01 2019][solver][progress] task 0 mc, year: 8, 100
+[Sun Jan 20 16:30:01 2019][solver][progress] task 0 mc, year: 10, 100
+[Sun Jan 20 16:30:01 2019][solver][infos] nb years in set : 4
+[Sun Jan 20 16:30:01 2019][solver][infos] Years from 13 to 16
+[Sun Jan 20 16:30:03 2019][solver][progress] task 0 mc, year: 12, 5.769231
+[Sun Jan 20 16:30:03 2019][solver][progress] task 0 mc, year: 15, 5.769231
+[Sun Jan 20 16:30:03 2019][solver][progress] task 0 mc, year: 14, 3.846154
+[Sun Jan 20 16:30:03 2019][solver][progress] task 0 mc, year: 13, 5.769231
+[Sun Jan 20 16:30:04 2019][solver][progress] task 0 mc, year: 12, 15.384615
+[Sun Jan 20 16:30:04 2019][solver][progress] task 0 mc, year: 15, 17.307692
+[Sun Jan 20 16:30:04 2019][solver][progress] task 0 mc, year: 14, 15.384615
+[Sun Jan 20 16:30:04 2019][solver][progress] task 0 mc, year: 13, 15.384615
+[Sun Jan 20 16:30:05 2019][solver][progress] task 0 mc, year: 12, 26.923077
+[Sun Jan 20 16:30:05 2019][solver][progress] task 0 mc, year: 15, 26.923077
+[Sun Jan 20 16:30:05 2019][solver][progress] task 0 mc, year: 14, 25.000000
+[Sun Jan 20 16:30:05 2019][solver][progress] task 0 mc, year: 13, 25.000000
+[Sun Jan 20 16:30:07 2019][solver][progress] task 0 mc, year: 12, 38.461540
+[Sun Jan 20 16:30:07 2019][solver][progress] task 0 mc, year: 15, 36.538460
+[Sun Jan 20 16:30:07 2019][solver][progress] task 0 mc, year: 14, 34.615383
+[Sun Jan 20 16:30:07 2019][solver][progress] task 0 mc, year: 13, 32.692307
+[Sun Jan 20 16:30:08 2019][solver][progress] task 0 mc, year: 12, 48.076923
+[Sun Jan 20 16:30:08 2019][solver][progress] task 0 mc, year: 15, 42.307693
+[Sun Jan 20 16:30:08 2019][solver][progress] task 0 mc, year: 14, 42.307693
+[Sun Jan 20 16:30:08 2019][solver][progress] task 0 mc, year: 13, 42.307693
+[Sun Jan 20 16:30:09 2019][solver][progress] task 0 mc, year: 12, 55.769230
+[Sun Jan 20 16:30:09 2019][solver][progress] task 0 mc, year: 15, 51.923077
+[Sun Jan 20 16:30:09 2019][solver][progress] task 0 mc, year: 14, 51.923077
+[Sun Jan 20 16:30:09 2019][solver][progress] task 0 mc, year: 13, 50.000000
+[Sun Jan 20 16:30:10 2019][solver][progress] task 0 mc, year: 12, 63.461540
+[Sun Jan 20 16:30:10 2019][solver][progress] task 0 mc, year: 15, 57.692307
+[Sun Jan 20 16:30:10 2019][solver][progress] task 0 mc, year: 14, 61.538460
+[Sun Jan 20 16:30:10 2019][solver][progress] task 0 mc, year: 13, 57.692307
+[Sun Jan 20 16:30:11 2019][solver][progress] task 0 mc, year: 12, 73.076920
+[Sun Jan 20 16:30:11 2019][solver][progress] task 0 mc, year: 15, 65.384613
+[Sun Jan 20 16:30:11 2019][solver][progress] task 0 mc, year: 14, 69.230766
+[Sun Jan 20 16:30:11 2019][solver][progress] task 0 mc, year: 13, 63.461540
+[Sun Jan 20 16:30:13 2019][solver][progress] task 0 mc, year: 12, 80.769234
+[Sun Jan 20 16:30:13 2019][solver][progress] task 0 mc, year: 15, 75.000000
+[Sun Jan 20 16:30:13 2019][solver][progress] task 0 mc, year: 14, 78.846153
+[Sun Jan 20 16:30:13 2019][solver][progress] task 0 mc, year: 13, 73.076920
+[Sun Jan 20 16:30:14 2019][solver][progress] task 0 mc, year: 12, 88.461540
+[Sun Jan 20 16:30:14 2019][solver][progress] task 0 mc, year: 15, 82.692307
+[Sun Jan 20 16:30:14 2019][solver][progress] task 0 mc, year: 14, 88.461540
+[Sun Jan 20 16:30:14 2019][solver][progress] task 0 mc, year: 13, 80.769234
+[Sun Jan 20 16:30:15 2019][solver][progress] task 0 mc, year: 12, 98.076920
+[Sun Jan 20 16:30:15 2019][solver][progress] task 0 mc, year: 15, 92.307693
+[Sun Jan 20 16:30:15 2019][solver][progress] task 0 mc, year: 14, 96.153847
+[Sun Jan 20 16:30:15 2019][solver][progress] task 0 mc, year: 13, 90.384613
+[Sun Jan 20 16:30:15 2019][solver][progress] task 0 mc, year: 12, 100
+[Sun Jan 20 16:30:15 2019][solver][progress] task 0 mc, year: 14, 100
+[Sun Jan 20 16:30:16 2019][solver][progress] task 0 mc, year: 15, 100
+[Sun Jan 20 16:30:16 2019][solver][progress] task 0 mc, year: 13, 100
+[Sun Jan 20 16:30:16 2019][solver][infos] nb years in set : 4
+[Sun Jan 20 16:30:16 2019][solver][infos] Years from 17 to 20
+[Sun Jan 20 16:30:17 2019][solver][progress] task 0 mc, year: 16, 5.769231
+[Sun Jan 20 16:30:17 2019][solver][progress] task 0 mc, year: 19, 3.846154
+[Sun Jan 20 16:30:17 2019][solver][progress] task 0 mc, year: 18, 5.769231
+[Sun Jan 20 16:30:17 2019][solver][progress] task 0 mc, year: 17, 3.846154
+[Sun Jan 20 16:30:19 2019][solver][progress] task 0 mc, year: 16, 15.384615
+[Sun Jan 20 16:30:19 2019][solver][progress] task 0 mc, year: 19, 15.384615
+[Sun Jan 20 16:30:19 2019][solver][progress] task 0 mc, year: 18, 15.384615
+[Sun Jan 20 16:30:19 2019][solver][progress] task 0 mc, year: 17, 13.461538
+[Sun Jan 20 16:30:20 2019][solver][progress] task 0 mc, year: 16, 26.923077
+[Sun Jan 20 16:30:20 2019][solver][progress] task 0 mc, year: 19, 26.923077
+[Sun Jan 20 16:30:20 2019][solver][progress] task 0 mc, year: 18, 25.000000
+[Sun Jan 20 16:30:20 2019][solver][progress] task 0 mc, year: 17, 23.076923
+[Sun Jan 20 16:30:21 2019][solver][progress] task 0 mc, year: 16, 36.538460
+[Sun Jan 20 16:30:21 2019][solver][progress] task 0 mc, year: 19, 34.615383
+[Sun Jan 20 16:30:21 2019][solver][progress] task 0 mc, year: 18, 32.692307
+[Sun Jan 20 16:30:21 2019][solver][progress] task 0 mc, year: 17, 32.692307
+[Sun Jan 20 16:30:22 2019][solver][progress] task 0 mc, year: 16, 44.230770
+[Sun Jan 20 16:30:22 2019][solver][progress] task 0 mc, year: 19, 44.230770
+[Sun Jan 20 16:30:22 2019][solver][progress] task 0 mc, year: 18, 44.230770
+[Sun Jan 20 16:30:22 2019][solver][progress] task 0 mc, year: 17, 42.307693
+[Sun Jan 20 16:30:23 2019][solver][progress] task 0 mc, year: 16, 51.923077
+[Sun Jan 20 16:30:23 2019][solver][progress] task 0 mc, year: 19, 51.923077
+[Sun Jan 20 16:30:23 2019][solver][progress] task 0 mc, year: 18, 50.000000
+[Sun Jan 20 16:30:23 2019][solver][progress] task 0 mc, year: 17, 51.923077
+[Sun Jan 20 16:30:25 2019][solver][progress] task 0 mc, year: 16, 61.538460
+[Sun Jan 20 16:30:25 2019][solver][progress] task 0 mc, year: 19, 61.538460
+[Sun Jan 20 16:30:25 2019][solver][progress] task 0 mc, year: 18, 57.692307
+[Sun Jan 20 16:30:25 2019][solver][progress] task 0 mc, year: 17, 59.615383
+[Sun Jan 20 16:30:26 2019][solver][progress] task 0 mc, year: 16, 69.230766
+[Sun Jan 20 16:30:26 2019][solver][progress] task 0 mc, year: 19, 69.230766
+[Sun Jan 20 16:30:26 2019][solver][progress] task 0 mc, year: 18, 65.384613
+[Sun Jan 20 16:30:26 2019][solver][progress] task 0 mc, year: 17, 69.230766
+[Sun Jan 20 16:30:27 2019][solver][progress] task 0 mc, year: 16, 78.846153
+[Sun Jan 20 16:30:27 2019][solver][progress] task 0 mc, year: 19, 76.923080
+[Sun Jan 20 16:30:27 2019][solver][progress] task 0 mc, year: 18, 75.000000
+[Sun Jan 20 16:30:27 2019][solver][progress] task 0 mc, year: 17, 76.923080
+[Sun Jan 20 16:30:28 2019][solver][progress] task 0 mc, year: 16, 90.384613
+[Sun Jan 20 16:30:28 2019][solver][progress] task 0 mc, year: 19, 84.615387
+[Sun Jan 20 16:30:28 2019][solver][progress] task 0 mc, year: 18, 82.692307
+[Sun Jan 20 16:30:28 2019][solver][progress] task 0 mc, year: 17, 86.538460
+[Sun Jan 20 16:30:29 2019][solver][progress] task 0 mc, year: 16, 100.000000
+[Sun Jan 20 16:30:29 2019][solver][progress] task 0 mc, year: 19, 94.230766
+[Sun Jan 20 16:30:29 2019][solver][progress] task 0 mc, year: 18, 90.384613
+[Sun Jan 20 16:30:29 2019][solver][progress] task 0 mc, year: 17, 96.153847
+[Sun Jan 20 16:30:30 2019][solver][progress] task 0 mc, year: 17, 100
+[Sun Jan 20 16:30:30 2019][solver][progress] task 0 mc, year: 19, 100
+[Sun Jan 20 16:30:30 2019][solver][progress] task 0 mc, year: 18, 100
+[Sun Jan 20 16:30:30 2019][solver][infos]   The quadratic optimisation has been skipped
+[Sun Jan 20 16:30:30 2019][solver][infos]  Elapsed time: MC Years: 74929ms
+[Sun Jan 20 16:30:30 2019][solver][infos] 
+[Sun Jan 20 16:30:30 2019][solver][check] Exporting the survey results...
+[Sun Jan 20 16:30:30 2019][solver][infos] Exporting results : 00_Pump_d
+[Sun Jan 20 16:30:31 2019][solver][infos] Exporting results : 00_Pump_w
+[Sun Jan 20 16:30:31 2019][solver][infos] Exporting results : 00_Turb_d
+[Sun Jan 20 16:30:31 2019][solver][infos] Exporting results : 00_Turb_w
+[Sun Jan 20 16:30:31 2019][solver][infos] Exporting results : AL
+[Sun Jan 20 16:30:32 2019][solver][infos] Exporting results : BA
+[Sun Jan 20 16:30:32 2019][solver][infos] Exporting results : BG
+[Sun Jan 20 16:30:33 2019][solver][infos] Exporting results : CY
+[Sun Jan 20 16:30:33 2019][solver][infos] Exporting results : GR
+[Sun Jan 20 16:30:34 2019][solver][infos] Exporting results : HR
+[Sun Jan 20 16:30:34 2019][solver][infos] Exporting results : HU
+[Sun Jan 20 16:30:34 2019][solver][infos] Exporting results : ME
+[Sun Jan 20 16:30:35 2019][solver][infos] Exporting results : MK
+[Sun Jan 20 16:30:35 2019][solver][infos] Exporting results : RO
+[Sun Jan 20 16:30:36 2019][solver][infos] Exporting results : RS
+[Sun Jan 20 16:30:36 2019][solver][infos] Exporting results : 00_Pump_d - BA
+[Sun Jan 20 16:30:36 2019][solver][infos] Exporting results : 00_Pump_d - GR
+[Sun Jan 20 16:30:36 2019][solver][infos] Exporting results : 00_Pump_d - HR
+[Sun Jan 20 16:30:36 2019][solver][infos] Exporting results : 00_Pump_w - BG
+[Sun Jan 20 16:30:36 2019][solver][infos] Exporting results : 00_Pump_w - GR
+[Sun Jan 20 16:30:36 2019][solver][infos] Exporting results : 00_Pump_w - RS
+[Sun Jan 20 16:30:36 2019][solver][infos] Exporting results : 00_Turb_d - BA
+[Sun Jan 20 16:30:36 2019][solver][infos] Exporting results : 00_Turb_d - GR
+[Sun Jan 20 16:30:37 2019][solver][infos] Exporting results : 00_Turb_d - HR
+[Sun Jan 20 16:30:37 2019][solver][infos] Exporting results : 00_Turb_w - BG
+[Sun Jan 20 16:30:37 2019][solver][infos] Exporting results : 00_Turb_w - GR
+[Sun Jan 20 16:30:37 2019][solver][infos] Exporting results : 00_Turb_w - RS
+[Sun Jan 20 16:30:37 2019][solver][infos] Exporting results : AL - GR
+[Sun Jan 20 16:30:37 2019][solver][infos] Exporting results : AL - ME
+[Sun Jan 20 16:30:37 2019][solver][infos] Exporting results : AL - MK
+[Sun Jan 20 16:30:37 2019][solver][infos] Exporting results : AL - RS
+[Sun Jan 20 16:30:38 2019][solver][infos] Exporting results : BA - HR
+[Sun Jan 20 16:30:38 2019][solver][infos] Exporting results : BA - ME
+[Sun Jan 20 16:30:38 2019][solver][infos] Exporting results : BA - RS
+[Sun Jan 20 16:30:38 2019][solver][infos] Exporting results : BG - GR
+[Sun Jan 20 16:30:38 2019][solver][infos] Exporting results : BG - MK
+[Sun Jan 20 16:30:38 2019][solver][infos] Exporting results : BG - RO
+[Sun Jan 20 16:30:38 2019][solver][infos] Exporting results : BG - RS
+[Sun Jan 20 16:30:39 2019][solver][infos] Exporting results : CY - GR
+[Sun Jan 20 16:30:39 2019][solver][infos] Exporting results : GR - MK
+[Sun Jan 20 16:30:39 2019][solver][infos] Exporting results : HR - HU
+[Sun Jan 20 16:30:39 2019][solver][infos] Exporting results : HR - RS
+[Sun Jan 20 16:30:39 2019][solver][infos] Exporting results : HU - RO
+[Sun Jan 20 16:30:39 2019][solver][infos] Exporting results : HU - RS
+[Sun Jan 20 16:30:39 2019][solver][infos] Exporting results : ME - RS
+[Sun Jan 20 16:30:39 2019][solver][infos] Exporting results : MK - RS
+[Sun Jan 20 16:30:39 2019][solver][infos] Exporting results : RO - RS
+[Sun Jan 20 16:30:40 2019][solver][infos] Exporting digest...
+[Sun Jan 20 16:30:40 2019][solver][infos]  Elapsed time: Survey report: 9180ms
+[Sun Jan 20 16:30:40 2019][solver][infos] [UI] Quitting the solver gracefully
+[Sun Jan 20 16:30:40 2019][solver][infos]  Writing log file: E:\ANTARES\Formation\TPs\TP2_Viz\TP2_Viz_2\output\20190120-1629eco-synthese\simulation.log
+[Sun Jan 20 16:30:40 2019][solver][infos] Done.
