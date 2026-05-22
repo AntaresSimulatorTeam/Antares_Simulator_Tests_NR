@@ -1,0 +1,10 @@
+[
+	{
+		"name" : "test_hydro_param_power_to_level",
+		"checks" :
+		{
+			"output_compare" : {},
+			"integrity_compare" : null
+		}
+	}
+]

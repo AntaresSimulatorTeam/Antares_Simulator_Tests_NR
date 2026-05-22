@@ -1,0 +1,10 @@
+[
+	{
+		"name" : "test_hydro_param_initialize_reservoir_date",
+		"checks" :
+		{
+			"output_compare" : {},
+			"integrity_compare" : null
+		}
+	}
+]

@@ -1,0 +1,10 @@
+[Default Ruleset]
+l,area,0 = 1
+l,area,1 = 2
+h,area,0 = 1
+h,area,1 = 2
+hl,area,0 = 1
+hl,area,1 = 0.2
+hfl,area,0 = 0.5
+hfl,area,1 = 0.7
+

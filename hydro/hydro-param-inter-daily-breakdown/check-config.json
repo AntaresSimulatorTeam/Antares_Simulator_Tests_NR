@@ -1,0 +1,10 @@
+[
+	{
+		"name" : "test_hydro_param_inter_daily_breakdown",
+		"checks" :
+		{
+			"output_compare" : {},
+			"integrity_compare" : null
+		}
+	}
+]
