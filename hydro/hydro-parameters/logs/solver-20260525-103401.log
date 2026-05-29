@@ -1,0 +1,691 @@
+[2026-05-25 10:34:01][solver][check] Antares Solver v10.0.1 (0f35fc9-dirty)
+[2026-05-25 10:34:01][solver][infos]   :: built for 64-bit architectures, GNU/Linux, 8 cpu(s)
+[2026-05-25 10:34:01][solver][infos]   :: hostname = DESKTOP-G33KDRA.localdomain
+[2026-05-25 10:34:01][solver][infos]   :: command: /home/jmarechal/CLionProjects/build_simulator/solver/antares-solver -i src/tests/resources/Antares_Simulator_Tests_NR/hydro/hydro-parameters --linear-solver=sirius --quadratic-solver=sirius
+[2026-05-25 10:34:01][solver][infos]   :: log filename: /home/jmarechal/Projects/src/tests/resources/Antares_Simulator_Tests_NR/hydro/hydro-parameters/logs/solver-20260525-103401.log
+[2026-05-25 10:34:01][solver][infos] 
+[2026-05-25 10:34:01][solver][notic] Preparing hydro-parameters...
+[2026-05-25 10:34:01][solver][infos]   detected study version: 9.2
+[2026-05-25 10:34:01][solver][infos]   from `/home/jmarechal/Projects/src/tests/resources/Antares_Simulator_Tests_NR/hydro/hydro-parameters`
+[2026-05-25 10:34:01][solver][infos] 
+[2026-05-25 10:34:01][solver][infos]   simulation mode: Economy
+[2026-05-25 10:34:01][solver][infos]   simplex optimization range: week
+[2026-05-25 10:34:01][solver][infos] Cluster renewables were chosen. Output will be disabled for aggregated modes.
+[2026-05-25 10:34:01][solver][infos]   :: enabling the 'year-by-year' mode
+[2026-05-25 10:34:01][solver][infos]   :: enabling the user variable selection
+[2026-05-25 10:34:01][solver][infos]   :: enabling the custom build mode
+[2026-05-25 10:34:01][solver][infos]   :: ignoring export mps
+[2026-05-25 10:34:01][solver][infos]   :: ignoring adequacy patch
+[2026-05-25 10:34:01][solver][infos]   :: ignoring export structure
+[2026-05-25 10:34:01][solver][infos]   :: ignoring solution export
+[2026-05-25 10:34:01][solver][infos]   :: solver sirius is used for quadratic problem resolution
+[2026-05-25 10:34:01][solver][infos] Loading the list of areas...
+[2026-05-25 10:34:01][solver][infos]   Loading the area list from `/home/jmarechal/Projects/src/tests/resources/Antares_Simulator_Tests_NR/hydro/hydro-parameters/input/areas/list.txt`
+[2026-05-25 10:34:01][solver][infos]   1 area found
+[2026-05-25 10:34:01][solver][infos] Loading global hydro data...
+[2026-05-25 10:34:01][solver][debug]   :: loading `/home/jmarechal/Projects/src/tests/resources/Antares_Simulator_Tests_NR/hydro/hydro-parameters/input/hydro/common/capacity/maxDailyGenEnergy_area.txt`
+[2026-05-25 10:34:01][solver][debug]   :: loading `/home/jmarechal/Projects/src/tests/resources/Antares_Simulator_Tests_NR/hydro/hydro-parameters/input/hydro/common/capacity/maxDailyPumpEnergy_area.txt`
+[2026-05-25 10:34:01][solver][debug]   :: loading `/home/jmarechal/Projects/src/tests/resources/Antares_Simulator_Tests_NR/hydro/hydro-parameters/input/hydro/common/capacity/creditmodulations_area.txt`
+[2026-05-25 10:34:01][solver][debug]   :: loading `/home/jmarechal/Projects/src/tests/resources/Antares_Simulator_Tests_NR/hydro/hydro-parameters/input/hydro/common/capacity/inflowPattern_area.txt`
+[2026-05-25 10:34:01][solver][infos] Loading thermal clusters...
+[2026-05-25 10:34:01][solver][infos] Loading thermal configuration for the area Area
+[2026-05-25 10:34:01][solver][debug]   :: loading `/home/jmarechal/Projects/src/tests/resources/Antares_Simulator_Tests_NR/hydro/hydro-parameters/input/thermal/prepro/area/thermal_base/modulation.txt`
+[2026-05-25 10:34:01][solver][infos] Loading short term storage clusters...
+[2026-05-25 10:34:01][solver][infos] Loading renewable configuration for the area Area
+[2026-05-25 10:34:01][solver][infos] Loading the area 1/1: Area
+[2026-05-25 10:34:01][solver][debug] Checking : Misc Gen: `area`
+[2026-05-25 10:34:01][solver][debug]   :: loading `/home/jmarechal/Projects/src/tests/resources/Antares_Simulator_Tests_NR/hydro/hydro-parameters/input/load/series/load_area.txt`
+[2026-05-25 10:34:01][solver][debug]   :: loading `/home/jmarechal/Projects/src/tests/resources/Antares_Simulator_Tests_NR/hydro/hydro-parameters/input/hydro/series/area/mod.txt`
+[2026-05-25 10:34:01][solver][debug]   :: loading `/home/jmarechal/Projects/src/tests/resources/Antares_Simulator_Tests_NR/hydro/hydro-parameters/input/hydro/series/area/maxHourlyGenPower.txt`
+[2026-05-25 10:34:01][solver][debug]   :: loading `/home/jmarechal/Projects/src/tests/resources/Antares_Simulator_Tests_NR/hydro/hydro-parameters/input/hydro/series/area/maxHourlyPumpPower.txt`
+[2026-05-25 10:34:01][solver][debug]   :: loading `/home/jmarechal/Projects/src/tests/resources/Antares_Simulator_Tests_NR/hydro/hydro-parameters/input/hydro/common/capacity/reservoir_area.txt`
+[2026-05-25 10:34:01][solver][debug]   :: loading `/home/jmarechal/Projects/src/tests/resources/Antares_Simulator_Tests_NR/hydro/hydro-parameters/input/thermal/prepro/area/thermal_base/data.txt`
+[2026-05-25 10:34:01][solver][debug]   :: loading `/home/jmarechal/Projects/src/tests/resources/Antares_Simulator_Tests_NR/hydro/hydro-parameters/input/thermal/series/area/thermal_base/series.txt`
+[2026-05-25 10:34:01][solver][infos] Loading correlation matrices...
+[2026-05-25 10:34:01][solver][infos] 
+[2026-05-25 10:34:01][solver][infos] Loading constraints...
+[2026-05-25 10:34:01][solver][infos] No binding constraint found
+[2026-05-25 10:34:01][solver][infos] 
+[2026-05-25 10:34:01][solver][infos] Loading sets of areas...
+[2026-05-25 10:34:01][solver][debug]   > set :: All areas: applying 1 rules, got 1 items
+[2026-05-25 10:34:01][solver][infos]    found `all areas` (1 item, no output)
+[2026-05-25 10:34:01][solver][infos]   Output folder : /home/jmarechal/Projects/src/tests/resources/Antares_Simulator_Tests_NR/hydro/hydro-parameters/output/20260525-1034eco
+[2026-05-25 10:34:01][solver][debug]   reset calendar, month : January, january 1rst : Monday, first weekday : Monday
+[2026-05-25 10:34:01][solver][debug]   reset calendar, month : January, january 1rst : Monday, first weekday : Monday
+[2026-05-25 10:34:01][solver][infos] Loading modeler files...
+[2026-05-25 10:34:01][solver][warns] Model library missing
+[2026-05-25 10:34:01][solver][infos] The study is loaded.
+[2026-05-25 10:34:01][solver][infos] 
+[2026-05-25 10:34:01][solver][infos] Generating calendar informations
+[2026-05-25 10:34:01][solver][debug]   reset calendar, month : January, january 1rst : Monday, first weekday : Monday
+[2026-05-25 10:34:01][solver][debug]   :: generating calendar dedicated to the output
+[2026-05-25 10:34:01][solver][debug]   reset calendar, month : January, january 1rst : Monday, first weekday : Monday
+[2026-05-25 10:34:01][solver][warns]     Partial week detected. Not allowed in Economy
+[2026-05-25 10:34:01][solver][warns]     Time interval that has been requested: 1..8760
+[2026-05-25 10:34:01][solver][warns]     Time interval that will be simulated:  1..8736
+[2026-05-25 10:34:01][solver][infos] Calendar: hours:1..8736, days:1..364, weeks:1..52, months:1..12, years:1..2
+[2026-05-25 10:34:01][solver][infos] Simulation days per month : 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 30
+[2026-05-25 10:34:01][solver][infos] 
+[2026-05-25 10:34:01][solver][infos] Removing disabled short term storage clusters in from solver computations...
+[2026-05-25 10:34:01][solver][infos] No disabled short term storage cluster removed before solver computations
+[2026-05-25 10:34:01][solver][infos] Initializing random number generators...
+[2026-05-25 10:34:01][solver][debug]   random number generator: Wind time-series generation, seed: 5489
+[2026-05-25 10:34:01][solver][debug]   random number generator: Load time-series generation, seed: 1005489
+[2026-05-25 10:34:01][solver][debug]   random number generator: Hydro time-series generation, seed: 2005489
+[2026-05-25 10:34:01][solver][debug]   random number generator: Thermal time-series generation, seed: 3005489
+[2026-05-25 10:34:01][solver][debug]   random number generator: Solar time-series generation, seed: 4005489
+[2026-05-25 10:34:01][solver][debug]   random number generator: Time-series draws (MC scenario builder), seed: 5005489
+[2026-05-25 10:34:01][solver][debug]   random number generator: Noise on Unsupplied energy costs, seed: 6005489
+[2026-05-25 10:34:01][solver][debug]   random number generator: Noise on Spilled energy costs, seed: 7005489
+[2026-05-25 10:34:01][solver][debug]   random number generator: Noise on Thermal plants costs, seed: 8005489
+[2026-05-25 10:34:01][solver][debug]   random number generator: Noise on virtual Hydro costs, seed: 9005489
+[2026-05-25 10:34:01][solver][debug]   random number generator: Initial reservoir levels, seed: 10005489
+[2026-05-25 10:34:01][solver][infos] 
+[2026-05-25 10:34:01][solver][infos] Summary
+[2026-05-25 10:34:01][solver][infos]      areas: 1
+[2026-05-25 10:34:01][solver][infos]      links: 0
+[2026-05-25 10:34:01][solver][infos]      thermal clusters: 1
+[2026-05-25 10:34:01][solver][infos]      thermal clusters (must-run): 0
+[2026-05-25 10:34:01][solver][infos]      short-term storages: 0
+[2026-05-25 10:34:01][solver][infos]      short-term storage cumulative constraints count: 0
+[2026-05-25 10:34:01][solver][infos]      binding constraints: 0
+[2026-05-25 10:34:01][solver][infos]      geographic trimming:false
+[2026-05-25 10:34:01][solver][infos] 
+[2026-05-25 10:34:01][solver][infos] 
+[2026-05-25 10:34:01][solver][debug] 
+[2026-05-25 10:34:01][solver][debug] applying transformations required by the simulation...
+[2026-05-25 10:34:01][solver][debug]   > adding DSM values
+[2026-05-25 10:34:01][solver][debug]   resizing timeseries numbers
+[2026-05-25 10:34:01][solver][infos] Preparing time-series numbers...
+[2026-05-25 10:34:01][solver][infos] Preparing time-series numbers... (default ruleset)
+[2026-05-25 10:34:01][solver][infos]   :: Scenario Builder, active target: default ruleset
+[2026-05-25 10:34:01][solver][infos]   > loading scenario builder data from /home/jmarechal/Projects/src/tests/resources/Antares_Simulator_Tests_NR/hydro/hydro-parameters/settings/scenariobuilder.dat
+[2026-05-25 10:34:01][solver][infos] 
+[2026-05-25 10:34:01][solver][infos]   :: solver sirius is used for linear problem resolution
+[2026-05-25 10:34:01][solver][infos]   :: solver sirius is used for quadratic problem resolution
+[2026-05-25 10:34:01][solver][infos]   :: Printing solver logs : False
+[2026-05-25 10:34:01][solver][infos] Total loading time: 00h00m00s
+[2026-05-25 10:34:01][solver][infos]   system memory report: 27689 Mib / 31090 Mib,  89.060791% free
+[2026-05-25 10:34:01][solver][infos] 
+[2026-05-25 10:34:01][solver][check] Running the simulation (economy)
+[2026-05-25 10:34:01][solver][infos] Allocating resources...
+[2026-05-25 10:34:01][solver][infos] Allocating resources...
+[2026-05-25 10:34:01][solver][infos]  + Areas                                          
+[2026-05-25 10:34:01][solver][infos]        OV. COST                    Euro           Overall Cost throughout all MC years
+[2026-05-25 10:34:01][solver][infos]        OV. COST CSR                Euro           Overall Cost throughout all MC years
+[2026-05-25 10:34:01][solver][infos]        OP. COST                    Euro           Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[2026-05-25 10:34:01][solver][infos]        MRG. PRICE                  Euro           Marginal Price, throughout all MC years
+[2026-05-25 10:34:01][solver][infos]        MRG. PRICE CSR              Euro           Marginal Price CSR, throughout all MC years
+[2026-05-25 10:34:01][solver][infos]                                    Tons           Overall pollutant emissions expected from all the thermal clusters
+[2026-05-25 10:34:01][solver][infos]        DTG by plant                MWh            Energy generated by all the clusters
+[2026-05-25 10:34:01][solver][infos]        MIN DTG by plant            MIN GEN - MWh  Min power by cluster
+[2026-05-25 10:34:01][solver][infos]        RES generation by plant     MWh            Energy generated by all the RES clusters
+[2026-05-25 10:34:01][solver][infos]        BALANCE                     MWh            Nodal energy balance, throughout all MC years
+[2026-05-25 10:34:01][solver][infos]        ROW BAL.                    MWh            Row Balance
+[2026-05-25 10:34:01][solver][infos]        PSP                         MWh            PSP
+[2026-05-25 10:34:01][solver][infos]        MISC. NDG                   MWh            Non-dispatchable generation (not including wind and run-of-the-river)
+[2026-05-25 10:34:01][solver][infos]        LOAD                        MWh            Load generation, thoughout all MC years
+[2026-05-25 10:34:01][solver][infos]        H. ROR                      MWh            Hydro generation, thoughout all MC years
+[2026-05-25 10:34:01][solver][infos]        WIND                        MWh            Wind generation, thoughout all MC years
+[2026-05-25 10:34:01][solver][infos]        SOLAR                       MWh            Solar generation, thoughout all MC years
+[2026-05-25 10:34:01][solver][infos]        Dispatch. Gen.              MWh            Value of all the dispatchable generation throughout all MC years
+[2026-05-25 10:34:01][solver][infos]        Renewable Gen.              MWh            Value of all the renewable generation throughout all MC years
+[2026-05-25 10:34:01][solver][infos]        H. STOR                     MWh            Hydro Storage Generation
+[2026-05-25 10:34:01][solver][infos]        H. PUMP                     MWh            Hydraulic pumping
+[2026-05-25 10:34:01][solver][infos]        H. LEV                      %              Hydro Level
+[2026-05-25 10:34:01][solver][infos]        H. INFL                     MWh            Hydraulic inflows
+[2026-05-25 10:34:01][solver][infos]        H. OVFL                     %              Hydro overflow
+[2026-05-25 10:34:01][solver][infos]        H. VAL                      Euro/MWh       Water value
+[2026-05-25 10:34:01][solver][infos]        H. COST                     Euro           Hydro Cost throughout all MC years, of all the thermal dispatchable clusters
+[2026-05-25 10:34:01][solver][infos]        STS by group                MWh            STS injections, withdrawals and levels
+[2026-05-25 10:34:01][solver][infos]        STS inj by plant            P-injection - MEnergy injected by ST storage clusters
+[2026-05-25 10:34:01][solver][infos]        STS withdrawal by plant     P-withdrawal - Energy withdrawn by ST storage clusters
+[2026-05-25 10:34:01][solver][infos]        STS lvl by plant            Levels - MWh   Levels by ST storage clusters
+[2026-05-25 10:34:01][solver][infos]        STS Cashflow By Cluster     CashFlow - EuroCash Flow by short term storage
+[2026-05-25 10:34:01][solver][infos]        UNSP. ENRG                  MWh            Unsuplied Energy (demand that cannot be satisfied)
+[2026-05-25 10:34:01][solver][infos]        UNSP. ENRG CSR              MWh            Unsuplied Energy after CSR (demand that cannot be satisfied)
+[2026-05-25 10:34:01][solver][infos]        DENS                        MWh            Domestic Unsupplied Energy (demand that cannot be satisfied without interconnections/links)
+[2026-05-25 10:34:01][solver][infos]        LMR VIOL.                                  Local Matching Rule is violated more than the provided threshold
+[2026-05-25 10:34:01][solver][infos]        SPIL. ENRG                  MWh            Spilled Energy (generation that cannot be satisfied)
+[2026-05-25 10:34:01][solver][infos]        LOLD                        Hours          LOLD
+[2026-05-25 10:34:01][solver][infos]        LOLD CSR                    Hours          LOLD for CSR
+[2026-05-25 10:34:01][solver][infos]        LOLP                        %              LOLP
+[2026-05-25 10:34:01][solver][infos]        NPCAP HOURS                 Hours          Near Price Cap Hours
+[2026-05-25 10:34:01][solver][infos]        LOLP CSR                    %              LOLP for CSR
+[2026-05-25 10:34:01][solver][infos]        AVL DTG                     MWh            Available dispatchable generation
+[2026-05-25 10:34:01][solver][infos]        DTG MRG                     MWh            Dispatchable Generation Margin
+[2026-05-25 10:34:01][solver][infos]        DTG MRG CSR                 MWh            Dispatchable Generation Margin (after CSR optimization)
+[2026-05-25 10:34:01][solver][infos]        MAX MRG                     MWh            Maximum margin throughout all MC years
+[2026-05-25 10:34:01][solver][infos]        MAX MRG CSR                 MWh            Max margin for CSR
+[2026-05-25 10:34:01][solver][infos]        NP COST                     Euro           Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[2026-05-25 10:34:01][solver][infos]        NP Cost by plant            NP Cost - Euro Non proportional costs by all the clusters
+[2026-05-25 10:34:01][solver][infos]        NODU                                       Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[2026-05-25 10:34:01][solver][infos]        NODU by plant               NODU           Number of Dispatchable Units by plant
+[2026-05-25 10:34:01][solver][infos]        Profit by plant             Profit - Euro  Profit for thermal units
+[2026-05-25 10:34:01][solver][infos]        RES LOAD                    MWh            Residual load
+[2026-05-25 10:34:01][solver][infos]      + Links                                      
+[2026-05-25 10:34:01][solver][infos]            FLOW LIN.               MWh            Flow assessed, over all MC years, through linear optimization
+[2026-05-25 10:34:01][solver][infos]            UCAP LIN.               MWh            Used capacity assessed, over all MC years, through linear optimization
+[2026-05-25 10:34:01][solver][infos]            LOOP FLOW               MWh            Loop flow
+[2026-05-25 10:34:01][solver][infos]            FLOW QUAD.              MWh            Flow (quad.)
+[2026-05-25 10:34:01][solver][infos]            CONG. FEE (ALG.)        Euro           Congestion fee collected throughout all MC years (Alg.)
+[2026-05-25 10:34:01][solver][infos]            CONG. FEE (ABS.)        Euro           Congestion fee collected throughout all MC years (Absolute value)
+[2026-05-25 10:34:01][solver][infos]            MARG. COST              Euro/MW        Decrease of the overall operating cost expected by a 1MW capacity reinforcement
+[2026-05-25 10:34:01][solver][infos]            CONG. PROB. (+/-)       %              Probability for the line to be congested in the upstream-downstream way
+[2026-05-25 10:34:01][solver][infos]            HURDLE COST             Euro           Hurdle costs, over all MC years
+[2026-05-25 10:34:01][solver][infos]  + Sets of Areas                                  
+[2026-05-25 10:34:01][solver][infos]        OV. COST                    Euro           Overall Cost throughout all MC years
+[2026-05-25 10:34:01][solver][infos]        OP. COST                    Euro           Operating Cost throughout all MC years, of all the thermal dispatchable clusters
+[2026-05-25 10:34:01][solver][infos]        MRG. PRICE                  Euro           Marginal Price, throughout all MC years
+[2026-05-25 10:34:01][solver][infos]                                    Tons           Overall pollutant emissions expected from all the thermal clusters
+[2026-05-25 10:34:01][solver][infos]        BALANCE                     MWh            Nodal energy balance, throughout all MC years
+[2026-05-25 10:34:01][solver][infos]        ROW BAL.                    MWh            Row Balance
+[2026-05-25 10:34:01][solver][infos]        PSP                         MWh            PSP
+[2026-05-25 10:34:01][solver][infos]        MISC. NDG                   MWh            Non-dispatchable generation (not including wind and run-of-the-river)
+[2026-05-25 10:34:01][solver][infos]        LOAD                        MWh            Load generation, thoughout all MC years
+[2026-05-25 10:34:01][solver][infos]        H. ROR                      MWh            Hydro generation, thoughout all MC years
+[2026-05-25 10:34:01][solver][infos]        WIND                        MWh            Wind generation, thoughout all MC years
+[2026-05-25 10:34:01][solver][infos]        SOLAR                       MWh            Solar generation, thoughout all MC years
+[2026-05-25 10:34:01][solver][infos]        H. STOR                     MWh            Hydro Storage Generation
+[2026-05-25 10:34:01][solver][infos]        H. PUMP                     MWh            Hydraulic pumping
+[2026-05-25 10:34:01][solver][infos]        H. LEV                      %              Hydro Level
+[2026-05-25 10:34:01][solver][infos]        H. INFL                     MWh            Hydraulic inflows
+[2026-05-25 10:34:01][solver][infos]        H. OVFL                     %              Hydro overflow
+[2026-05-25 10:34:01][solver][infos]        H. VAL                      Euro/MWh       Water value
+[2026-05-25 10:34:01][solver][infos]        H. COST                     Euro           Hydro Cost throughout all MC years, of all the thermal dispatchable clusters
+[2026-05-25 10:34:01][solver][infos]        UNSP. ENRG                  MWh            Unsuplied Energy (demand that cannot be satisfied)
+[2026-05-25 10:34:01][solver][infos]        DENS                        MWh            Domestic Unsupplied Energy (demand that cannot be satisfied without interconnections/links)
+[2026-05-25 10:34:01][solver][infos]        LMR VIOL.                                  Local Matching Rule is violated more than the provided threshold
+[2026-05-25 10:34:01][solver][infos]        SPIL. ENRG                  MWh            Spilled Energy (generation that cannot be satisfied)
+[2026-05-25 10:34:01][solver][infos]        LOLD                        Hours          LOLD
+[2026-05-25 10:34:01][solver][infos]        LOLP                        %              LOLP
+[2026-05-25 10:34:01][solver][infos]        NPCAP HOURS                 Hours          Near Price Cap Hours
+[2026-05-25 10:34:01][solver][infos]        AVL DTG                     MWh            Available dispatchable generation
+[2026-05-25 10:34:01][solver][infos]        DTG MRG                     MWh            Dispatchable Generation Margin
+[2026-05-25 10:34:01][solver][infos]        DTG MRG CSR                 MWh            Dispatchable Generation Margin (after CSR optimization)
+[2026-05-25 10:34:01][solver][infos]        MAX MRG                     MWh            Maximum margin throughout all MC years
+[2026-05-25 10:34:01][solver][infos]        NP COST                     Euro           Non Proportional Cost throughout all MC years, of all the thermal dispatchable clusters
+[2026-05-25 10:34:01][solver][infos]        RES LOAD                    MWh            Residual load
+[2026-05-25 10:34:01][solver][infos]        NODU                                       Number Of Dispatched Units throughout all MC years, of all the thermal dispatchable clusters
+[2026-05-25 10:34:01][solver][infos]  + Binding constraints                            
+[2026-05-25 10:34:01][solver][infos]        BC. MARG. COST              Euro           Marginal cost for binding constraints
+[2026-05-25 10:34:01][solver][infos] 
+[2026-05-25 10:34:01][solver][infos] MC-Years : [1 .. 2], total: 2
+[2026-05-25 10:34:01][solver][infos] 
+[2026-05-25 10:34:01][solver][infos] Generating the thermal time-series
+[2026-05-25 10:34:01][solver][infos]  Doing hydro validation
+[2026-05-25 10:34:01][solver][infos]  Starting the simulation
+[2026-05-25 10:34:01][solver-0][infos] Year 1 started
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] 
+[2026-05-25 10:34:01][solver-0][infos] 
+[2026-05-25 10:34:01][solver-0][infos]  Total Problem size : 1176 variables, 676 constraints
+[2026-05-25 10:34:01][solver-0][infos] 
+[2026-05-25 10:34:01][solver-0][infos] 
+[2026-05-25 10:34:01][solver-0][infos] Problem 0-0 solved in 0.004 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 0-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 1-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 1-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 2-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 2-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 3-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 3-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 4-0 solved in 0.001 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 4-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 5-0 solved in 0.001 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 5-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 6-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 6-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 7-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 7-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 8-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 8-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 9-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 9-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 10-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 10-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 11-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 11-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 12-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 12-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 13-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 13-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 14-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 14-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 15-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 15-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 16-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 16-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 17-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 17-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 18-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 18-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 19-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 19-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 20-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 20-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 21-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 21-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 22-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 22-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 23-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 23-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 24-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 24-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 25-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 25-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 26-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 26-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 27-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 27-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 28-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 28-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 29-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 29-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 30-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 30-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 31-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 31-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 32-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 32-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 33-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 33-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 34-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 34-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 35-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 35-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 36-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 36-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 37-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 37-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 38-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 38-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 39-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 39-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 40-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 40-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 41-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 41-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 42-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 42-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 43-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 43-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 44-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 44-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 45-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 45-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 46-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 46-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 47-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 47-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 48-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 48-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 49-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 49-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 50-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 50-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 51-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 51-0 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Exporting the annual results
+[2026-05-25 10:34:01][solver-0][debug]   (for 37 columns)
+[2026-05-25 10:34:01][solver-0][debug]   :: initializing survey results (max: 37 variables)
+[2026-05-25 10:34:01][solver-0][infos] Exporting results : Area
+[2026-05-25 10:34:01][solver-0][debug]  :: survey writing `economy/mc-ind/00001/areas/area/values-hourly.txt`
+[2026-05-25 10:34:01][solver-0][debug]  :: survey writing `economy/mc-ind/00001/areas/area/values-daily.txt`
+[2026-05-25 10:34:01][solver-0][debug]  :: survey writing `economy/mc-ind/00001/areas/area/values-weekly.txt`
+[2026-05-25 10:34:01][solver-0][debug]  :: survey writing `economy/mc-ind/00001/areas/area/values-monthly.txt`
+[2026-05-25 10:34:01][solver-0][debug]  :: survey writing `economy/mc-ind/00001/areas/area/values-annual.txt`
+[2026-05-25 10:34:01][solver-0][infos] Exporting results : binding constraints
+[2026-05-25 10:34:01][solver-0][debug] year 1 ended and returned numSpace 0
+[2026-05-25 10:34:01][solver-0][infos] Year 2 started
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 0-1 solved in 0.002 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 0-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 1-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 1-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 2-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 2-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 3-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 3-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 4-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 4-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 5-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 5-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 6-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 6-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 7-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 7-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 8-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 8-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 9-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 9-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 10-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 10-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 11-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 11-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 12-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 12-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 13-1 solved in 0.002 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 13-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 14-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 14-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 15-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 15-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 16-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 16-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 17-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 17-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 18-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 18-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 19-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 19-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 20-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 20-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 21-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 21-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 22-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 22-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 23-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 23-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 24-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 24-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 25-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 25-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 26-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 26-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 27-1 solved in 0.000 s
+[2026-05-25 10:34:01][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:01][solver-0][infos] Problem 27-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 28-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 28-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 29-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 29-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 30-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 30-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.002 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 31-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 31-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 32-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 32-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 33-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 33-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 34-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 34-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 35-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 35-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 36-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 36-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 37-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 37-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 38-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 38-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 39-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 39-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 40-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 40-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 41-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 41-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 42-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 42-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 43-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 43-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 44-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 44-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 45-1 solved in 0.001 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 45-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 46-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.001 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 46-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 47-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 47-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 48-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 48-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 49-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 49-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 50-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 50-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 51-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][debug] Modeler build took 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Problem 51-1 solved in 0.000 s
+[2026-05-25 10:34:02][solver-0][infos] Exporting the annual results
+[2026-05-25 10:34:02][solver-0][debug]   (for 37 columns)
+[2026-05-25 10:34:02][solver-0][debug]   :: initializing survey results (max: 37 variables)
+[2026-05-25 10:34:02][solver-0][infos] Exporting results : Area
+[2026-05-25 10:34:02][solver-0][debug]  :: survey writing `economy/mc-ind/00002/areas/area/values-hourly.txt`
+[2026-05-25 10:34:02][solver-0][debug]  :: survey writing `economy/mc-ind/00002/areas/area/values-daily.txt`
+[2026-05-25 10:34:02][solver-0][debug]  :: survey writing `economy/mc-ind/00002/areas/area/values-weekly.txt`
+[2026-05-25 10:34:02][solver-0][debug]  :: survey writing `economy/mc-ind/00002/areas/area/values-monthly.txt`
+[2026-05-25 10:34:02][solver-0][debug]  :: survey writing `economy/mc-ind/00002/areas/area/values-annual.txt`
+[2026-05-25 10:34:02][solver-0][infos] Exporting results : binding constraints
+[2026-05-25 10:34:02][solver-0][debug] year 2 ended and returned numSpace 0
+[2026-05-25 10:34:02][solver][infos] 
+[2026-05-25 10:34:02][solver][check] Exporting the survey results...
+[2026-05-25 10:34:02][solver][debug]   (for 37 columns)
+[2026-05-25 10:34:02][solver][debug]   :: initializing survey results (max: 37 variables)
+[2026-05-25 10:34:02][solver][infos] Exporting results : Area
+[2026-05-25 10:34:02][solver][debug]  :: survey writing `economy/mc-all/areas/area/values-hourly.txt`
+[2026-05-25 10:34:02][solver][debug]  :: survey writing `economy/mc-all/areas/area/values-daily.txt`
+[2026-05-25 10:34:02][solver][debug]  :: survey writing `economy/mc-all/areas/area/values-weekly.txt`
+[2026-05-25 10:34:02][solver][debug]  :: survey writing `economy/mc-all/areas/area/values-monthly.txt`
+[2026-05-25 10:34:02][solver][debug]  :: survey writing `economy/mc-all/areas/area/values-annual.txt`
+[2026-05-25 10:34:02][solver][debug]  :: survey writing `economy/mc-all/areas/area/id-hourly.txt`
+[2026-05-25 10:34:02][solver][debug]  :: survey writing `economy/mc-all/areas/area/id-daily.txt`
+[2026-05-25 10:34:02][solver][debug]  :: survey writing `economy/mc-all/areas/area/id-weekly.txt`
+[2026-05-25 10:34:02][solver][debug]  :: survey writing `economy/mc-all/areas/area/id-monthly.txt`
+[2026-05-25 10:34:02][solver][debug]  :: survey writing `economy/mc-all/areas/area/id-annual.txt`
+[2026-05-25 10:34:02][solver][infos] Exporting results : binding constraints
+[2026-05-25 10:34:02][solver][infos] Exporting digest...
+[2026-05-25 10:34:02][solver][debug]  . Digest, truncating file
+[2026-05-25 10:34:02][solver][debug]  . Digest, annual
+[2026-05-25 10:34:02][solver][warns] Simulation completed but there were some warnings during loading. Here is the list:
+[2026-05-25 10:34:02][solver][warns] Model library missing
+[2026-05-25 10:34:02][solver][warns]     Partial week detected. Not allowed in Economy
+[2026-05-25 10:34:02][solver][warns]     Time interval that has been requested: 1..8760
+[2026-05-25 10:34:02][solver][warns]     Time interval that will be simulated:  1..8736
+[2026-05-25 10:34:02][solver][infos] Total simulation time: 00h00m00s
+[2026-05-25 10:34:02][solver][infos] Total execution time: 00h00m00s
+[2026-05-25 10:34:02][solver][infos] [END] Quitting the solver gracefully
+[2026-05-25 10:34:02][solver][debug] Releasing runtime data
+[2026-05-25 10:34:02][solver][debug]   :: destroying area Area
