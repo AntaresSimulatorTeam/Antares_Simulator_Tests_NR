@@ -1,0 +1,9 @@
+[Default Ruleset]
+h,west,0 = 1
+hl,west,0 = 0.005
+l,west,0 = 1
+s,west,0 = 1
+t,west,0,p = 1
+t,west,0,sb = 1
+w,west,0 = 1
+
