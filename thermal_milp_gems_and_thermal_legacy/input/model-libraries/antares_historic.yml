@@ -1,0 +1,253 @@
+# Copyright (c) 2024, RTE (https://www.rte-france.com)
+#
+# See AUTHORS.txt
+#
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+# This file is part of the Antares project.
+library:
+  id: antares-historic-weo
+  description: Antares historic model library  - without expectation operators
+
+  port-types:
+    - id: flow
+      description: A port which transfers power flow
+      fields:
+        - id: flow
+      area-connection:
+        injection-to-balance: flow
+        spillage-bound: flow
+        unsupplied-energy-bound:
+
+  models:
+    - id: short-term-storage
+      parameters:
+        - id: reservoir_capacity
+          time-dependent: false
+          scenario-dependent: false
+        - id: injection_nominal_capacity
+          time-dependent: false
+          scenario-dependent: false
+        - id: withdrawal_nominal_capacity
+          time-dependent: false
+          scenario-dependent: false
+        - id: efficiency_injection
+          time-dependent: false
+          scenario-dependent: false
+        - id: efficiency_withdrawal
+          time-dependent: false
+          scenario-dependent: false
+        - id: lower_rule_curve
+          time-dependent: true
+          scenario-dependent: true
+        - id: upper_rule_curve
+          time-dependent: true
+          scenario-dependent: true
+        - id: p_max_injection_modulation
+          time-dependent: true
+          scenario-dependent: true
+        - id: p_max_withdrawal_modulation
+          time-dependent: true
+          scenario-dependent: true
+        - id: inflows
+          time-dependent: true
+          scenario-dependent: true
+        - id: initial_level
+          time-dependent: false
+          scenario-dependent: true
+        - id: p_t_cost # small penalty on pumping and turbining to avoid shadock mode
+          time-dependent: false
+          scenario-dependent: false
+        - id: nb_cycles_max # Nb cycles max per day, to avoid shadock mode
+          time-dependent: false
+          scenario-dependent: false
+        - id: mccormick # 1 to activate McCormick, 0 otherwise
+          time-dependent: false
+          scenario-dependent: false
+        - id: cycle_constraint # 1 to activate cycle constraint, 0 otherwise
+          time-dependent: false
+          scenario-dependent: false
+      variables:
+        - id: p_injection
+          lower-bound: 0
+          upper-bound: p_max_injection_modulation * injection_nominal_capacity
+          variable-type: continuous
+        - id: p_withdrawal
+          lower-bound: 0
+          upper-bound: p_max_withdrawal_modulation * withdrawal_nominal_capacity
+          variable-type: continuous
+        - id: level
+          lower-bound: lower_rule_curve * reservoir_capacity
+          upper-bound: upper_rule_curve * reservoir_capacity
+          variable-type: continuous
+      ports:
+        - id: balance_port
+          type: flow
+      port-field-definitions:
+        - port: balance_port
+          field: flow
+          definition: p_withdrawal - p_injection
+      constraints:
+        - id: initial_level_constraint # /!\ si initial_level n'est pas dans [lower_rule_curve[167];upper_rule_curve[167]],
+          # prendre level[167] = min (max (initial_level ; lower_rule_curve[167]) ; upper_rule_curve[167]) * reservoir_capacity
+          expression: level[167] = initial_level * reservoir_capacity
+        - id: Level equation
+          expression: level = level[t-1] + efficiency_injection * p_injection - efficiency_withdrawal * p_withdrawal + inflows
+        - id: mccormick constraint
+          expression: (p_injection * withdrawal_nominal_capacity * p_max_withdrawal_modulation + p_withdrawal * injection_nominal_capacity * p_max_injection_modulation) * mccormick <=  p_max_injection_modulation * injection_nominal_capacity * p_max_withdrawal_modulation * withdrawal_nominal_capacity
+
+        - id: daily_pump_max_1_w1
+          expression: cycle_constraint * (efficiency_injection * (p_injection[0] + p_injection[1] + p_injection[2] + p_injection[3] + p_injection[4] + p_injection[5] + p_injection[6] + p_injection[7] + p_injection[8] + p_injection[9] + p_injection[10] + p_injection[11] + p_injection[12] + p_injection[13] + p_injection[14] + p_injection[15] + p_injection[16] + p_injection[17] + p_injection[18] + p_injection[19] + p_injection[20] + p_injection[21] + p_injection[22] + p_injection[23])) <= nb_cycles_max * reservoir_capacity
+        - id: daily_pump_max_2_w1
+          expression: cycle_constraint * (efficiency_injection * (p_injection[24] + p_injection[25] + p_injection[26] + p_injection[27] + p_injection[28] + p_injection[29] + p_injection[30] + p_injection[31] + p_injection[32] + p_injection[33] + p_injection[34] + p_injection[35] + p_injection[36] + p_injection[37] + p_injection[38] + p_injection[39] + p_injection[40] + p_injection[41] + p_injection[42] + p_injection[43] + p_injection[44] + p_injection[45] + p_injection[46] + p_injection[47])) <= nb_cycles_max * reservoir_capacity
+        - id: daily_pump_max_3_w1
+          expression: cycle_constraint * (efficiency_injection * (p_injection[48] + p_injection[49] + p_injection[50] + p_injection[51] + p_injection[52] + p_injection[53] + p_injection[54] + p_injection[55] + p_injection[56] + p_injection[57] + p_injection[58] + p_injection[59] + p_injection[60] + p_injection[61] + p_injection[62] + p_injection[63] + p_injection[64] + p_injection[65] + p_injection[66] + p_injection[67] + p_injection[68] + p_injection[69] + p_injection[70] + p_injection[71])) <= nb_cycles_max * reservoir_capacity
+        - id: daily_pump_max_4_w1
+          expression: cycle_constraint * (efficiency_injection * (p_injection[72] + p_injection[73] + p_injection[74] + p_injection[75] + p_injection[76] + p_injection[77] + p_injection[78] + p_injection[79] + p_injection[80] + p_injection[81] + p_injection[82] + p_injection[83] + p_injection[84] + p_injection[85] + p_injection[86] + p_injection[87] + p_injection[88] + p_injection[89] + p_injection[90] + p_injection[91] + p_injection[92] + p_injection[93] + p_injection[94] + p_injection[95])) <= nb_cycles_max * reservoir_capacity
+        - id: daily_pump_max_5_w1
+          expression: cycle_constraint * (efficiency_injection * (p_injection[96] + p_injection[97] + p_injection[98] + p_injection[99] + p_injection[100] + p_injection[101] + p_injection[102] + p_injection[103] + p_injection[104] + p_injection[105] + p_injection[106] + p_injection[107] + p_injection[108] + p_injection[109] + p_injection[110] + p_injection[111] + p_injection[112] + p_injection[113] + p_injection[114] + p_injection[115] + p_injection[116] + p_injection[117] + p_injection[118] + p_injection[119])) <= nb_cycles_max * reservoir_capacity
+        - id: daily_pump_max_6_w1
+          expression: cycle_constraint * (efficiency_injection * (p_injection[120] + p_injection[121] + p_injection[122] + p_injection[123] + p_injection[124] + p_injection[125] + p_injection[126] + p_injection[127] + p_injection[128] + p_injection[129] + p_injection[130] + p_injection[131] + p_injection[132] + p_injection[133] + p_injection[134] + p_injection[135] + p_injection[136] + p_injection[137] + p_injection[138] + p_injection[139] + p_injection[140] + p_injection[141] + p_injection[142] + p_injection[143])) <= nb_cycles_max * reservoir_capacity
+        - id: daily_pump_max_7_w1
+          expression: cycle_constraint * (efficiency_injection * (p_injection[144] + p_injection[145] + p_injection[146] + p_injection[147] + p_injection[148] + p_injection[149] + p_injection[150] + p_injection[151] + p_injection[152] + p_injection[153] + p_injection[154] + p_injection[155] + p_injection[156] + p_injection[157] + p_injection[158] + p_injection[159] + p_injection[160] + p_injection[161] + p_injection[162] + p_injection[163] + p_injection[164] + p_injection[165] + p_injection[166] + p_injection[167])) <= nb_cycles_max * reservoir_capacity
+        - id: daily_turb_max_1_w1
+          expression: cycle_constraint * (efficiency_withdrawal * (p_withdrawal[0] + p_withdrawal[1] + p_withdrawal[2] + p_withdrawal[3] + p_withdrawal[4] + p_withdrawal[5] + p_withdrawal[6] + p_withdrawal[7] + p_withdrawal[8] + p_withdrawal[9] + p_withdrawal[10] + p_withdrawal[11] + p_withdrawal[12] + p_withdrawal[13] + p_withdrawal[14] + p_withdrawal[15] + p_withdrawal[16] + p_withdrawal[17] + p_withdrawal[18] + p_withdrawal[19] + p_withdrawal[20] + p_withdrawal[21] + p_withdrawal[22] + p_withdrawal[23])) <= nb_cycles_max * reservoir_capacity
+        - id: daily_turb_max_2_w1
+          expression: cycle_constraint * (efficiency_withdrawal * (p_withdrawal[24] + p_withdrawal[25] + p_withdrawal[26] + p_withdrawal[27] + p_withdrawal[28] + p_withdrawal[29] + p_withdrawal[30] + p_withdrawal[31] + p_withdrawal[32] + p_withdrawal[33] + p_withdrawal[34] + p_withdrawal[35] + p_withdrawal[36] + p_withdrawal[37] + p_withdrawal[38] + p_withdrawal[39] + p_withdrawal[40] + p_withdrawal[41] + p_withdrawal[42] + p_withdrawal[43] + p_withdrawal[44] + p_withdrawal[45] + p_withdrawal[46] + p_withdrawal[47])) <= nb_cycles_max * reservoir_capacity
+        - id: daily_turb_max_3_w1
+          expression: cycle_constraint * (efficiency_withdrawal * (p_withdrawal[48] + p_withdrawal[49] + p_withdrawal[50] + p_withdrawal[51] + p_withdrawal[52] + p_withdrawal[53] + p_withdrawal[54] + p_withdrawal[55] + p_withdrawal[56] + p_withdrawal[57] + p_withdrawal[58] + p_withdrawal[59] + p_withdrawal[60] + p_withdrawal[61] + p_withdrawal[62] + p_withdrawal[63] + p_withdrawal[64] + p_withdrawal[65] + p_withdrawal[66] + p_withdrawal[67] + p_withdrawal[68] + p_withdrawal[69] + p_withdrawal[70] + p_withdrawal[71])) <= nb_cycles_max * reservoir_capacity
+        - id: daily_turb_max_4_w1
+          expression: cycle_constraint * (efficiency_withdrawal * (p_withdrawal[72] + p_withdrawal[73] + p_withdrawal[74] + p_withdrawal[75] + p_withdrawal[76] + p_withdrawal[77] + p_withdrawal[78] + p_withdrawal[79] + p_withdrawal[80] + p_withdrawal[81] + p_withdrawal[82] + p_withdrawal[83] + p_withdrawal[84] + p_withdrawal[85] + p_withdrawal[86] + p_withdrawal[87] + p_withdrawal[88] + p_withdrawal[89] + p_withdrawal[90] + p_withdrawal[91] + p_withdrawal[92] + p_withdrawal[93] + p_withdrawal[94] + p_withdrawal[95])) <= nb_cycles_max * reservoir_capacity
+        - id: daily_turb_max_5_w1
+          expression: cycle_constraint * (efficiency_withdrawal * (p_withdrawal[96] + p_withdrawal[97] + p_withdrawal[98] + p_withdrawal[99] + p_withdrawal[100] + p_withdrawal[101] + p_withdrawal[102] + p_withdrawal[103] + p_withdrawal[104] + p_withdrawal[105] + p_withdrawal[106] + p_withdrawal[107] + p_withdrawal[108] + p_withdrawal[109] + p_withdrawal[110] + p_withdrawal[111] + p_withdrawal[112] + p_withdrawal[113] + p_withdrawal[114] + p_withdrawal[115] + p_withdrawal[116] + p_withdrawal[117] + p_withdrawal[118] + p_withdrawal[119])) <= nb_cycles_max * reservoir_capacity
+        - id: daily_turb_max_6_w1
+          expression: cycle_constraint * (efficiency_withdrawal * (p_withdrawal[120] + p_withdrawal[121] + p_withdrawal[122] + p_withdrawal[123] + p_withdrawal[124] + p_withdrawal[125] + p_withdrawal[126] + p_withdrawal[127] + p_withdrawal[128] + p_withdrawal[129] + p_withdrawal[130] + p_withdrawal[131] + p_withdrawal[132] + p_withdrawal[133] + p_withdrawal[134] + p_withdrawal[135] + p_withdrawal[136] + p_withdrawal[137] + p_withdrawal[138] + p_withdrawal[139] + p_withdrawal[140] + p_withdrawal[141] + p_withdrawal[142] + p_withdrawal[143])) <= nb_cycles_max * reservoir_capacity
+        - id: daily_turb_max_7_w1
+          expression: cycle_constraint * (efficiency_withdrawal * (p_withdrawal[144] + p_withdrawal[145] + p_withdrawal[146] + p_withdrawal[147] + p_withdrawal[148] + p_withdrawal[149] + p_withdrawal[150] + p_withdrawal[151] + p_withdrawal[152] + p_withdrawal[153] + p_withdrawal[154] + p_withdrawal[155] + p_withdrawal[156] + p_withdrawal[157] + p_withdrawal[158] + p_withdrawal[159] + p_withdrawal[160] + p_withdrawal[161] + p_withdrawal[162] + p_withdrawal[163] + p_withdrawal[164] + p_withdrawal[165] + p_withdrawal[166] + p_withdrawal[167])) <= nb_cycles_max * reservoir_capacity
+
+      objective-contributions:
+        - id: objective
+          expression: sum(p_t_cost * (p_injection + p_withdrawal) + 0.1 * level)
+
+    - id: enr
+      parameters:
+        - id: generation_cost # negative price
+          time-dependent: false
+          scenario-dependent: false
+        - id: wind_total # availability times series
+          time-dependent: true
+          scenario-dependent: true
+        - id: taux_non_ecretable # non curtailable wind power
+          time-dependent: true
+          scenario-dependent: true
+      variables:
+        - id: wind_ecrete # curtailed energy
+          lower-bound: 0
+          upper-bound: wind_total
+          variable-type: continuous
+        - id: wind_non_ecretable # non-curtailable energy
+          lower-bound: 0
+          upper-bound: wind_total
+          variable-type: continuous
+        - id: wind_non_ecrete # energy that is not curtailed but could be
+          lower-bound: 0
+          upper-bound: wind_total
+          variable-type: continuous
+
+      ports:
+        - id: balance_port
+          type: flow
+      port-field-definitions:
+        - port: balance_port
+          field: flow
+          definition: -wind_ecrete
+      constraints:
+        - id: taux_non_ecretement
+          expression: wind_non_ecretable = wind_total * taux_non_ecretable
+        - id: taux_ecretement
+          expression: wind_ecrete <= wind_total - wind_non_ecretable
+        - id: equilibre_vent
+          expression: wind_total = wind_non_ecretable + wind_non_ecrete + wind_ecrete
+
+      objective-contributions:
+        - id: objective
+          expression: sum(-generation_cost * wind_ecrete)
+
+    - id: thermal
+      parameters:
+        - id: p_min_cluster
+          scenario-dependent: true
+          time-dependent: true
+        - id: p_max_cluster # timeseries that takes outages into account
+          scenario-dependent: true
+          time-dependent: true
+        - id: p_min_unit
+        - id: p_max_unit
+        - id: generation_cost
+        - id: startup_cost
+        - id: fixed_cost
+        - id: d_min_up
+        - id: d_min_down
+        - id: nb_units_min # Equals to ceil(p_min_cluster/p_max_unit), to be done in preprocessing
+          scenario-dependent: true
+          time-dependent: true
+        - id: nb_units_max # Equals to ceil(p_max_cluster/p_max_unit), to be done in preprocessing
+          scenario-dependent: true
+          time-dependent: true
+        - id: nb_units_max_variation_forward
+          scenario-dependent: true
+          time-dependent: true
+        - id: nb_units_max_variation_backward
+          scenario-dependent: true
+          time-dependent: true
+      variables:
+        - id: generation
+          lower-bound: p_min_cluster
+          upper-bound: p_max_cluster
+          variable-type: continuous
+        - id: nb_units_on
+          lower-bound: nb_units_min
+          upper-bound: nb_units_max
+          variable-type: integer # continuous if accurate mode, integer if milp mode
+        - id: nb_starting
+          lower-bound: 0
+          upper-bound: nb_units_max
+          variable-type: integer
+        - id: nb_stopping
+          lower-bound: 0
+          upper-bound: nb_units_max
+          variable-type: integer
+        - id: nb_failing
+          lower-bound: 0
+          upper-bound: nb_units_max
+          variable-type: integer
+      ports:
+        - id: balance_port
+          type: flow
+      port-field-definitions:
+        - port: balance_port
+          field: flow
+          definition: generation
+      constraints:
+        - id: max_generation
+          expression: generation <= nb_units_on * p_max_unit
+        - id: min_generation
+          expression: generation >= nb_units_on * p_min_unit
+        - id: on_units_dynamics
+          expression: nb_units_on = nb_units_on[t-1] + nb_starting - nb_stopping
+        - id: nb_failing_lower_than_stopping
+          expression: nb_failing <= nb_stopping
+        - id: nb_failing_lower_than_max_variation
+          expression: nb_failing <= nb_units_max_variation_forward
+        - id: min_up_duration
+          expression: sum(t-d_min_up + 1 .. t, nb_starting - nb_failing) <= nb_units_on
+        - id: min_down_duration
+          expression: sum(t-d_min_down + 1 .. t, nb_stopping) <= nb_units_max[t-d_min_down] - nb_units_on + sum(t-d_min_down + 1 .. t, nb_units_max_variation_backward)
+
+      objective-contributions:
+        - id: objective
+          expression: sum(generation_cost * generation + startup_cost * nb_starting + fixed_cost * nb_units_on)
