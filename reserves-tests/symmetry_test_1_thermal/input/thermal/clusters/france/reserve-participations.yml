@@ -1,0 +1,13 @@
+participations:
+- cluster: therm
+  certifications:
+  - reserve: Res_1_up
+    participation-cost: 0.0
+    max-power: 20.0
+  - reserve: Res_1_down
+    participation-cost: 0.0
+    max-power: 10.0
+  symmetries:
+  - reserves:
+    - Res_1_up
+    - Res_1_down

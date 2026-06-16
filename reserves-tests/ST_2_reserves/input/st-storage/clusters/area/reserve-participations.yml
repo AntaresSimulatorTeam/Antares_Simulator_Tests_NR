@@ -1,0 +1,11 @@
+participations:
+- storage: st1
+  certifications:
+  - reserve: Res_1
+    participation-cost: 1.0
+    max-release: 200.0
+    max-store: 200.0
+  - reserve: Res_2
+    participation-cost: 1.0
+    max-release: 200.0
+    max-store: 200.0

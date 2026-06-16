@@ -1,0 +1,16 @@
+participations:
+- cluster: thermal_all_cheap
+  certifications:
+  - reserve: Res_1
+    participation-cost: 1.0
+    max-power: 10.0
+- cluster: thermal_expensive_prod
+  certifications:
+  - reserve: Res_1
+    participation-cost: 1.0
+    max-power: 10.0
+- cluster: thermal_expensive_res_part
+  certifications:
+  - reserve: Res_1
+    participation-cost: 1000.0
+    max-power: 10.0

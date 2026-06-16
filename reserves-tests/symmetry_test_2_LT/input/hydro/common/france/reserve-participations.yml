@@ -1,0 +1,14 @@
+participations:
+  certifications:
+  - reserve: Res_1_up
+    participation-cost: 0.0
+    max-release: 20.0
+    max-store: 20.0
+  - reserve: Res_2_down
+    participation-cost: 0.0
+    max-release: 10.0
+    max-store: 0.0
+  symmetries:
+  - reserves:
+    - Res_1_up
+    - Res_2_down
