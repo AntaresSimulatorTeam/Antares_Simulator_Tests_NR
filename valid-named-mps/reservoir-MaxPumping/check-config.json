@@ -1,0 +1,9 @@
+[
+	{
+		"name" : "Max Pumping",
+		"checks" :
+		{
+			"mps_compare" : null
+		}
+	}
+]
