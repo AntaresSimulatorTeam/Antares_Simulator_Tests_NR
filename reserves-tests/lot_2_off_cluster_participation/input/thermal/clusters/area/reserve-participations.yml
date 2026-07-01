@@ -1,0 +1,8 @@
+participations:
+- cluster: thermal1
+  certifications:
+  - reserve: Res_1
+    participation-cost: 1.0
+    max-power: 0.0
+    max-power-off: 40.0
+    participation-cost-off: 1.0
