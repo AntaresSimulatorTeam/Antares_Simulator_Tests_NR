@@ -1,0 +1,9 @@
+participations:
+- cluster: cluster_1
+  certifications:
+  - reserve: Res_1
+    participation-cost: 1.0
+    max-power: 20.0
+  - reserve: Res_2
+    participation-cost: 1.0
+    max-power: 10.0
