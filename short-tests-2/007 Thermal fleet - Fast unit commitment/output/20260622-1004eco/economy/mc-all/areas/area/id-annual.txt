@@ -1,0 +1,8 @@
+AREA	area	id	annual
+	VARIABLES	BEGIN	END
+	82	1	1
+
+AREA	annual	OP. COST	OP. COST	MRG. PRICE	MRG. PRICE	CO2 EMIS.	CO2 EMIS.	NH3 EMIS.	NH3 EMIS.	SO2 EMIS.	SO2 EMIS.	NOX EMIS.	NOX EMIS.	PM2_5 EMIS.	PM2_5 EMIS.	PM5 EMIS.	PM5 EMIS.	PM10 EMIS.	PM10 EMIS.	NMVOC EMIS.	NMVOC EMIS.	OP1 EMIS.	OP1 EMIS.	OP2 EMIS.	OP2 EMIS.	OP3 EMIS.	OP3 EMIS.	OP4 EMIS.	OP4 EMIS.	OP5 EMIS.	OP5 EMIS.	BALANCE	BALANCE	LOAD	LOAD	H. ROR	H. ROR	WIND	WIND	SOLAR	SOLAR	LIGNITE	LIGNITE	OIL	OIL	GAS	GAS	H. STOR	H. STOR	H. PUMP	H. PUMP	H. LEV	H. LEV	H. INFL	H. INFL	H. OVFL	H. OVFL	H. VAL	H. VAL	H. COST	H. COST	UNSP. ENRG	UNSP. ENRG	SPIL. ENRG	SPIL. ENRG	LOLD	LOLD	NPCAP HOURS	NPCAP HOURS	AVL DTG	AVL DTG	DTG MRG	DTG MRG	MAX MRG	MAX MRG	NP COST	NP COST	NODU	NODU	RES LOAD	RES LOAD	RESERVE PARTICIPATION COST	RESERVE PARTICIPATION COST
+		Euro	Euro	Euro	Euro	Tons	Tons	Tons	Tons	Tons	Tons	Tons	Tons	Tons	Tons	Tons	Tons	Tons	Tons	Tons	Tons	Tons	Tons	Tons	Tons	Tons	Tons	Tons	Tons	Tons	Tons	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	MWh	%	%	MWh	MWh	%	%	Euro/MWh	Euro/MWh	Euro	Euro	MWh	MWh	MWh	MWh	Hours	Hours	Hours	Hours	MWh	MWh	MWh	MWh	MWh	MWh	Euro	Euro	 	 	MWh	MWh	Euro	Euro
+		min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max	min	max
+	Annual	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	N/A	N/A	1	1	N/A	N/A	N/A	N/A	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1

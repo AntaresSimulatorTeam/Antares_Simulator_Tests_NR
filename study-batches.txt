@@ -1,4 +1,6 @@
-short-tests
+short-tests-1
+short-tests-2
+short-tests-3
 medium-tests
 long-tests-1
 long-tests-2
