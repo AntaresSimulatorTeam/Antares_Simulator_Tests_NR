@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<richtext version="1.0.0.0" xmlns="http://www.wxwidgets.org">
+  <paragraphlayout textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" parspacingafter="10" parspacingbefore="0" linespacing="10">
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="2" bulletname="standard/circle" liststyle="Bullet List">
+      <text>" This example is the first of a set of "</text>
+      <text fontweight="92">"two "</text>
+      <text>"that are comparing the two "</text>
+      <text fontweight="92">unit-commitment</text>
+      <text>" modes of Antares."</text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="2" bulletname="standard/circle" liststyle="Bullet List">
+      <text>( unit commitment refers to the integer decisions on the number of units which are online for each thermal cluster of the system and each hour of the simulated period)</text>
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="3" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph>
+      <text>Antares offers two calculation methods to compute the unit commitment of the thermal units : modes</text>
+      <symbol>34</symbol>
+      <text>" fast"</text>
+      <symbol>34</symbol>
+      <text>" and "</text>
+      <symbol>34</symbol>
+      <text>accurate</text>
+      <symbol>34</symbol>
+      <text>. They can be selected in Configure / Advanced parameters / Other preferences.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text fontweight="92">The main differences between the two methods are:</text>
+    </paragraph>
+    <paragraph>
+      <text>"- the start-up costs are part of the optimization problem in "</text>
+      <symbol>34</symbol>
+      <text>accurate</text>
+      <symbol>34</symbol>
+      <text>" while they are computed ex-post in "</text>
+      <symbol>34</symbol>
+      <text>fast</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <text>"- distinction is made between minimum up and minimum down durations in "</text>
+      <symbol>34</symbol>
+      <text>accurate</text>
+      <symbol>34</symbol>
+      <text>" while they are both set equal to max(min up time, min down time) in "</text>
+      <symbol>34</symbol>
+      <text>fast</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <text>"- the modelling of the minimum up and down durations in "</text>
+      <symbol>34</symbol>
+      <text>fast</text>
+      <symbol>34</symbol>
+      <text>" is coarser and more restrictive than in "</text>
+      <symbol>34</symbol>
+      <text>accurate</text>
+      <symbol>34</symbol>
+    </paragraph>
+    <paragraph>
+      <text>"- computation time is significantly lower in "</text>
+      <symbol>34</symbol>
+      <text>fast</text>
+      <symbol>34</symbol>
+      <text>" (around 30 times quicker for large systems)"</text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="4" bulletname="standard/circle" liststyle="Bullet List">
+      <text>"- the computed thermal dispatch is less-costly in "</text>
+      <symbol>34</symbol>
+      <text>accurate</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="5" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="6" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92">-----------</text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="5" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92"></text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="3" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92">The units in the thermal fleet of this example are :</text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="5" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92">- constrained by a mimum stable power</text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="4" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92">- constrained by minimum up and down durations</text>
+    </paragraph>
+    <paragraph textcolor="#000000" fontsize="8" fontstyle="90" fontweight="90" fontunderlined="0" fontface="MS Shell Dlg 2" alignment="1" leftindent="0" leftsubindent="0" parspacingafter="10" parspacingbefore="0" linespacing="10" bulletstyle="512" bulletnumber="3" bulletname="standard/circle" liststyle="Bullet List">
+      <text fontweight="92">"- affected by non-proportionnal costs (no load heat cost and start-up costs)  "</text>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>More precisely the thermal generation fleet is made of :</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"4  "</text>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>base</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>"units of 900 MW, with a minimum stable power of 400 MW and minimum up and down durations of 24h "</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>marginal cost 35 euros/MWh,  no-load heat cost 1700 euros, start-up cost 70000 euros</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+    </paragraph>
+    <paragraph>
+      <text>"5 "</text>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>semi base</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <text>units of 300 MW, with a minimum stable power of 100 MW, minimum up time of 6h and down time of 12h.</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>marginal cost 50 euros/MWh, no load heat cost 500 euros, start-up cost 25000 euros</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"8 "</text>
+      <symbol>9</symbol>
+      <symbol>34</symbol>
+      <text>peak</text>
+      <symbol>34</symbol>
+      <text>" "</text>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>units of 100 MW, with a minimum stable power of 10 MW, minimum up and down times of 2h.</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <text>marginal cost  80 euros/MWh, no load heat cost 0 euros, start-up cost 5000 euros</text>
+    </paragraph>
+    <paragraph>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+      <symbol>9</symbol>
+    </paragraph>
+    <paragraph>
+      <text>This thermal fleet serves a weekly load which ranges from 3.5 to 6.2 GW. Moreover, 2 GW of wind power generation have been installed.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>"In this first example, the "</text>
+      <text fontweight="92">fast mode</text>
+      <text>" has been selected."</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+    <paragraph>
+      <text>When comparing the results with the following example in accurate mode, we can observe that:</text>
+    </paragraph>
+    <paragraph>
+      <text>"- the peaking units are less often switch on and off in "</text>
+      <symbol>34</symbol>
+      <text>accurate</text>
+      <symbol>34</symbol>
+      <text>" in order to save on the start-up costs."</text>
+    </paragraph>
+    <paragraph>
+      <text>- if the unsupplied energy cost is high, the amount of unsupplied energy will always be the same in the two unit-commitment modes.</text>
+    </paragraph>
+    <paragraph>
+      <text></text>
+    </paragraph>
+  </paragraphlayout>
+</richtext>

@@ -1,0 +1,8 @@
+AREA	area	de	weekly
+	VARIABLES	BEGIN	END
+	15	1	1
+
+AREA	weekly	base	peak	semi base	base	peak	semi base	base	peak	semi base	base	peak	semi base	base	peak	semi base
+		MWh	MWh	MWh	MIN GEN - MWh	MIN GEN - MWh	MIN GEN - MWh	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NODU	NODU	NODU	Profit - Euro	Profit - Euro	Profit - Euro
+	week															
+	1	570130	9824	124987	0	0	0	1142400	189000	530000	672	142	660	80136016	15931203	30822016

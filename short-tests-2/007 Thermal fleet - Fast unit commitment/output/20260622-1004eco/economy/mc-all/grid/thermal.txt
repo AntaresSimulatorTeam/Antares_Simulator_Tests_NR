@@ -1,0 +1,4 @@
+area id	id	name	group	unit count	nominal capacity	min stable power	min up/down time	spinning	co2	marginal cost	fixed cost	startup cost	market bid cost	spread cost
+area	base	base	LIGNITE	4	900.000000	400.000000	24	24	0.000000	1.200000	35.000000	1700.000000	70000.000000	35.000000	0.000000
+area	peak	peak	OIL	8	100.000000	10.000000	2	2	0.000000	0.700000	80.000000	0.000000	7000.000000	80.000000	0.000000
+area	semi base	semi base	GAS	5	300.000000	100.000000	6	12	0.000000	0.600000	50.000000	500.000000	25000.000000	50.000000	0.000000
