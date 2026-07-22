@@ -1,8 +1,0 @@
-AREA	area	de	monthly
-	VARIABLES	BEGIN	END
-	15	1	1
-
-AREA	monthly		base	peak	semi base	base	peak	semi base	base	peak	semi base	base	peak	semi base	base	peak	semi base
-			MWh	MWh	MWh	MIN GEN - MWh	MIN GEN - MWh	MIN GEN - MWh	NP Cost - Euro	NP Cost - Euro	NP Cost - Euro	NODU	NODU	NODU	Profit - Euro	Profit - Euro	Profit - Euro
-	index	month															
-	1	JAN	570130	9824	124987	0	0	0	1142400	189000	530000	672	142	660	80136016	15931203	30822016

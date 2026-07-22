@@ -1,2 +1,0 @@
-area id	id	name	group	unit count	nominal capacity	min stable power	min up/down time	spinning	co2	marginal cost	fixed cost	startup cost	market bid cost	spread cost
-node	default	default	OTHER	0	0.000000	0.000000	1	1	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000	0.000000
