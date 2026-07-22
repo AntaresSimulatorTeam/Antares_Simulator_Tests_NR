@@ -1,8 +1,0 @@
-NODE	area	de	annual
-	VARIABLES	BEGIN	END
-	2	1	1
-
-NODE	annual	default	default
-		MWh	Profit - Euro
-			
-	Annual	0	0
