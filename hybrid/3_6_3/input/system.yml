@@ -3,7 +3,6 @@ system:
   description: >
     A hybrid system with a legacy thermal cluster and a load connected to a passive area "AREA"
 
-  model-libraries: lib_hybrid_0
 
   components:
   - id: load1

@@ -3,7 +3,6 @@ system:
   description: >
     A hybrid system with a generator
 
-  model-libraries: lib_hybrid_0
 
   components:
   - id: gen1
