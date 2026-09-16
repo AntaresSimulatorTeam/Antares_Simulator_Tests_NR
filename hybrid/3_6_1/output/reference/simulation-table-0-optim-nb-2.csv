@@ -871,6 +871,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,0,0,0,0,None
 0,area_thermal_default,down_margin,0,0,0,0,None
 0,area_thermal_default,profit,0,0,0,0,None
+0,area_thermal_default,actual_num_units_on,0,0,0,0,None
+0,area_thermal_default,non_prop_cost,0,0,0,0,None
 0,area_node,imbalance_cost,1,1,0,0,None
 0,area_node,is_significant_loss_of_load,1,1,0,0,None
 0,area_node,is_loss_of_load,1,1,0,0,None
@@ -902,6 +904,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,1,1,0,0,None
 0,area_thermal_default,down_margin,1,1,0,0,None
 0,area_thermal_default,profit,1,1,0,0,None
+0,area_thermal_default,actual_num_units_on,1,1,0,0,None
+0,area_thermal_default,non_prop_cost,1,1,0,0,None
 0,area_node,imbalance_cost,2,2,0,0,None
 0,area_node,is_significant_loss_of_load,2,2,0,0,None
 0,area_node,is_loss_of_load,2,2,0,0,None
@@ -933,6 +937,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,2,2,0,0,None
 0,area_thermal_default,down_margin,2,2,0,0,None
 0,area_thermal_default,profit,2,2,0,0,None
+0,area_thermal_default,actual_num_units_on,2,2,0,0,None
+0,area_thermal_default,non_prop_cost,2,2,0,0,None
 0,area_node,imbalance_cost,3,3,0,0,None
 0,area_node,is_significant_loss_of_load,3,3,0,0,None
 0,area_node,is_loss_of_load,3,3,0,0,None
@@ -964,6 +970,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,3,3,0,0,None
 0,area_thermal_default,down_margin,3,3,0,0,None
 0,area_thermal_default,profit,3,3,0,0,None
+0,area_thermal_default,actual_num_units_on,3,3,0,0,None
+0,area_thermal_default,non_prop_cost,3,3,0,0,None
 0,area_node,imbalance_cost,4,4,0,0,None
 0,area_node,is_significant_loss_of_load,4,4,0,0,None
 0,area_node,is_loss_of_load,4,4,0,0,None
@@ -995,6 +1003,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,4,4,0,0,None
 0,area_thermal_default,down_margin,4,4,0,0,None
 0,area_thermal_default,profit,4,4,0,0,None
+0,area_thermal_default,actual_num_units_on,4,4,0,0,None
+0,area_thermal_default,non_prop_cost,4,4,0,0,None
 0,area_node,imbalance_cost,5,5,0,0,None
 0,area_node,is_significant_loss_of_load,5,5,0,0,None
 0,area_node,is_loss_of_load,5,5,0,0,None
@@ -1026,6 +1036,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,5,5,0,0,None
 0,area_thermal_default,down_margin,5,5,0,0,None
 0,area_thermal_default,profit,5,5,0,0,None
+0,area_thermal_default,actual_num_units_on,5,5,0,0,None
+0,area_thermal_default,non_prop_cost,5,5,0,0,None
 0,area_node,imbalance_cost,6,6,0,0,None
 0,area_node,is_significant_loss_of_load,6,6,0,0,None
 0,area_node,is_loss_of_load,6,6,0,0,None
@@ -1057,6 +1069,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,6,6,0,0,None
 0,area_thermal_default,down_margin,6,6,0,0,None
 0,area_thermal_default,profit,6,6,0,0,None
+0,area_thermal_default,actual_num_units_on,6,6,0,0,None
+0,area_thermal_default,non_prop_cost,6,6,0,0,None
 0,area_node,imbalance_cost,7,7,0,0,None
 0,area_node,is_significant_loss_of_load,7,7,0,0,None
 0,area_node,is_loss_of_load,7,7,0,0,None
@@ -1088,6 +1102,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,7,7,0,0,None
 0,area_thermal_default,down_margin,7,7,0,0,None
 0,area_thermal_default,profit,7,7,0,0,None
+0,area_thermal_default,actual_num_units_on,7,7,0,0,None
+0,area_thermal_default,non_prop_cost,7,7,0,0,None
 0,area_node,imbalance_cost,8,8,0,0,None
 0,area_node,is_significant_loss_of_load,8,8,0,0,None
 0,area_node,is_loss_of_load,8,8,0,0,None
@@ -1119,6 +1135,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,8,8,0,0,None
 0,area_thermal_default,down_margin,8,8,0,0,None
 0,area_thermal_default,profit,8,8,0,0,None
+0,area_thermal_default,actual_num_units_on,8,8,0,0,None
+0,area_thermal_default,non_prop_cost,8,8,0,0,None
 0,area_node,imbalance_cost,9,9,0,0,None
 0,area_node,is_significant_loss_of_load,9,9,0,0,None
 0,area_node,is_loss_of_load,9,9,0,0,None
@@ -1150,6 +1168,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,9,9,0,0,None
 0,area_thermal_default,down_margin,9,9,0,0,None
 0,area_thermal_default,profit,9,9,0,0,None
+0,area_thermal_default,actual_num_units_on,9,9,0,0,None
+0,area_thermal_default,non_prop_cost,9,9,0,0,None
 0,area_node,imbalance_cost,10,10,0,0,None
 0,area_node,is_significant_loss_of_load,10,10,0,0,None
 0,area_node,is_loss_of_load,10,10,0,0,None
@@ -1181,6 +1201,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,10,10,0,0,None
 0,area_thermal_default,down_margin,10,10,0,0,None
 0,area_thermal_default,profit,10,10,0,0,None
+0,area_thermal_default,actual_num_units_on,10,10,0,0,None
+0,area_thermal_default,non_prop_cost,10,10,0,0,None
 0,area_node,imbalance_cost,11,11,0,0,None
 0,area_node,is_significant_loss_of_load,11,11,0,0,None
 0,area_node,is_loss_of_load,11,11,0,0,None
@@ -1212,6 +1234,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,11,11,0,0,None
 0,area_thermal_default,down_margin,11,11,0,0,None
 0,area_thermal_default,profit,11,11,0,0,None
+0,area_thermal_default,actual_num_units_on,11,11,0,0,None
+0,area_thermal_default,non_prop_cost,11,11,0,0,None
 0,area_node,imbalance_cost,12,12,0,0,None
 0,area_node,is_significant_loss_of_load,12,12,0,0,None
 0,area_node,is_loss_of_load,12,12,0,0,None
@@ -1243,6 +1267,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,12,12,0,0,None
 0,area_thermal_default,down_margin,12,12,0,0,None
 0,area_thermal_default,profit,12,12,0,0,None
+0,area_thermal_default,actual_num_units_on,12,12,0,0,None
+0,area_thermal_default,non_prop_cost,12,12,0,0,None
 0,area_node,imbalance_cost,13,13,0,0,None
 0,area_node,is_significant_loss_of_load,13,13,0,0,None
 0,area_node,is_loss_of_load,13,13,0,0,None
@@ -1274,6 +1300,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,13,13,0,0,None
 0,area_thermal_default,down_margin,13,13,0,0,None
 0,area_thermal_default,profit,13,13,0,0,None
+0,area_thermal_default,actual_num_units_on,13,13,0,0,None
+0,area_thermal_default,non_prop_cost,13,13,0,0,None
 0,area_node,imbalance_cost,14,14,0,0,None
 0,area_node,is_significant_loss_of_load,14,14,0,0,None
 0,area_node,is_loss_of_load,14,14,0,0,None
@@ -1305,6 +1333,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,14,14,0,0,None
 0,area_thermal_default,down_margin,14,14,0,0,None
 0,area_thermal_default,profit,14,14,0,0,None
+0,area_thermal_default,actual_num_units_on,14,14,0,0,None
+0,area_thermal_default,non_prop_cost,14,14,0,0,None
 0,area_node,imbalance_cost,15,15,0,0,None
 0,area_node,is_significant_loss_of_load,15,15,0,0,None
 0,area_node,is_loss_of_load,15,15,0,0,None
@@ -1336,6 +1366,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,15,15,0,0,None
 0,area_thermal_default,down_margin,15,15,0,0,None
 0,area_thermal_default,profit,15,15,0,0,None
+0,area_thermal_default,actual_num_units_on,15,15,0,0,None
+0,area_thermal_default,non_prop_cost,15,15,0,0,None
 0,area_node,imbalance_cost,16,16,0,0,None
 0,area_node,is_significant_loss_of_load,16,16,0,0,None
 0,area_node,is_loss_of_load,16,16,0,0,None
@@ -1367,6 +1399,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,16,16,0,0,None
 0,area_thermal_default,down_margin,16,16,0,0,None
 0,area_thermal_default,profit,16,16,0,0,None
+0,area_thermal_default,actual_num_units_on,16,16,0,0,None
+0,area_thermal_default,non_prop_cost,16,16,0,0,None
 0,area_node,imbalance_cost,17,17,0,0,None
 0,area_node,is_significant_loss_of_load,17,17,0,0,None
 0,area_node,is_loss_of_load,17,17,0,0,None
@@ -1398,6 +1432,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,17,17,0,0,None
 0,area_thermal_default,down_margin,17,17,0,0,None
 0,area_thermal_default,profit,17,17,0,0,None
+0,area_thermal_default,actual_num_units_on,17,17,0,0,None
+0,area_thermal_default,non_prop_cost,17,17,0,0,None
 0,area_node,imbalance_cost,18,18,0,0,None
 0,area_node,is_significant_loss_of_load,18,18,0,0,None
 0,area_node,is_loss_of_load,18,18,0,0,None
@@ -1429,6 +1465,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,18,18,0,0,None
 0,area_thermal_default,down_margin,18,18,0,0,None
 0,area_thermal_default,profit,18,18,0,0,None
+0,area_thermal_default,actual_num_units_on,18,18,0,0,None
+0,area_thermal_default,non_prop_cost,18,18,0,0,None
 0,area_node,imbalance_cost,19,19,0,0,None
 0,area_node,is_significant_loss_of_load,19,19,0,0,None
 0,area_node,is_loss_of_load,19,19,0,0,None
@@ -1460,6 +1498,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,19,19,0,0,None
 0,area_thermal_default,down_margin,19,19,0,0,None
 0,area_thermal_default,profit,19,19,0,0,None
+0,area_thermal_default,actual_num_units_on,19,19,0,0,None
+0,area_thermal_default,non_prop_cost,19,19,0,0,None
 0,area_node,imbalance_cost,20,20,0,0,None
 0,area_node,is_significant_loss_of_load,20,20,0,0,None
 0,area_node,is_loss_of_load,20,20,0,0,None
@@ -1491,6 +1531,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,20,20,0,0,None
 0,area_thermal_default,down_margin,20,20,0,0,None
 0,area_thermal_default,profit,20,20,0,0,None
+0,area_thermal_default,actual_num_units_on,20,20,0,0,None
+0,area_thermal_default,non_prop_cost,20,20,0,0,None
 0,area_node,imbalance_cost,21,21,0,0,None
 0,area_node,is_significant_loss_of_load,21,21,0,0,None
 0,area_node,is_loss_of_load,21,21,0,0,None
@@ -1522,6 +1564,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,21,21,0,0,None
 0,area_thermal_default,down_margin,21,21,0,0,None
 0,area_thermal_default,profit,21,21,0,0,None
+0,area_thermal_default,actual_num_units_on,21,21,0,0,None
+0,area_thermal_default,non_prop_cost,21,21,0,0,None
 0,area_node,imbalance_cost,22,22,0,0,None
 0,area_node,is_significant_loss_of_load,22,22,0,0,None
 0,area_node,is_loss_of_load,22,22,0,0,None
@@ -1553,6 +1597,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,22,22,0,0,None
 0,area_thermal_default,down_margin,22,22,0,0,None
 0,area_thermal_default,profit,22,22,0,0,None
+0,area_thermal_default,actual_num_units_on,22,22,0,0,None
+0,area_thermal_default,non_prop_cost,22,22,0,0,None
 0,area_node,imbalance_cost,23,23,0,0,None
 0,area_node,is_significant_loss_of_load,23,23,0,0,None
 0,area_node,is_loss_of_load,23,23,0,0,None
@@ -1584,6 +1630,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,23,23,0,0,None
 0,area_thermal_default,down_margin,23,23,0,0,None
 0,area_thermal_default,profit,23,23,0,0,None
+0,area_thermal_default,actual_num_units_on,23,23,0,0,None
+0,area_thermal_default,non_prop_cost,23,23,0,0,None
 0,area_node,imbalance_cost,24,24,0,0,None
 0,area_node,is_significant_loss_of_load,24,24,0,0,None
 0,area_node,is_loss_of_load,24,24,0,0,None
@@ -1615,6 +1663,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,24,24,0,0,None
 0,area_thermal_default,down_margin,24,24,0,0,None
 0,area_thermal_default,profit,24,24,0,0,None
+0,area_thermal_default,actual_num_units_on,24,24,0,0,None
+0,area_thermal_default,non_prop_cost,24,24,0,0,None
 0,area_node,imbalance_cost,25,25,0,0,None
 0,area_node,is_significant_loss_of_load,25,25,0,0,None
 0,area_node,is_loss_of_load,25,25,0,0,None
@@ -1646,6 +1696,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,25,25,0,0,None
 0,area_thermal_default,down_margin,25,25,0,0,None
 0,area_thermal_default,profit,25,25,0,0,None
+0,area_thermal_default,actual_num_units_on,25,25,0,0,None
+0,area_thermal_default,non_prop_cost,25,25,0,0,None
 0,area_node,imbalance_cost,26,26,0,0,None
 0,area_node,is_significant_loss_of_load,26,26,0,0,None
 0,area_node,is_loss_of_load,26,26,0,0,None
@@ -1677,6 +1729,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,26,26,0,0,None
 0,area_thermal_default,down_margin,26,26,0,0,None
 0,area_thermal_default,profit,26,26,0,0,None
+0,area_thermal_default,actual_num_units_on,26,26,0,0,None
+0,area_thermal_default,non_prop_cost,26,26,0,0,None
 0,area_node,imbalance_cost,27,27,0,0,None
 0,area_node,is_significant_loss_of_load,27,27,0,0,None
 0,area_node,is_loss_of_load,27,27,0,0,None
@@ -1708,6 +1762,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,27,27,0,0,None
 0,area_thermal_default,down_margin,27,27,0,0,None
 0,area_thermal_default,profit,27,27,0,0,None
+0,area_thermal_default,actual_num_units_on,27,27,0,0,None
+0,area_thermal_default,non_prop_cost,27,27,0,0,None
 0,area_node,imbalance_cost,28,28,0,0,None
 0,area_node,is_significant_loss_of_load,28,28,0,0,None
 0,area_node,is_loss_of_load,28,28,0,0,None
@@ -1739,6 +1795,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,28,28,0,0,None
 0,area_thermal_default,down_margin,28,28,0,0,None
 0,area_thermal_default,profit,28,28,0,0,None
+0,area_thermal_default,actual_num_units_on,28,28,0,0,None
+0,area_thermal_default,non_prop_cost,28,28,0,0,None
 0,area_node,imbalance_cost,29,29,0,0,None
 0,area_node,is_significant_loss_of_load,29,29,0,0,None
 0,area_node,is_loss_of_load,29,29,0,0,None
@@ -1770,6 +1828,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,29,29,0,0,None
 0,area_thermal_default,down_margin,29,29,0,0,None
 0,area_thermal_default,profit,29,29,0,0,None
+0,area_thermal_default,actual_num_units_on,29,29,0,0,None
+0,area_thermal_default,non_prop_cost,29,29,0,0,None
 0,area_node,imbalance_cost,30,30,0,0,None
 0,area_node,is_significant_loss_of_load,30,30,0,0,None
 0,area_node,is_loss_of_load,30,30,0,0,None
@@ -1801,6 +1861,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,30,30,0,0,None
 0,area_thermal_default,down_margin,30,30,0,0,None
 0,area_thermal_default,profit,30,30,0,0,None
+0,area_thermal_default,actual_num_units_on,30,30,0,0,None
+0,area_thermal_default,non_prop_cost,30,30,0,0,None
 0,area_node,imbalance_cost,31,31,0,0,None
 0,area_node,is_significant_loss_of_load,31,31,0,0,None
 0,area_node,is_loss_of_load,31,31,0,0,None
@@ -1832,6 +1894,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,31,31,0,0,None
 0,area_thermal_default,down_margin,31,31,0,0,None
 0,area_thermal_default,profit,31,31,0,0,None
+0,area_thermal_default,actual_num_units_on,31,31,0,0,None
+0,area_thermal_default,non_prop_cost,31,31,0,0,None
 0,area_node,imbalance_cost,32,32,0,0,None
 0,area_node,is_significant_loss_of_load,32,32,0,0,None
 0,area_node,is_loss_of_load,32,32,0,0,None
@@ -1863,6 +1927,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,32,32,0,0,None
 0,area_thermal_default,down_margin,32,32,0,0,None
 0,area_thermal_default,profit,32,32,0,0,None
+0,area_thermal_default,actual_num_units_on,32,32,0,0,None
+0,area_thermal_default,non_prop_cost,32,32,0,0,None
 0,area_node,imbalance_cost,33,33,0,0,None
 0,area_node,is_significant_loss_of_load,33,33,0,0,None
 0,area_node,is_loss_of_load,33,33,0,0,None
@@ -1894,6 +1960,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,33,33,0,0,None
 0,area_thermal_default,down_margin,33,33,0,0,None
 0,area_thermal_default,profit,33,33,0,0,None
+0,area_thermal_default,actual_num_units_on,33,33,0,0,None
+0,area_thermal_default,non_prop_cost,33,33,0,0,None
 0,area_node,imbalance_cost,34,34,0,0,None
 0,area_node,is_significant_loss_of_load,34,34,0,0,None
 0,area_node,is_loss_of_load,34,34,0,0,None
@@ -1925,6 +1993,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,34,34,0,0,None
 0,area_thermal_default,down_margin,34,34,0,0,None
 0,area_thermal_default,profit,34,34,0,0,None
+0,area_thermal_default,actual_num_units_on,34,34,0,0,None
+0,area_thermal_default,non_prop_cost,34,34,0,0,None
 0,area_node,imbalance_cost,35,35,0,0,None
 0,area_node,is_significant_loss_of_load,35,35,0,0,None
 0,area_node,is_loss_of_load,35,35,0,0,None
@@ -1956,6 +2026,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,35,35,0,0,None
 0,area_thermal_default,down_margin,35,35,0,0,None
 0,area_thermal_default,profit,35,35,0,0,None
+0,area_thermal_default,actual_num_units_on,35,35,0,0,None
+0,area_thermal_default,non_prop_cost,35,35,0,0,None
 0,area_node,imbalance_cost,36,36,0,0,None
 0,area_node,is_significant_loss_of_load,36,36,0,0,None
 0,area_node,is_loss_of_load,36,36,0,0,None
@@ -1987,6 +2059,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,36,36,0,0,None
 0,area_thermal_default,down_margin,36,36,0,0,None
 0,area_thermal_default,profit,36,36,0,0,None
+0,area_thermal_default,actual_num_units_on,36,36,0,0,None
+0,area_thermal_default,non_prop_cost,36,36,0,0,None
 0,area_node,imbalance_cost,37,37,0,0,None
 0,area_node,is_significant_loss_of_load,37,37,0,0,None
 0,area_node,is_loss_of_load,37,37,0,0,None
@@ -2018,6 +2092,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,37,37,0,0,None
 0,area_thermal_default,down_margin,37,37,0,0,None
 0,area_thermal_default,profit,37,37,0,0,None
+0,area_thermal_default,actual_num_units_on,37,37,0,0,None
+0,area_thermal_default,non_prop_cost,37,37,0,0,None
 0,area_node,imbalance_cost,38,38,0,0,None
 0,area_node,is_significant_loss_of_load,38,38,0,0,None
 0,area_node,is_loss_of_load,38,38,0,0,None
@@ -2049,6 +2125,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,38,38,0,0,None
 0,area_thermal_default,down_margin,38,38,0,0,None
 0,area_thermal_default,profit,38,38,0,0,None
+0,area_thermal_default,actual_num_units_on,38,38,0,0,None
+0,area_thermal_default,non_prop_cost,38,38,0,0,None
 0,area_node,imbalance_cost,39,39,0,0,None
 0,area_node,is_significant_loss_of_load,39,39,0,0,None
 0,area_node,is_loss_of_load,39,39,0,0,None
@@ -2080,6 +2158,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,39,39,0,0,None
 0,area_thermal_default,down_margin,39,39,0,0,None
 0,area_thermal_default,profit,39,39,0,0,None
+0,area_thermal_default,actual_num_units_on,39,39,0,0,None
+0,area_thermal_default,non_prop_cost,39,39,0,0,None
 0,area_node,imbalance_cost,40,40,0,0,None
 0,area_node,is_significant_loss_of_load,40,40,0,0,None
 0,area_node,is_loss_of_load,40,40,0,0,None
@@ -2111,6 +2191,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,40,40,0,0,None
 0,area_thermal_default,down_margin,40,40,0,0,None
 0,area_thermal_default,profit,40,40,0,0,None
+0,area_thermal_default,actual_num_units_on,40,40,0,0,None
+0,area_thermal_default,non_prop_cost,40,40,0,0,None
 0,area_node,imbalance_cost,41,41,0,0,None
 0,area_node,is_significant_loss_of_load,41,41,0,0,None
 0,area_node,is_loss_of_load,41,41,0,0,None
@@ -2142,6 +2224,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,41,41,0,0,None
 0,area_thermal_default,down_margin,41,41,0,0,None
 0,area_thermal_default,profit,41,41,0,0,None
+0,area_thermal_default,actual_num_units_on,41,41,0,0,None
+0,area_thermal_default,non_prop_cost,41,41,0,0,None
 0,area_node,imbalance_cost,42,42,0,0,None
 0,area_node,is_significant_loss_of_load,42,42,0,0,None
 0,area_node,is_loss_of_load,42,42,0,0,None
@@ -2173,6 +2257,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,42,42,0,0,None
 0,area_thermal_default,down_margin,42,42,0,0,None
 0,area_thermal_default,profit,42,42,0,0,None
+0,area_thermal_default,actual_num_units_on,42,42,0,0,None
+0,area_thermal_default,non_prop_cost,42,42,0,0,None
 0,area_node,imbalance_cost,43,43,0,0,None
 0,area_node,is_significant_loss_of_load,43,43,0,0,None
 0,area_node,is_loss_of_load,43,43,0,0,None
@@ -2204,6 +2290,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,43,43,0,0,None
 0,area_thermal_default,down_margin,43,43,0,0,None
 0,area_thermal_default,profit,43,43,0,0,None
+0,area_thermal_default,actual_num_units_on,43,43,0,0,None
+0,area_thermal_default,non_prop_cost,43,43,0,0,None
 0,area_node,imbalance_cost,44,44,0,0,None
 0,area_node,is_significant_loss_of_load,44,44,0,0,None
 0,area_node,is_loss_of_load,44,44,0,0,None
@@ -2235,6 +2323,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,44,44,0,0,None
 0,area_thermal_default,down_margin,44,44,0,0,None
 0,area_thermal_default,profit,44,44,0,0,None
+0,area_thermal_default,actual_num_units_on,44,44,0,0,None
+0,area_thermal_default,non_prop_cost,44,44,0,0,None
 0,area_node,imbalance_cost,45,45,0,0,None
 0,area_node,is_significant_loss_of_load,45,45,0,0,None
 0,area_node,is_loss_of_load,45,45,0,0,None
@@ -2266,6 +2356,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,45,45,0,0,None
 0,area_thermal_default,down_margin,45,45,0,0,None
 0,area_thermal_default,profit,45,45,0,0,None
+0,area_thermal_default,actual_num_units_on,45,45,0,0,None
+0,area_thermal_default,non_prop_cost,45,45,0,0,None
 0,area_node,imbalance_cost,46,46,0,0,None
 0,area_node,is_significant_loss_of_load,46,46,0,0,None
 0,area_node,is_loss_of_load,46,46,0,0,None
@@ -2297,6 +2389,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,46,46,0,0,None
 0,area_thermal_default,down_margin,46,46,0,0,None
 0,area_thermal_default,profit,46,46,0,0,None
+0,area_thermal_default,actual_num_units_on,46,46,0,0,None
+0,area_thermal_default,non_prop_cost,46,46,0,0,None
 0,area_node,imbalance_cost,47,47,0,0,None
 0,area_node,is_significant_loss_of_load,47,47,0,0,None
 0,area_node,is_loss_of_load,47,47,0,0,None
@@ -2328,6 +2422,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,47,47,0,0,None
 0,area_thermal_default,down_margin,47,47,0,0,None
 0,area_thermal_default,profit,47,47,0,0,None
+0,area_thermal_default,actual_num_units_on,47,47,0,0,None
+0,area_thermal_default,non_prop_cost,47,47,0,0,None
 0,area_node,imbalance_cost,48,48,0,0,None
 0,area_node,is_significant_loss_of_load,48,48,0,0,None
 0,area_node,is_loss_of_load,48,48,0,0,None
@@ -2359,6 +2455,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,48,48,0,0,None
 0,area_thermal_default,down_margin,48,48,0,0,None
 0,area_thermal_default,profit,48,48,0,0,None
+0,area_thermal_default,actual_num_units_on,48,48,0,0,None
+0,area_thermal_default,non_prop_cost,48,48,0,0,None
 0,area_node,imbalance_cost,49,49,0,0,None
 0,area_node,is_significant_loss_of_load,49,49,0,0,None
 0,area_node,is_loss_of_load,49,49,0,0,None
@@ -2390,6 +2488,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,49,49,0,0,None
 0,area_thermal_default,down_margin,49,49,0,0,None
 0,area_thermal_default,profit,49,49,0,0,None
+0,area_thermal_default,actual_num_units_on,49,49,0,0,None
+0,area_thermal_default,non_prop_cost,49,49,0,0,None
 0,area_node,imbalance_cost,50,50,0,0,None
 0,area_node,is_significant_loss_of_load,50,50,0,0,None
 0,area_node,is_loss_of_load,50,50,0,0,None
@@ -2421,6 +2521,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,50,50,0,0,None
 0,area_thermal_default,down_margin,50,50,0,0,None
 0,area_thermal_default,profit,50,50,0,0,None
+0,area_thermal_default,actual_num_units_on,50,50,0,0,None
+0,area_thermal_default,non_prop_cost,50,50,0,0,None
 0,area_node,imbalance_cost,51,51,0,0,None
 0,area_node,is_significant_loss_of_load,51,51,0,0,None
 0,area_node,is_loss_of_load,51,51,0,0,None
@@ -2452,6 +2554,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,51,51,0,0,None
 0,area_thermal_default,down_margin,51,51,0,0,None
 0,area_thermal_default,profit,51,51,0,0,None
+0,area_thermal_default,actual_num_units_on,51,51,0,0,None
+0,area_thermal_default,non_prop_cost,51,51,0,0,None
 0,area_node,imbalance_cost,52,52,0,0,None
 0,area_node,is_significant_loss_of_load,52,52,0,0,None
 0,area_node,is_loss_of_load,52,52,0,0,None
@@ -2483,6 +2587,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,52,52,0,0,None
 0,area_thermal_default,down_margin,52,52,0,0,None
 0,area_thermal_default,profit,52,52,0,0,None
+0,area_thermal_default,actual_num_units_on,52,52,0,0,None
+0,area_thermal_default,non_prop_cost,52,52,0,0,None
 0,area_node,imbalance_cost,53,53,0,0,None
 0,area_node,is_significant_loss_of_load,53,53,0,0,None
 0,area_node,is_loss_of_load,53,53,0,0,None
@@ -2514,6 +2620,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,53,53,0,0,None
 0,area_thermal_default,down_margin,53,53,0,0,None
 0,area_thermal_default,profit,53,53,0,0,None
+0,area_thermal_default,actual_num_units_on,53,53,0,0,None
+0,area_thermal_default,non_prop_cost,53,53,0,0,None
 0,area_node,imbalance_cost,54,54,0,0,None
 0,area_node,is_significant_loss_of_load,54,54,0,0,None
 0,area_node,is_loss_of_load,54,54,0,0,None
@@ -2545,6 +2653,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,54,54,0,0,None
 0,area_thermal_default,down_margin,54,54,0,0,None
 0,area_thermal_default,profit,54,54,0,0,None
+0,area_thermal_default,actual_num_units_on,54,54,0,0,None
+0,area_thermal_default,non_prop_cost,54,54,0,0,None
 0,area_node,imbalance_cost,55,55,0,0,None
 0,area_node,is_significant_loss_of_load,55,55,0,0,None
 0,area_node,is_loss_of_load,55,55,0,0,None
@@ -2576,6 +2686,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,55,55,0,0,None
 0,area_thermal_default,down_margin,55,55,0,0,None
 0,area_thermal_default,profit,55,55,0,0,None
+0,area_thermal_default,actual_num_units_on,55,55,0,0,None
+0,area_thermal_default,non_prop_cost,55,55,0,0,None
 0,area_node,imbalance_cost,56,56,0,0,None
 0,area_node,is_significant_loss_of_load,56,56,0,0,None
 0,area_node,is_loss_of_load,56,56,0,0,None
@@ -2607,6 +2719,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,56,56,0,0,None
 0,area_thermal_default,down_margin,56,56,0,0,None
 0,area_thermal_default,profit,56,56,0,0,None
+0,area_thermal_default,actual_num_units_on,56,56,0,0,None
+0,area_thermal_default,non_prop_cost,56,56,0,0,None
 0,area_node,imbalance_cost,57,57,0,0,None
 0,area_node,is_significant_loss_of_load,57,57,0,0,None
 0,area_node,is_loss_of_load,57,57,0,0,None
@@ -2638,6 +2752,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,57,57,0,0,None
 0,area_thermal_default,down_margin,57,57,0,0,None
 0,area_thermal_default,profit,57,57,0,0,None
+0,area_thermal_default,actual_num_units_on,57,57,0,0,None
+0,area_thermal_default,non_prop_cost,57,57,0,0,None
 0,area_node,imbalance_cost,58,58,0,0,None
 0,area_node,is_significant_loss_of_load,58,58,0,0,None
 0,area_node,is_loss_of_load,58,58,0,0,None
@@ -2669,6 +2785,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,58,58,0,0,None
 0,area_thermal_default,down_margin,58,58,0,0,None
 0,area_thermal_default,profit,58,58,0,0,None
+0,area_thermal_default,actual_num_units_on,58,58,0,0,None
+0,area_thermal_default,non_prop_cost,58,58,0,0,None
 0,area_node,imbalance_cost,59,59,0,0,None
 0,area_node,is_significant_loss_of_load,59,59,0,0,None
 0,area_node,is_loss_of_load,59,59,0,0,None
@@ -2700,6 +2818,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,59,59,0,0,None
 0,area_thermal_default,down_margin,59,59,0,0,None
 0,area_thermal_default,profit,59,59,0,0,None
+0,area_thermal_default,actual_num_units_on,59,59,0,0,None
+0,area_thermal_default,non_prop_cost,59,59,0,0,None
 0,area_node,imbalance_cost,60,60,0,0,None
 0,area_node,is_significant_loss_of_load,60,60,0,0,None
 0,area_node,is_loss_of_load,60,60,0,0,None
@@ -2731,6 +2851,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,60,60,0,0,None
 0,area_thermal_default,down_margin,60,60,0,0,None
 0,area_thermal_default,profit,60,60,0,0,None
+0,area_thermal_default,actual_num_units_on,60,60,0,0,None
+0,area_thermal_default,non_prop_cost,60,60,0,0,None
 0,area_node,imbalance_cost,61,61,0,0,None
 0,area_node,is_significant_loss_of_load,61,61,0,0,None
 0,area_node,is_loss_of_load,61,61,0,0,None
@@ -2762,6 +2884,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,61,61,0,0,None
 0,area_thermal_default,down_margin,61,61,0,0,None
 0,area_thermal_default,profit,61,61,0,0,None
+0,area_thermal_default,actual_num_units_on,61,61,0,0,None
+0,area_thermal_default,non_prop_cost,61,61,0,0,None
 0,area_node,imbalance_cost,62,62,0,0,None
 0,area_node,is_significant_loss_of_load,62,62,0,0,None
 0,area_node,is_loss_of_load,62,62,0,0,None
@@ -2793,6 +2917,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,62,62,0,0,None
 0,area_thermal_default,down_margin,62,62,0,0,None
 0,area_thermal_default,profit,62,62,0,0,None
+0,area_thermal_default,actual_num_units_on,62,62,0,0,None
+0,area_thermal_default,non_prop_cost,62,62,0,0,None
 0,area_node,imbalance_cost,63,63,0,0,None
 0,area_node,is_significant_loss_of_load,63,63,0,0,None
 0,area_node,is_loss_of_load,63,63,0,0,None
@@ -2824,6 +2950,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,63,63,0,0,None
 0,area_thermal_default,down_margin,63,63,0,0,None
 0,area_thermal_default,profit,63,63,0,0,None
+0,area_thermal_default,actual_num_units_on,63,63,0,0,None
+0,area_thermal_default,non_prop_cost,63,63,0,0,None
 0,area_node,imbalance_cost,64,64,0,0,None
 0,area_node,is_significant_loss_of_load,64,64,0,0,None
 0,area_node,is_loss_of_load,64,64,0,0,None
@@ -2855,6 +2983,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,64,64,0,0,None
 0,area_thermal_default,down_margin,64,64,0,0,None
 0,area_thermal_default,profit,64,64,0,0,None
+0,area_thermal_default,actual_num_units_on,64,64,0,0,None
+0,area_thermal_default,non_prop_cost,64,64,0,0,None
 0,area_node,imbalance_cost,65,65,0,0,None
 0,area_node,is_significant_loss_of_load,65,65,0,0,None
 0,area_node,is_loss_of_load,65,65,0,0,None
@@ -2886,6 +3016,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,65,65,0,0,None
 0,area_thermal_default,down_margin,65,65,0,0,None
 0,area_thermal_default,profit,65,65,0,0,None
+0,area_thermal_default,actual_num_units_on,65,65,0,0,None
+0,area_thermal_default,non_prop_cost,65,65,0,0,None
 0,area_node,imbalance_cost,66,66,0,0,None
 0,area_node,is_significant_loss_of_load,66,66,0,0,None
 0,area_node,is_loss_of_load,66,66,0,0,None
@@ -2917,6 +3049,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,66,66,0,0,None
 0,area_thermal_default,down_margin,66,66,0,0,None
 0,area_thermal_default,profit,66,66,0,0,None
+0,area_thermal_default,actual_num_units_on,66,66,0,0,None
+0,area_thermal_default,non_prop_cost,66,66,0,0,None
 0,area_node,imbalance_cost,67,67,0,0,None
 0,area_node,is_significant_loss_of_load,67,67,0,0,None
 0,area_node,is_loss_of_load,67,67,0,0,None
@@ -2948,6 +3082,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,67,67,0,0,None
 0,area_thermal_default,down_margin,67,67,0,0,None
 0,area_thermal_default,profit,67,67,0,0,None
+0,area_thermal_default,actual_num_units_on,67,67,0,0,None
+0,area_thermal_default,non_prop_cost,67,67,0,0,None
 0,area_node,imbalance_cost,68,68,0,0,None
 0,area_node,is_significant_loss_of_load,68,68,0,0,None
 0,area_node,is_loss_of_load,68,68,0,0,None
@@ -2979,6 +3115,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,68,68,0,0,None
 0,area_thermal_default,down_margin,68,68,0,0,None
 0,area_thermal_default,profit,68,68,0,0,None
+0,area_thermal_default,actual_num_units_on,68,68,0,0,None
+0,area_thermal_default,non_prop_cost,68,68,0,0,None
 0,area_node,imbalance_cost,69,69,0,0,None
 0,area_node,is_significant_loss_of_load,69,69,0,0,None
 0,area_node,is_loss_of_load,69,69,0,0,None
@@ -3010,6 +3148,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,69,69,0,0,None
 0,area_thermal_default,down_margin,69,69,0,0,None
 0,area_thermal_default,profit,69,69,0,0,None
+0,area_thermal_default,actual_num_units_on,69,69,0,0,None
+0,area_thermal_default,non_prop_cost,69,69,0,0,None
 0,area_node,imbalance_cost,70,70,0,0,None
 0,area_node,is_significant_loss_of_load,70,70,0,0,None
 0,area_node,is_loss_of_load,70,70,0,0,None
@@ -3041,6 +3181,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,70,70,0,0,None
 0,area_thermal_default,down_margin,70,70,0,0,None
 0,area_thermal_default,profit,70,70,0,0,None
+0,area_thermal_default,actual_num_units_on,70,70,0,0,None
+0,area_thermal_default,non_prop_cost,70,70,0,0,None
 0,area_node,imbalance_cost,71,71,0,0,None
 0,area_node,is_significant_loss_of_load,71,71,0,0,None
 0,area_node,is_loss_of_load,71,71,0,0,None
@@ -3072,6 +3214,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,71,71,0,0,None
 0,area_thermal_default,down_margin,71,71,0,0,None
 0,area_thermal_default,profit,71,71,0,0,None
+0,area_thermal_default,actual_num_units_on,71,71,0,0,None
+0,area_thermal_default,non_prop_cost,71,71,0,0,None
 0,area_node,imbalance_cost,72,72,0,0,None
 0,area_node,is_significant_loss_of_load,72,72,0,0,None
 0,area_node,is_loss_of_load,72,72,0,0,None
@@ -3103,6 +3247,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,72,72,0,0,None
 0,area_thermal_default,down_margin,72,72,0,0,None
 0,area_thermal_default,profit,72,72,0,0,None
+0,area_thermal_default,actual_num_units_on,72,72,0,0,None
+0,area_thermal_default,non_prop_cost,72,72,0,0,None
 0,area_node,imbalance_cost,73,73,0,0,None
 0,area_node,is_significant_loss_of_load,73,73,0,0,None
 0,area_node,is_loss_of_load,73,73,0,0,None
@@ -3134,6 +3280,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,73,73,0,0,None
 0,area_thermal_default,down_margin,73,73,0,0,None
 0,area_thermal_default,profit,73,73,0,0,None
+0,area_thermal_default,actual_num_units_on,73,73,0,0,None
+0,area_thermal_default,non_prop_cost,73,73,0,0,None
 0,area_node,imbalance_cost,74,74,0,0,None
 0,area_node,is_significant_loss_of_load,74,74,0,0,None
 0,area_node,is_loss_of_load,74,74,0,0,None
@@ -3165,6 +3313,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,74,74,0,0,None
 0,area_thermal_default,down_margin,74,74,0,0,None
 0,area_thermal_default,profit,74,74,0,0,None
+0,area_thermal_default,actual_num_units_on,74,74,0,0,None
+0,area_thermal_default,non_prop_cost,74,74,0,0,None
 0,area_node,imbalance_cost,75,75,0,0,None
 0,area_node,is_significant_loss_of_load,75,75,0,0,None
 0,area_node,is_loss_of_load,75,75,0,0,None
@@ -3196,6 +3346,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,75,75,0,0,None
 0,area_thermal_default,down_margin,75,75,0,0,None
 0,area_thermal_default,profit,75,75,0,0,None
+0,area_thermal_default,actual_num_units_on,75,75,0,0,None
+0,area_thermal_default,non_prop_cost,75,75,0,0,None
 0,area_node,imbalance_cost,76,76,0,0,None
 0,area_node,is_significant_loss_of_load,76,76,0,0,None
 0,area_node,is_loss_of_load,76,76,0,0,None
@@ -3227,6 +3379,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,76,76,0,0,None
 0,area_thermal_default,down_margin,76,76,0,0,None
 0,area_thermal_default,profit,76,76,0,0,None
+0,area_thermal_default,actual_num_units_on,76,76,0,0,None
+0,area_thermal_default,non_prop_cost,76,76,0,0,None
 0,area_node,imbalance_cost,77,77,0,0,None
 0,area_node,is_significant_loss_of_load,77,77,0,0,None
 0,area_node,is_loss_of_load,77,77,0,0,None
@@ -3258,6 +3412,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,77,77,0,0,None
 0,area_thermal_default,down_margin,77,77,0,0,None
 0,area_thermal_default,profit,77,77,0,0,None
+0,area_thermal_default,actual_num_units_on,77,77,0,0,None
+0,area_thermal_default,non_prop_cost,77,77,0,0,None
 0,area_node,imbalance_cost,78,78,0,0,None
 0,area_node,is_significant_loss_of_load,78,78,0,0,None
 0,area_node,is_loss_of_load,78,78,0,0,None
@@ -3289,6 +3445,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,78,78,0,0,None
 0,area_thermal_default,down_margin,78,78,0,0,None
 0,area_thermal_default,profit,78,78,0,0,None
+0,area_thermal_default,actual_num_units_on,78,78,0,0,None
+0,area_thermal_default,non_prop_cost,78,78,0,0,None
 0,area_node,imbalance_cost,79,79,0,0,None
 0,area_node,is_significant_loss_of_load,79,79,0,0,None
 0,area_node,is_loss_of_load,79,79,0,0,None
@@ -3320,6 +3478,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,79,79,0,0,None
 0,area_thermal_default,down_margin,79,79,0,0,None
 0,area_thermal_default,profit,79,79,0,0,None
+0,area_thermal_default,actual_num_units_on,79,79,0,0,None
+0,area_thermal_default,non_prop_cost,79,79,0,0,None
 0,area_node,imbalance_cost,80,80,0,0,None
 0,area_node,is_significant_loss_of_load,80,80,0,0,None
 0,area_node,is_loss_of_load,80,80,0,0,None
@@ -3351,6 +3511,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,80,80,0,0,None
 0,area_thermal_default,down_margin,80,80,0,0,None
 0,area_thermal_default,profit,80,80,0,0,None
+0,area_thermal_default,actual_num_units_on,80,80,0,0,None
+0,area_thermal_default,non_prop_cost,80,80,0,0,None
 0,area_node,imbalance_cost,81,81,0,0,None
 0,area_node,is_significant_loss_of_load,81,81,0,0,None
 0,area_node,is_loss_of_load,81,81,0,0,None
@@ -3382,6 +3544,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,81,81,0,0,None
 0,area_thermal_default,down_margin,81,81,0,0,None
 0,area_thermal_default,profit,81,81,0,0,None
+0,area_thermal_default,actual_num_units_on,81,81,0,0,None
+0,area_thermal_default,non_prop_cost,81,81,0,0,None
 0,area_node,imbalance_cost,82,82,0,0,None
 0,area_node,is_significant_loss_of_load,82,82,0,0,None
 0,area_node,is_loss_of_load,82,82,0,0,None
@@ -3413,6 +3577,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,82,82,0,0,None
 0,area_thermal_default,down_margin,82,82,0,0,None
 0,area_thermal_default,profit,82,82,0,0,None
+0,area_thermal_default,actual_num_units_on,82,82,0,0,None
+0,area_thermal_default,non_prop_cost,82,82,0,0,None
 0,area_node,imbalance_cost,83,83,0,0,None
 0,area_node,is_significant_loss_of_load,83,83,0,0,None
 0,area_node,is_loss_of_load,83,83,0,0,None
@@ -3444,6 +3610,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,83,83,0,0,None
 0,area_thermal_default,down_margin,83,83,0,0,None
 0,area_thermal_default,profit,83,83,0,0,None
+0,area_thermal_default,actual_num_units_on,83,83,0,0,None
+0,area_thermal_default,non_prop_cost,83,83,0,0,None
 0,area_node,imbalance_cost,84,84,0,0,None
 0,area_node,is_significant_loss_of_load,84,84,0,0,None
 0,area_node,is_loss_of_load,84,84,0,0,None
@@ -3475,6 +3643,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,84,84,0,0,None
 0,area_thermal_default,down_margin,84,84,0,0,None
 0,area_thermal_default,profit,84,84,0,0,None
+0,area_thermal_default,actual_num_units_on,84,84,0,0,None
+0,area_thermal_default,non_prop_cost,84,84,0,0,None
 0,area_node,imbalance_cost,85,85,0,0,None
 0,area_node,is_significant_loss_of_load,85,85,0,0,None
 0,area_node,is_loss_of_load,85,85,0,0,None
@@ -3506,6 +3676,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,85,85,0,0,None
 0,area_thermal_default,down_margin,85,85,0,0,None
 0,area_thermal_default,profit,85,85,0,0,None
+0,area_thermal_default,actual_num_units_on,85,85,0,0,None
+0,area_thermal_default,non_prop_cost,85,85,0,0,None
 0,area_node,imbalance_cost,86,86,0,0,None
 0,area_node,is_significant_loss_of_load,86,86,0,0,None
 0,area_node,is_loss_of_load,86,86,0,0,None
@@ -3537,6 +3709,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,86,86,0,0,None
 0,area_thermal_default,down_margin,86,86,0,0,None
 0,area_thermal_default,profit,86,86,0,0,None
+0,area_thermal_default,actual_num_units_on,86,86,0,0,None
+0,area_thermal_default,non_prop_cost,86,86,0,0,None
 0,area_node,imbalance_cost,87,87,0,0,None
 0,area_node,is_significant_loss_of_load,87,87,0,0,None
 0,area_node,is_loss_of_load,87,87,0,0,None
@@ -3568,6 +3742,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,87,87,0,0,None
 0,area_thermal_default,down_margin,87,87,0,0,None
 0,area_thermal_default,profit,87,87,0,0,None
+0,area_thermal_default,actual_num_units_on,87,87,0,0,None
+0,area_thermal_default,non_prop_cost,87,87,0,0,None
 0,area_node,imbalance_cost,88,88,0,0,None
 0,area_node,is_significant_loss_of_load,88,88,0,0,None
 0,area_node,is_loss_of_load,88,88,0,0,None
@@ -3599,6 +3775,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,88,88,0,0,None
 0,area_thermal_default,down_margin,88,88,0,0,None
 0,area_thermal_default,profit,88,88,0,0,None
+0,area_thermal_default,actual_num_units_on,88,88,0,0,None
+0,area_thermal_default,non_prop_cost,88,88,0,0,None
 0,area_node,imbalance_cost,89,89,0,0,None
 0,area_node,is_significant_loss_of_load,89,89,0,0,None
 0,area_node,is_loss_of_load,89,89,0,0,None
@@ -3630,6 +3808,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,89,89,0,0,None
 0,area_thermal_default,down_margin,89,89,0,0,None
 0,area_thermal_default,profit,89,89,0,0,None
+0,area_thermal_default,actual_num_units_on,89,89,0,0,None
+0,area_thermal_default,non_prop_cost,89,89,0,0,None
 0,area_node,imbalance_cost,90,90,0,0,None
 0,area_node,is_significant_loss_of_load,90,90,0,0,None
 0,area_node,is_loss_of_load,90,90,0,0,None
@@ -3661,6 +3841,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,90,90,0,0,None
 0,area_thermal_default,down_margin,90,90,0,0,None
 0,area_thermal_default,profit,90,90,0,0,None
+0,area_thermal_default,actual_num_units_on,90,90,0,0,None
+0,area_thermal_default,non_prop_cost,90,90,0,0,None
 0,area_node,imbalance_cost,91,91,0,0,None
 0,area_node,is_significant_loss_of_load,91,91,0,0,None
 0,area_node,is_loss_of_load,91,91,0,0,None
@@ -3692,6 +3874,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,91,91,0,0,None
 0,area_thermal_default,down_margin,91,91,0,0,None
 0,area_thermal_default,profit,91,91,0,0,None
+0,area_thermal_default,actual_num_units_on,91,91,0,0,None
+0,area_thermal_default,non_prop_cost,91,91,0,0,None
 0,area_node,imbalance_cost,92,92,0,0,None
 0,area_node,is_significant_loss_of_load,92,92,0,0,None
 0,area_node,is_loss_of_load,92,92,0,0,None
@@ -3723,6 +3907,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,92,92,0,0,None
 0,area_thermal_default,down_margin,92,92,0,0,None
 0,area_thermal_default,profit,92,92,0,0,None
+0,area_thermal_default,actual_num_units_on,92,92,0,0,None
+0,area_thermal_default,non_prop_cost,92,92,0,0,None
 0,area_node,imbalance_cost,93,93,0,0,None
 0,area_node,is_significant_loss_of_load,93,93,0,0,None
 0,area_node,is_loss_of_load,93,93,0,0,None
@@ -3754,6 +3940,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,93,93,0,0,None
 0,area_thermal_default,down_margin,93,93,0,0,None
 0,area_thermal_default,profit,93,93,0,0,None
+0,area_thermal_default,actual_num_units_on,93,93,0,0,None
+0,area_thermal_default,non_prop_cost,93,93,0,0,None
 0,area_node,imbalance_cost,94,94,0,0,None
 0,area_node,is_significant_loss_of_load,94,94,0,0,None
 0,area_node,is_loss_of_load,94,94,0,0,None
@@ -3785,6 +3973,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,94,94,0,0,None
 0,area_thermal_default,down_margin,94,94,0,0,None
 0,area_thermal_default,profit,94,94,0,0,None
+0,area_thermal_default,actual_num_units_on,94,94,0,0,None
+0,area_thermal_default,non_prop_cost,94,94,0,0,None
 0,area_node,imbalance_cost,95,95,0,0,None
 0,area_node,is_significant_loss_of_load,95,95,0,0,None
 0,area_node,is_loss_of_load,95,95,0,0,None
@@ -3816,6 +4006,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,95,95,0,0,None
 0,area_thermal_default,down_margin,95,95,0,0,None
 0,area_thermal_default,profit,95,95,0,0,None
+0,area_thermal_default,actual_num_units_on,95,95,0,0,None
+0,area_thermal_default,non_prop_cost,95,95,0,0,None
 0,area_node,imbalance_cost,96,96,0,0,None
 0,area_node,is_significant_loss_of_load,96,96,0,0,None
 0,area_node,is_loss_of_load,96,96,0,0,None
@@ -3847,6 +4039,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,96,96,0,0,None
 0,area_thermal_default,down_margin,96,96,0,0,None
 0,area_thermal_default,profit,96,96,0,0,None
+0,area_thermal_default,actual_num_units_on,96,96,0,0,None
+0,area_thermal_default,non_prop_cost,96,96,0,0,None
 0,area_node,imbalance_cost,97,97,0,0,None
 0,area_node,is_significant_loss_of_load,97,97,0,0,None
 0,area_node,is_loss_of_load,97,97,0,0,None
@@ -3878,6 +4072,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,97,97,0,0,None
 0,area_thermal_default,down_margin,97,97,0,0,None
 0,area_thermal_default,profit,97,97,0,0,None
+0,area_thermal_default,actual_num_units_on,97,97,0,0,None
+0,area_thermal_default,non_prop_cost,97,97,0,0,None
 0,area_node,imbalance_cost,98,98,0,0,None
 0,area_node,is_significant_loss_of_load,98,98,0,0,None
 0,area_node,is_loss_of_load,98,98,0,0,None
@@ -3909,6 +4105,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,98,98,0,0,None
 0,area_thermal_default,down_margin,98,98,0,0,None
 0,area_thermal_default,profit,98,98,0,0,None
+0,area_thermal_default,actual_num_units_on,98,98,0,0,None
+0,area_thermal_default,non_prop_cost,98,98,0,0,None
 0,area_node,imbalance_cost,99,99,0,0,None
 0,area_node,is_significant_loss_of_load,99,99,0,0,None
 0,area_node,is_loss_of_load,99,99,0,0,None
@@ -3940,6 +4138,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,99,99,0,0,None
 0,area_thermal_default,down_margin,99,99,0,0,None
 0,area_thermal_default,profit,99,99,0,0,None
+0,area_thermal_default,actual_num_units_on,99,99,0,0,None
+0,area_thermal_default,non_prop_cost,99,99,0,0,None
 0,area_node,imbalance_cost,100,100,0,0,None
 0,area_node,is_significant_loss_of_load,100,100,0,0,None
 0,area_node,is_loss_of_load,100,100,0,0,None
@@ -3971,6 +4171,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,100,100,0,0,None
 0,area_thermal_default,down_margin,100,100,0,0,None
 0,area_thermal_default,profit,100,100,0,0,None
+0,area_thermal_default,actual_num_units_on,100,100,0,0,None
+0,area_thermal_default,non_prop_cost,100,100,0,0,None
 0,area_node,imbalance_cost,101,101,0,0,None
 0,area_node,is_significant_loss_of_load,101,101,0,0,None
 0,area_node,is_loss_of_load,101,101,0,0,None
@@ -4002,6 +4204,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,101,101,0,0,None
 0,area_thermal_default,down_margin,101,101,0,0,None
 0,area_thermal_default,profit,101,101,0,0,None
+0,area_thermal_default,actual_num_units_on,101,101,0,0,None
+0,area_thermal_default,non_prop_cost,101,101,0,0,None
 0,area_node,imbalance_cost,102,102,0,0,None
 0,area_node,is_significant_loss_of_load,102,102,0,0,None
 0,area_node,is_loss_of_load,102,102,0,0,None
@@ -4033,6 +4237,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,102,102,0,0,None
 0,area_thermal_default,down_margin,102,102,0,0,None
 0,area_thermal_default,profit,102,102,0,0,None
+0,area_thermal_default,actual_num_units_on,102,102,0,0,None
+0,area_thermal_default,non_prop_cost,102,102,0,0,None
 0,area_node,imbalance_cost,103,103,0,0,None
 0,area_node,is_significant_loss_of_load,103,103,0,0,None
 0,area_node,is_loss_of_load,103,103,0,0,None
@@ -4064,6 +4270,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,103,103,0,0,None
 0,area_thermal_default,down_margin,103,103,0,0,None
 0,area_thermal_default,profit,103,103,0,0,None
+0,area_thermal_default,actual_num_units_on,103,103,0,0,None
+0,area_thermal_default,non_prop_cost,103,103,0,0,None
 0,area_node,imbalance_cost,104,104,0,0,None
 0,area_node,is_significant_loss_of_load,104,104,0,0,None
 0,area_node,is_loss_of_load,104,104,0,0,None
@@ -4095,6 +4303,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,104,104,0,0,None
 0,area_thermal_default,down_margin,104,104,0,0,None
 0,area_thermal_default,profit,104,104,0,0,None
+0,area_thermal_default,actual_num_units_on,104,104,0,0,None
+0,area_thermal_default,non_prop_cost,104,104,0,0,None
 0,area_node,imbalance_cost,105,105,0,0,None
 0,area_node,is_significant_loss_of_load,105,105,0,0,None
 0,area_node,is_loss_of_load,105,105,0,0,None
@@ -4126,6 +4336,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,105,105,0,0,None
 0,area_thermal_default,down_margin,105,105,0,0,None
 0,area_thermal_default,profit,105,105,0,0,None
+0,area_thermal_default,actual_num_units_on,105,105,0,0,None
+0,area_thermal_default,non_prop_cost,105,105,0,0,None
 0,area_node,imbalance_cost,106,106,0,0,None
 0,area_node,is_significant_loss_of_load,106,106,0,0,None
 0,area_node,is_loss_of_load,106,106,0,0,None
@@ -4157,6 +4369,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,106,106,0,0,None
 0,area_thermal_default,down_margin,106,106,0,0,None
 0,area_thermal_default,profit,106,106,0,0,None
+0,area_thermal_default,actual_num_units_on,106,106,0,0,None
+0,area_thermal_default,non_prop_cost,106,106,0,0,None
 0,area_node,imbalance_cost,107,107,0,0,None
 0,area_node,is_significant_loss_of_load,107,107,0,0,None
 0,area_node,is_loss_of_load,107,107,0,0,None
@@ -4188,6 +4402,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,107,107,0,0,None
 0,area_thermal_default,down_margin,107,107,0,0,None
 0,area_thermal_default,profit,107,107,0,0,None
+0,area_thermal_default,actual_num_units_on,107,107,0,0,None
+0,area_thermal_default,non_prop_cost,107,107,0,0,None
 0,area_node,imbalance_cost,108,108,0,0,None
 0,area_node,is_significant_loss_of_load,108,108,0,0,None
 0,area_node,is_loss_of_load,108,108,0,0,None
@@ -4219,6 +4435,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,108,108,0,0,None
 0,area_thermal_default,down_margin,108,108,0,0,None
 0,area_thermal_default,profit,108,108,0,0,None
+0,area_thermal_default,actual_num_units_on,108,108,0,0,None
+0,area_thermal_default,non_prop_cost,108,108,0,0,None
 0,area_node,imbalance_cost,109,109,0,0,None
 0,area_node,is_significant_loss_of_load,109,109,0,0,None
 0,area_node,is_loss_of_load,109,109,0,0,None
@@ -4250,6 +4468,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,109,109,0,0,None
 0,area_thermal_default,down_margin,109,109,0,0,None
 0,area_thermal_default,profit,109,109,0,0,None
+0,area_thermal_default,actual_num_units_on,109,109,0,0,None
+0,area_thermal_default,non_prop_cost,109,109,0,0,None
 0,area_node,imbalance_cost,110,110,0,0,None
 0,area_node,is_significant_loss_of_load,110,110,0,0,None
 0,area_node,is_loss_of_load,110,110,0,0,None
@@ -4281,6 +4501,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,110,110,0,0,None
 0,area_thermal_default,down_margin,110,110,0,0,None
 0,area_thermal_default,profit,110,110,0,0,None
+0,area_thermal_default,actual_num_units_on,110,110,0,0,None
+0,area_thermal_default,non_prop_cost,110,110,0,0,None
 0,area_node,imbalance_cost,111,111,0,0,None
 0,area_node,is_significant_loss_of_load,111,111,0,0,None
 0,area_node,is_loss_of_load,111,111,0,0,None
@@ -4312,6 +4534,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,111,111,0,0,None
 0,area_thermal_default,down_margin,111,111,0,0,None
 0,area_thermal_default,profit,111,111,0,0,None
+0,area_thermal_default,actual_num_units_on,111,111,0,0,None
+0,area_thermal_default,non_prop_cost,111,111,0,0,None
 0,area_node,imbalance_cost,112,112,0,0,None
 0,area_node,is_significant_loss_of_load,112,112,0,0,None
 0,area_node,is_loss_of_load,112,112,0,0,None
@@ -4343,6 +4567,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,112,112,0,0,None
 0,area_thermal_default,down_margin,112,112,0,0,None
 0,area_thermal_default,profit,112,112,0,0,None
+0,area_thermal_default,actual_num_units_on,112,112,0,0,None
+0,area_thermal_default,non_prop_cost,112,112,0,0,None
 0,area_node,imbalance_cost,113,113,0,0,None
 0,area_node,is_significant_loss_of_load,113,113,0,0,None
 0,area_node,is_loss_of_load,113,113,0,0,None
@@ -4374,6 +4600,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,113,113,0,0,None
 0,area_thermal_default,down_margin,113,113,0,0,None
 0,area_thermal_default,profit,113,113,0,0,None
+0,area_thermal_default,actual_num_units_on,113,113,0,0,None
+0,area_thermal_default,non_prop_cost,113,113,0,0,None
 0,area_node,imbalance_cost,114,114,0,0,None
 0,area_node,is_significant_loss_of_load,114,114,0,0,None
 0,area_node,is_loss_of_load,114,114,0,0,None
@@ -4405,6 +4633,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,114,114,0,0,None
 0,area_thermal_default,down_margin,114,114,0,0,None
 0,area_thermal_default,profit,114,114,0,0,None
+0,area_thermal_default,actual_num_units_on,114,114,0,0,None
+0,area_thermal_default,non_prop_cost,114,114,0,0,None
 0,area_node,imbalance_cost,115,115,0,0,None
 0,area_node,is_significant_loss_of_load,115,115,0,0,None
 0,area_node,is_loss_of_load,115,115,0,0,None
@@ -4436,6 +4666,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,115,115,0,0,None
 0,area_thermal_default,down_margin,115,115,0,0,None
 0,area_thermal_default,profit,115,115,0,0,None
+0,area_thermal_default,actual_num_units_on,115,115,0,0,None
+0,area_thermal_default,non_prop_cost,115,115,0,0,None
 0,area_node,imbalance_cost,116,116,0,0,None
 0,area_node,is_significant_loss_of_load,116,116,0,0,None
 0,area_node,is_loss_of_load,116,116,0,0,None
@@ -4467,6 +4699,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,116,116,0,0,None
 0,area_thermal_default,down_margin,116,116,0,0,None
 0,area_thermal_default,profit,116,116,0,0,None
+0,area_thermal_default,actual_num_units_on,116,116,0,0,None
+0,area_thermal_default,non_prop_cost,116,116,0,0,None
 0,area_node,imbalance_cost,117,117,0,0,None
 0,area_node,is_significant_loss_of_load,117,117,0,0,None
 0,area_node,is_loss_of_load,117,117,0,0,None
@@ -4498,6 +4732,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,117,117,0,0,None
 0,area_thermal_default,down_margin,117,117,0,0,None
 0,area_thermal_default,profit,117,117,0,0,None
+0,area_thermal_default,actual_num_units_on,117,117,0,0,None
+0,area_thermal_default,non_prop_cost,117,117,0,0,None
 0,area_node,imbalance_cost,118,118,0,0,None
 0,area_node,is_significant_loss_of_load,118,118,0,0,None
 0,area_node,is_loss_of_load,118,118,0,0,None
@@ -4529,6 +4765,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,118,118,0,0,None
 0,area_thermal_default,down_margin,118,118,0,0,None
 0,area_thermal_default,profit,118,118,0,0,None
+0,area_thermal_default,actual_num_units_on,118,118,0,0,None
+0,area_thermal_default,non_prop_cost,118,118,0,0,None
 0,area_node,imbalance_cost,119,119,0,0,None
 0,area_node,is_significant_loss_of_load,119,119,0,0,None
 0,area_node,is_loss_of_load,119,119,0,0,None
@@ -4560,6 +4798,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,119,119,0,0,None
 0,area_thermal_default,down_margin,119,119,0,0,None
 0,area_thermal_default,profit,119,119,0,0,None
+0,area_thermal_default,actual_num_units_on,119,119,0,0,None
+0,area_thermal_default,non_prop_cost,119,119,0,0,None
 0,area_node,imbalance_cost,120,120,0,0,None
 0,area_node,is_significant_loss_of_load,120,120,0,0,None
 0,area_node,is_loss_of_load,120,120,0,0,None
@@ -4591,6 +4831,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,120,120,0,0,None
 0,area_thermal_default,down_margin,120,120,0,0,None
 0,area_thermal_default,profit,120,120,0,0,None
+0,area_thermal_default,actual_num_units_on,120,120,0,0,None
+0,area_thermal_default,non_prop_cost,120,120,0,0,None
 0,area_node,imbalance_cost,121,121,0,0,None
 0,area_node,is_significant_loss_of_load,121,121,0,0,None
 0,area_node,is_loss_of_load,121,121,0,0,None
@@ -4622,6 +4864,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,121,121,0,0,None
 0,area_thermal_default,down_margin,121,121,0,0,None
 0,area_thermal_default,profit,121,121,0,0,None
+0,area_thermal_default,actual_num_units_on,121,121,0,0,None
+0,area_thermal_default,non_prop_cost,121,121,0,0,None
 0,area_node,imbalance_cost,122,122,0,0,None
 0,area_node,is_significant_loss_of_load,122,122,0,0,None
 0,area_node,is_loss_of_load,122,122,0,0,None
@@ -4653,6 +4897,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,122,122,0,0,None
 0,area_thermal_default,down_margin,122,122,0,0,None
 0,area_thermal_default,profit,122,122,0,0,None
+0,area_thermal_default,actual_num_units_on,122,122,0,0,None
+0,area_thermal_default,non_prop_cost,122,122,0,0,None
 0,area_node,imbalance_cost,123,123,0,0,None
 0,area_node,is_significant_loss_of_load,123,123,0,0,None
 0,area_node,is_loss_of_load,123,123,0,0,None
@@ -4684,6 +4930,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,123,123,0,0,None
 0,area_thermal_default,down_margin,123,123,0,0,None
 0,area_thermal_default,profit,123,123,0,0,None
+0,area_thermal_default,actual_num_units_on,123,123,0,0,None
+0,area_thermal_default,non_prop_cost,123,123,0,0,None
 0,area_node,imbalance_cost,124,124,0,0,None
 0,area_node,is_significant_loss_of_load,124,124,0,0,None
 0,area_node,is_loss_of_load,124,124,0,0,None
@@ -4715,6 +4963,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,124,124,0,0,None
 0,area_thermal_default,down_margin,124,124,0,0,None
 0,area_thermal_default,profit,124,124,0,0,None
+0,area_thermal_default,actual_num_units_on,124,124,0,0,None
+0,area_thermal_default,non_prop_cost,124,124,0,0,None
 0,area_node,imbalance_cost,125,125,0,0,None
 0,area_node,is_significant_loss_of_load,125,125,0,0,None
 0,area_node,is_loss_of_load,125,125,0,0,None
@@ -4746,6 +4996,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,125,125,0,0,None
 0,area_thermal_default,down_margin,125,125,0,0,None
 0,area_thermal_default,profit,125,125,0,0,None
+0,area_thermal_default,actual_num_units_on,125,125,0,0,None
+0,area_thermal_default,non_prop_cost,125,125,0,0,None
 0,area_node,imbalance_cost,126,126,0,0,None
 0,area_node,is_significant_loss_of_load,126,126,0,0,None
 0,area_node,is_loss_of_load,126,126,0,0,None
@@ -4777,6 +5029,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,126,126,0,0,None
 0,area_thermal_default,down_margin,126,126,0,0,None
 0,area_thermal_default,profit,126,126,0,0,None
+0,area_thermal_default,actual_num_units_on,126,126,0,0,None
+0,area_thermal_default,non_prop_cost,126,126,0,0,None
 0,area_node,imbalance_cost,127,127,0,0,None
 0,area_node,is_significant_loss_of_load,127,127,0,0,None
 0,area_node,is_loss_of_load,127,127,0,0,None
@@ -4808,6 +5062,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,127,127,0,0,None
 0,area_thermal_default,down_margin,127,127,0,0,None
 0,area_thermal_default,profit,127,127,0,0,None
+0,area_thermal_default,actual_num_units_on,127,127,0,0,None
+0,area_thermal_default,non_prop_cost,127,127,0,0,None
 0,area_node,imbalance_cost,128,128,0,0,None
 0,area_node,is_significant_loss_of_load,128,128,0,0,None
 0,area_node,is_loss_of_load,128,128,0,0,None
@@ -4839,6 +5095,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,128,128,0,0,None
 0,area_thermal_default,down_margin,128,128,0,0,None
 0,area_thermal_default,profit,128,128,0,0,None
+0,area_thermal_default,actual_num_units_on,128,128,0,0,None
+0,area_thermal_default,non_prop_cost,128,128,0,0,None
 0,area_node,imbalance_cost,129,129,0,0,None
 0,area_node,is_significant_loss_of_load,129,129,0,0,None
 0,area_node,is_loss_of_load,129,129,0,0,None
@@ -4870,6 +5128,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,129,129,0,0,None
 0,area_thermal_default,down_margin,129,129,0,0,None
 0,area_thermal_default,profit,129,129,0,0,None
+0,area_thermal_default,actual_num_units_on,129,129,0,0,None
+0,area_thermal_default,non_prop_cost,129,129,0,0,None
 0,area_node,imbalance_cost,130,130,0,0,None
 0,area_node,is_significant_loss_of_load,130,130,0,0,None
 0,area_node,is_loss_of_load,130,130,0,0,None
@@ -4901,6 +5161,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,130,130,0,0,None
 0,area_thermal_default,down_margin,130,130,0,0,None
 0,area_thermal_default,profit,130,130,0,0,None
+0,area_thermal_default,actual_num_units_on,130,130,0,0,None
+0,area_thermal_default,non_prop_cost,130,130,0,0,None
 0,area_node,imbalance_cost,131,131,0,0,None
 0,area_node,is_significant_loss_of_load,131,131,0,0,None
 0,area_node,is_loss_of_load,131,131,0,0,None
@@ -4932,6 +5194,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,131,131,0,0,None
 0,area_thermal_default,down_margin,131,131,0,0,None
 0,area_thermal_default,profit,131,131,0,0,None
+0,area_thermal_default,actual_num_units_on,131,131,0,0,None
+0,area_thermal_default,non_prop_cost,131,131,0,0,None
 0,area_node,imbalance_cost,132,132,0,0,None
 0,area_node,is_significant_loss_of_load,132,132,0,0,None
 0,area_node,is_loss_of_load,132,132,0,0,None
@@ -4963,6 +5227,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,132,132,0,0,None
 0,area_thermal_default,down_margin,132,132,0,0,None
 0,area_thermal_default,profit,132,132,0,0,None
+0,area_thermal_default,actual_num_units_on,132,132,0,0,None
+0,area_thermal_default,non_prop_cost,132,132,0,0,None
 0,area_node,imbalance_cost,133,133,0,0,None
 0,area_node,is_significant_loss_of_load,133,133,0,0,None
 0,area_node,is_loss_of_load,133,133,0,0,None
@@ -4994,6 +5260,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,133,133,0,0,None
 0,area_thermal_default,down_margin,133,133,0,0,None
 0,area_thermal_default,profit,133,133,0,0,None
+0,area_thermal_default,actual_num_units_on,133,133,0,0,None
+0,area_thermal_default,non_prop_cost,133,133,0,0,None
 0,area_node,imbalance_cost,134,134,0,0,None
 0,area_node,is_significant_loss_of_load,134,134,0,0,None
 0,area_node,is_loss_of_load,134,134,0,0,None
@@ -5025,6 +5293,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,134,134,0,0,None
 0,area_thermal_default,down_margin,134,134,0,0,None
 0,area_thermal_default,profit,134,134,0,0,None
+0,area_thermal_default,actual_num_units_on,134,134,0,0,None
+0,area_thermal_default,non_prop_cost,134,134,0,0,None
 0,area_node,imbalance_cost,135,135,0,0,None
 0,area_node,is_significant_loss_of_load,135,135,0,0,None
 0,area_node,is_loss_of_load,135,135,0,0,None
@@ -5056,6 +5326,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,135,135,0,0,None
 0,area_thermal_default,down_margin,135,135,0,0,None
 0,area_thermal_default,profit,135,135,0,0,None
+0,area_thermal_default,actual_num_units_on,135,135,0,0,None
+0,area_thermal_default,non_prop_cost,135,135,0,0,None
 0,area_node,imbalance_cost,136,136,0,0,None
 0,area_node,is_significant_loss_of_load,136,136,0,0,None
 0,area_node,is_loss_of_load,136,136,0,0,None
@@ -5087,6 +5359,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,136,136,0,0,None
 0,area_thermal_default,down_margin,136,136,0,0,None
 0,area_thermal_default,profit,136,136,0,0,None
+0,area_thermal_default,actual_num_units_on,136,136,0,0,None
+0,area_thermal_default,non_prop_cost,136,136,0,0,None
 0,area_node,imbalance_cost,137,137,0,0,None
 0,area_node,is_significant_loss_of_load,137,137,0,0,None
 0,area_node,is_loss_of_load,137,137,0,0,None
@@ -5118,6 +5392,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,137,137,0,0,None
 0,area_thermal_default,down_margin,137,137,0,0,None
 0,area_thermal_default,profit,137,137,0,0,None
+0,area_thermal_default,actual_num_units_on,137,137,0,0,None
+0,area_thermal_default,non_prop_cost,137,137,0,0,None
 0,area_node,imbalance_cost,138,138,0,0,None
 0,area_node,is_significant_loss_of_load,138,138,0,0,None
 0,area_node,is_loss_of_load,138,138,0,0,None
@@ -5149,6 +5425,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,138,138,0,0,None
 0,area_thermal_default,down_margin,138,138,0,0,None
 0,area_thermal_default,profit,138,138,0,0,None
+0,area_thermal_default,actual_num_units_on,138,138,0,0,None
+0,area_thermal_default,non_prop_cost,138,138,0,0,None
 0,area_node,imbalance_cost,139,139,0,0,None
 0,area_node,is_significant_loss_of_load,139,139,0,0,None
 0,area_node,is_loss_of_load,139,139,0,0,None
@@ -5180,6 +5458,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,139,139,0,0,None
 0,area_thermal_default,down_margin,139,139,0,0,None
 0,area_thermal_default,profit,139,139,0,0,None
+0,area_thermal_default,actual_num_units_on,139,139,0,0,None
+0,area_thermal_default,non_prop_cost,139,139,0,0,None
 0,area_node,imbalance_cost,140,140,0,0,None
 0,area_node,is_significant_loss_of_load,140,140,0,0,None
 0,area_node,is_loss_of_load,140,140,0,0,None
@@ -5211,6 +5491,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,140,140,0,0,None
 0,area_thermal_default,down_margin,140,140,0,0,None
 0,area_thermal_default,profit,140,140,0,0,None
+0,area_thermal_default,actual_num_units_on,140,140,0,0,None
+0,area_thermal_default,non_prop_cost,140,140,0,0,None
 0,area_node,imbalance_cost,141,141,0,0,None
 0,area_node,is_significant_loss_of_load,141,141,0,0,None
 0,area_node,is_loss_of_load,141,141,0,0,None
@@ -5242,6 +5524,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,141,141,0,0,None
 0,area_thermal_default,down_margin,141,141,0,0,None
 0,area_thermal_default,profit,141,141,0,0,None
+0,area_thermal_default,actual_num_units_on,141,141,0,0,None
+0,area_thermal_default,non_prop_cost,141,141,0,0,None
 0,area_node,imbalance_cost,142,142,0,0,None
 0,area_node,is_significant_loss_of_load,142,142,0,0,None
 0,area_node,is_loss_of_load,142,142,0,0,None
@@ -5273,6 +5557,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,142,142,0,0,None
 0,area_thermal_default,down_margin,142,142,0,0,None
 0,area_thermal_default,profit,142,142,0,0,None
+0,area_thermal_default,actual_num_units_on,142,142,0,0,None
+0,area_thermal_default,non_prop_cost,142,142,0,0,None
 0,area_node,imbalance_cost,143,143,0,0,None
 0,area_node,is_significant_loss_of_load,143,143,0,0,None
 0,area_node,is_loss_of_load,143,143,0,0,None
@@ -5304,6 +5590,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,143,143,0,0,None
 0,area_thermal_default,down_margin,143,143,0,0,None
 0,area_thermal_default,profit,143,143,0,0,None
+0,area_thermal_default,actual_num_units_on,143,143,0,0,None
+0,area_thermal_default,non_prop_cost,143,143,0,0,None
 0,area_node,imbalance_cost,144,144,0,0,None
 0,area_node,is_significant_loss_of_load,144,144,0,0,None
 0,area_node,is_loss_of_load,144,144,0,0,None
@@ -5335,6 +5623,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,144,144,0,0,None
 0,area_thermal_default,down_margin,144,144,0,0,None
 0,area_thermal_default,profit,144,144,0,0,None
+0,area_thermal_default,actual_num_units_on,144,144,0,0,None
+0,area_thermal_default,non_prop_cost,144,144,0,0,None
 0,area_node,imbalance_cost,145,145,0,0,None
 0,area_node,is_significant_loss_of_load,145,145,0,0,None
 0,area_node,is_loss_of_load,145,145,0,0,None
@@ -5366,6 +5656,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,145,145,0,0,None
 0,area_thermal_default,down_margin,145,145,0,0,None
 0,area_thermal_default,profit,145,145,0,0,None
+0,area_thermal_default,actual_num_units_on,145,145,0,0,None
+0,area_thermal_default,non_prop_cost,145,145,0,0,None
 0,area_node,imbalance_cost,146,146,0,0,None
 0,area_node,is_significant_loss_of_load,146,146,0,0,None
 0,area_node,is_loss_of_load,146,146,0,0,None
@@ -5397,6 +5689,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,146,146,0,0,None
 0,area_thermal_default,down_margin,146,146,0,0,None
 0,area_thermal_default,profit,146,146,0,0,None
+0,area_thermal_default,actual_num_units_on,146,146,0,0,None
+0,area_thermal_default,non_prop_cost,146,146,0,0,None
 0,area_node,imbalance_cost,147,147,0,0,None
 0,area_node,is_significant_loss_of_load,147,147,0,0,None
 0,area_node,is_loss_of_load,147,147,0,0,None
@@ -5428,6 +5722,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,147,147,0,0,None
 0,area_thermal_default,down_margin,147,147,0,0,None
 0,area_thermal_default,profit,147,147,0,0,None
+0,area_thermal_default,actual_num_units_on,147,147,0,0,None
+0,area_thermal_default,non_prop_cost,147,147,0,0,None
 0,area_node,imbalance_cost,148,148,0,0,None
 0,area_node,is_significant_loss_of_load,148,148,0,0,None
 0,area_node,is_loss_of_load,148,148,0,0,None
@@ -5459,6 +5755,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,148,148,0,0,None
 0,area_thermal_default,down_margin,148,148,0,0,None
 0,area_thermal_default,profit,148,148,0,0,None
+0,area_thermal_default,actual_num_units_on,148,148,0,0,None
+0,area_thermal_default,non_prop_cost,148,148,0,0,None
 0,area_node,imbalance_cost,149,149,0,0,None
 0,area_node,is_significant_loss_of_load,149,149,0,0,None
 0,area_node,is_loss_of_load,149,149,0,0,None
@@ -5490,6 +5788,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,149,149,0,0,None
 0,area_thermal_default,down_margin,149,149,0,0,None
 0,area_thermal_default,profit,149,149,0,0,None
+0,area_thermal_default,actual_num_units_on,149,149,0,0,None
+0,area_thermal_default,non_prop_cost,149,149,0,0,None
 0,area_node,imbalance_cost,150,150,0,0,None
 0,area_node,is_significant_loss_of_load,150,150,0,0,None
 0,area_node,is_loss_of_load,150,150,0,0,None
@@ -5521,6 +5821,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,150,150,0,0,None
 0,area_thermal_default,down_margin,150,150,0,0,None
 0,area_thermal_default,profit,150,150,0,0,None
+0,area_thermal_default,actual_num_units_on,150,150,0,0,None
+0,area_thermal_default,non_prop_cost,150,150,0,0,None
 0,area_node,imbalance_cost,151,151,0,0,None
 0,area_node,is_significant_loss_of_load,151,151,0,0,None
 0,area_node,is_loss_of_load,151,151,0,0,None
@@ -5552,6 +5854,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,151,151,0,0,None
 0,area_thermal_default,down_margin,151,151,0,0,None
 0,area_thermal_default,profit,151,151,0,0,None
+0,area_thermal_default,actual_num_units_on,151,151,0,0,None
+0,area_thermal_default,non_prop_cost,151,151,0,0,None
 0,area_node,imbalance_cost,152,152,0,0,None
 0,area_node,is_significant_loss_of_load,152,152,0,0,None
 0,area_node,is_loss_of_load,152,152,0,0,None
@@ -5583,6 +5887,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,152,152,0,0,None
 0,area_thermal_default,down_margin,152,152,0,0,None
 0,area_thermal_default,profit,152,152,0,0,None
+0,area_thermal_default,actual_num_units_on,152,152,0,0,None
+0,area_thermal_default,non_prop_cost,152,152,0,0,None
 0,area_node,imbalance_cost,153,153,0,0,None
 0,area_node,is_significant_loss_of_load,153,153,0,0,None
 0,area_node,is_loss_of_load,153,153,0,0,None
@@ -5614,6 +5920,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,153,153,0,0,None
 0,area_thermal_default,down_margin,153,153,0,0,None
 0,area_thermal_default,profit,153,153,0,0,None
+0,area_thermal_default,actual_num_units_on,153,153,0,0,None
+0,area_thermal_default,non_prop_cost,153,153,0,0,None
 0,area_node,imbalance_cost,154,154,0,0,None
 0,area_node,is_significant_loss_of_load,154,154,0,0,None
 0,area_node,is_loss_of_load,154,154,0,0,None
@@ -5645,6 +5953,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,154,154,0,0,None
 0,area_thermal_default,down_margin,154,154,0,0,None
 0,area_thermal_default,profit,154,154,0,0,None
+0,area_thermal_default,actual_num_units_on,154,154,0,0,None
+0,area_thermal_default,non_prop_cost,154,154,0,0,None
 0,area_node,imbalance_cost,155,155,0,0,None
 0,area_node,is_significant_loss_of_load,155,155,0,0,None
 0,area_node,is_loss_of_load,155,155,0,0,None
@@ -5676,6 +5986,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,155,155,0,0,None
 0,area_thermal_default,down_margin,155,155,0,0,None
 0,area_thermal_default,profit,155,155,0,0,None
+0,area_thermal_default,actual_num_units_on,155,155,0,0,None
+0,area_thermal_default,non_prop_cost,155,155,0,0,None
 0,area_node,imbalance_cost,156,156,0,0,None
 0,area_node,is_significant_loss_of_load,156,156,0,0,None
 0,area_node,is_loss_of_load,156,156,0,0,None
@@ -5707,6 +6019,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,156,156,0,0,None
 0,area_thermal_default,down_margin,156,156,0,0,None
 0,area_thermal_default,profit,156,156,0,0,None
+0,area_thermal_default,actual_num_units_on,156,156,0,0,None
+0,area_thermal_default,non_prop_cost,156,156,0,0,None
 0,area_node,imbalance_cost,157,157,0,0,None
 0,area_node,is_significant_loss_of_load,157,157,0,0,None
 0,area_node,is_loss_of_load,157,157,0,0,None
@@ -5738,6 +6052,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,157,157,0,0,None
 0,area_thermal_default,down_margin,157,157,0,0,None
 0,area_thermal_default,profit,157,157,0,0,None
+0,area_thermal_default,actual_num_units_on,157,157,0,0,None
+0,area_thermal_default,non_prop_cost,157,157,0,0,None
 0,area_node,imbalance_cost,158,158,0,0,None
 0,area_node,is_significant_loss_of_load,158,158,0,0,None
 0,area_node,is_loss_of_load,158,158,0,0,None
@@ -5769,6 +6085,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,158,158,0,0,None
 0,area_thermal_default,down_margin,158,158,0,0,None
 0,area_thermal_default,profit,158,158,0,0,None
+0,area_thermal_default,actual_num_units_on,158,158,0,0,None
+0,area_thermal_default,non_prop_cost,158,158,0,0,None
 0,area_node,imbalance_cost,159,159,0,0,None
 0,area_node,is_significant_loss_of_load,159,159,0,0,None
 0,area_node,is_loss_of_load,159,159,0,0,None
@@ -5800,6 +6118,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,159,159,0,0,None
 0,area_thermal_default,down_margin,159,159,0,0,None
 0,area_thermal_default,profit,159,159,0,0,None
+0,area_thermal_default,actual_num_units_on,159,159,0,0,None
+0,area_thermal_default,non_prop_cost,159,159,0,0,None
 0,area_node,imbalance_cost,160,160,0,0,None
 0,area_node,is_significant_loss_of_load,160,160,0,0,None
 0,area_node,is_loss_of_load,160,160,0,0,None
@@ -5831,6 +6151,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,160,160,0,0,None
 0,area_thermal_default,down_margin,160,160,0,0,None
 0,area_thermal_default,profit,160,160,0,0,None
+0,area_thermal_default,actual_num_units_on,160,160,0,0,None
+0,area_thermal_default,non_prop_cost,160,160,0,0,None
 0,area_node,imbalance_cost,161,161,0,0,None
 0,area_node,is_significant_loss_of_load,161,161,0,0,None
 0,area_node,is_loss_of_load,161,161,0,0,None
@@ -5862,6 +6184,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,161,161,0,0,None
 0,area_thermal_default,down_margin,161,161,0,0,None
 0,area_thermal_default,profit,161,161,0,0,None
+0,area_thermal_default,actual_num_units_on,161,161,0,0,None
+0,area_thermal_default,non_prop_cost,161,161,0,0,None
 0,area_node,imbalance_cost,162,162,0,0,None
 0,area_node,is_significant_loss_of_load,162,162,0,0,None
 0,area_node,is_loss_of_load,162,162,0,0,None
@@ -5893,6 +6217,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,162,162,0,0,None
 0,area_thermal_default,down_margin,162,162,0,0,None
 0,area_thermal_default,profit,162,162,0,0,None
+0,area_thermal_default,actual_num_units_on,162,162,0,0,None
+0,area_thermal_default,non_prop_cost,162,162,0,0,None
 0,area_node,imbalance_cost,163,163,0,0,None
 0,area_node,is_significant_loss_of_load,163,163,0,0,None
 0,area_node,is_loss_of_load,163,163,0,0,None
@@ -5924,6 +6250,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,163,163,0,0,None
 0,area_thermal_default,down_margin,163,163,0,0,None
 0,area_thermal_default,profit,163,163,0,0,None
+0,area_thermal_default,actual_num_units_on,163,163,0,0,None
+0,area_thermal_default,non_prop_cost,163,163,0,0,None
 0,area_node,imbalance_cost,164,164,0,0,None
 0,area_node,is_significant_loss_of_load,164,164,0,0,None
 0,area_node,is_loss_of_load,164,164,0,0,None
@@ -5955,6 +6283,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,164,164,0,0,None
 0,area_thermal_default,down_margin,164,164,0,0,None
 0,area_thermal_default,profit,164,164,0,0,None
+0,area_thermal_default,actual_num_units_on,164,164,0,0,None
+0,area_thermal_default,non_prop_cost,164,164,0,0,None
 0,area_node,imbalance_cost,165,165,0,0,None
 0,area_node,is_significant_loss_of_load,165,165,0,0,None
 0,area_node,is_loss_of_load,165,165,0,0,None
@@ -5986,6 +6316,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,165,165,0,0,None
 0,area_thermal_default,down_margin,165,165,0,0,None
 0,area_thermal_default,profit,165,165,0,0,None
+0,area_thermal_default,actual_num_units_on,165,165,0,0,None
+0,area_thermal_default,non_prop_cost,165,165,0,0,None
 0,area_node,imbalance_cost,166,166,0,0,None
 0,area_node,is_significant_loss_of_load,166,166,0,0,None
 0,area_node,is_loss_of_load,166,166,0,0,None
@@ -6017,6 +6349,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,166,166,0,0,None
 0,area_thermal_default,down_margin,166,166,0,0,None
 0,area_thermal_default,profit,166,166,0,0,None
+0,area_thermal_default,actual_num_units_on,166,166,0,0,None
+0,area_thermal_default,non_prop_cost,166,166,0,0,None
 0,area_node,imbalance_cost,167,167,0,0,None
 0,area_node,is_significant_loss_of_load,167,167,0,0,None
 0,area_node,is_loss_of_load,167,167,0,0,None
@@ -6048,3 +6382,5 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_thermal_default,min_gen_power,167,167,0,0,None
 0,area_thermal_default,down_margin,167,167,0,0,None
 0,area_thermal_default,profit,167,167,0,0,None
+0,area_thermal_default,actual_num_units_on,167,167,0,0,None
+0,area_thermal_default,non_prop_cost,167,167,0,0,None
