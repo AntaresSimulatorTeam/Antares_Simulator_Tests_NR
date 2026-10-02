@@ -7,10 +7,6 @@ library:
     description: A port which transfers power flow value
     fields:
     - id: flow_field
-    area-connection:
-      injection-to-balance: flow_field
-      spillage-bound:
-      unsupplied-energy-bound:
 
   models:
   - id: generator

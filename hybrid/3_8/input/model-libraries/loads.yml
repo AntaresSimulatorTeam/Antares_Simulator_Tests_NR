@@ -21,10 +21,6 @@ library:
         - id: flow
         - id: spillage-energy-bound
         - id: unsupplied-energy-bound
-      area-connection:
-        injection-to-balance: flow
-        unsupplied-energy-bound: unsupplied-energy-bound
-        spillage-bound:
 
   models:
     - id: load
