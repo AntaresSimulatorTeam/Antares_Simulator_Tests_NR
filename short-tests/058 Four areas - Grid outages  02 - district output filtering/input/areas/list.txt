@@ -1,0 +1,9 @@
+& AVAIL_BOX
+& TRIP-ew
+& TRIP-nw
+(
+)
+EAST
+NORTH
+SOUTH
+WEST
