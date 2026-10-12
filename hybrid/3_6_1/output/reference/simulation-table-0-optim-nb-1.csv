@@ -847,6 +847,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,0,0,0,0.30000000830606033,None
 0,area_node,balance_port.price,0,0,0,0.30000000830606033,None
 0,area_node,is_near_loss_of_load,0,0,0,0,None
+0,area_node,domestic_unsupplied_energy,0,0,0,0,None
+0,area_node,is_local_matching_rule_violated,0,0,0,0,None
 0,area_load,balance_port.flow,0,0,0,-3978,None
 0,area_wind,generation_power,0,0,0,100,None
 0,area_wind,minus_generation,0,0,0,-100,None
@@ -880,6 +882,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,1,1,0,0.30000000855779585,None
 0,area_node,balance_port.price,1,1,0,0.30000000855779585,None
 0,area_node,is_near_loss_of_load,1,1,0,0,None
+0,area_node,domestic_unsupplied_energy,1,1,0,0,None
+0,area_node,is_local_matching_rule_violated,1,1,0,0,None
 0,area_load,balance_port.flow,1,1,0,-3686,None
 0,area_wind,generation_power,1,1,0,114,None
 0,area_wind,minus_generation,1,1,0,-114,None
@@ -913,6 +917,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,2,2,0,0.29999999162938634,None
 0,area_node,balance_port.price,2,2,0,0.29999999162938634,None
 0,area_node,is_near_loss_of_load,2,2,0,0,None
+0,area_node,domestic_unsupplied_energy,2,2,0,0,None
+0,area_node,is_local_matching_rule_violated,2,2,0,0,None
 0,area_load,balance_port.flow,2,2,0,-3537,None
 0,area_wind,generation_power,2,2,0,143,None
 0,area_wind,minus_generation,2,2,0,-143,None
@@ -946,6 +952,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,3,3,0,0.30000000621947004,None
 0,area_node,balance_port.price,3,3,0,0.30000000621947004,None
 0,area_node,is_near_loss_of_load,3,3,0,0,None
+0,area_node,domestic_unsupplied_energy,3,3,0,0,None
+0,area_node,is_local_matching_rule_violated,3,3,0,0,None
 0,area_load,balance_port.flow,3,3,0,-3505,None
 0,area_wind,generation_power,3,3,0,157,None
 0,area_wind,minus_generation,3,3,0,-157,None
@@ -979,6 +987,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,4,4,0,0.3000000041536713,None
 0,area_node,balance_port.price,4,4,0,0.3000000041536713,None
 0,area_node,is_near_loss_of_load,4,4,0,0,None
+0,area_node,domestic_unsupplied_energy,4,4,0,0,None
+0,area_node,is_local_matching_rule_violated,4,4,0,0,None
 0,area_load,balance_port.flow,4,4,0,-3628,None
 0,area_wind,generation_power,4,4,0,233,None
 0,area_wind,minus_generation,4,4,0,-233,None
@@ -1012,6 +1022,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,5,5,0,0.29999999150499285,None
 0,area_node,balance_port.price,5,5,0,0.29999999150499285,None
 0,area_node,is_near_loss_of_load,5,5,0,0,None
+0,area_node,domestic_unsupplied_energy,5,5,0,0,None
+0,area_node,is_local_matching_rule_violated,5,5,0,0,None
 0,area_load,balance_port.flow,5,5,0,-3929,None
 0,area_wind,generation_power,5,5,0,257,None
 0,area_wind,minus_generation,5,5,0,-257,None
@@ -1045,6 +1057,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,6,6,0,0.29999999935949334,None
 0,area_node,balance_port.price,6,6,0,0.29999999935949334,None
 0,area_node,is_near_loss_of_load,6,6,0,0,None
+0,area_node,domestic_unsupplied_energy,6,6,0,0,None
+0,area_node,is_local_matching_rule_violated,6,6,0,0,None
 0,area_load,balance_port.flow,6,6,0,-4430,None
 0,area_wind,generation_power,6,6,0,337,None
 0,area_wind,minus_generation,6,6,0,-337,None
@@ -1078,6 +1092,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,7,7,0,0.3000000047858515,None
 0,area_node,balance_port.price,7,7,0,0.3000000047858515,None
 0,area_node,is_near_loss_of_load,7,7,0,0,None
+0,area_node,domestic_unsupplied_energy,7,7,0,0,None
+0,area_node,is_local_matching_rule_violated,7,7,0,0,None
 0,area_load,balance_port.flow,7,7,0,-4934,None
 0,area_wind,generation_power,7,7,0,405,None
 0,area_wind,minus_generation,7,7,0,-405,None
@@ -1111,6 +1127,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,8,8,0,0.2999999969443708,None
 0,area_node,balance_port.price,8,8,0,0.2999999969443708,None
 0,area_node,is_near_loss_of_load,8,8,0,0,None
+0,area_node,domestic_unsupplied_energy,8,8,0,0,None
+0,area_node,is_local_matching_rule_violated,8,8,0,0,None
 0,area_load,balance_port.flow,8,8,0,-5061,None
 0,area_wind,generation_power,8,8,0,474,None
 0,area_wind,minus_generation,8,8,0,-474,None
@@ -1144,6 +1162,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,9,9,0,0.30000000754302464,None
 0,area_node,balance_port.price,9,9,0,0.30000000754302464,None
 0,area_node,is_near_loss_of_load,9,9,0,0,None
+0,area_node,domestic_unsupplied_energy,9,9,0,0,None
+0,area_node,is_local_matching_rule_violated,9,9,0,0,None
 0,area_load,balance_port.flow,9,9,0,-5172,None
 0,area_wind,generation_power,9,9,0,449,None
 0,area_wind,minus_generation,9,9,0,-449,None
@@ -1177,6 +1197,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,10,10,0,0.29999999436166397,None
 0,area_node,balance_port.price,10,10,0,0.29999999436166397,None
 0,area_node,is_near_loss_of_load,10,10,0,0,None
+0,area_node,domestic_unsupplied_energy,10,10,0,0,None
+0,area_node,is_local_matching_rule_violated,10,10,0,0,None
 0,area_load,balance_port.flow,10,10,0,-5276,None
 0,area_wind,generation_power,10,10,0,383,None
 0,area_wind,minus_generation,10,10,0,-383,None
@@ -1210,6 +1232,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,11,11,0,0.2999999908499397,None
 0,area_node,balance_port.price,11,11,0,0.2999999908499397,None
 0,area_node,is_near_loss_of_load,11,11,0,0,None
+0,area_node,domestic_unsupplied_energy,11,11,0,0,None
+0,area_node,is_local_matching_rule_violated,11,11,0,0,None
 0,area_load,balance_port.flow,11,11,0,-5243,None
 0,area_wind,generation_power,11,11,0,449,None
 0,area_wind,minus_generation,11,11,0,-449,None
@@ -1243,6 +1267,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,12,12,0,0.2999999957049287,None
 0,area_node,balance_port.price,12,12,0,0.2999999957049287,None
 0,area_node,is_near_loss_of_load,12,12,0,0,None
+0,area_node,domestic_unsupplied_energy,12,12,0,0,None
+0,area_node,is_local_matching_rule_violated,12,12,0,0,None
 0,area_load,balance_port.flow,12,12,0,-5223,None
 0,area_wind,generation_power,12,12,0,458,None
 0,area_wind,minus_generation,12,12,0,-458,None
@@ -1276,6 +1302,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,13,13,0,0.30000000145249683,None
 0,area_node,balance_port.price,13,13,0,0.30000000145249683,None
 0,area_node,is_near_loss_of_load,13,13,0,0,None
+0,area_node,domestic_unsupplied_energy,13,13,0,0,None
+0,area_node,is_local_matching_rule_violated,13,13,0,0,None
 0,area_load,balance_port.flow,13,13,0,-4992,None
 0,area_wind,generation_power,13,13,0,663,None
 0,area_wind,minus_generation,13,13,0,-663,None
@@ -1309,6 +1337,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,14,14,0,0.30000000730578463,None
 0,area_node,balance_port.price,14,14,0,0.30000000730578463,None
 0,area_node,is_near_loss_of_load,14,14,0,0,None
+0,area_node,domestic_unsupplied_energy,14,14,0,0,None
+0,area_node,is_local_matching_rule_violated,14,14,0,0,None
 0,area_load,balance_port.flow,14,14,0,-5011,None
 0,area_wind,generation_power,14,14,0,856,None
 0,area_wind,minus_generation,14,14,0,-856,None
@@ -1342,6 +1372,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,15,15,0,0.3000000067835063,None
 0,area_node,balance_port.price,15,15,0,0.3000000067835063,None
 0,area_node,is_near_loss_of_load,15,15,0,0,None
+0,area_node,domestic_unsupplied_energy,15,15,0,0,None
+0,area_node,is_local_matching_rule_violated,15,15,0,0,None
 0,area_load,balance_port.flow,15,15,0,-5143,None
 0,area_wind,generation_power,15,15,0,957,None
 0,area_wind,minus_generation,15,15,0,-957,None
@@ -1375,6 +1407,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,16,16,0,0.3000000023716201,None
 0,area_node,balance_port.price,16,16,0,0.3000000023716201,None
 0,area_node,is_near_loss_of_load,16,16,0,0,None
+0,area_node,domestic_unsupplied_energy,16,16,0,0,None
+0,area_node,is_local_matching_rule_violated,16,16,0,0,None
 0,area_load,balance_port.flow,16,16,0,-5115,None
 0,area_wind,generation_power,16,16,0,1081,None
 0,area_wind,minus_generation,16,16,0,-1081,None
@@ -1408,6 +1442,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,17,17,0,0.3000000038256269,None
 0,area_node,balance_port.price,17,17,0,0.3000000038256269,None
 0,area_node,is_near_loss_of_load,17,17,0,0,None
+0,area_node,domestic_unsupplied_energy,17,17,0,0,None
+0,area_node,is_local_matching_rule_violated,17,17,0,0,None
 0,area_load,balance_port.flow,17,17,0,-5484,None
 0,area_wind,generation_power,17,17,0,941,None
 0,area_wind,minus_generation,17,17,0,-941,None
@@ -1441,6 +1477,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,18,18,0,0.2999999944642781,None
 0,area_node,balance_port.price,18,18,0,0.2999999944642781,None
 0,area_node,is_near_loss_of_load,18,18,0,0,None
+0,area_node,domestic_unsupplied_energy,18,18,0,0,None
+0,area_node,is_local_matching_rule_violated,18,18,0,0,None
 0,area_load,balance_port.flow,18,18,0,-6011,None
 0,area_wind,generation_power,18,18,0,798,None
 0,area_wind,minus_generation,18,18,0,-798,None
@@ -1474,6 +1512,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,19,19,0,0.29999999641813935,None
 0,area_node,balance_port.price,19,19,0,0.29999999641813935,None
 0,area_node,is_near_loss_of_load,19,19,0,0,None
+0,area_node,domestic_unsupplied_energy,19,19,0,0,None
+0,area_node,is_local_matching_rule_violated,19,19,0,0,None
 0,area_load,balance_port.flow,19,19,0,-5986,None
 0,area_wind,generation_power,19,19,0,770,None
 0,area_wind,minus_generation,19,19,0,-770,None
@@ -1507,6 +1547,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,20,20,0,0.3000000035652582,None
 0,area_node,balance_port.price,20,20,0,0.3000000035652582,None
 0,area_node,is_near_loss_of_load,20,20,0,0,None
+0,area_node,domestic_unsupplied_energy,20,20,0,0,None
+0,area_node,is_local_matching_rule_violated,20,20,0,0,None
 0,area_load,balance_port.flow,20,20,0,-5645,None
 0,area_wind,generation_power,20,20,0,667,None
 0,area_wind,minus_generation,20,20,0,-667,None
@@ -1540,6 +1582,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,21,21,0,0.2999999953983669,None
 0,area_node,balance_port.price,21,21,0,0.2999999953983669,None
 0,area_node,is_near_loss_of_load,21,21,0,0,None
+0,area_node,domestic_unsupplied_energy,21,21,0,0,None
+0,area_node,is_local_matching_rule_violated,21,21,0,0,None
 0,area_load,balance_port.flow,21,21,0,-5323,None
 0,area_wind,generation_power,21,21,0,745,None
 0,area_wind,minus_generation,21,21,0,-745,None
@@ -1573,6 +1617,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,22,22,0,0.29999999195554145,None
 0,area_node,balance_port.price,22,22,0,0.29999999195554145,None
 0,area_node,is_near_loss_of_load,22,22,0,0,None
+0,area_node,domestic_unsupplied_energy,22,22,0,0,None
+0,area_node,is_local_matching_rule_violated,22,22,0,0,None
 0,area_load,balance_port.flow,22,22,0,-5396,None
 0,area_wind,generation_power,22,22,0,861,None
 0,area_wind,minus_generation,22,22,0,-861,None
@@ -1606,6 +1652,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,23,23,0,0.30000000399154814,None
 0,area_node,balance_port.price,23,23,0,0.30000000399154814,None
 0,area_node,is_near_loss_of_load,23,23,0,0,None
+0,area_node,domestic_unsupplied_energy,23,23,0,0,None
+0,area_node,is_local_matching_rule_violated,23,23,0,0,None
 0,area_load,balance_port.flow,23,23,0,-5192,None
 0,area_wind,generation_power,23,23,0,909,None
 0,area_wind,minus_generation,23,23,0,-909,None
@@ -1639,6 +1687,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,24,24,0,0.2999999942892808,None
 0,area_node,balance_port.price,24,24,0,0.2999999942892808,None
 0,area_node,is_near_loss_of_load,24,24,0,0,None
+0,area_node,domestic_unsupplied_energy,24,24,0,0,None
+0,area_node,is_local_matching_rule_violated,24,24,0,0,None
 0,area_load,balance_port.flow,24,24,0,-4831,None
 0,area_wind,generation_power,24,24,0,787,None
 0,area_wind,minus_generation,24,24,0,-787,None
@@ -1672,6 +1722,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,25,25,0,0.3000000048389705,None
 0,area_node,balance_port.price,25,25,0,0.3000000048389705,None
 0,area_node,is_near_loss_of_load,25,25,0,0,None
+0,area_node,domestic_unsupplied_energy,25,25,0,0,None
+0,area_node,is_local_matching_rule_violated,25,25,0,0,None
 0,area_load,balance_port.flow,25,25,0,-4467,None
 0,area_wind,generation_power,25,25,0,507,None
 0,area_wind,minus_generation,25,25,0,-507,None
@@ -1705,6 +1757,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,26,26,0,0.2999999972749199,None
 0,area_node,balance_port.price,26,26,0,0.2999999972749199,None
 0,area_node,is_near_loss_of_load,26,26,0,0,None
+0,area_node,domestic_unsupplied_energy,26,26,0,0,None
+0,area_node,is_local_matching_rule_violated,26,26,0,0,None
 0,area_load,balance_port.flow,26,26,0,-4127,None
 0,area_wind,generation_power,26,26,0,431,None
 0,area_wind,minus_generation,26,26,0,-431,None
@@ -1738,6 +1792,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,27,27,0,0.29999999473284733,None
 0,area_node,balance_port.price,27,27,0,0.29999999473284733,None
 0,area_node,is_near_loss_of_load,27,27,0,0,None
+0,area_node,domestic_unsupplied_energy,27,27,0,0,None
+0,area_node,is_local_matching_rule_violated,27,27,0,0,None
 0,area_load,balance_port.flow,27,27,0,-4086,None
 0,area_wind,generation_power,27,27,0,271,None
 0,area_wind,minus_generation,27,27,0,-271,None
@@ -1771,6 +1827,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,28,28,0,0.3000000099315404,None
 0,area_node,balance_port.price,28,28,0,0.3000000099315404,None
 0,area_node,is_near_loss_of_load,28,28,0,0,None
+0,area_node,domestic_unsupplied_energy,28,28,0,0,None
+0,area_node,is_local_matching_rule_violated,28,28,0,0,None
 0,area_load,balance_port.flow,28,28,0,-4198,None
 0,area_wind,generation_power,28,28,0,208,None
 0,area_wind,minus_generation,28,28,0,-208,None
@@ -1804,6 +1862,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,29,29,0,0.3000000000942931,None
 0,area_node,balance_port.price,29,29,0,0.3000000000942931,None
 0,area_node,is_near_loss_of_load,29,29,0,0,None
+0,area_node,domestic_unsupplied_energy,29,29,0,0,None
+0,area_node,is_local_matching_rule_violated,29,29,0,0,None
 0,area_load,balance_port.flow,29,29,0,-4508,None
 0,area_wind,generation_power,29,29,0,167,None
 0,area_wind,minus_generation,29,29,0,-167,None
@@ -1837,6 +1897,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,30,30,0,0.30000000128873955,None
 0,area_node,balance_port.price,30,30,0,0.30000000128873955,None
 0,area_node,is_near_loss_of_load,30,30,0,0,None
+0,area_node,domestic_unsupplied_energy,30,30,0,0,None
+0,area_node,is_local_matching_rule_violated,30,30,0,0,None
 0,area_load,balance_port.flow,30,30,0,-5029,None
 0,area_wind,generation_power,30,30,0,160,None
 0,area_wind,minus_generation,30,30,0,-160,None
@@ -1870,6 +1932,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,31,31,0,0.2999999921652968,None
 0,area_node,balance_port.price,31,31,0,0.2999999921652968,None
 0,area_node,is_near_loss_of_load,31,31,0,0,None
+0,area_node,domestic_unsupplied_energy,31,31,0,0,None
+0,area_node,is_local_matching_rule_violated,31,31,0,0,None
 0,area_load,balance_port.flow,31,31,0,-5623,None
 0,area_wind,generation_power,31,31,0,156,None
 0,area_wind,minus_generation,31,31,0,-156,None
@@ -1903,6 +1967,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,32,32,0,0.3000000002266526,None
 0,area_node,balance_port.price,32,32,0,0.3000000002266526,None
 0,area_node,is_near_loss_of_load,32,32,0,0,None
+0,area_node,domestic_unsupplied_energy,32,32,0,0,None
+0,area_node,is_local_matching_rule_violated,32,32,0,0,None
 0,area_load,balance_port.flow,32,32,0,-5739,None
 0,area_wind,generation_power,32,32,0,162,None
 0,area_wind,minus_generation,32,32,0,-162,None
@@ -1936,6 +2002,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,33,33,0,0.2999999987012825,None
 0,area_node,balance_port.price,33,33,0,0.2999999987012825,None
 0,area_node,is_near_loss_of_load,33,33,0,0,None
+0,area_node,domestic_unsupplied_energy,33,33,0,0,None
+0,area_node,is_local_matching_rule_violated,33,33,0,0,None
 0,area_load,balance_port.flow,33,33,0,-6111,None
 0,area_wind,generation_power,33,33,0,159,None
 0,area_wind,minus_generation,33,33,0,-159,None
@@ -1969,6 +2037,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,34,34,0,0.2999999962104979,None
 0,area_node,balance_port.price,34,34,0,0.2999999962104979,None
 0,area_node,is_near_loss_of_load,34,34,0,0,None
+0,area_node,domestic_unsupplied_energy,34,34,0,0,None
+0,area_node,is_local_matching_rule_violated,34,34,0,0,None
 0,area_load,balance_port.flow,34,34,0,-5997,None
 0,area_wind,generation_power,34,34,0,169,None
 0,area_wind,minus_generation,34,34,0,-169,None
@@ -2002,6 +2072,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,35,35,0,0.29999999523196536,None
 0,area_node,balance_port.price,35,35,0,0.29999999523196536,None
 0,area_node,is_near_loss_of_load,35,35,0,0,None
+0,area_node,domestic_unsupplied_energy,35,35,0,0,None
+0,area_node,is_local_matching_rule_violated,35,35,0,0,None
 0,area_load,balance_port.flow,35,35,0,-6058,None
 0,area_wind,generation_power,35,35,0,246,None
 0,area_wind,minus_generation,35,35,0,-246,None
@@ -2035,6 +2107,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,36,36,0,0.29999999980633135,None
 0,area_node,balance_port.price,36,36,0,0.29999999980633135,None
 0,area_node,is_near_loss_of_load,36,36,0,0,None
+0,area_node,domestic_unsupplied_energy,36,36,0,0,None
+0,area_node,is_local_matching_rule_violated,36,36,0,0,None
 0,area_load,balance_port.flow,36,36,0,-6097,None
 0,area_wind,generation_power,36,36,0,246,None
 0,area_wind,minus_generation,36,36,0,-246,None
@@ -2068,6 +2142,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,37,37,0,0.3000000087732023,None
 0,area_node,balance_port.price,37,37,0,0.3000000087732023,None
 0,area_node,is_near_loss_of_load,37,37,0,0,None
+0,area_node,domestic_unsupplied_energy,37,37,0,0,None
+0,area_node,is_local_matching_rule_violated,37,37,0,0,None
 0,area_load,balance_port.flow,37,37,0,-5828,None
 0,area_wind,generation_power,37,37,0,358,None
 0,area_wind,minus_generation,37,37,0,-358,None
@@ -2101,6 +2177,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,38,38,0,0.3000000085800373,None
 0,area_node,balance_port.price,38,38,0,0.3000000085800373,None
 0,area_node,is_near_loss_of_load,38,38,0,0,None
+0,area_node,domestic_unsupplied_energy,38,38,0,0,None
+0,area_node,is_local_matching_rule_violated,38,38,0,0,None
 0,area_load,balance_port.flow,38,38,0,-5676,None
 0,area_wind,generation_power,38,38,0,410,None
 0,area_wind,minus_generation,38,38,0,-410,None
@@ -2134,6 +2212,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,39,39,0,0.30000000214530853,None
 0,area_node,balance_port.price,39,39,0,0.30000000214530853,None
 0,area_node,is_near_loss_of_load,39,39,0,0,None
+0,area_node,domestic_unsupplied_energy,39,39,0,0,None
+0,area_node,is_local_matching_rule_violated,39,39,0,0,None
 0,area_load,balance_port.flow,39,39,0,-5597,None
 0,area_wind,generation_power,39,39,0,463,None
 0,area_wind,minus_generation,39,39,0,-463,None
@@ -2167,6 +2247,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,40,40,0,0.29999999897479696,None
 0,area_node,balance_port.price,40,40,0,0.29999999897479696,None
 0,area_node,is_near_loss_of_load,40,40,0,0,None
+0,area_node,domestic_unsupplied_energy,40,40,0,0,None
+0,area_node,is_local_matching_rule_violated,40,40,0,0,None
 0,area_load,balance_port.flow,40,40,0,-5483,None
 0,area_wind,generation_power,40,40,0,414,None
 0,area_wind,minus_generation,40,40,0,-414,None
@@ -2200,6 +2282,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,41,41,0,0.30000000172809926,None
 0,area_node,balance_port.price,41,41,0,0.30000000172809926,None
 0,area_node,is_near_loss_of_load,41,41,0,0,None
+0,area_node,domestic_unsupplied_energy,41,41,0,0,None
+0,area_node,is_local_matching_rule_violated,41,41,0,0,None
 0,area_load,balance_port.flow,41,41,0,-5834,None
 0,area_wind,generation_power,41,41,0,369,None
 0,area_wind,minus_generation,41,41,0,-369,None
@@ -2233,6 +2317,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,42,42,0,0.2999999915131856,None
 0,area_node,balance_port.price,42,42,0,0.2999999915131856,None
 0,area_node,is_near_loss_of_load,42,42,0,0,None
+0,area_node,domestic_unsupplied_energy,42,42,0,0,None
+0,area_node,is_local_matching_rule_violated,42,42,0,0,None
 0,area_load,balance_port.flow,42,42,0,-6198,None
 0,area_wind,generation_power,42,42,0,408,None
 0,area_wind,minus_generation,42,42,0,-408,None
@@ -2266,6 +2352,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,43,43,0,0.30000000374712527,None
 0,area_node,balance_port.price,43,43,0,0.30000000374712527,None
 0,area_node,is_near_loss_of_load,43,43,0,0,None
+0,area_node,domestic_unsupplied_energy,43,43,0,0,None
+0,area_node,is_local_matching_rule_violated,43,43,0,0,None
 0,area_load,balance_port.flow,43,43,0,-6107,None
 0,area_wind,generation_power,43,43,0,464,None
 0,area_wind,minus_generation,43,43,0,-464,None
@@ -2299,6 +2387,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,44,44,0,0.30000000992521003,None
 0,area_node,balance_port.price,44,44,0,0.30000000992521003,None
 0,area_node,is_near_loss_of_load,44,44,0,0,None
+0,area_node,domestic_unsupplied_energy,44,44,0,0,None
+0,area_node,is_local_matching_rule_violated,44,44,0,0,None
 0,area_load,balance_port.flow,44,44,0,-5673,None
 0,area_wind,generation_power,44,44,0,512,None
 0,area_wind,minus_generation,44,44,0,-512,None
@@ -2332,6 +2422,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,45,45,0,0.2999999908139418,None
 0,area_node,balance_port.price,45,45,0,0.2999999908139418,None
 0,area_node,is_near_loss_of_load,45,45,0,0,None
+0,area_node,domestic_unsupplied_energy,45,45,0,0,None
+0,area_node,is_local_matching_rule_violated,45,45,0,0,None
 0,area_load,balance_port.flow,45,45,0,-5418,None
 0,area_wind,generation_power,45,45,0,393,None
 0,area_wind,minus_generation,45,45,0,-393,None
@@ -2365,6 +2457,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,46,46,0,0.29999999722511084,None
 0,area_node,balance_port.price,46,46,0,0.29999999722511084,None
 0,area_node,is_near_loss_of_load,46,46,0,0,None
+0,area_node,domestic_unsupplied_energy,46,46,0,0,None
+0,area_node,is_local_matching_rule_violated,46,46,0,0,None
 0,area_load,balance_port.flow,46,46,0,-5572,None
 0,area_wind,generation_power,46,46,0,328,None
 0,area_wind,minus_generation,46,46,0,-328,None
@@ -2398,6 +2492,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,47,47,0,0.29999999718535153,None
 0,area_node,balance_port.price,47,47,0,0.29999999718535153,None
 0,area_node,is_near_loss_of_load,47,47,0,0,None
+0,area_node,domestic_unsupplied_energy,47,47,0,0,None
+0,area_node,is_local_matching_rule_violated,47,47,0,0,None
 0,area_load,balance_port.flow,47,47,0,-5485,None
 0,area_wind,generation_power,47,47,0,243,None
 0,area_wind,minus_generation,47,47,0,-243,None
@@ -2431,6 +2527,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,48,48,0,0.30000000729017534,None
 0,area_node,balance_port.price,48,48,0,0.30000000729017534,None
 0,area_node,is_near_loss_of_load,48,48,0,0,None
+0,area_node,domestic_unsupplied_energy,48,48,0,0,None
+0,area_node,is_local_matching_rule_violated,48,48,0,0,None
 0,area_load,balance_port.flow,48,48,0,-5124,None
 0,area_wind,generation_power,48,48,0,250,None
 0,area_wind,minus_generation,48,48,0,-250,None
@@ -2464,6 +2562,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,49,49,0,0.3000000066735734,None
 0,area_node,balance_port.price,49,49,0,0.3000000066735734,None
 0,area_node,is_near_loss_of_load,49,49,0,0,None
+0,area_node,domestic_unsupplied_energy,49,49,0,0,None
+0,area_node,is_local_matching_rule_violated,49,49,0,0,None
 0,area_load,balance_port.flow,49,49,0,-4653,None
 0,area_wind,generation_power,49,49,0,295,None
 0,area_wind,minus_generation,49,49,0,-295,None
@@ -2497,6 +2597,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,50,50,0,0.3000000047249155,None
 0,area_node,balance_port.price,50,50,0,0.3000000047249155,None
 0,area_node,is_near_loss_of_load,50,50,0,0,None
+0,area_node,domestic_unsupplied_energy,50,50,0,0,None
+0,area_node,is_local_matching_rule_violated,50,50,0,0,None
 0,area_load,balance_port.flow,50,50,0,-4514,None
 0,area_wind,generation_power,50,50,0,470,None
 0,area_wind,minus_generation,50,50,0,-470,None
@@ -2530,6 +2632,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,51,51,0,0.30000000793862774,None
 0,area_node,balance_port.price,51,51,0,0.30000000793862774,None
 0,area_node,is_near_loss_of_load,51,51,0,0,None
+0,area_node,domestic_unsupplied_energy,51,51,0,0,None
+0,area_node,is_local_matching_rule_violated,51,51,0,0,None
 0,area_load,balance_port.flow,51,51,0,-4380,None
 0,area_wind,generation_power,51,51,0,429,None
 0,area_wind,minus_generation,51,51,0,-429,None
@@ -2563,6 +2667,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,52,52,0,0.2999999953957509,None
 0,area_node,balance_port.price,52,52,0,0.2999999953957509,None
 0,area_node,is_near_loss_of_load,52,52,0,0,None
+0,area_node,domestic_unsupplied_energy,52,52,0,0,None
+0,area_node,is_local_matching_rule_violated,52,52,0,0,None
 0,area_load,balance_port.flow,52,52,0,-4304,None
 0,area_wind,generation_power,52,52,0,508,None
 0,area_wind,minus_generation,52,52,0,-508,None
@@ -2596,6 +2702,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,53,53,0,0.2999999901839598,None
 0,area_node,balance_port.price,53,53,0,0.2999999901839598,None
 0,area_node,is_near_loss_of_load,53,53,0,0,None
+0,area_node,domestic_unsupplied_energy,53,53,0,0,None
+0,area_node,is_local_matching_rule_violated,53,53,0,0,None
 0,area_load,balance_port.flow,53,53,0,-4533,None
 0,area_wind,generation_power,53,53,0,440,None
 0,area_wind,minus_generation,53,53,0,-440,None
@@ -2629,6 +2737,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,54,54,0,0.3000000005166434,None
 0,area_node,balance_port.price,54,54,0,0.3000000005166434,None
 0,area_node,is_near_loss_of_load,54,54,0,0,None
+0,area_node,domestic_unsupplied_energy,54,54,0,0,None
+0,area_node,is_local_matching_rule_violated,54,54,0,0,None
 0,area_load,balance_port.flow,54,54,0,-5102,None
 0,area_wind,generation_power,54,54,0,356,None
 0,area_wind,minus_generation,54,54,0,-356,None
@@ -2662,6 +2772,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,55,55,0,0.29999999893591767,None
 0,area_node,balance_port.price,55,55,0,0.29999999893591767,None
 0,area_node,is_near_loss_of_load,55,55,0,0,None
+0,area_node,domestic_unsupplied_energy,55,55,0,0,None
+0,area_node,is_local_matching_rule_violated,55,55,0,0,None
 0,area_load,balance_port.flow,55,55,0,-5794,None
 0,area_wind,generation_power,55,55,0,476,None
 0,area_wind,minus_generation,55,55,0,-476,None
@@ -2695,6 +2807,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,56,56,0,0.300000009461243,None
 0,area_node,balance_port.price,56,56,0,0.300000009461243,None
 0,area_node,is_near_loss_of_load,56,56,0,0,None
+0,area_node,domestic_unsupplied_energy,56,56,0,0,None
+0,area_node,is_local_matching_rule_violated,56,56,0,0,None
 0,area_load,balance_port.flow,56,56,0,-6027,None
 0,area_wind,generation_power,56,56,0,459,None
 0,area_wind,minus_generation,56,56,0,-459,None
@@ -2728,6 +2842,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,57,57,0,0.2999999983208753,None
 0,area_node,balance_port.price,57,57,0,0.2999999983208753,None
 0,area_node,is_near_loss_of_load,57,57,0,0,None
+0,area_node,domestic_unsupplied_energy,57,57,0,0,None
+0,area_node,is_local_matching_rule_violated,57,57,0,0,None
 0,area_load,balance_port.flow,57,57,0,-6135,None
 0,area_wind,generation_power,57,57,0,538,None
 0,area_wind,minus_generation,57,57,0,-538,None
@@ -2761,6 +2877,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,58,58,0,0.3000000082402777,None
 0,area_node,balance_port.price,58,58,0,0.3000000082402777,None
 0,area_node,is_near_loss_of_load,58,58,0,0,None
+0,area_node,domestic_unsupplied_energy,58,58,0,0,None
+0,area_node,is_local_matching_rule_violated,58,58,0,0,None
 0,area_load,balance_port.flow,58,58,0,-6006,None
 0,area_wind,generation_power,58,58,0,523,None
 0,area_wind,minus_generation,58,58,0,-523,None
@@ -2794,6 +2912,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,59,59,0,0.29999999960651735,None
 0,area_node,balance_port.price,59,59,0,0.29999999960651735,None
 0,area_node,is_near_loss_of_load,59,59,0,0,None
+0,area_node,domestic_unsupplied_energy,59,59,0,0,None
+0,area_node,is_local_matching_rule_violated,59,59,0,0,None
 0,area_load,balance_port.flow,59,59,0,-5986,None
 0,area_wind,generation_power,59,59,0,459,None
 0,area_wind,minus_generation,59,59,0,-459,None
@@ -2827,6 +2947,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,60,60,0,0.2999999958924801,None
 0,area_node,balance_port.price,60,60,0,0.2999999958924801,None
 0,area_node,is_near_loss_of_load,60,60,0,0,None
+0,area_node,domestic_unsupplied_energy,60,60,0,0,None
+0,area_node,is_local_matching_rule_violated,60,60,0,0,None
 0,area_load,balance_port.flow,60,60,0,-5860,None
 0,area_wind,generation_power,60,60,0,423,None
 0,area_wind,minus_generation,60,60,0,-423,None
@@ -2860,6 +2982,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,61,61,0,0.2999999914820555,None
 0,area_node,balance_port.price,61,61,0,0.2999999914820555,None
 0,area_node,is_near_loss_of_load,61,61,0,0,None
+0,area_node,domestic_unsupplied_energy,61,61,0,0,None
+0,area_node,is_local_matching_rule_violated,61,61,0,0,None
 0,area_load,balance_port.flow,61,61,0,-5566,None
 0,area_wind,generation_power,61,61,0,573,None
 0,area_wind,minus_generation,61,61,0,-573,None
@@ -2893,6 +3017,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,62,62,0,0.3000000070872675,None
 0,area_node,balance_port.price,62,62,0,0.3000000070872675,None
 0,area_node,is_near_loss_of_load,62,62,0,0,None
+0,area_node,domestic_unsupplied_energy,62,62,0,0,None
+0,area_node,is_local_matching_rule_violated,62,62,0,0,None
 0,area_load,balance_port.flow,62,62,0,-5505,None
 0,area_wind,generation_power,62,62,0,633,None
 0,area_wind,minus_generation,62,62,0,-633,None
@@ -2926,6 +3052,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,63,63,0,0.30000000668341986,None
 0,area_node,balance_port.price,63,63,0,0.30000000668341986,None
 0,area_node,is_near_loss_of_load,63,63,0,0,None
+0,area_node,domestic_unsupplied_energy,63,63,0,0,None
+0,area_node,is_local_matching_rule_violated,63,63,0,0,None
 0,area_load,balance_port.flow,63,63,0,-5390,None
 0,area_wind,generation_power,63,63,0,718,None
 0,area_wind,minus_generation,63,63,0,-718,None
@@ -2959,6 +3087,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,64,64,0,0.2999999970227002,None
 0,area_node,balance_port.price,64,64,0,0.2999999970227002,None
 0,area_node,is_near_loss_of_load,64,64,0,0,None
+0,area_node,domestic_unsupplied_energy,64,64,0,0,None
+0,area_node,is_local_matching_rule_violated,64,64,0,0,None
 0,area_load,balance_port.flow,64,64,0,-5455,None
 0,area_wind,generation_power,64,64,0,597,None
 0,area_wind,minus_generation,64,64,0,-597,None
@@ -2992,6 +3122,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,65,65,0,0.30000000569707036,None
 0,area_node,balance_port.price,65,65,0,0.30000000569707036,None
 0,area_node,is_near_loss_of_load,65,65,0,0,None
+0,area_node,domestic_unsupplied_energy,65,65,0,0,None
+0,area_node,is_local_matching_rule_violated,65,65,0,0,None
 0,area_load,balance_port.flow,65,65,0,-5696,None
 0,area_wind,generation_power,65,65,0,578,None
 0,area_wind,minus_generation,65,65,0,-578,None
@@ -3025,6 +3157,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,66,66,0,0.29999999501039426,None
 0,area_node,balance_port.price,66,66,0,0.29999999501039426,None
 0,area_node,is_near_loss_of_load,66,66,0,0,None
+0,area_node,domestic_unsupplied_energy,66,66,0,0,None
+0,area_node,is_local_matching_rule_violated,66,66,0,0,None
 0,area_load,balance_port.flow,66,66,0,-6139,None
 0,area_wind,generation_power,66,66,0,706,None
 0,area_wind,minus_generation,66,66,0,-706,None
@@ -3058,6 +3192,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,67,67,0,0.29999999216742235,None
 0,area_node,balance_port.price,67,67,0,0.29999999216742235,None
 0,area_node,is_near_loss_of_load,67,67,0,0,None
+0,area_node,domestic_unsupplied_energy,67,67,0,0,None
+0,area_node,is_local_matching_rule_violated,67,67,0,0,None
 0,area_load,balance_port.flow,67,67,0,-6160,None
 0,area_wind,generation_power,67,67,0,974,None
 0,area_wind,minus_generation,67,67,0,-974,None
@@ -3091,6 +3227,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,68,68,0,0.3000000014122273,None
 0,area_node,balance_port.price,68,68,0,0.3000000014122273,None
 0,area_node,is_near_loss_of_load,68,68,0,0,None
+0,area_node,domestic_unsupplied_energy,68,68,0,0,None
+0,area_node,is_local_matching_rule_violated,68,68,0,0,None
 0,area_load,balance_port.flow,68,68,0,-5695,None
 0,area_wind,generation_power,68,68,0,1287,None
 0,area_wind,minus_generation,68,68,0,-1287,None
@@ -3124,6 +3262,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,69,69,0,0.30000000902820984,None
 0,area_node,balance_port.price,69,69,0,0.30000000902820984,None
 0,area_node,is_near_loss_of_load,69,69,0,0,None
+0,area_node,domestic_unsupplied_energy,69,69,0,0,None
+0,area_node,is_local_matching_rule_violated,69,69,0,0,None
 0,area_load,balance_port.flow,69,69,0,-5474,None
 0,area_wind,generation_power,69,69,0,1328,None
 0,area_wind,minus_generation,69,69,0,-1328,None
@@ -3157,6 +3297,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,70,70,0,0.30000000419949063,None
 0,area_node,balance_port.price,70,70,0,0.30000000419949063,None
 0,area_node,is_near_loss_of_load,70,70,0,0,None
+0,area_node,domestic_unsupplied_energy,70,70,0,0,None
+0,area_node,is_local_matching_rule_violated,70,70,0,0,None
 0,area_load,balance_port.flow,70,70,0,-5549,None
 0,area_wind,generation_power,70,70,0,1240,None
 0,area_wind,minus_generation,70,70,0,-1240,None
@@ -3190,6 +3332,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,71,71,0,0.30000000186111503,None
 0,area_node,balance_port.price,71,71,0,0.30000000186111503,None
 0,area_node,is_near_loss_of_load,71,71,0,0,None
+0,area_node,domestic_unsupplied_energy,71,71,0,0,None
+0,area_node,is_local_matching_rule_violated,71,71,0,0,None
 0,area_load,balance_port.flow,71,71,0,-5327,None
 0,area_wind,generation_power,71,71,0,1143,None
 0,area_wind,minus_generation,71,71,0,-1143,None
@@ -3223,6 +3367,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,72,72,0,0.3000000004345995,None
 0,area_node,balance_port.price,72,72,0,0.3000000004345995,None
 0,area_node,is_near_loss_of_load,72,72,0,0,None
+0,area_node,domestic_unsupplied_energy,72,72,0,0,None
+0,area_node,is_local_matching_rule_violated,72,72,0,0,None
 0,area_load,balance_port.flow,72,72,0,-5021,None
 0,area_wind,generation_power,72,72,0,1105,None
 0,area_wind,minus_generation,72,72,0,-1105,None
@@ -3256,6 +3402,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,73,73,0,0.30000000489198475,None
 0,area_node,balance_port.price,73,73,0,0.30000000489198475,None
 0,area_node,is_near_loss_of_load,73,73,0,0,None
+0,area_node,domestic_unsupplied_energy,73,73,0,0,None
+0,area_node,is_local_matching_rule_violated,73,73,0,0,None
 0,area_load,balance_port.flow,73,73,0,-4564,None
 0,area_wind,generation_power,73,73,0,1254,None
 0,area_wind,minus_generation,73,73,0,-1254,None
@@ -3289,6 +3437,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,74,74,0,0.2999999976513519,None
 0,area_node,balance_port.price,74,74,0,0.2999999976513519,None
 0,area_node,is_near_loss_of_load,74,74,0,0,None
+0,area_node,domestic_unsupplied_energy,74,74,0,0,None
+0,area_node,is_local_matching_rule_violated,74,74,0,0,None
 0,area_load,balance_port.flow,74,74,0,-4391,None
 0,area_wind,generation_power,74,74,0,1199,None
 0,area_wind,minus_generation,74,74,0,-1199,None
@@ -3322,6 +3472,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,75,75,0,0.3000000019697455,None
 0,area_node,balance_port.price,75,75,0,0.3000000019697455,None
 0,area_node,is_near_loss_of_load,75,75,0,0,None
+0,area_node,domestic_unsupplied_energy,75,75,0,0,None
+0,area_node,is_local_matching_rule_violated,75,75,0,0,None
 0,area_load,balance_port.flow,75,75,0,-4176,None
 0,area_wind,generation_power,75,75,0,1149,None
 0,area_wind,minus_generation,75,75,0,-1149,None
@@ -3355,6 +3507,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,76,76,0,0.3000000064048765,None
 0,area_node,balance_port.price,76,76,0,0.3000000064048765,None
 0,area_node,is_near_loss_of_load,76,76,0,0,None
+0,area_node,domestic_unsupplied_energy,76,76,0,0,None
+0,area_node,is_local_matching_rule_violated,76,76,0,0,None
 0,area_load,balance_port.flow,76,76,0,-4160,None
 0,area_wind,generation_power,76,76,0,1180,None
 0,area_wind,minus_generation,76,76,0,-1180,None
@@ -3388,6 +3542,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,77,77,0,0.29999999147945666,None
 0,area_node,balance_port.price,77,77,0,0.29999999147945666,None
 0,area_node,is_near_loss_of_load,77,77,0,0,None
+0,area_node,domestic_unsupplied_energy,77,77,0,0,None
+0,area_node,is_local_matching_rule_violated,77,77,0,0,None
 0,area_load,balance_port.flow,77,77,0,-4413,None
 0,area_wind,generation_power,77,77,0,1426,None
 0,area_wind,minus_generation,77,77,0,-1426,None
@@ -3421,6 +3577,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,78,78,0,0.3000000056979374,None
 0,area_node,balance_port.price,78,78,0,0.3000000056979374,None
 0,area_node,is_near_loss_of_load,78,78,0,0,None
+0,area_node,domestic_unsupplied_energy,78,78,0,0,None
+0,area_node,is_local_matching_rule_violated,78,78,0,0,None
 0,area_load,balance_port.flow,78,78,0,-5001,None
 0,area_wind,generation_power,78,78,0,1629,None
 0,area_wind,minus_generation,78,78,0,-1629,None
@@ -3454,6 +3612,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,79,79,0,0.29999999604081823,None
 0,area_node,balance_port.price,79,79,0,0.29999999604081823,None
 0,area_node,is_near_loss_of_load,79,79,0,0,None
+0,area_node,domestic_unsupplied_energy,79,79,0,0,None
+0,area_node,is_local_matching_rule_violated,79,79,0,0,None
 0,area_load,balance_port.flow,79,79,0,-5605,None
 0,area_wind,generation_power,79,79,0,1984,None
 0,area_wind,minus_generation,79,79,0,-1984,None
@@ -3487,6 +3647,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,80,80,0,0.29999999533520244,None
 0,area_node,balance_port.price,80,80,0,0.29999999533520244,None
 0,area_node,is_near_loss_of_load,80,80,0,0,None
+0,area_node,domestic_unsupplied_energy,80,80,0,0,None
+0,area_node,is_local_matching_rule_violated,80,80,0,0,None
 0,area_load,balance_port.flow,80,80,0,-5884,None
 0,area_wind,generation_power,80,80,0,1959,None
 0,area_wind,minus_generation,80,80,0,-1959,None
@@ -3520,6 +3682,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,81,81,0,0.3000000092557373,None
 0,area_node,balance_port.price,81,81,0,0.3000000092557373,None
 0,area_node,is_near_loss_of_load,81,81,0,0,None
+0,area_node,domestic_unsupplied_energy,81,81,0,0,None
+0,area_node,is_local_matching_rule_violated,81,81,0,0,None
 0,area_load,balance_port.flow,81,81,0,-6027,None
 0,area_wind,generation_power,81,81,0,1576,None
 0,area_wind,minus_generation,81,81,0,-1576,None
@@ -3553,6 +3717,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,82,82,0,0.3000000052595751,None
 0,area_node,balance_port.price,82,82,0,0.3000000052595751,None
 0,area_node,is_near_loss_of_load,82,82,0,0,None
+0,area_node,domestic_unsupplied_energy,82,82,0,0,None
+0,area_node,is_local_matching_rule_violated,82,82,0,0,None
 0,area_load,balance_port.flow,82,82,0,-5859,None
 0,area_wind,generation_power,82,82,0,1557,None
 0,area_wind,minus_generation,82,82,0,-1557,None
@@ -3586,6 +3752,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,83,83,0,0.30000000084487305,None
 0,area_node,balance_port.price,83,83,0,0.30000000084487305,None
 0,area_node,is_near_loss_of_load,83,83,0,0,None
+0,area_node,domestic_unsupplied_energy,83,83,0,0,None
+0,area_node,is_local_matching_rule_violated,83,83,0,0,None
 0,area_load,balance_port.flow,83,83,0,-5890,None
 0,area_wind,generation_power,83,83,0,1403,None
 0,area_wind,minus_generation,83,83,0,-1403,None
@@ -3619,6 +3787,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,84,84,0,0.2999999984929923,None
 0,area_node,balance_port.price,84,84,0,0.2999999984929923,None
 0,area_node,is_near_loss_of_load,84,84,0,0,None
+0,area_node,domestic_unsupplied_energy,84,84,0,0,None
+0,area_node,is_local_matching_rule_violated,84,84,0,0,None
 0,area_load,balance_port.flow,84,84,0,-5645,None
 0,area_wind,generation_power,84,84,0,1378,None
 0,area_wind,minus_generation,84,84,0,-1378,None
@@ -3652,6 +3822,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,85,85,0,0.30000000676938865,None
 0,area_node,balance_port.price,85,85,0,0.30000000676938865,None
 0,area_node,is_near_loss_of_load,85,85,0,0,None
+0,area_node,domestic_unsupplied_energy,85,85,0,0,None
+0,area_node,is_local_matching_rule_violated,85,85,0,0,None
 0,area_load,balance_port.flow,85,85,0,-5489,None
 0,area_wind,generation_power,85,85,0,1564,None
 0,area_wind,minus_generation,85,85,0,-1564,None
@@ -3685,6 +3857,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,86,86,0,0.30000000465237914,None
 0,area_node,balance_port.price,86,86,0,0.30000000465237914,None
 0,area_node,is_near_loss_of_load,86,86,0,0,None
+0,area_node,domestic_unsupplied_energy,86,86,0,0,None
+0,area_node,is_local_matching_rule_violated,86,86,0,0,None
 0,area_load,balance_port.flow,86,86,0,-5374,None
 0,area_wind,generation_power,86,86,0,1639,None
 0,area_wind,minus_generation,86,86,0,-1639,None
@@ -3718,6 +3892,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,87,87,0,0.3000000060785224,None
 0,area_node,balance_port.price,87,87,0,0.3000000060785224,None
 0,area_node,is_near_loss_of_load,87,87,0,0,None
+0,area_node,domestic_unsupplied_energy,87,87,0,0,None
+0,area_node,is_local_matching_rule_violated,87,87,0,0,None
 0,area_load,balance_port.flow,87,87,0,-5296,None
 0,area_wind,generation_power,87,87,0,1673,None
 0,area_wind,minus_generation,87,87,0,-1673,None
@@ -3751,6 +3927,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,88,88,0,0.29999999275966416,None
 0,area_node,balance_port.price,88,88,0,0.29999999275966416,None
 0,area_node,is_near_loss_of_load,88,88,0,0,None
+0,area_node,domestic_unsupplied_energy,88,88,0,0,None
+0,area_node,is_local_matching_rule_violated,88,88,0,0,None
 0,area_load,balance_port.flow,88,88,0,-5221,None
 0,area_wind,generation_power,88,88,0,1644,None
 0,area_wind,minus_generation,88,88,0,-1644,None
@@ -3784,6 +3962,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,89,89,0,0.2999999978441503,None
 0,area_node,balance_port.price,89,89,0,0.2999999978441503,None
 0,area_node,is_near_loss_of_load,89,89,0,0,None
+0,area_node,domestic_unsupplied_energy,89,89,0,0,None
+0,area_node,is_local_matching_rule_violated,89,89,0,0,None
 0,area_load,balance_port.flow,89,89,0,-5563,None
 0,area_wind,generation_power,89,89,0,1504,None
 0,area_wind,minus_generation,89,89,0,-1504,None
@@ -3817,6 +3997,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,90,90,0,0.2999999914803992,None
 0,area_node,balance_port.price,90,90,0,0.2999999914803992,None
 0,area_node,is_near_loss_of_load,90,90,0,0,None
+0,area_node,domestic_unsupplied_energy,90,90,0,0,None
+0,area_node,is_local_matching_rule_violated,90,90,0,0,None
 0,area_load,balance_port.flow,90,90,0,-5984,None
 0,area_wind,generation_power,90,90,0,1623,None
 0,area_wind,minus_generation,90,90,0,-1623,None
@@ -3850,6 +4032,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,91,91,0,0.3000000062017944,None
 0,area_node,balance_port.price,91,91,0,0.3000000062017944,None
 0,area_node,is_near_loss_of_load,91,91,0,0,None
+0,area_node,domestic_unsupplied_energy,91,91,0,0,None
+0,area_node,is_local_matching_rule_violated,91,91,0,0,None
 0,area_load,balance_port.flow,91,91,0,-5887,None
 0,area_wind,generation_power,91,91,0,1673,None
 0,area_wind,minus_generation,91,91,0,-1673,None
@@ -3883,6 +4067,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,92,92,0,0.30000000259278564,None
 0,area_node,balance_port.price,92,92,0,0.30000000259278564,None
 0,area_node,is_near_loss_of_load,92,92,0,0,None
+0,area_node,domestic_unsupplied_energy,92,92,0,0,None
+0,area_node,is_local_matching_rule_violated,92,92,0,0,None
 0,area_load,balance_port.flow,92,92,0,-5577,None
 0,area_wind,generation_power,92,92,0,1546,None
 0,area_wind,minus_generation,92,92,0,-1546,None
@@ -3916,6 +4102,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,93,93,0,0.30000000619423883,None
 0,area_node,balance_port.price,93,93,0,0.30000000619423883,None
 0,area_node,is_near_loss_of_load,93,93,0,0,None
+0,area_node,domestic_unsupplied_energy,93,93,0,0,None
+0,area_node,is_local_matching_rule_violated,93,93,0,0,None
 0,area_load,balance_port.flow,93,93,0,-5128,None
 0,area_wind,generation_power,93,93,0,1297,None
 0,area_wind,minus_generation,93,93,0,-1297,None
@@ -3949,6 +4137,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,94,94,0,0.2999999933822863,None
 0,area_node,balance_port.price,94,94,0,0.2999999933822863,None
 0,area_node,is_near_loss_of_load,94,94,0,0,None
+0,area_node,domestic_unsupplied_energy,94,94,0,0,None
+0,area_node,is_local_matching_rule_violated,94,94,0,0,None
 0,area_load,balance_port.flow,94,94,0,-5194,None
 0,area_wind,generation_power,94,94,0,1020,None
 0,area_wind,minus_generation,94,94,0,-1020,None
@@ -3982,6 +4172,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,95,95,0,0.3000000048813952,None
 0,area_node,balance_port.price,95,95,0,0.3000000048813952,None
 0,area_node,is_near_loss_of_load,95,95,0,0,None
+0,area_node,domestic_unsupplied_energy,95,95,0,0,None
+0,area_node,is_local_matching_rule_violated,95,95,0,0,None
 0,area_load,balance_port.flow,95,95,0,-5076,None
 0,area_wind,generation_power,95,95,0,960,None
 0,area_wind,minus_generation,95,95,0,-960,None
@@ -4015,6 +4207,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,96,96,0,0.30000000557810136,None
 0,area_node,balance_port.price,96,96,0,0.30000000557810136,None
 0,area_node,is_near_loss_of_load,96,96,0,0,None
+0,area_node,domestic_unsupplied_energy,96,96,0,0,None
+0,area_node,is_local_matching_rule_violated,96,96,0,0,None
 0,area_load,balance_port.flow,96,96,0,-4756,None
 0,area_wind,generation_power,96,96,0,901,None
 0,area_wind,minus_generation,96,96,0,-901,None
@@ -4048,6 +4242,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,97,97,0,0.29999999405340855,None
 0,area_node,balance_port.price,97,97,0,0.29999999405340855,None
 0,area_node,is_near_loss_of_load,97,97,0,0,None
+0,area_node,domestic_unsupplied_energy,97,97,0,0,None
+0,area_node,is_local_matching_rule_violated,97,97,0,0,None
 0,area_load,balance_port.flow,97,97,0,-4329,None
 0,area_wind,generation_power,97,97,0,745,None
 0,area_wind,minus_generation,97,97,0,-745,None
@@ -4081,6 +4277,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,98,98,0,0.29999999627561574,None
 0,area_node,balance_port.price,98,98,0,0.29999999627561574,None
 0,area_node,is_near_loss_of_load,98,98,0,0,None
+0,area_node,domestic_unsupplied_energy,98,98,0,0,None
+0,area_node,is_local_matching_rule_violated,98,98,0,0,None
 0,area_load,balance_port.flow,98,98,0,-4140,None
 0,area_wind,generation_power,98,98,0,514,None
 0,area_wind,minus_generation,98,98,0,-514,None
@@ -4114,6 +4312,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,99,99,0,0.3000000015586935,None
 0,area_node,balance_port.price,99,99,0,0.3000000015586935,None
 0,area_node,is_near_loss_of_load,99,99,0,0,None
+0,area_node,domestic_unsupplied_energy,99,99,0,0,None
+0,area_node,is_local_matching_rule_violated,99,99,0,0,None
 0,area_load,balance_port.flow,99,99,0,-4036,None
 0,area_wind,generation_power,99,99,0,362,None
 0,area_wind,minus_generation,99,99,0,-362,None
@@ -4147,6 +4347,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,100,100,0,0.30000000864837373,None
 0,area_node,balance_port.price,100,100,0,0.30000000864837373,None
 0,area_node,is_near_loss_of_load,100,100,0,0,None
+0,area_node,domestic_unsupplied_energy,100,100,0,0,None
+0,area_node,is_local_matching_rule_violated,100,100,0,0,None
 0,area_load,balance_port.flow,100,100,0,-3953,None
 0,area_wind,generation_power,100,100,0,365,None
 0,area_wind,minus_generation,100,100,0,-365,None
@@ -4180,6 +4382,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,101,101,0,0.29999999611391887,None
 0,area_node,balance_port.price,101,101,0,0.29999999611391887,None
 0,area_node,is_near_loss_of_load,101,101,0,0,None
+0,area_node,domestic_unsupplied_energy,101,101,0,0,None
+0,area_node,is_local_matching_rule_violated,101,101,0,0,None
 0,area_load,balance_port.flow,101,101,0,-4210,None
 0,area_wind,generation_power,101,101,0,319,None
 0,area_wind,minus_generation,101,101,0,-319,None
@@ -4213,6 +4417,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,102,102,0,0.30000000684394257,None
 0,area_node,balance_port.price,102,102,0,0.30000000684394257,None
 0,area_node,is_near_loss_of_load,102,102,0,0,None
+0,area_node,domestic_unsupplied_energy,102,102,0,0,None
+0,area_node,is_local_matching_rule_violated,102,102,0,0,None
 0,area_load,balance_port.flow,102,102,0,-4747,None
 0,area_wind,generation_power,102,102,0,479,None
 0,area_wind,minus_generation,102,102,0,-479,None
@@ -4246,6 +4452,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,103,103,0,0.29999999836826147,None
 0,area_node,balance_port.price,103,103,0,0.29999999836826147,None
 0,area_node,is_near_loss_of_load,103,103,0,0,None
+0,area_node,domestic_unsupplied_energy,103,103,0,0,None
+0,area_node,is_local_matching_rule_violated,103,103,0,0,None
 0,area_load,balance_port.flow,103,103,0,-5507,None
 0,area_wind,generation_power,103,103,0,526,None
 0,area_wind,minus_generation,103,103,0,-526,None
@@ -4279,6 +4487,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,104,104,0,0.3000000062457418,None
 0,area_node,balance_port.price,104,104,0,0.3000000062457418,None
 0,area_node,is_near_loss_of_load,104,104,0,0,None
+0,area_node,domestic_unsupplied_energy,104,104,0,0,None
+0,area_node,is_local_matching_rule_violated,104,104,0,0,None
 0,area_load,balance_port.flow,104,104,0,-5855,None
 0,area_wind,generation_power,104,104,0,617,None
 0,area_wind,minus_generation,104,104,0,-617,None
@@ -4312,6 +4522,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,105,105,0,0.2999999962359014,None
 0,area_node,balance_port.price,105,105,0,0.2999999962359014,None
 0,area_node,is_near_loss_of_load,105,105,0,0,None
+0,area_node,domestic_unsupplied_energy,105,105,0,0,None
+0,area_node,is_local_matching_rule_violated,105,105,0,0,None
 0,area_load,balance_port.flow,105,105,0,-5834,None
 0,area_wind,generation_power,105,105,0,651,None
 0,area_wind,minus_generation,105,105,0,-651,None
@@ -4345,6 +4557,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,106,106,0,0.29999999328398225,None
 0,area_node,balance_port.price,106,106,0,0.29999999328398225,None
 0,area_node,is_near_loss_of_load,106,106,0,0,None
+0,area_node,domestic_unsupplied_energy,106,106,0,0,None
+0,area_node,is_local_matching_rule_violated,106,106,0,0,None
 0,area_load,balance_port.flow,106,106,0,-5845,None
 0,area_wind,generation_power,106,106,0,630,None
 0,area_wind,minus_generation,106,106,0,-630,None
@@ -4378,6 +4592,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,107,107,0,0.3000000060058837,None
 0,area_node,balance_port.price,107,107,0,0.3000000060058837,None
 0,area_node,is_near_loss_of_load,107,107,0,0,None
+0,area_node,domestic_unsupplied_energy,107,107,0,0,None
+0,area_node,is_local_matching_rule_violated,107,107,0,0,None
 0,area_load,balance_port.flow,107,107,0,-5787,None
 0,area_wind,generation_power,107,107,0,753,None
 0,area_wind,minus_generation,107,107,0,-753,None
@@ -4411,6 +4627,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,108,108,0,0.300000004906983,None
 0,area_node,balance_port.price,108,108,0,0.300000004906983,None
 0,area_node,is_near_loss_of_load,108,108,0,0,None
+0,area_node,domestic_unsupplied_energy,108,108,0,0,None
+0,area_node,is_local_matching_rule_violated,108,108,0,0,None
 0,area_load,balance_port.flow,108,108,0,-5837,None
 0,area_wind,generation_power,108,108,0,930,None
 0,area_wind,minus_generation,108,108,0,-930,None
@@ -4444,6 +4662,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,109,109,0,0.29999999476230627,None
 0,area_node,balance_port.price,109,109,0,0.29999999476230627,None
 0,area_node,is_near_loss_of_load,109,109,0,0,None
+0,area_node,domestic_unsupplied_energy,109,109,0,0,None
+0,area_node,is_local_matching_rule_violated,109,109,0,0,None
 0,area_load,balance_port.flow,109,109,0,-5734,None
 0,area_wind,generation_power,109,109,0,1189,None
 0,area_wind,minus_generation,109,109,0,-1189,None
@@ -4477,6 +4697,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,110,110,0,0.3000000091326184,None
 0,area_node,balance_port.price,110,110,0,0.3000000091326184,None
 0,area_node,is_near_loss_of_load,110,110,0,0,None
+0,area_node,domestic_unsupplied_energy,110,110,0,0,None
+0,area_node,is_local_matching_rule_violated,110,110,0,0,None
 0,area_load,balance_port.flow,110,110,0,-5550,None
 0,area_wind,generation_power,110,110,0,1280,None
 0,area_wind,minus_generation,110,110,0,-1280,None
@@ -4510,6 +4732,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,111,111,0,0.29999999108604986,None
 0,area_node,balance_port.price,111,111,0,0.29999999108604986,None
 0,area_node,is_near_loss_of_load,111,111,0,0,None
+0,area_node,domestic_unsupplied_energy,111,111,0,0,None
+0,area_node,is_local_matching_rule_violated,111,111,0,0,None
 0,area_load,balance_port.flow,111,111,0,-5280,None
 0,area_wind,generation_power,111,111,0,1369,None
 0,area_wind,minus_generation,111,111,0,-1369,None
@@ -4543,6 +4767,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,112,112,0,0.2999999979541707,None
 0,area_node,balance_port.price,112,112,0,0.2999999979541707,None
 0,area_node,is_near_loss_of_load,112,112,0,0,None
+0,area_node,domestic_unsupplied_energy,112,112,0,0,None
+0,area_node,is_local_matching_rule_violated,112,112,0,0,None
 0,area_load,balance_port.flow,112,112,0,-5301,None
 0,area_wind,generation_power,112,112,0,1206,None
 0,area_wind,minus_generation,112,112,0,-1206,None
@@ -4576,6 +4802,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,113,113,0,0.2999999975328459,None
 0,area_node,balance_port.price,113,113,0,0.2999999975328459,None
 0,area_node,is_near_loss_of_load,113,113,0,0,None
+0,area_node,domestic_unsupplied_energy,113,113,0,0,None
+0,area_node,is_local_matching_rule_violated,113,113,0,0,None
 0,area_load,balance_port.flow,113,113,0,-5592,None
 0,area_wind,generation_power,113,113,0,1022,None
 0,area_wind,minus_generation,113,113,0,-1022,None
@@ -4609,6 +4837,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,114,114,0,0.29999999087940055,None
 0,area_node,balance_port.price,114,114,0,0.29999999087940055,None
 0,area_node,is_near_loss_of_load,114,114,0,0,None
+0,area_node,domestic_unsupplied_energy,114,114,0,0,None
+0,area_node,is_local_matching_rule_violated,114,114,0,0,None
 0,area_load,balance_port.flow,114,114,0,-5858,None
 0,area_wind,generation_power,114,114,0,1014,None
 0,area_wind,minus_generation,114,114,0,-1014,None
@@ -4642,6 +4872,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,115,115,0,0.2999999908599883,None
 0,area_node,balance_port.price,115,115,0,0.2999999908599883,None
 0,area_node,is_near_loss_of_load,115,115,0,0,None
+0,area_node,domestic_unsupplied_energy,115,115,0,0,None
+0,area_node,is_local_matching_rule_violated,115,115,0,0,None
 0,area_load,balance_port.flow,115,115,0,-5877,None
 0,area_wind,generation_power,115,115,0,1091,None
 0,area_wind,minus_generation,115,115,0,-1091,None
@@ -4675,6 +4907,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,116,116,0,0.30000000087089546,None
 0,area_node,balance_port.price,116,116,0,0.30000000087089546,None
 0,area_node,is_near_loss_of_load,116,116,0,0,None
+0,area_node,domestic_unsupplied_energy,116,116,0,0,None
+0,area_node,is_local_matching_rule_violated,116,116,0,0,None
 0,area_load,balance_port.flow,116,116,0,-5389,None
 0,area_wind,generation_power,116,116,0,1291,None
 0,area_wind,minus_generation,116,116,0,-1291,None
@@ -4708,6 +4942,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,117,117,0,0.30000000247169506,None
 0,area_node,balance_port.price,117,117,0,0.30000000247169506,None
 0,area_node,is_near_loss_of_load,117,117,0,0,None
+0,area_node,domestic_unsupplied_energy,117,117,0,0,None
+0,area_node,is_local_matching_rule_violated,117,117,0,0,None
 0,area_load,balance_port.flow,117,117,0,-4925,None
 0,area_wind,generation_power,117,117,0,1530,None
 0,area_wind,minus_generation,117,117,0,-1530,None
@@ -4741,6 +4977,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,118,118,0,0.30000000412148214,None
 0,area_node,balance_port.price,118,118,0,0.30000000412148214,None
 0,area_node,is_near_loss_of_load,118,118,0,0,None
+0,area_node,domestic_unsupplied_energy,118,118,0,0,None
+0,area_node,is_local_matching_rule_violated,118,118,0,0,None
 0,area_load,balance_port.flow,118,118,0,-5015,None
 0,area_wind,generation_power,118,118,0,1736,None
 0,area_wind,minus_generation,118,118,0,-1736,None
@@ -4774,6 +5012,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,119,119,0,0.2999999962003206,None
 0,area_node,balance_port.price,119,119,0,0.2999999962003206,None
 0,area_node,is_near_loss_of_load,119,119,0,0,None
+0,area_node,domestic_unsupplied_energy,119,119,0,0,None
+0,area_node,is_local_matching_rule_violated,119,119,0,0,None
 0,area_load,balance_port.flow,119,119,0,-4990,None
 0,area_wind,generation_power,119,119,0,1624,None
 0,area_wind,minus_generation,119,119,0,-1624,None
@@ -4807,6 +5047,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,120,120,0,0.30000000800731014,None
 0,area_node,balance_port.price,120,120,0,0.30000000800731014,None
 0,area_node,is_near_loss_of_load,120,120,0,0,None
+0,area_node,domestic_unsupplied_energy,120,120,0,0,None
+0,area_node,is_local_matching_rule_violated,120,120,0,0,None
 0,area_load,balance_port.flow,120,120,0,-4564,None
 0,area_wind,generation_power,120,120,0,1554,None
 0,area_wind,minus_generation,120,120,0,-1554,None
@@ -4840,6 +5082,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,121,121,0,0.3000000069007502,None
 0,area_node,balance_port.price,121,121,0,0.3000000069007502,None
 0,area_node,is_near_loss_of_load,121,121,0,0,None
+0,area_node,domestic_unsupplied_energy,121,121,0,0,None
+0,area_node,is_local_matching_rule_violated,121,121,0,0,None
 0,area_load,balance_port.flow,121,121,0,-4150,None
 0,area_wind,generation_power,121,121,0,1609,None
 0,area_wind,minus_generation,121,121,0,-1609,None
@@ -4873,6 +5117,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,122,122,0,0.29999999001255345,None
 0,area_node,balance_port.price,122,122,0,0.29999999001255345,None
 0,area_node,is_near_loss_of_load,122,122,0,0,None
+0,area_node,domestic_unsupplied_energy,122,122,0,0,None
+0,area_node,is_local_matching_rule_violated,122,122,0,0,None
 0,area_load,balance_port.flow,122,122,0,-3899,None
 0,area_wind,generation_power,122,122,0,1581,None
 0,area_wind,minus_generation,122,122,0,-1581,None
@@ -4906,6 +5152,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,123,123,0,0.2999999965102369,None
 0,area_node,balance_port.price,123,123,0,0.2999999965102369,None
 0,area_node,is_near_loss_of_load,123,123,0,0,None
+0,area_node,domestic_unsupplied_energy,123,123,0,0,None
+0,area_node,is_local_matching_rule_violated,123,123,0,0,None
 0,area_load,balance_port.flow,123,123,0,-3664,None
 0,area_wind,generation_power,123,123,0,1780,None
 0,area_wind,minus_generation,123,123,0,-1780,None
@@ -4939,6 +5187,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,124,124,0,0.3000000099291925,None
 0,area_node,balance_port.price,124,124,0,0.3000000099291925,None
 0,area_node,is_near_loss_of_load,124,124,0,0,None
+0,area_node,domestic_unsupplied_energy,124,124,0,0,None
+0,area_node,is_local_matching_rule_violated,124,124,0,0,None
 0,area_load,balance_port.flow,124,124,0,-3706,None
 0,area_wind,generation_power,124,124,0,1880,None
 0,area_wind,minus_generation,124,124,0,-1880,None
@@ -4972,6 +5222,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,125,125,0,0.29999999665195115,None
 0,area_node,balance_port.price,125,125,0,0.29999999665195115,None
 0,area_node,is_near_loss_of_load,125,125,0,0,None
+0,area_node,domestic_unsupplied_energy,125,125,0,0,None
+0,area_node,is_local_matching_rule_violated,125,125,0,0,None
 0,area_load,balance_port.flow,125,125,0,-3884,None
 0,area_wind,generation_power,125,125,0,1902,None
 0,area_wind,minus_generation,125,125,0,-1902,None
@@ -5005,6 +5257,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,126,126,0,0.2999999927370666,None
 0,area_node,balance_port.price,126,126,0,0.2999999927370666,None
 0,area_node,is_near_loss_of_load,126,126,0,0,None
+0,area_node,domestic_unsupplied_energy,126,126,0,0,None
+0,area_node,is_local_matching_rule_violated,126,126,0,0,None
 0,area_load,balance_port.flow,126,126,0,-4023,None
 0,area_wind,generation_power,126,126,0,1770,None
 0,area_wind,minus_generation,126,126,0,-1770,None
@@ -5038,6 +5292,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,127,127,0,0.3000000047823713,None
 0,area_node,balance_port.price,127,127,0,0.3000000047823713,None
 0,area_node,is_near_loss_of_load,127,127,0,0,None
+0,area_node,domestic_unsupplied_energy,127,127,0,0,None
+0,area_node,is_local_matching_rule_violated,127,127,0,0,None
 0,area_load,balance_port.flow,127,127,0,-4369,None
 0,area_wind,generation_power,127,127,0,1760,None
 0,area_wind,minus_generation,127,127,0,-1760,None
@@ -5071,6 +5327,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,128,128,0,0.2999999929974929,None
 0,area_node,balance_port.price,128,128,0,0.2999999929974929,None
 0,area_node,is_near_loss_of_load,128,128,0,0,None
+0,area_node,domestic_unsupplied_energy,128,128,0,0,None
+0,area_node,is_local_matching_rule_violated,128,128,0,0,None
 0,area_load,balance_port.flow,128,128,0,-4739,None
 0,area_wind,generation_power,128,128,0,1489,None
 0,area_wind,minus_generation,128,128,0,-1489,None
@@ -5104,6 +5362,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,129,129,0,0.29999999640946473,None
 0,area_node,balance_port.price,129,129,0,0.29999999640946473,None
 0,area_node,is_near_loss_of_load,129,129,0,0,None
+0,area_node,domestic_unsupplied_energy,129,129,0,0,None
+0,area_node,is_local_matching_rule_violated,129,129,0,0,None
 0,area_load,balance_port.flow,129,129,0,-5050,None
 0,area_wind,generation_power,129,129,0,1260,None
 0,area_wind,minus_generation,129,129,0,-1260,None
@@ -5137,6 +5397,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,130,130,0,0.29999999733264215,None
 0,area_node,balance_port.price,130,130,0,0.29999999733264215,None
 0,area_node,is_near_loss_of_load,130,130,0,0,None
+0,area_node,domestic_unsupplied_energy,130,130,0,0,None
+0,area_node,is_local_matching_rule_violated,130,130,0,0,None
 0,area_load,balance_port.flow,130,130,0,-5054,None
 0,area_wind,generation_power,130,130,0,1242,None
 0,area_wind,minus_generation,130,130,0,-1242,None
@@ -5170,6 +5432,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,131,131,0,0.2999999983792416,None
 0,area_node,balance_port.price,131,131,0,0.2999999983792416,None
 0,area_node,is_near_loss_of_load,131,131,0,0,None
+0,area_node,domestic_unsupplied_energy,131,131,0,0,None
+0,area_node,is_local_matching_rule_violated,131,131,0,0,None
 0,area_load,balance_port.flow,131,131,0,-5209,None
 0,area_wind,generation_power,131,131,0,1279,None
 0,area_wind,minus_generation,131,131,0,-1279,None
@@ -5203,6 +5467,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,132,132,0,0.2999999950666565,None
 0,area_node,balance_port.price,132,132,0,0.2999999950666565,None
 0,area_node,is_near_loss_of_load,132,132,0,0,None
+0,area_node,domestic_unsupplied_energy,132,132,0,0,None
+0,area_node,is_local_matching_rule_violated,132,132,0,0,None
 0,area_load,balance_port.flow,132,132,0,-5196,None
 0,area_wind,generation_power,132,132,0,1360,None
 0,area_wind,minus_generation,132,132,0,-1360,None
@@ -5236,6 +5502,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,133,133,0,0.30000000947425076,None
 0,area_node,balance_port.price,133,133,0,0.30000000947425076,None
 0,area_node,is_near_loss_of_load,133,133,0,0,None
+0,area_node,domestic_unsupplied_energy,133,133,0,0,None
+0,area_node,is_local_matching_rule_violated,133,133,0,0,None
 0,area_load,balance_port.flow,133,133,0,-4963,None
 0,area_wind,generation_power,133,133,0,1360,None
 0,area_wind,minus_generation,133,133,0,-1360,None
@@ -5269,6 +5537,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,134,134,0,0.2999999969693368,None
 0,area_node,balance_port.price,134,134,0,0.2999999969693368,None
 0,area_node,is_near_loss_of_load,134,134,0,0,None
+0,area_node,domestic_unsupplied_energy,134,134,0,0,None
+0,area_node,is_local_matching_rule_violated,134,134,0,0,None
 0,area_load,balance_port.flow,134,134,0,-4790,None
 0,area_wind,generation_power,134,134,0,1351,None
 0,area_wind,minus_generation,134,134,0,-1351,None
@@ -5302,6 +5572,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,135,135,0,0.30000000605023414,None
 0,area_node,balance_port.price,135,135,0,0.30000000605023414,None
 0,area_node,is_near_loss_of_load,135,135,0,0,None
+0,area_node,domestic_unsupplied_energy,135,135,0,0,None
+0,area_node,is_local_matching_rule_violated,135,135,0,0,None
 0,area_load,balance_port.flow,135,135,0,-4743,None
 0,area_wind,generation_power,135,135,0,1142,None
 0,area_wind,minus_generation,135,135,0,-1142,None
@@ -5335,6 +5607,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,136,136,0,0.2999999985080359,None
 0,area_node,balance_port.price,136,136,0,0.2999999985080359,None
 0,area_node,is_near_loss_of_load,136,136,0,0,None
+0,area_node,domestic_unsupplied_energy,136,136,0,0,None
+0,area_node,is_local_matching_rule_violated,136,136,0,0,None
 0,area_load,balance_port.flow,136,136,0,-4812,None
 0,area_wind,generation_power,136,136,0,1276,None
 0,area_wind,minus_generation,136,136,0,-1276,None
@@ -5368,6 +5642,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,137,137,0,0.29999999894097973,None
 0,area_node,balance_port.price,137,137,0,0.29999999894097973,None
 0,area_node,is_near_loss_of_load,137,137,0,0,None
+0,area_node,domestic_unsupplied_energy,137,137,0,0,None
+0,area_node,is_local_matching_rule_violated,137,137,0,0,None
 0,area_load,balance_port.flow,137,137,0,-5041,None
 0,area_wind,generation_power,137,137,0,1456,None
 0,area_wind,minus_generation,137,137,0,-1456,None
@@ -5401,6 +5677,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,138,138,0,0.2999999936584317,None
 0,area_node,balance_port.price,138,138,0,0.2999999936584317,None
 0,area_node,is_near_loss_of_load,138,138,0,0,None
+0,area_node,domestic_unsupplied_energy,138,138,0,0,None
+0,area_node,is_local_matching_rule_violated,138,138,0,0,None
 0,area_load,balance_port.flow,138,138,0,-5220,None
 0,area_wind,generation_power,138,138,0,1565,None
 0,area_wind,minus_generation,138,138,0,-1565,None
@@ -5434,6 +5712,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,139,139,0,0.2999999921495818,None
 0,area_node,balance_port.price,139,139,0,0.2999999921495818,None
 0,area_node,is_near_loss_of_load,139,139,0,0,None
+0,area_node,domestic_unsupplied_energy,139,139,0,0,None
+0,area_node,is_local_matching_rule_violated,139,139,0,0,None
 0,area_load,balance_port.flow,139,139,0,-5322,None
 0,area_wind,generation_power,139,139,0,1445,None
 0,area_wind,minus_generation,139,139,0,-1445,None
@@ -5467,6 +5747,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,140,140,0,0.29999999146608863,None
 0,area_node,balance_port.price,140,140,0,0.29999999146608863,None
 0,area_node,is_near_loss_of_load,140,140,0,0,None
+0,area_node,domestic_unsupplied_energy,140,140,0,0,None
+0,area_node,is_local_matching_rule_violated,140,140,0,0,None
 0,area_load,balance_port.flow,140,140,0,-4911,None
 0,area_wind,generation_power,140,140,0,1522,None
 0,area_wind,minus_generation,140,140,0,-1522,None
@@ -5500,6 +5782,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,141,141,0,0.29999999855484866,None
 0,area_node,balance_port.price,141,141,0,0.29999999855484866,None
 0,area_node,is_near_loss_of_load,141,141,0,0,None
+0,area_node,domestic_unsupplied_energy,141,141,0,0,None
+0,area_node,is_local_matching_rule_violated,141,141,0,0,None
 0,area_load,balance_port.flow,141,141,0,-4704,None
 0,area_wind,generation_power,141,141,0,1213,None
 0,area_wind,minus_generation,141,141,0,-1213,None
@@ -5533,6 +5817,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,142,142,0,0.2999999968824498,None
 0,area_node,balance_port.price,142,142,0,0.2999999968824498,None
 0,area_node,is_near_loss_of_load,142,142,0,0,None
+0,area_node,domestic_unsupplied_energy,142,142,0,0,None
+0,area_node,is_local_matching_rule_violated,142,142,0,0,None
 0,area_load,balance_port.flow,142,142,0,-4885,None
 0,area_wind,generation_power,142,142,0,862,None
 0,area_wind,minus_generation,142,142,0,-862,None
@@ -5566,6 +5852,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,143,143,0,0.3000000017555641,None
 0,area_node,balance_port.price,143,143,0,0.3000000017555641,None
 0,area_node,is_near_loss_of_load,143,143,0,0,None
+0,area_node,domestic_unsupplied_energy,143,143,0,0,None
+0,area_node,is_local_matching_rule_violated,143,143,0,0,None
 0,area_load,balance_port.flow,143,143,0,-4944,None
 0,area_wind,generation_power,143,143,0,466,None
 0,area_wind,minus_generation,143,143,0,-466,None
@@ -5599,6 +5887,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,144,144,0,0.29999999805739663,None
 0,area_node,balance_port.price,144,144,0,0.29999999805739663,None
 0,area_node,is_near_loss_of_load,144,144,0,0,None
+0,area_node,domestic_unsupplied_energy,144,144,0,0,None
+0,area_node,is_local_matching_rule_violated,144,144,0,0,None
 0,area_load,balance_port.flow,144,144,0,-4491,None
 0,area_wind,generation_power,144,144,0,433,None
 0,area_wind,minus_generation,144,144,0,-433,None
@@ -5632,6 +5922,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,145,145,0,0.2999999987588947,None
 0,area_node,balance_port.price,145,145,0,0.2999999987588947,None
 0,area_node,is_near_loss_of_load,145,145,0,0,None
+0,area_node,domestic_unsupplied_energy,145,145,0,0,None
+0,area_node,is_local_matching_rule_violated,145,145,0,0,None
 0,area_load,balance_port.flow,145,145,0,-4127,None
 0,area_wind,generation_power,145,145,0,462,None
 0,area_wind,minus_generation,145,145,0,-462,None
@@ -5665,6 +5957,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,146,146,0,0.3000000034269025,None
 0,area_node,balance_port.price,146,146,0,0.3000000034269025,None
 0,area_node,is_near_loss_of_load,146,146,0,0,None
+0,area_node,domestic_unsupplied_energy,146,146,0,0,None
+0,area_node,is_local_matching_rule_violated,146,146,0,0,None
 0,area_load,balance_port.flow,146,146,0,-3896,None
 0,area_wind,generation_power,146,146,0,552,None
 0,area_wind,minus_generation,146,146,0,-552,None
@@ -5698,6 +5992,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,147,147,0,0.30000000864704995,None
 0,area_node,balance_port.price,147,147,0,0.30000000864704995,None
 0,area_node,is_near_loss_of_load,147,147,0,0,None
+0,area_node,domestic_unsupplied_energy,147,147,0,0,None
+0,area_node,is_local_matching_rule_violated,147,147,0,0,None
 0,area_load,balance_port.flow,147,147,0,-3687,None
 0,area_wind,generation_power,147,147,0,779,None
 0,area_wind,minus_generation,147,147,0,-779,None
@@ -5731,6 +6027,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,148,148,0,0.2999999942906451,None
 0,area_node,balance_port.price,148,148,0,0.2999999942906451,None
 0,area_node,is_near_loss_of_load,148,148,0,0,None
+0,area_node,domestic_unsupplied_energy,148,148,0,0,None
+0,area_node,is_local_matching_rule_violated,148,148,0,0,None
 0,area_load,balance_port.flow,148,148,0,-3651,None
 0,area_wind,generation_power,148,148,0,939,None
 0,area_wind,minus_generation,148,148,0,-939,None
@@ -5764,6 +6062,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,149,149,0,0.3000000057043645,None
 0,area_node,balance_port.price,149,149,0,0.3000000057043645,None
 0,area_node,is_near_loss_of_load,149,149,0,0,None
+0,area_node,domestic_unsupplied_energy,149,149,0,0,None
+0,area_node,is_local_matching_rule_violated,149,149,0,0,None
 0,area_load,balance_port.flow,149,149,0,-3651,None
 0,area_wind,generation_power,149,149,0,1024,None
 0,area_wind,minus_generation,149,149,0,-1024,None
@@ -5797,6 +6097,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,150,150,0,0.3000000036804865,None
 0,area_node,balance_port.price,150,150,0,0.3000000036804865,None
 0,area_node,is_near_loss_of_load,150,150,0,0,None
+0,area_node,domestic_unsupplied_energy,150,150,0,0,None
+0,area_node,is_local_matching_rule_violated,150,150,0,0,None
 0,area_load,balance_port.flow,150,150,0,-3838,None
 0,area_wind,generation_power,150,150,0,832,None
 0,area_wind,minus_generation,150,150,0,-832,None
@@ -5830,6 +6132,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,151,151,0,0.299999998432912,None
 0,area_node,balance_port.price,151,151,0,0.299999998432912,None
 0,area_node,is_near_loss_of_load,151,151,0,0,None
+0,area_node,domestic_unsupplied_energy,151,151,0,0,None
+0,area_node,is_local_matching_rule_violated,151,151,0,0,None
 0,area_load,balance_port.flow,151,151,0,-4011,None
 0,area_wind,generation_power,151,151,0,962,None
 0,area_wind,minus_generation,151,151,0,-962,None
@@ -5863,6 +6167,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,152,152,0,0.29999999826130325,None
 0,area_node,balance_port.price,152,152,0,0.29999999826130325,None
 0,area_node,is_near_loss_of_load,152,152,0,0,None
+0,area_node,domestic_unsupplied_energy,152,152,0,0,None
+0,area_node,is_local_matching_rule_violated,152,152,0,0,None
 0,area_load,balance_port.flow,152,152,0,-4207,None
 0,area_wind,generation_power,152,152,0,1096,None
 0,area_wind,minus_generation,152,152,0,-1096,None
@@ -5896,6 +6202,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,153,153,0,0.30000000060465865,None
 0,area_node,balance_port.price,153,153,0,0.30000000060465865,None
 0,area_node,is_near_loss_of_load,153,153,0,0,None
+0,area_node,domestic_unsupplied_energy,153,153,0,0,None
+0,area_node,is_local_matching_rule_violated,153,153,0,0,None
 0,area_load,balance_port.flow,153,153,0,-4575,None
 0,area_wind,generation_power,153,153,0,1219,None
 0,area_wind,minus_generation,153,153,0,-1219,None
@@ -5929,6 +6237,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,154,154,0,0.29999999873817323,None
 0,area_node,balance_port.price,154,154,0,0.29999999873817323,None
 0,area_node,is_near_loss_of_load,154,154,0,0,None
+0,area_node,domestic_unsupplied_energy,154,154,0,0,None
+0,area_node,is_local_matching_rule_violated,154,154,0,0,None
 0,area_load,balance_port.flow,154,154,0,-4755,None
 0,area_wind,generation_power,154,154,0,1118,None
 0,area_wind,minus_generation,154,154,0,-1118,None
@@ -5962,6 +6272,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,155,155,0,0.30000000642700797,None
 0,area_node,balance_port.price,155,155,0,0.30000000642700797,None
 0,area_node,is_near_loss_of_load,155,155,0,0,None
+0,area_node,domestic_unsupplied_energy,155,155,0,0,None
+0,area_node,is_local_matching_rule_violated,155,155,0,0,None
 0,area_load,balance_port.flow,155,155,0,-4877,None
 0,area_wind,generation_power,155,155,0,1023,None
 0,area_wind,minus_generation,155,155,0,-1023,None
@@ -5995,6 +6307,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,156,156,0,0.299999998757222,None
 0,area_node,balance_port.price,156,156,0,0.299999998757222,None
 0,area_node,is_near_loss_of_load,156,156,0,0,None
+0,area_node,domestic_unsupplied_energy,156,156,0,0,None
+0,area_node,is_local_matching_rule_violated,156,156,0,0,None
 0,area_load,balance_port.flow,156,156,0,-4963,None
 0,area_wind,generation_power,156,156,0,649,None
 0,area_wind,minus_generation,156,156,0,-649,None
@@ -6028,6 +6342,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,157,157,0,0.30000000205387223,None
 0,area_node,balance_port.price,157,157,0,0.30000000205387223,None
 0,area_node,is_near_loss_of_load,157,157,0,0,None
+0,area_node,domestic_unsupplied_energy,157,157,0,0,None
+0,area_node,is_local_matching_rule_violated,157,157,0,0,None
 0,area_load,balance_port.flow,157,157,0,-4705,None
 0,area_wind,generation_power,157,157,0,485,None
 0,area_wind,minus_generation,157,157,0,-485,None
@@ -6061,6 +6377,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,158,158,0,0.30000000889541173,None
 0,area_node,balance_port.price,158,158,0,0.30000000889541173,None
 0,area_node,is_near_loss_of_load,158,158,0,0,None
+0,area_node,domestic_unsupplied_energy,158,158,0,0,None
+0,area_node,is_local_matching_rule_violated,158,158,0,0,None
 0,area_load,balance_port.flow,158,158,0,-4550,None
 0,area_wind,generation_power,158,158,0,314,None
 0,area_wind,minus_generation,158,158,0,-314,None
@@ -6094,6 +6412,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,159,159,0,0.29999999845275493,None
 0,area_node,balance_port.price,159,159,0,0.29999999845275493,None
 0,area_node,is_near_loss_of_load,159,159,0,0,None
+0,area_node,domestic_unsupplied_energy,159,159,0,0,None
+0,area_node,is_local_matching_rule_violated,159,159,0,0,None
 0,area_load,balance_port.flow,159,159,0,-4526,None
 0,area_wind,generation_power,159,159,0,255,None
 0,area_wind,minus_generation,159,159,0,-255,None
@@ -6127,6 +6447,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,160,160,0,0.29999999426417495,None
 0,area_node,balance_port.price,160,160,0,0.29999999426417495,None
 0,area_node,is_near_loss_of_load,160,160,0,0,None
+0,area_node,domestic_unsupplied_energy,160,160,0,0,None
+0,area_node,is_local_matching_rule_violated,160,160,0,0,None
 0,area_load,balance_port.flow,160,160,0,-4408,None
 0,area_wind,generation_power,160,160,0,257,None
 0,area_wind,minus_generation,160,160,0,-257,None
@@ -6160,6 +6482,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,161,161,0,0.30000000892652956,None
 0,area_node,balance_port.price,161,161,0,0.30000000892652956,None
 0,area_node,is_near_loss_of_load,161,161,0,0,None
+0,area_node,domestic_unsupplied_energy,161,161,0,0,None
+0,area_node,is_local_matching_rule_violated,161,161,0,0,None
 0,area_load,balance_port.flow,161,161,0,-4804,None
 0,area_wind,generation_power,161,161,0,238,None
 0,area_wind,minus_generation,161,161,0,-238,None
@@ -6193,6 +6517,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,162,162,0,0.30000000186955683,None
 0,area_node,balance_port.price,162,162,0,0.30000000186955683,None
 0,area_node,is_near_loss_of_load,162,162,0,0,None
+0,area_node,domestic_unsupplied_energy,162,162,0,0,None
+0,area_node,is_local_matching_rule_violated,162,162,0,0,None
 0,area_load,balance_port.flow,162,162,0,-5180,None
 0,area_wind,generation_power,162,162,0,220,None
 0,area_wind,minus_generation,162,162,0,-220,None
@@ -6226,6 +6552,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,163,163,0,0.30000000864761456,None
 0,area_node,balance_port.price,163,163,0,0.30000000864761456,None
 0,area_node,is_near_loss_of_load,163,163,0,0,None
+0,area_node,domestic_unsupplied_energy,163,163,0,0,None
+0,area_node,is_local_matching_rule_violated,163,163,0,0,None
 0,area_load,balance_port.flow,163,163,0,-5142,None
 0,area_wind,generation_power,163,163,0,177,None
 0,area_wind,minus_generation,163,163,0,-177,None
@@ -6259,6 +6587,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,164,164,0,0.29999999506830655,None
 0,area_node,balance_port.price,164,164,0,0.29999999506830655,None
 0,area_node,is_near_loss_of_load,164,164,0,0,None
+0,area_node,domestic_unsupplied_energy,164,164,0,0,None
+0,area_node,is_local_matching_rule_violated,164,164,0,0,None
 0,area_load,balance_port.flow,164,164,0,-5032,None
 0,area_wind,generation_power,164,164,0,249,None
 0,area_wind,minus_generation,164,164,0,-249,None
@@ -6292,6 +6622,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,165,165,0,0.2999999905702543,None
 0,area_node,balance_port.price,165,165,0,0.2999999905702543,None
 0,area_node,is_near_loss_of_load,165,165,0,0,None
+0,area_node,domestic_unsupplied_energy,165,165,0,0,None
+0,area_node,is_local_matching_rule_violated,165,165,0,0,None
 0,area_load,balance_port.flow,165,165,0,-4817,None
 0,area_wind,generation_power,165,165,0,256,None
 0,area_wind,minus_generation,165,165,0,-256,None
@@ -6325,6 +6657,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,166,166,0,0.2999999932208801,None
 0,area_node,balance_port.price,166,166,0,0.2999999932208801,None
 0,area_node,is_near_loss_of_load,166,166,0,0,None
+0,area_node,domestic_unsupplied_energy,166,166,0,0,None
+0,area_node,is_local_matching_rule_violated,166,166,0,0,None
 0,area_load,balance_port.flow,166,166,0,-4979,None
 0,area_wind,generation_power,166,166,0,433,None
 0,area_wind,minus_generation,166,166,0,-433,None
@@ -6358,6 +6692,8 @@ block,component,output,absolute_time_index,block_time_index,scenario_index,value
 0,area_node,price,167,167,0,0.30000000839729385,None
 0,area_node,balance_port.price,167,167,0,0.30000000839729385,None
 0,area_node,is_near_loss_of_load,167,167,0,0,None
+0,area_node,domestic_unsupplied_energy,167,167,0,0,None
+0,area_node,is_local_matching_rule_violated,167,167,0,0,None
 0,area_load,balance_port.flow,167,167,0,-4831,None
 0,area_wind,generation_power,167,167,0,517,None
 0,area_wind,minus_generation,167,167,0,-517,None
