@@ -1,0 +1,11 @@
+reserves:
+- name: Res_1
+  type: up
+  failure-cost: 200.0
+  spillage-cost: 1111.0
+  power-activation-ratio: 1.0
+- name: Res_2
+  type: up
+  failure-cost: 100.0
+  spillage-cost: 1111.0
+  power-activation-ratio: 1.0

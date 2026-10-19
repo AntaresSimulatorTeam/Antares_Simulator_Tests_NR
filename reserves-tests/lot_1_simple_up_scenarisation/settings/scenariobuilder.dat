@@ -1,0 +1,4 @@
+[default ruleset]
+res,area,0 = 1
+res,area,1 = 2
+res,area,2 = 1
