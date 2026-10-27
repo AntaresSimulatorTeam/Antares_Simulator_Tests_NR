@@ -1,0 +1,9 @@
+reserves:
+- name: Res_1
+  type: up
+  failure-cost: 500.0
+  spillage-cost: 11.0
+- name: Res_2
+  type: up
+  failure-cost: 400.0
+  spillage-cost: 11.0
