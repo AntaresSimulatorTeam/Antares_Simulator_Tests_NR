@@ -1,0 +1,9 @@
+[
+	{
+		"name" : "outputs_2nodes_1cluster",
+		"checks" :
+		{
+			"simu_table_compare" : null
+		}
+	}
+]

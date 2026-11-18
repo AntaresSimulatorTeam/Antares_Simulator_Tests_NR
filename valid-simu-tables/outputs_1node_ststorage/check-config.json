@@ -1,0 +1,9 @@
+[
+	{
+		"name" : "outputs_1node_ststorage",
+		"checks" :
+		{
+			"simu_table_compare" : null
+		}
+	}
+]
