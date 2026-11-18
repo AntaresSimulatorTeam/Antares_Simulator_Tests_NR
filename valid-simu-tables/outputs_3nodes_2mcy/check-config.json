@@ -1,0 +1,9 @@
+[
+	{
+		"name" : "outputs_3nodes_2mcy",
+		"checks" :
+		{
+			"simu_table_compare" : null
+		}
+	}
+]

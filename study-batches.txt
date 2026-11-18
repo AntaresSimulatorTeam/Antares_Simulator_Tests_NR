@@ -9,6 +9,7 @@ valid-defaillance
 valid-filter-outputs
 valid-marginCost
 valid-parallel
+valid-simu-tables
 valid-thermal
 valid-ts-gen-export
 valid-mps
