@@ -1,6 +1,8 @@
 [
 	{
 		"name" : "test_025-mps-week",
+		"exe": "antares-solver",
+		"options": ["--solver=sirius"],
 		"checks" :
 		{
 			"mps_compare" : null

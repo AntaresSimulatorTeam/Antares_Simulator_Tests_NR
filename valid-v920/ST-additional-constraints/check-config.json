@@ -1,6 +1,8 @@
 [
 	{
 		"name" : "ST-additional-constraints",
+		"exe": "antares-solver",
+		"options": ["--solver=sirius"],
 		"checks" :
 		{
 			"output_compare" : {},

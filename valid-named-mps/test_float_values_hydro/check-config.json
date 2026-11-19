@@ -1,6 +1,17 @@
 [
 	{
 		"name" : "test_float_values_hydro",
+		"exe": "antares-solver",
+		"options": ["--solver=sirius", "--named-mps-problems"],
+		"checks" :
+		{
+			 "mps_compare" : null
+		}
+	},
+	{
+		"name" : "test_float_values_hydro [antares-problem-generator]",
+		"exe": "antares-problem-generator",
+		"options": [],
 		"checks" :
 		{
 			 "mps_compare" : null

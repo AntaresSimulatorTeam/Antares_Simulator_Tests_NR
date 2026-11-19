@@ -1,6 +1,8 @@
 [
 	{
 		"name" : "outputs_1node_ltstorage",
+		"exe": "antares-solver",
+		"options": ["--solver=sirius", "--output=simulation-tables", "--simulation-table-stages=optim-nb-1"],
 		"checks" :
 		{
 			"simu_table_compare" : null
