@@ -1,0 +1,79 @@
+system:
+  id: sys_link_capacity
+  description: >
+    Two legacy areas "a" and "b" joined by a legacy link whose NTC is null: its capacity is
+    chosen by the optimisation (link_investment component, cost per MW and per week). Area a has
+    a 100 MW load and a 200 MW generator (cost 10), area b has a 50 MW load and a 200 MW generator
+    (cost 1): importing into a saves 9 per MWh, i.e. 1512 per MW and per week.
+
+  model-libraries: lib_link_capacity
+
+  components:
+  - id: gen_b
+    model: lib_link_capacity.generator
+    parameters:
+    - id: max_p
+      time-dependent: false
+      scenario-dependent: false
+      value: 200
+    - id: prop_cost
+      time-dependent: false
+      scenario-dependent: false
+      value: 1
+
+  - id: gen_a
+    model: lib_link_capacity.generator
+    parameters:
+    - id: max_p
+      time-dependent: false
+      scenario-dependent: false
+      value: 200
+    - id: prop_cost
+      time-dependent: false
+      scenario-dependent: false
+      value: 10
+
+  - id: load_a
+    model: lib_link_capacity.load
+    parameters:
+    - id: load_value
+      time-dependent: false
+      scenario-dependent: false
+      value: 100
+
+  - id: load_b
+    model: lib_link_capacity.load
+    parameters:
+    - id: load_value
+      time-dependent: false
+      scenario-dependent: false
+      value: 50
+
+  - id: link_ab
+    model: lib_link_capacity.link_investment
+    parameters:
+    - id: invest_cost
+      time-dependent: false
+      scenario-dependent: false
+      value: 1
+
+  area-connections:
+  - component: gen_a
+    port: generation
+    area: a
+  - component: gen_b
+    port: generation
+    area: b
+  - component: load_a
+    port: consumption
+    area: a
+  - component: load_b
+    port: consumption
+    area: b
+
+  link-capacity-connections:
+  - component: link_ab
+    port: capacity_port
+    link-component:
+      from: a
+      to: b

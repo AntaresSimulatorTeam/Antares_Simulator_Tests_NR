@@ -1,0 +1,83 @@
+library:
+  id: lib_link_capacity
+  description: >
+    Library with a generator, a load, and a component that sets the capacity of a legacy link
+
+  port-types:
+  - id: flow
+    description: A port which transfers power flow value
+    fields:
+    - id: flow_field
+    area-connection:
+      injection-to-balance: flow_field
+      spillage-bound:
+      unsupplied-energy-bound:
+
+  - id: bidirectional_capacity_port
+    description: A port which gives the direct and indirect capacities of a legacy link
+    fields:
+    - id: capacity_direct
+    - id: capacity_indirect
+    link-capacity-connection:
+      capacity-direct-field: capacity_direct
+      capacity-indirect-field: capacity_indirect
+
+  models:
+  - id: generator
+    description: A simple generator
+    parameters:
+    - id: max_p
+      time-dependent: false
+      scenario-dependent: false
+    - id: prop_cost
+      time-dependent: false
+      scenario-dependent: false
+    variables:
+    - id: p
+      lower-bound: 0
+      upper-bound: max_p
+      variable-type: continuous
+    ports:
+    - id: generation
+      type: flow
+    port-field-definitions:
+    - port: generation
+      field: flow_field
+      definition: p
+    objective-contributions:
+    - id: objective
+      expression: sum(p * prop_cost)
+
+  - id: load
+    description: A simple load
+    parameters:
+    - id: load_value
+      time-dependent: false
+      scenario-dependent: false
+    ports:
+    - id: consumption
+      type: flow
+    port-field-definitions:
+    - port: consumption
+      field: flow_field
+      definition: -load_value
+
+  - id: link_capacity
+    description: Fixed direct and indirect capacities for a legacy link
+    parameters:
+    - id: direct
+      time-dependent: false
+      scenario-dependent: false
+    - id: indirect
+      time-dependent: false
+      scenario-dependent: false
+    ports:
+    - id: capacity_port
+      type: bidirectional_capacity_port
+    port-field-definitions:
+    - port: capacity_port
+      field: capacity_direct
+      definition: direct
+    - port: capacity_port
+      field: capacity_indirect
+      definition: indirect
