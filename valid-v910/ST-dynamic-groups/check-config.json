@@ -1,6 +1,8 @@
 [
 	{
 		"name" : "ST-dynamic-groups",
+		"exe": "antares-solver",
+		"options": ["--solver=sirius"],
 		"checks" :
 		{
 			"output_compare" : {},

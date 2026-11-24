@@ -1,6 +1,8 @@
 [
 	{
 		"name" : "test_1",
+		"exe": "antares-solver",
+		"options": ["--solver=sirius", "--force-parallel=4"],
 		"checks" :
 		{
 			"output_compare" : {},

@@ -1,6 +1,8 @@
 [
 	{
 		"name" : "hydro scenario builder",
+		"exe": "antares-solver",
+		"options": ["--solver=sirius"],
 		"checks" :
 		{
 			"output_compare" : {},
