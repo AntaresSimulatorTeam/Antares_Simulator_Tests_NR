@@ -1,0 +1,14 @@
+system:
+  id: csr_system
+  components:
+    - id: gems_component
+      model: csr_variable_library.component
+      parameters:
+        - id: demand
+          time-dependent: true
+          scenario-dependent: false
+          value: csr-load
+  area-connections:
+    - area: areain-1
+      component: gems_component
+      port: area_port

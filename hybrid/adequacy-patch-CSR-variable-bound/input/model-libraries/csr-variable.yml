@@ -1,0 +1,32 @@
+library:
+  id: csr_variable_library
+  port-types:
+    - id: area_port
+      fields:
+        - id: injection
+        - id: load
+      area-connection:
+        injection-to-balance: injection
+        unsupplied-energy-bound: load
+        spillage-bound:
+  models:
+    - id: component
+      parameters:
+        - id: demand
+          time-dependent: true
+          scenario-dependent: false
+      variables:
+        - id: served
+          time-dependent: true
+          lower-bound: demand
+          upper-bound: demand
+      ports:
+        - id: area_port
+          type: area_port
+      port-field-definitions:
+        - port: area_port
+          field: injection
+          definition: -served
+        - port: area_port
+          field: load
+          definition: served
